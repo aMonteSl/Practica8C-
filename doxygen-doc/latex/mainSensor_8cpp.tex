@@ -1,0 +1,89 @@
+\hypertarget{mainSensor_8cpp}{}\doxysection{src/main\+Sensor.cpp File Reference}
+\label{mainSensor_8cpp}\index{src/mainSensor.cpp@{src/mainSensor.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Sensor.\+h\char`\"{}}\newline
+Include dependency graph for main\+Sensor.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{mainSensor_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainSensor.cpp@{mainSensor.cpp}!main@{main}}
+\index{main@{main}!mainSensor.cpp@{mainSensor.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file main\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6            \{}
+\DoxyCodeLine{7   \textcolor{comment}{// Creamos un sensor de cada tipo}}
+\DoxyCodeLine{8   \mbox{\hyperlink{classSensor}{Sensor}} tempSensor(1, Sensor::Types::TEMPERATURE, \textcolor{keyword}{true});}
+\DoxyCodeLine{9   \mbox{\hyperlink{classSensor}{Sensor}} airSensor(2, Sensor::Types::AIR\_QUALITY, \textcolor{keyword}{true});}
+\DoxyCodeLine{10   \mbox{\hyperlink{classSensor}{Sensor}} pressureSensor(5, Sensor::Types::PRESSURE, \textcolor{keyword}{true});}
+\DoxyCodeLine{11   \mbox{\hyperlink{classSensor}{Sensor}} hSensor(6, Sensor::Types::HYDROMETER, \textcolor{keyword}{true});}
+\DoxyCodeLine{12   \mbox{\hyperlink{classSensor}{Sensor}} lightSensor(3, Sensor::Types::LIGHT\_SENSOR, \textcolor{keyword}{true});}
+\DoxyCodeLine{13   \mbox{\hyperlink{classSensor}{Sensor}} phSensor(4, Sensor::Types::PH\_SENSOR, \textcolor{keyword}{true});}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15   \textcolor{comment}{// Ahora jugamos con los datos de los sensores}}
+\DoxyCodeLine{16   tempSensor.collectData();}
+\DoxyCodeLine{17   cout << \textcolor{stringliteral}{"{}Type: "{}} << tempSensor.getType() << endl;}
+\DoxyCodeLine{18   \textcolor{comment}{// Ahora apagamos y encendemos}}
+\DoxyCodeLine{19   tempSensor.turnOff();}
+\DoxyCodeLine{20   \textcolor{keywordflow}{if} (tempSensor.isActive()) \{}
+\DoxyCodeLine{21     cout << \textcolor{stringliteral}{"{}Sensor is active"{}} << endl;}
+\DoxyCodeLine{22   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{23     cout << \textcolor{stringliteral}{"{}Sensor is inactive"{}} << std::endl;}
+\DoxyCodeLine{24   \}}
+\DoxyCodeLine{25   tempSensor.turnOn();}
+\DoxyCodeLine{26   \textcolor{keywordflow}{if} (tempSensor.isActive()) \{}
+\DoxyCodeLine{27     cout << \textcolor{stringliteral}{"{}Sensor is active"{}} << endl;}
+\DoxyCodeLine{28   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{29     cout << \textcolor{stringliteral}{"{}Sensor is inactive"{}} << std::endl;}
+\DoxyCodeLine{30   \}}
+\DoxyCodeLine{31   \textcolor{comment}{// Asignamos un valor a la variable data\_}}
+\DoxyCodeLine{32   tempSensor.setData(25.5);}
+\DoxyCodeLine{33   cout << \textcolor{stringliteral}{"{}Data: "{}} << tempSensor.getData() << endl;}
+\DoxyCodeLine{34   \textcolor{comment}{// Cambiamos el id}}
+\DoxyCodeLine{35   tempSensor.setId(10);}
+\DoxyCodeLine{36   cout << \textcolor{stringliteral}{"{}ID: "{}} << tempSensor.getId() << endl;}
+\DoxyCodeLine{37   \textcolor{comment}{// Cambiamos el tipo}}
+\DoxyCodeLine{38   tempSensor.setType(\textcolor{stringliteral}{"{}AIR\_QUALITY"{}});}
+\DoxyCodeLine{39   cout << \textcolor{stringliteral}{"{}Type: "{}} << tempSensor.getType() << endl;}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{41   \textcolor{comment}{// Print data}}
+\DoxyCodeLine{42   tempSensor.printData();}
+\DoxyCodeLine{43   \textcolor{keywordflow}{if} (tempSensor.checkAllgood()) \{}
+\DoxyCodeLine{44     cout << \textcolor{stringliteral}{"{}All good!"{}} << endl;}
+\DoxyCodeLine{45   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{46     cout << \textcolor{stringliteral}{"{}Not all good"{}} << endl;}
+\DoxyCodeLine{47   \}}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49   \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{50 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::check\+Allgood(), Sensor\+::collect\+Data(), Sensor\+::get\+Data(), Sensor\+::get\+Id(), Sensor\+::get\+Type(), Sensor\+::is\+Active(), Sensor\+::print\+Data(), Sensor\+::set\+Data(), Sensor\+::set\+Id(), Sensor\+::set\+Type(), Sensor\+::turn\+Off(), and Sensor\+::turn\+On().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{mainSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

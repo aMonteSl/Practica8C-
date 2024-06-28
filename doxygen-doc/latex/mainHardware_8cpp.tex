@@ -1,0 +1,67 @@
+\hypertarget{mainHardware_8cpp}{}\doxysection{src/main\+Hardware.cpp File Reference}
+\label{mainHardware_8cpp}\index{src/mainHardware.cpp@{src/mainHardware.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}Hardware.\+h\char`\"{}}\newline
+Include dependency graph for main\+Hardware.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{mainHardware_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainHardware.cpp@{mainHardware.cpp}!main@{main}}
+\index{main@{main}!mainHardware.cpp@{mainHardware.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 7 of file main\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{7            \{}
+\DoxyCodeLine{8   \textcolor{comment}{// Aqui tengo que probar los distintos metodos de un objeto Hardware}}
+\DoxyCodeLine{9   \mbox{\hyperlink{classHardware}{Hardware}} hardware(\textcolor{keyword}{true}, Hardware::Types\_Hardware::SWITCH);}
+\DoxyCodeLine{10   \textcolor{comment}{// Pruebas get type set type}}
+\DoxyCodeLine{11   std::cout << hardware.getType() << std::endl;}
+\DoxyCodeLine{12   hardware.setType(\textcolor{stringliteral}{"{}SCREEN"{}});}
+\DoxyCodeLine{13   std::cout << hardware.getType() << std::endl;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15   \textcolor{comment}{// Vamos a ver si esta activado y luego desactivamos}}
+\DoxyCodeLine{16   \textcolor{keywordflow}{if} (hardware.isActive()) \{}
+\DoxyCodeLine{17     std::cout << \textcolor{stringliteral}{"{}Esta activo"{}} << std::endl;}
+\DoxyCodeLine{18   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{19     std::cout << \textcolor{stringliteral}{"{}No esta activo"{}} << std::endl;}
+\DoxyCodeLine{20   \}}
+\DoxyCodeLine{21   hardware.turnOff();}
+\DoxyCodeLine{22   \textcolor{keywordflow}{if} (hardware.isActive()) \{}
+\DoxyCodeLine{23     std::cout << \textcolor{stringliteral}{"{}Esta activo"{}} << std::endl;}
+\DoxyCodeLine{24   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{25     std::cout << \textcolor{stringliteral}{"{}No esta activo"{}} << std::endl;}
+\DoxyCodeLine{26   \}}
+\DoxyCodeLine{27   std::cout << hardware.stringStatus() << std::endl;}
+\DoxyCodeLine{28 \}}
+
+\end{DoxyCode}
+
+
+References Hardware\+::get\+Type(), Hardware\+::is\+Active(), Hardware\+::set\+Type(), Hardware\+::string\+Status(), and Hardware\+::turn\+Off().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

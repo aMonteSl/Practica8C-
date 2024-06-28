@@ -1,0 +1,5 @@
+<map id="RGBCamera::printCamera" name="RGBCamera::printCamera">
+<area shape="rect" id="node1" title="This method prints the camera information." alt="" coords="5,31,196,57"/>
+<area shape="rect" id="node2" href="$classCamera.html#ad2731f65f680be02d41d3b396d7db1be" title="Get the id of the camera." alt="" coords="253,5,368,32"/>
+<area shape="rect" id="node3" href="$classCamera.html#ada24ccf1d1d0d6fc72886b8f64b504c4" title="Check if the camera is active." alt="" coords="244,56,377,83"/>
+</map>

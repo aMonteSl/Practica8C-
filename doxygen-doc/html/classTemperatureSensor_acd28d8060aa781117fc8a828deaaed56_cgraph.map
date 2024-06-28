@@ -1,0 +1,6 @@
+<map id="TemperatureSensor::stringStatus" name="TemperatureSensor::stringStatus">
+<area shape="rect" id="node1" title="String status of the Temperature Sensor." alt="" coords="5,35,161,76"/>
+<area shape="rect" id="node2" href="$classTemperatureSensor.html#ac0a66fbba4b1d8363de5ff807c123354" title="Check if the Temperature Sensor is working properly." alt="" coords="209,5,365,47"/>
+<area shape="rect" id="node4" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="224,71,351,98"/>
+<area shape="rect" id="node3" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="413,13,540,39"/>
+</map>

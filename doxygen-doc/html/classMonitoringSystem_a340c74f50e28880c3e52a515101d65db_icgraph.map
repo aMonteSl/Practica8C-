@@ -1,0 +1,6 @@
+<map id="MonitoringSystem::initialScreen" name="MonitoringSystem::initialScreen">
+<area shape="rect" id="node1" title="This method initializes the screen and keyboard." alt="" coords="345,23,532,65"/>
+<area shape="rect" id="node2" href="$mainMonitoringSystem_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="175,5,230,32"/>
+<area shape="rect" id="node3" href="$classGreenHouse.html#ae538f73ea4c62f70e980b7bc99be061a" title="Start the system." alt="" coords="108,56,297,83"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
+</map>

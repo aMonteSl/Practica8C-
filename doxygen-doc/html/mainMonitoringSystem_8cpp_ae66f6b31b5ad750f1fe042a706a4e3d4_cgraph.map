@@ -1,0 +1,39 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,514,60,541"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#adf36d0956870ce3eb0789fee62116f21" title="This method shows the message to create a new user." alt="" coords="130,225,321,267"/>
+<area shape="rect" id="node12" href="$classMonitoringSystem.html#a0d1bd6d0bd300ec9e0ccd8e79ab491ed" title="This method shows the message to delete a user." alt="" coords="130,112,321,153"/>
+<area shape="rect" id="node15" href="$classMonitoringSystem.html#a7ed15cd1c877014b91d1572ec056d866" title="This method shows the message to show the alarms." alt="" coords="127,408,323,449"/>
+<area shape="rect" id="node17" href="$classMonitoringSystem.html#aa83416a623e4ad81d4554f8c5ac2c2d4" title="This method shows the message to show the sensors." alt="" coords="127,473,323,515"/>
+<area shape="rect" id="node19" href="$classMonitoringSystem.html#aff79411cc2b839659fbf77281a9c80ac" title="This method shows the message to show the users." alt="" coords="127,539,323,580"/>
+<area shape="rect" id="node21" href="$classMonitoringSystem.html#aa68121a3c71f4600182ac143a06c3cbe" title="This method exits the screen." alt="" coords="116,605,335,631"/>
+<area shape="rect" id="node23" href="$classMonitoringSystem.html#a508751e3f490b9942202e17664ea9893" title="Get the Selection object." alt="" coords="110,853,341,879"/>
+<area shape="rect" id="node24" href="$classMonitoringSystem.html#a340c74f50e28880c3e52a515101d65db" title="This method initializes the screen and keyboard." alt="" coords="132,656,319,697"/>
+<area shape="rect" id="node29" href="$classMonitoringSystem.html#a4abdaf1876463edb964e36006c54b479" title="This method shows the login screen." alt="" coords="113,357,338,383"/>
+<area shape="rect" id="node32" href="$classMonitoringSystem.html#a3288619b3d16cf1ae901d86bee832398" title="This method shows the main menu for the admins." alt="" coords="108,721,343,763"/>
+<area shape="rect" id="node34" href="$classMonitoringSystem.html#aa710bcc81ffd855276d6fb73c04fcb9f" title="This method shows the message to turn on or off the system." alt="" coords="129,787,322,828"/>
+<area shape="rect" id="node36" href="$classMonitoringSystem.html#a4fa946aa944f0c38e3e60931d16c0fe3" title="This method shows the message to update a user." alt="" coords="128,291,323,332"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="409,474,625,501"/>
+<area shape="rect" id="node4" href="$classScreenHardware.html#ad68fdfb286045fbca4eaa5f996903a3e" title="Create a User object window." alt="" coords="413,123,621,164"/>
+<area shape="rect" id="node5" href="$classMonitoringSystem.html#a939d9f1856e0b97975e19a4a11f8b73b" title="This is the method to select a user." alt="" coords="407,239,626,266"/>
+<area shape="rect" id="node6" href="$classMonitoringSystem.html#a2562b1b9b4de7da761a6a5db52793348" title="This method asks the user for an input for the email." alt="" coords="704,239,913,266"/>
+<area shape="rect" id="node8" href="$classMonitoringSystem.html#acd7c674be2caff1ac2bcc37b2cd0fb3b" title="This method asks the user for an input for the name." alt="" coords="703,189,914,215"/>
+<area shape="rect" id="node9" href="$classMonitoringSystem.html#af4af355f2a6bbda876e80f36ba1624cc" title="This method asks the user for an input for the NIF." alt="" coords="711,87,906,114"/>
+<area shape="rect" id="node10" href="$classMonitoringSystem.html#a26cbfb1c9afd14b76c5acbf99eae8569" title="This method asks the user for an input for the password." alt="" coords="692,138,925,165"/>
+<area shape="rect" id="node11" href="$classMonitoringSystem.html#a64d58db9d958b2f61f601ed71dfb1e3b" title="This method asks the user for an input for the privileges." alt="" coords="691,290,927,317"/>
+<area shape="rect" id="node7" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="975,181,1165,223"/>
+<area shape="rect" id="node13" href="$classScreenHardware.html#ae74253dbaf1e90bc9d6134166ba3f60b" title="Delete a User object window." alt="" coords="413,5,621,47"/>
+<area shape="rect" id="node14" href="$classMonitoringSystem.html#aae45015a76d2d1961c281271be5ce488" title="This is the method to select a short user." alt="" coords="391,71,643,98"/>
+<area shape="rect" id="node16" href="$classScreenHardware.html#ae5d2ae56d576f3aef512f2ef0402124f" title="Display all Alarms window." alt="" coords="401,408,632,449"/>
+<area shape="rect" id="node18" href="$classScreenHardware.html#a0b5ab699148ef2c5215e2ee47e695e72" title="Display all Sensors window." alt="" coords="399,525,634,567"/>
+<area shape="rect" id="node20" href="$classScreenHardware.html#a8786bcdcb5465fcf34b1e6dc3c16d449" title="Display all Users window." alt="" coords="406,591,627,632"/>
+<area shape="rect" id="node22" href="$classScreenHardware.html#a0b6267a91e8c459d98adb9c406a3d493" title="Exit the window." alt="" coords="409,657,624,683"/>
+<area shape="rect" id="node25" href="$classMonitoringSystem.html#ac68e987a2e231ea1ff2e3e3950caf767" title="This method asks the user for an int input." alt="" coords="405,758,628,785"/>
+<area shape="rect" id="node28" href="$classScreenHardware.html#a9eae9fac122d740af58454007c17b0a8" title="This method displays the initial window of the system." alt="" coords="403,707,630,734"/>
+<area shape="rect" id="node26" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="703,783,914,810"/>
+<area shape="rect" id="node27" href="$classMonitoringSystem.html#a2514c2079286352acd12ef85163ff69f" title="This method checks if the input is correct." alt="" coords="694,733,923,759"/>
+<area shape="rect" id="node30" href="$classMonitoringSystem.html#a6c7b7e82406440ad1b68c60aebe0507f" title="This is the method to ask the main user, the one that its going to loggin." alt="" coords="399,189,634,215"/>
+<area shape="rect" id="node31" href="$classScreenHardware.html#a3c0c7e0d14e1a89c17307cf715541453" title="This method displays the login window of the system." alt="" coords="406,357,627,383"/>
+<area shape="rect" id="node33" href="$classScreenHardware.html#aeccf9ac678246eba7721ed1c6b839a75" title="This method displays the main window of the system for the admin." alt="" coords="405,809,628,851"/>
+<area shape="rect" id="node35" href="$classScreenHardware.html#a88ffeec4b8c9dc5a0da6ba82dc50bb77" title="Turn on or off the system window." alt="" coords="417,875,617,916"/>
+<area shape="rect" id="node37" href="$classScreenHardware.html#ab506598df41adae147421b538c0f2a16" title="Update a User object window." alt="" coords="411,291,623,332"/>
+</map>

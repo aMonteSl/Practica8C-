@@ -1,0 +1,5 @@
+<map id="MonitoringSystem::exitScreen" name="MonitoringSystem::exitScreen">
+<area shape="rect" id="node1" title="This method exits the screen." alt="" coords="5,31,224,57"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="272,5,488,32"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#a0b6267a91e8c459d98adb9c406a3d493" title="Exit the window." alt="" coords="273,56,487,83"/>
+</map>

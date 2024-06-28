@@ -1,0 +1,2913 @@
+\hypertarget{classMonitoringSystem}{}\doxysection{Monitoring\+System Class Reference}
+\label{classMonitoringSystem}\index{MonitoringSystem@{MonitoringSystem}}
+
+
+{\ttfamily \#include $<$Monitoring\+System.\+h$>$}
+
+
+
+Collaboration diagram for Monitoring\+System\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classMonitoringSystem__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMonitoringSystem_a8956a480ad55c00b8a0a117994a04a03}{Monitoring\+System}} (\mbox{\hyperlink{classScreenHardware}{Screen\+Hardware}} $\ast$\mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}, \mbox{\hyperlink{classKeyboardHardware}{Keyboard\+Hardware}} $\ast$\mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}, \mbox{\hyperlink{classSwitchHardware}{Switch\+Hardware}} $\ast$\mbox{\hyperlink{classMonitoringSystem_af48753fd96da1b83d146edb7a7057cde}{sw}})
+\begin{DoxyCompactList}\small\item\em Construct a new Monitoring System object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classMonitoringSystem_a353aeebcbfeba667031f3391edb763cd}{$\sim$\+Monitoring\+System}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Monitoring System object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{get\+Selection}} ()
+\begin{DoxyCompactList}\small\item\em Get the Selection object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a29bccb3aade3d9db92a152058d0fea0d}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Get the Name object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_ada24dcde157b829a5fc87d28c1b6a8b7}{get\+NIF}} ()
+\begin{DoxyCompactList}\small\item\em Get the NIF object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_af4340bc457707e547d4c07e1345de24c}{get\+Password}} ()
+\begin{DoxyCompactList}\small\item\em Get the Password object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a08f0cdd13ff0e3064efa4d76de498087}{get\+Name\+Selected\+User}} ()
+\begin{DoxyCompactList}\small\item\em Get the Name Selected \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a7ec712b369369bc18a1f4b39501876c3}{get\+NIFSelected\+User}} ()
+\begin{DoxyCompactList}\small\item\em Get the NIF Selected \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a0692f64404417b8300b134572fe07470}{get\+Password\+Selected\+User}} ()
+\begin{DoxyCompactList}\small\item\em Get the Password Selected \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a7f637f3c6c73c1eefabe167a6f956670}{get\+Privileges\+Selected\+User}} ()
+\begin{DoxyCompactList}\small\item\em Get the Privileges Selected \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a9675bb382a6211a1e72573fdbe219ab0}{get\+Email\+Selected\+User}} ()
+\begin{DoxyCompactList}\small\item\em Get the Email Selected \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_a1ec19661cb6383341518a15afb53e764}{get\+Id\+Alarm}} ()
+\begin{DoxyCompactList}\small\item\em Get the Id Alarm object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a1d98be1cb48544ca7c9ae3038b55f1bd}{get\+Type\+Alarm}} ()
+\begin{DoxyCompactList}\small\item\em Get the Type Alarm object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_acb6f10a470beff7fdfdedf0305c123d6}{get\+Id\+Selected\+Alarm}} ()
+\begin{DoxyCompactList}\small\item\em Get the Id Selected Alarm object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a75802f644139c04fd5213577cf4afd49}{get\+Type\+Camera}} ()
+\begin{DoxyCompactList}\small\item\em Get the Type \mbox{\hyperlink{classCamera}{Camera}} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_abdfb2fdc17acc20e890aea71d2a8fd39}{get\+Id\+Camera}} ()
+\begin{DoxyCompactList}\small\item\em Get the Id \mbox{\hyperlink{classCamera}{Camera}} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_a21ef666ba4b1669e4daf33476ca235f2}{get\+Id\+Selected\+Camera}} ()
+\begin{DoxyCompactList}\small\item\em Get the Id Selected \mbox{\hyperlink{classCamera}{Camera}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a340c74f50e28880c3e52a515101d65db}{initial\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method initializes the screen and keyboard. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}{exit\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method exits the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a4abdaf1876463edb964e36006c54b479}{login\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the login screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a3288619b3d16cf1ae901d86bee832398}{main\+Window\+Admin}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the main menu for the admins. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a982281f93905645ed1c510fedf8dcc51}{main\+Window\+Employee}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the main menu for the employees. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_acf2c408f4e2487e6602543adf5a996a1}{main\+Window\+Guest}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the main menu for the guests. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_adf36d0956870ce3eb0789fee62116f21}{create\+User\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to create a new user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a0d1bd6d0bd300ec9e0ccd8e79ab491ed}{delete\+User\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to delete a user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a4fa946aa944f0c38e3e60931d16c0fe3}{update\+User\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to update a user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_aff79411cc2b839659fbf77281a9c80ac}{display\+Users\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to show the users. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_aa83416a623e4ad81d4554f8c5ac2c2d4}{display\+Sensors\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to show the sensors. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a7ed15cd1c877014b91d1572ec056d866}{display\+Alarms\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to show the alarms. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_aa710bcc81ffd855276d6fb73c04fcb9f}{turn\+On\+Off\+System\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to turn on or off the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a5a835975fa74862f8a79449a35442916}{display\+Error\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message if and error occurs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a616050f732fdaf71ba9b5ab5372d630a}{create\+Alarm\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to create a new alarm. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_ab99a47d5efa46cbe3386bb07bfabc109}{delete\+Alarm\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to delete an alarm. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea}{save\+Alarm\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em This method shows the message to save an alarm. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_ae9f07ef1b405619e84469da1c9622b13}{display\+Camera\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Display the camera screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a766f6741ef451488dce3e110b14684f7}{create\+Camera\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classCamera}{Camera}} Screen object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_af7a81ead57dd0c0d08f78bbda7db5111}{delete\+Camera\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Delete a \mbox{\hyperlink{classCamera}{Camera}} Screen object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a6f62fde3b143b20c680a3e2689099f99}{turn\+On\+Off\+Camera\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Turn on or off a \mbox{\hyperlink{classCamera}{Camera}} Screen object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a69183f73af82d68ff6c605020b5bf332}{save\+Camera\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Save a \mbox{\hyperlink{classCamera}{Camera}} Screen object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_ae19e4b400b81885b0480807093f2a456}{clean\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Clean the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_ab327dee734ebabab45548e4ab776f48e}{save\+Users\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Save the users screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classMonitoringSystem_a2514c2079286352acd12ef85163ff69f}{input\+Correct}} (int input, int max)
+\begin{DoxyCompactList}\small\item\em This method checks if the input is correct. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767}{ask\+Input\+Int}} (int max)
+\begin{DoxyCompactList}\small\item\em This method asks the user for an int input. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_acd7c674be2caff1ac2bcc37b2cd0fb3b}{ask\+Name}} ()
+\begin{DoxyCompactList}\small\item\em This method asks the user for an input for the name. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_af4af355f2a6bbda876e80f36ba1624cc}{ask\+NIF}} ()
+\begin{DoxyCompactList}\small\item\em This method asks the user for an input for the NIF. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a26cbfb1c9afd14b76c5acbf99eae8569}{ask\+Password}} ()
+\begin{DoxyCompactList}\small\item\em This method asks the user for an input for the password. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a64d58db9d958b2f61f601ed71dfb1e3b}{ask\+Privileges}} ()
+\begin{DoxyCompactList}\small\item\em This method asks the user for an input for the privileges. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a2562b1b9b4de7da761a6a5db52793348}{ask\+Email}} ()
+\begin{DoxyCompactList}\small\item\em This method asks the user for an input for the email. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a939d9f1856e0b97975e19a4a11f8b73b}{select\+User}} ()
+\begin{DoxyCompactList}\small\item\em This is the method to select a user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_aae45015a76d2d1961c281271be5ce488}{short\+Select\+User}} ()
+\begin{DoxyCompactList}\small\item\em This is the method to select a short user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonitoringSystem_a6c7b7e82406440ad1b68c60aebe0507f}{ask\+Main\+User}} ()
+\begin{DoxyCompactList}\small\item\em This is the method to ask the main user, the one that its going to loggin. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a1c21a694a22b5ef0d596764239edd8e1}{ask\+Type\+Alarm}} ()
+\begin{DoxyCompactList}\small\item\em This is the method to ask the type of the alarm. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_a0ec7f8e47b126a33656b9db2a6ec98c2}{ask\+Id\+Alarm}} ()
+\begin{DoxyCompactList}\small\item\em This is the method to ask the id of the alarm. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_aad41e18ca2c35c55c630d2f491b27c12}{ask\+Type\+Camera}} ()
+\begin{DoxyCompactList}\small\item\em This is the method to ask the type of the camera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_a4ad4cb75bab824f4ee2d001d2aec222d}{ask\+Id\+Camera}} ()
+\begin{DoxyCompactList}\small\item\em This is the method to ask the id of the camera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classScreenHardware}{Screen\+Hardware}} $\ast$ \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}
+\begin{DoxyCompactList}\small\item\em This is the pointer to the \mbox{\hyperlink{classScreenHardware}{Screen\+Hardware}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classKeyboardHardware}{Keyboard\+Hardware}} $\ast$ \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}
+\begin{DoxyCompactList}\small\item\em This is the pointer to the \mbox{\hyperlink{classKeyboardHardware}{Keyboard\+Hardware}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSwitchHardware}{Switch\+Hardware}} $\ast$ \mbox{\hyperlink{classMonitoringSystem_af48753fd96da1b83d146edb7a7057cde}{sw}}
+\begin{DoxyCompactList}\small\item\em This is the pointer to the \mbox{\hyperlink{classSwitchHardware}{Switch\+Hardware}} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}{selection\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the selection of the user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a42615e65ce322fc132a013e35a8fa52a}{name\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the name of the user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a143b6842ee9bcc686095c7c6e660498b}{nif\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the NIF of the user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a5bab4f69031f409b0348d3352c5b922f}{password\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the password of the user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_aaa8b1f8dd3ebeedc48633e0cbf76707e}{name\+Selected\+User\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the name of the selected user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_aee289797b6f1c0a8cdded2e18468c7e1}{nif\+Selected\+User\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the password of the selected user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a37a89fc21dd73fa014368ff671394ee5}{password\+Selected\+User\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the privileges of the selected user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_ad393372fc330141928dab8adc3735502}{privileges\+Selected\+User\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the privileges of the selected user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a889dfb8f2c0e18c045738215ff375745}{email\+Selected\+User\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the email of the selected user. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_ad1e4d4d599d4b1a73e153de62298d1d4}{id\+Alarm\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the id of the alarm. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a875ec350300597df6863ea241e63c1d2}{type\+Alarm\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the type of the alarm. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_ae0feb3bc8ff8f4b6ee5561b43cc9b1d7}{id\+Selected\+Alarm\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the id of the selected alarm. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_a0a7dabc33227f2dc01c8390f4593e8da}{id\+Camera\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the id of the camera. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMonitoringSystem_a4609b025ae756e5baafcf1d364c896b2}{type\+Camera\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the type of the camera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMonitoringSystem_ac1a13ae07b6ee10b8a54b7d6a058705c}{id\+Selected\+Camera\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the id of the selected camera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 24 of file Monitoring\+System.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMonitoringSystem_a8956a480ad55c00b8a0a117994a04a03}\label{classMonitoringSystem_a8956a480ad55c00b8a0a117994a04a03}} 
+\index{MonitoringSystem@{MonitoringSystem}!MonitoringSystem@{MonitoringSystem}}
+\index{MonitoringSystem@{MonitoringSystem}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{MonitoringSystem()}{MonitoringSystem()}}
+{\footnotesize\ttfamily Monitoring\+System\+::\+Monitoring\+System (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classScreenHardware}{Screen\+Hardware}} $\ast$}]{screen,  }\item[{\mbox{\hyperlink{classKeyboardHardware}{Keyboard\+Hardware}} $\ast$}]{keyboard,  }\item[{\mbox{\hyperlink{classSwitchHardware}{Switch\+Hardware}} $\ast$}]{sw }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Monitoring System object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & \\
+\hline
+{\em keyboard} & \\
+\hline
+{\em sw} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 15 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{18     : \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}(\mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}), \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}(\mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}), \mbox{\hyperlink{classMonitoringSystem_af48753fd96da1b83d146edb7a7057cde}{sw}}(\mbox{\hyperlink{classMonitoringSystem_af48753fd96da1b83d146edb7a7057cde}{sw}}) \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classMonitoringSystem_a353aeebcbfeba667031f3391edb763cd}\label{classMonitoringSystem_a353aeebcbfeba667031f3391edb763cd}} 
+\index{MonitoringSystem@{MonitoringSystem}!````~MonitoringSystem@{$\sim$MonitoringSystem}}
+\index{````~MonitoringSystem@{$\sim$MonitoringSystem}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{$\sim$MonitoringSystem()}{~MonitoringSystem()}}
+{\footnotesize\ttfamily Monitoring\+System\+::$\sim$\+Monitoring\+System (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the Monitoring System object. 
+
+
+
+Definition at line 20 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{20                                     \{}
+\DoxyCodeLine{21   \textcolor{keyword}{delete} \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}};}
+\DoxyCodeLine{22   \textcolor{keyword}{delete} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}};}
+\DoxyCodeLine{23   \textcolor{keyword}{delete} \mbox{\hyperlink{classMonitoringSystem_af48753fd96da1b83d146edb7a7057cde}{sw}};}
+\DoxyCodeLine{24 \}}
+
+\end{DoxyCode}
+
+
+References keyboard, screen, and sw.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMonitoringSystem_a2562b1b9b4de7da761a6a5db52793348}\label{classMonitoringSystem_a2562b1b9b4de7da761a6a5db52793348}} 
+\index{MonitoringSystem@{MonitoringSystem}!askEmail@{askEmail}}
+\index{askEmail@{askEmail}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askEmail()}{askEmail()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::ask\+Email (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method asks the user for an input for the email. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 134 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{134                                      \{}
+\DoxyCodeLine{135   std::cout << \textcolor{stringliteral}{"{}(EMAIL) "{}};}
+\DoxyCodeLine{136   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}{stringInput}}();}
+\DoxyCodeLine{137 \}}
+
+\end{DoxyCode}
+
+
+References keyboard, and Keyboard\+Hardware\+::string\+Input().
+
+
+
+Referenced by select\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a2562b1b9b4de7da761a6a5db52793348_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a2562b1b9b4de7da761a6a5db52793348_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a0ec7f8e47b126a33656b9db2a6ec98c2}\label{classMonitoringSystem_a0ec7f8e47b126a33656b9db2a6ec98c2}} 
+\index{MonitoringSystem@{MonitoringSystem}!askIdAlarm@{askIdAlarm}}
+\index{askIdAlarm@{askIdAlarm}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askIdAlarm()}{askIdAlarm()}}
+{\footnotesize\ttfamily int Monitoring\+System\+::ask\+Id\+Alarm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the method to ask the id of the alarm. 
+
+
+
+Definition at line 243 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{243                                  \{}
+\DoxyCodeLine{244   std::cout << \textcolor{stringliteral}{"{}(ID ALARM) "{}};}
+\DoxyCodeLine{245   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a4225dfabd4f55b440c3be007fc95c687}{askInput}}();}
+\DoxyCodeLine{246 \}}
+
+\end{DoxyCode}
+
+
+References Keyboard\+Hardware\+::ask\+Input(), and keyboard.
+
+
+
+Referenced by create\+Alarm\+Screen(), and delete\+Alarm\+Screen().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a0ec7f8e47b126a33656b9db2a6ec98c2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a0ec7f8e47b126a33656b9db2a6ec98c2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a4ad4cb75bab824f4ee2d001d2aec222d}\label{classMonitoringSystem_a4ad4cb75bab824f4ee2d001d2aec222d}} 
+\index{MonitoringSystem@{MonitoringSystem}!askIdCamera@{askIdCamera}}
+\index{askIdCamera@{askIdCamera}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askIdCamera()}{askIdCamera()}}
+{\footnotesize\ttfamily int Monitoring\+System\+::ask\+Id\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the method to ask the id of the camera. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 287 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{287                                   \{}
+\DoxyCodeLine{288   \textcolor{comment}{// Pido con el keyboard un input que sera el id de la camara}}
+\DoxyCodeLine{289   std::cout << \textcolor{stringliteral}{"{}(ID CAMERA) "{}};}
+\DoxyCodeLine{290   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a4225dfabd4f55b440c3be007fc95c687}{askInput}}();}
+\DoxyCodeLine{291 \}}
+
+\end{DoxyCode}
+
+
+References Keyboard\+Hardware\+::ask\+Input(), and keyboard.
+
+
+
+Referenced by create\+Camera\+Screen(), and delete\+Camera\+Screen().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a4ad4cb75bab824f4ee2d001d2aec222d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a4ad4cb75bab824f4ee2d001d2aec222d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767}\label{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767}} 
+\index{MonitoringSystem@{MonitoringSystem}!askInputInt@{askInputInt}}
+\index{askInputInt@{askInputInt}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askInputInt()}{askInputInt()}}
+{\footnotesize\ttfamily int Monitoring\+System\+::ask\+Input\+Int (\begin{DoxyParamCaption}\item[{int}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method asks the user for an int input. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 89 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{89                                          \{}
+\DoxyCodeLine{90   \textcolor{keywordtype}{int} input;}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{92   \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{93     input = \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a4225dfabd4f55b440c3be007fc95c687}{askInput}}();}
+\DoxyCodeLine{94   \} \textcolor{keywordflow}{while} (!\mbox{\hyperlink{classMonitoringSystem_a2514c2079286352acd12ef85163ff69f}{inputCorrect}}(input, max));}
+\DoxyCodeLine{95 }
+\DoxyCodeLine{96   \textcolor{keywordflow}{return} input;}
+\DoxyCodeLine{97 \}}
+
+\end{DoxyCode}
+
+
+References Keyboard\+Hardware\+::ask\+Input(), input\+Correct(), and keyboard.
+
+
+
+Referenced by initial\+Screen(), main\+Window\+Admin(), main\+Window\+Employee(), main\+Window\+Guest(), turn\+On\+Off\+Camera\+Screen(), and turn\+On\+Off\+System\+Screen().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a6c7b7e82406440ad1b68c60aebe0507f}\label{classMonitoringSystem_a6c7b7e82406440ad1b68c60aebe0507f}} 
+\index{MonitoringSystem@{MonitoringSystem}!askMainUser@{askMainUser}}
+\index{askMainUser@{askMainUser}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askMainUser()}{askMainUser()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::ask\+Main\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the method to ask the main user, the one that its going to loggin. 
+
+
+
+Definition at line 42 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{42                                    \{}
+\DoxyCodeLine{43   \mbox{\hyperlink{classMonitoringSystem_a42615e65ce322fc132a013e35a8fa52a}{name\_}} = \mbox{\hyperlink{classMonitoringSystem_acd7c674be2caff1ac2bcc37b2cd0fb3b}{askName}}();}
+\DoxyCodeLine{44   \mbox{\hyperlink{classMonitoringSystem_a5bab4f69031f409b0348d3352c5b922f}{password\_}} = \mbox{\hyperlink{classMonitoringSystem_a26cbfb1c9afd14b76c5acbf99eae8569}{askPassword}}();}
+\DoxyCodeLine{45   \mbox{\hyperlink{classMonitoringSystem_a143b6842ee9bcc686095c7c6e660498b}{nif\_}} = \mbox{\hyperlink{classMonitoringSystem_af4af355f2a6bbda876e80f36ba1624cc}{askNIF}}();}
+\DoxyCodeLine{46 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Name(), ask\+NIF(), ask\+Password(), name\+\_\+, nif\+\_\+, and password\+\_\+.
+
+
+
+Referenced by login\+Screen().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a6c7b7e82406440ad1b68c60aebe0507f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a6c7b7e82406440ad1b68c60aebe0507f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_acd7c674be2caff1ac2bcc37b2cd0fb3b}\label{classMonitoringSystem_acd7c674be2caff1ac2bcc37b2cd0fb3b}} 
+\index{MonitoringSystem@{MonitoringSystem}!askName@{askName}}
+\index{askName@{askName}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askName()}{askName()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::ask\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method asks the user for an input for the name. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 114 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{114                                     \{}
+\DoxyCodeLine{115   std::cout << \textcolor{stringliteral}{"{}(NAME) "{}};}
+\DoxyCodeLine{116   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}{stringInput}}();}
+\DoxyCodeLine{117 \}}
+
+\end{DoxyCode}
+
+
+References keyboard, and Keyboard\+Hardware\+::string\+Input().
+
+
+
+Referenced by ask\+Main\+User(), select\+User(), and short\+Select\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_acd7c674be2caff1ac2bcc37b2cd0fb3b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_acd7c674be2caff1ac2bcc37b2cd0fb3b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_af4af355f2a6bbda876e80f36ba1624cc}\label{classMonitoringSystem_af4af355f2a6bbda876e80f36ba1624cc}} 
+\index{MonitoringSystem@{MonitoringSystem}!askNIF@{askNIF}}
+\index{askNIF@{askNIF}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askNIF()}{askNIF()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::ask\+NIF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method asks the user for an input for the NIF. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 124 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{124                                    \{}
+\DoxyCodeLine{125   std::cout << \textcolor{stringliteral}{"{}(NIF) "{}};}
+\DoxyCodeLine{126   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}{stringInput}}();}
+\DoxyCodeLine{127 \}}
+
+\end{DoxyCode}
+
+
+References keyboard, and Keyboard\+Hardware\+::string\+Input().
+
+
+
+Referenced by ask\+Main\+User(), select\+User(), and short\+Select\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_af4af355f2a6bbda876e80f36ba1624cc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_af4af355f2a6bbda876e80f36ba1624cc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a26cbfb1c9afd14b76c5acbf99eae8569}\label{classMonitoringSystem_a26cbfb1c9afd14b76c5acbf99eae8569}} 
+\index{MonitoringSystem@{MonitoringSystem}!askPassword@{askPassword}}
+\index{askPassword@{askPassword}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askPassword()}{askPassword()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::ask\+Password (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method asks the user for an input for the password. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 119 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{119                                         \{}
+\DoxyCodeLine{120   std::cout << \textcolor{stringliteral}{"{}(PASSWORD) "{}};}
+\DoxyCodeLine{121   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}{stringInput}}();}
+\DoxyCodeLine{122 \}}
+
+\end{DoxyCode}
+
+
+References keyboard, and Keyboard\+Hardware\+::string\+Input().
+
+
+
+Referenced by ask\+Main\+User(), select\+User(), and short\+Select\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a26cbfb1c9afd14b76c5acbf99eae8569_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a26cbfb1c9afd14b76c5acbf99eae8569_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a64d58db9d958b2f61f601ed71dfb1e3b}\label{classMonitoringSystem_a64d58db9d958b2f61f601ed71dfb1e3b}} 
+\index{MonitoringSystem@{MonitoringSystem}!askPrivileges@{askPrivileges}}
+\index{askPrivileges@{askPrivileges}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askPrivileges()}{askPrivileges()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::ask\+Privileges (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method asks the user for an input for the privileges. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 129 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{129                                           \{}
+\DoxyCodeLine{130   std::cout << \textcolor{stringliteral}{"{}(PRIVILEGES) "{}};}
+\DoxyCodeLine{131   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}{stringInput}}();}
+\DoxyCodeLine{132 \}}
+
+\end{DoxyCode}
+
+
+References keyboard, and Keyboard\+Hardware\+::string\+Input().
+
+
+
+Referenced by select\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a64d58db9d958b2f61f601ed71dfb1e3b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a64d58db9d958b2f61f601ed71dfb1e3b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a1c21a694a22b5ef0d596764239edd8e1}\label{classMonitoringSystem_a1c21a694a22b5ef0d596764239edd8e1}} 
+\index{MonitoringSystem@{MonitoringSystem}!askTypeAlarm@{askTypeAlarm}}
+\index{askTypeAlarm@{askTypeAlarm}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askTypeAlarm()}{askTypeAlarm()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::ask\+Type\+Alarm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the method to ask the type of the alarm. 
+
+
+
+Definition at line 238 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{238                                          \{}
+\DoxyCodeLine{239   std::cout << \textcolor{stringliteral}{"{}(TYPE ALARM) "{}};}
+\DoxyCodeLine{240   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}{stringInput}}();}
+\DoxyCodeLine{241 \}}
+
+\end{DoxyCode}
+
+
+References keyboard, and Keyboard\+Hardware\+::string\+Input().
+
+
+
+Referenced by create\+Alarm\+Screen().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a1c21a694a22b5ef0d596764239edd8e1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a1c21a694a22b5ef0d596764239edd8e1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_aad41e18ca2c35c55c630d2f491b27c12}\label{classMonitoringSystem_aad41e18ca2c35c55c630d2f491b27c12}} 
+\index{MonitoringSystem@{MonitoringSystem}!askTypeCamera@{askTypeCamera}}
+\index{askTypeCamera@{askTypeCamera}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{askTypeCamera()}{askTypeCamera()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::ask\+Type\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the method to ask the type of the camera. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 281 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{281                                           \{}
+\DoxyCodeLine{282   \textcolor{comment}{// Pido con el keyboard un input que sera el tipo de la camara}}
+\DoxyCodeLine{283   std::cout << \textcolor{stringliteral}{"{}(TYPE CAMERA) "{}};}
+\DoxyCodeLine{284   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}{stringInput}}();}
+\DoxyCodeLine{285 \}}
+
+\end{DoxyCode}
+
+
+References keyboard, and Keyboard\+Hardware\+::string\+Input().
+
+
+
+Referenced by create\+Camera\+Screen().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aad41e18ca2c35c55c630d2f491b27c12_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aad41e18ca2c35c55c630d2f491b27c12_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_ae19e4b400b81885b0480807093f2a456}\label{classMonitoringSystem_ae19e4b400b81885b0480807093f2a456}} 
+\index{MonitoringSystem@{MonitoringSystem}!cleanScreen@{cleanScreen}}
+\index{cleanScreen@{cleanScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{cleanScreen()}{cleanScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::clean\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clean the screen. 
+
+
+
+Definition at line 322 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{322                                    \{}
+\DoxyCodeLine{323   \textcolor{comment}{// Muestro de screen la cleanScreen}}
+\DoxyCodeLine{324   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{325 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), and screen.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), Green\+House\+::manage\+Guest(), and Green\+House\+::manage\+Login().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ae19e4b400b81885b0480807093f2a456_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ae19e4b400b81885b0480807093f2a456_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a616050f732fdaf71ba9b5ab5372d630a}\label{classMonitoringSystem_a616050f732fdaf71ba9b5ab5372d630a}} 
+\index{MonitoringSystem@{MonitoringSystem}!createAlarmScreen@{createAlarmScreen}}
+\index{createAlarmScreen@{createAlarmScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{createAlarmScreen()}{createAlarmScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::create\+Alarm\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to create a new alarm. 
+
+
+
+Definition at line 248 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{248                                          \{}
+\DoxyCodeLine{249   \textcolor{comment}{// Muestro de screen la createAlarmWindow}}
+\DoxyCodeLine{250   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{251   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a6e27fbc2c5101439153e6c99f00f8420}{createAlarmWindow}}();}
+\DoxyCodeLine{252   \mbox{\hyperlink{classMonitoringSystem_a875ec350300597df6863ea241e63c1d2}{typeAlarm\_}} = \mbox{\hyperlink{classMonitoringSystem_a1c21a694a22b5ef0d596764239edd8e1}{askTypeAlarm}}();}
+\DoxyCodeLine{253   \mbox{\hyperlink{classMonitoringSystem_ad1e4d4d599d4b1a73e153de62298d1d4}{idAlarm\_}} = \mbox{\hyperlink{classMonitoringSystem_a0ec7f8e47b126a33656b9db2a6ec98c2}{askIdAlarm}}();}
+\DoxyCodeLine{254 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Id\+Alarm(), ask\+Type\+Alarm(), Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::create\+Alarm\+Window(), id\+Alarm\+\_\+, screen, and type\+Alarm\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a616050f732fdaf71ba9b5ab5372d630a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a616050f732fdaf71ba9b5ab5372d630a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a766f6741ef451488dce3e110b14684f7}\label{classMonitoringSystem_a766f6741ef451488dce3e110b14684f7}} 
+\index{MonitoringSystem@{MonitoringSystem}!createCameraScreen@{createCameraScreen}}
+\index{createCameraScreen@{createCameraScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{createCameraScreen()}{createCameraScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::create\+Camera\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create a \mbox{\hyperlink{classCamera}{Camera}} Screen object. 
+
+
+
+Definition at line 293 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{293                                           \{}
+\DoxyCodeLine{294   \textcolor{comment}{// Muestro de screen la createCameraWindow}}
+\DoxyCodeLine{295   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{296   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_ab11aba01858fc8faaee1857f14915a4a}{createCameraWindow}}();}
+\DoxyCodeLine{297   \mbox{\hyperlink{classMonitoringSystem_a0a7dabc33227f2dc01c8390f4593e8da}{idCamera\_}} = \mbox{\hyperlink{classMonitoringSystem_a4ad4cb75bab824f4ee2d001d2aec222d}{askIdCamera}}();}
+\DoxyCodeLine{298   \mbox{\hyperlink{classMonitoringSystem_a4609b025ae756e5baafcf1d364c896b2}{typeCamera\_}} = \mbox{\hyperlink{classMonitoringSystem_aad41e18ca2c35c55c630d2f491b27c12}{askTypeCamera}}();}
+\DoxyCodeLine{299 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Id\+Camera(), ask\+Type\+Camera(), Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::create\+Camera\+Window(), id\+Camera\+\_\+, screen, and type\+Camera\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a766f6741ef451488dce3e110b14684f7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a766f6741ef451488dce3e110b14684f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_adf36d0956870ce3eb0789fee62116f21}\label{classMonitoringSystem_adf36d0956870ce3eb0789fee62116f21}} 
+\index{MonitoringSystem@{MonitoringSystem}!createUserScreen@{createUserScreen}}
+\index{createUserScreen@{createUserScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{createUserScreen()}{createUserScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::create\+User\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to create a new user. 
+
+
+
+Definition at line 177 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{177                                         \{}
+\DoxyCodeLine{178   \textcolor{comment}{// Muestro de screen la createUserWindow, luego pido con el keyboard un input}}
+\DoxyCodeLine{179   \textcolor{comment}{// hasta que este entre los valores correctos}}
+\DoxyCodeLine{180   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{181   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_ad68fdfb286045fbca4eaa5f996903a3e}{createUserWindow}}();}
+\DoxyCodeLine{182   \mbox{\hyperlink{classMonitoringSystem_a939d9f1856e0b97975e19a4a11f8b73b}{selectUser}}();}
+\DoxyCodeLine{183 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::create\+User\+Window(), screen, and select\+User().
+
+
+
+Referenced by main(), and Green\+House\+::manage\+Create\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_adf36d0956870ce3eb0789fee62116f21_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_adf36d0956870ce3eb0789fee62116f21_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_ab99a47d5efa46cbe3386bb07bfabc109}\label{classMonitoringSystem_ab99a47d5efa46cbe3386bb07bfabc109}} 
+\index{MonitoringSystem@{MonitoringSystem}!deleteAlarmScreen@{deleteAlarmScreen}}
+\index{deleteAlarmScreen@{deleteAlarmScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{deleteAlarmScreen()}{deleteAlarmScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::delete\+Alarm\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to delete an alarm. 
+
+
+
+Definition at line 256 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{256                                          \{}
+\DoxyCodeLine{257   \textcolor{comment}{// Muestro de screen la deleteAlarmWindow}}
+\DoxyCodeLine{258   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{259   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a1ec558773d81663e69212398fbc6a066}{deleteAlarmWindow}}();}
+\DoxyCodeLine{260   \mbox{\hyperlink{classMonitoringSystem_ae0feb3bc8ff8f4b6ee5561b43cc9b1d7}{idSelectedAlarm\_}} = \mbox{\hyperlink{classMonitoringSystem_a0ec7f8e47b126a33656b9db2a6ec98c2}{askIdAlarm}}();}
+\DoxyCodeLine{261 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Id\+Alarm(), Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::delete\+Alarm\+Window(), id\+Selected\+Alarm\+\_\+, and screen.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ab99a47d5efa46cbe3386bb07bfabc109_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ab99a47d5efa46cbe3386bb07bfabc109_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_af7a81ead57dd0c0d08f78bbda7db5111}\label{classMonitoringSystem_af7a81ead57dd0c0d08f78bbda7db5111}} 
+\index{MonitoringSystem@{MonitoringSystem}!deleteCameraScreen@{deleteCameraScreen}}
+\index{deleteCameraScreen@{deleteCameraScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{deleteCameraScreen()}{deleteCameraScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::delete\+Camera\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Delete a \mbox{\hyperlink{classCamera}{Camera}} Screen object. 
+
+
+
+Definition at line 301 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{301                                           \{}
+\DoxyCodeLine{302   \textcolor{comment}{// Muestro de screen la deleteCameraWindow}}
+\DoxyCodeLine{303   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{304   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_ae0c4edcbc11047dbeb1ea22c2f48abd1}{deleteCameraWindow}}();}
+\DoxyCodeLine{305   \mbox{\hyperlink{classMonitoringSystem_ac1a13ae07b6ee10b8a54b7d6a058705c}{idSelectedCamera\_}} = \mbox{\hyperlink{classMonitoringSystem_a4ad4cb75bab824f4ee2d001d2aec222d}{askIdCamera}}();}
+\DoxyCodeLine{306 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Id\+Camera(), Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::delete\+Camera\+Window(), id\+Selected\+Camera\+\_\+, and screen.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_af7a81ead57dd0c0d08f78bbda7db5111_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_af7a81ead57dd0c0d08f78bbda7db5111_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a0d1bd6d0bd300ec9e0ccd8e79ab491ed}\label{classMonitoringSystem_a0d1bd6d0bd300ec9e0ccd8e79ab491ed}} 
+\index{MonitoringSystem@{MonitoringSystem}!deleteUserScreen@{deleteUserScreen}}
+\index{deleteUserScreen@{deleteUserScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{deleteUserScreen()}{deleteUserScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::delete\+User\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to delete a user. 
+
+
+
+Definition at line 185 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{185                                         \{}
+\DoxyCodeLine{186   \textcolor{comment}{// Muestro de screen la deleteUserWindow, luego pido con el keyboard un input}}
+\DoxyCodeLine{187   \textcolor{comment}{// hasta que este entre los valores correctos}}
+\DoxyCodeLine{188   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{189   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_ae74253dbaf1e90bc9d6134166ba3f60b}{deleteUserWindow}}();}
+\DoxyCodeLine{190   \mbox{\hyperlink{classMonitoringSystem_aae45015a76d2d1961c281271be5ce488}{shortSelectUser}}();}
+\DoxyCodeLine{191 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::delete\+User\+Window(), screen, and short\+Select\+User().
+
+
+
+Referenced by main(), and Green\+House\+::manage\+Delete\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a0d1bd6d0bd300ec9e0ccd8e79ab491ed_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a0d1bd6d0bd300ec9e0ccd8e79ab491ed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a7ed15cd1c877014b91d1572ec056d866}\label{classMonitoringSystem_a7ed15cd1c877014b91d1572ec056d866}} 
+\index{MonitoringSystem@{MonitoringSystem}!displayAlarmsScreen@{displayAlarmsScreen}}
+\index{displayAlarmsScreen@{displayAlarmsScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{displayAlarmsScreen()}{displayAlarmsScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::display\+Alarms\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to show the alarms. 
+
+
+
+Definition at line 215 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{215                                            \{}
+\DoxyCodeLine{216   \textcolor{comment}{// Muestro de screen la displayAlarmsWindow}}
+\DoxyCodeLine{217   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{218   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_ae5d2ae56d576f3aef512f2ef0402124f}{displayAlarmsWindow}}();}
+\DoxyCodeLine{219   \textcolor{comment}{// keyboard-\/>stringInput();}}
+\DoxyCodeLine{220 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::display\+Alarms\+Window(), and screen.
+
+
+
+Referenced by main(), Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), and Green\+House\+::manage\+Guest().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a7ed15cd1c877014b91d1572ec056d866_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a7ed15cd1c877014b91d1572ec056d866_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_ae9f07ef1b405619e84469da1c9622b13}\label{classMonitoringSystem_ae9f07ef1b405619e84469da1c9622b13}} 
+\index{MonitoringSystem@{MonitoringSystem}!displayCameraScreen@{displayCameraScreen}}
+\index{displayCameraScreen@{displayCameraScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{displayCameraScreen()}{displayCameraScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::display\+Camera\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Display the camera screen. 
+
+
+
+Definition at line 275 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{275                                            \{}
+\DoxyCodeLine{276   \textcolor{comment}{// Muestro de screen la displayCameraWindow}}
+\DoxyCodeLine{277   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{278   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a5afb8ed9e0166caae909b52aca171558}{displayCameraWindow}}();}
+\DoxyCodeLine{279 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::display\+Camera\+Window(), and screen.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), and Green\+House\+::manage\+Guest().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ae9f07ef1b405619e84469da1c9622b13_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ae9f07ef1b405619e84469da1c9622b13_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a5a835975fa74862f8a79449a35442916}\label{classMonitoringSystem_a5a835975fa74862f8a79449a35442916}} 
+\index{MonitoringSystem@{MonitoringSystem}!displayErrorScreen@{displayErrorScreen}}
+\index{displayErrorScreen@{displayErrorScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{displayErrorScreen()}{displayErrorScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::display\+Error\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message if and error occurs. 
+
+
+
+Definition at line 230 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{230                                           \{}
+\DoxyCodeLine{231   \textcolor{comment}{// Muestro de screen la displayErrorWindow}}
+\DoxyCodeLine{232   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{233   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_ab1fc9cc20fb80dfe6fd1293f50ebd034}{displayErrorWindow}}();}
+\DoxyCodeLine{234   \mbox{\hyperlink{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}{keyboard}}-\/>\mbox{\hyperlink{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}{stringInput}}();}
+\DoxyCodeLine{235   \mbox{\hyperlink{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}{exitScreen}}();}
+\DoxyCodeLine{236 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::display\+Error\+Window(), exit\+Screen(), keyboard, screen, and Keyboard\+Hardware\+::string\+Input().
+
+
+
+Referenced by Green\+House\+::main\+System(), Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), and Green\+House\+::manage\+Guest().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a5a835975fa74862f8a79449a35442916_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a5a835975fa74862f8a79449a35442916_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_aa83416a623e4ad81d4554f8c5ac2c2d4}\label{classMonitoringSystem_aa83416a623e4ad81d4554f8c5ac2c2d4}} 
+\index{MonitoringSystem@{MonitoringSystem}!displaySensorsScreen@{displaySensorsScreen}}
+\index{displaySensorsScreen@{displaySensorsScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{displaySensorsScreen()}{displaySensorsScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::display\+Sensors\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to show the sensors. 
+
+
+
+Definition at line 208 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{208                                             \{}
+\DoxyCodeLine{209   \textcolor{comment}{// Muestro de screen la displaySensorsWindow}}
+\DoxyCodeLine{210   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{211   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a0b5ab699148ef2c5215e2ee47e695e72}{displaySensorsWindow}}();}
+\DoxyCodeLine{212   \textcolor{comment}{// keyboard-\/>stringInput();}}
+\DoxyCodeLine{213 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::display\+Sensors\+Window(), and screen.
+
+
+
+Referenced by main(), Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), and Green\+House\+::manage\+Guest().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aa83416a623e4ad81d4554f8c5ac2c2d4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aa83416a623e4ad81d4554f8c5ac2c2d4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_aff79411cc2b839659fbf77281a9c80ac}\label{classMonitoringSystem_aff79411cc2b839659fbf77281a9c80ac}} 
+\index{MonitoringSystem@{MonitoringSystem}!displayUsersScreen@{displayUsersScreen}}
+\index{displayUsersScreen@{displayUsersScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{displayUsersScreen()}{displayUsersScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::display\+Users\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to show the users. 
+
+
+
+Definition at line 201 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{201                                           \{}
+\DoxyCodeLine{202   \textcolor{comment}{// Muestro de screen la displayUsersWindow}}
+\DoxyCodeLine{203   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{204   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a8786bcdcb5465fcf34b1e6dc3c16d449}{displayUsersWindow}}();}
+\DoxyCodeLine{205   \textcolor{comment}{// keyboard-\/>stringInput();}}
+\DoxyCodeLine{206 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::display\+Users\+Window(), and screen.
+
+
+
+Referenced by main(), and Green\+House\+::manage\+Admin().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aff79411cc2b839659fbf77281a9c80ac_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aff79411cc2b839659fbf77281a9c80ac_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}\label{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}} 
+\index{MonitoringSystem@{MonitoringSystem}!exitScreen@{exitScreen}}
+\index{exitScreen@{exitScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{exitScreen()}{exitScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::exit\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method exits the screen. 
+
+
+
+Definition at line 108 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{108                                   \{}
+\DoxyCodeLine{109   \textcolor{comment}{// Borrar terminal y mostrar el exitWindow}}
+\DoxyCodeLine{110   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{111   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a0b6267a91e8c459d98adb9c406a3d493}{exitWindow}}();}
+\DoxyCodeLine{112 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::exit\+Window(), and screen.
+
+
+
+Referenced by display\+Error\+Screen(), main(), Green\+House\+::main\+System(), Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), Green\+House\+::manage\+Guest(), and Green\+House\+::manage\+Login().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a9675bb382a6211a1e72573fdbe219ab0}\label{classMonitoringSystem_a9675bb382a6211a1e72573fdbe219ab0}} 
+\index{MonitoringSystem@{MonitoringSystem}!getEmailSelectedUser@{getEmailSelectedUser}}
+\index{getEmailSelectedUser@{getEmailSelectedUser}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getEmailSelectedUser()}{getEmailSelectedUser()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+Email\+Selected\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Email Selected \mbox{\hyperlink{classUser}{User}} object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 74 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{74                                                  \{}
+\DoxyCodeLine{75   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_a889dfb8f2c0e18c045738215ff375745}{emailSelectedUser\_}};}
+\DoxyCodeLine{76 \}}
+
+\end{DoxyCode}
+
+
+References email\+Selected\+User\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Create\+User(), and Green\+House\+::manage\+Update\+User().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a9675bb382a6211a1e72573fdbe219ab0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a1ec19661cb6383341518a15afb53e764}\label{classMonitoringSystem_a1ec19661cb6383341518a15afb53e764}} 
+\index{MonitoringSystem@{MonitoringSystem}!getIdAlarm@{getIdAlarm}}
+\index{getIdAlarm@{getIdAlarm}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getIdAlarm()}{getIdAlarm()}}
+{\footnotesize\ttfamily int Monitoring\+System\+::get\+Id\+Alarm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Id Alarm object. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 50 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{50 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_ad1e4d4d599d4b1a73e153de62298d1d4}{idAlarm\_}}; \}}
+
+\end{DoxyCode}
+
+
+References id\+Alarm\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a1ec19661cb6383341518a15afb53e764_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_abdfb2fdc17acc20e890aea71d2a8fd39}\label{classMonitoringSystem_abdfb2fdc17acc20e890aea71d2a8fd39}} 
+\index{MonitoringSystem@{MonitoringSystem}!getIdCamera@{getIdCamera}}
+\index{getIdCamera@{getIdCamera}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getIdCamera()}{getIdCamera()}}
+{\footnotesize\ttfamily int Monitoring\+System\+::get\+Id\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Id \mbox{\hyperlink{classCamera}{Camera}} object. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 271 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{271 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_a0a7dabc33227f2dc01c8390f4593e8da}{idCamera\_}}; \}}
+
+\end{DoxyCode}
+
+
+References id\+Camera\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_abdfb2fdc17acc20e890aea71d2a8fd39_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_acb6f10a470beff7fdfdedf0305c123d6}\label{classMonitoringSystem_acb6f10a470beff7fdfdedf0305c123d6}} 
+\index{MonitoringSystem@{MonitoringSystem}!getIdSelectedAlarm@{getIdSelectedAlarm}}
+\index{getIdSelectedAlarm@{getIdSelectedAlarm}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getIdSelectedAlarm()}{getIdSelectedAlarm()}}
+{\footnotesize\ttfamily int Monitoring\+System\+::get\+Id\+Selected\+Alarm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Id Selected Alarm object. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 52 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{52 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_ae0feb3bc8ff8f4b6ee5561b43cc9b1d7}{idSelectedAlarm\_}}; \}}
+
+\end{DoxyCode}
+
+
+References id\+Selected\+Alarm\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_acb6f10a470beff7fdfdedf0305c123d6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a21ef666ba4b1669e4daf33476ca235f2}\label{classMonitoringSystem_a21ef666ba4b1669e4daf33476ca235f2}} 
+\index{MonitoringSystem@{MonitoringSystem}!getIdSelectedCamera@{getIdSelectedCamera}}
+\index{getIdSelectedCamera@{getIdSelectedCamera}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getIdSelectedCamera()}{getIdSelectedCamera()}}
+{\footnotesize\ttfamily int Monitoring\+System\+::get\+Id\+Selected\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Id Selected \mbox{\hyperlink{classCamera}{Camera}} object. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 273 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{273 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_ac1a13ae07b6ee10b8a54b7d6a058705c}{idSelectedCamera\_}}; \}}
+
+\end{DoxyCode}
+
+
+References id\+Selected\+Camera\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a21ef666ba4b1669e4daf33476ca235f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a29bccb3aade3d9db92a152058d0fea0d}\label{classMonitoringSystem_a29bccb3aade3d9db92a152058d0fea0d}} 
+\index{MonitoringSystem@{MonitoringSystem}!getName@{getName}}
+\index{getName@{getName}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Name object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 54 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{54 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_a42615e65ce322fc132a013e35a8fa52a}{name\_}}; \}}
+
+\end{DoxyCode}
+
+
+References name\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Login().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a29bccb3aade3d9db92a152058d0fea0d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a08f0cdd13ff0e3064efa4d76de498087}\label{classMonitoringSystem_a08f0cdd13ff0e3064efa4d76de498087}} 
+\index{MonitoringSystem@{MonitoringSystem}!getNameSelectedUser@{getNameSelectedUser}}
+\index{getNameSelectedUser@{getNameSelectedUser}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getNameSelectedUser()}{getNameSelectedUser()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+Name\+Selected\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Name Selected \mbox{\hyperlink{classUser}{User}} object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{60                                                 \{}
+\DoxyCodeLine{61   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_aaa8b1f8dd3ebeedc48633e0cbf76707e}{nameSelectedUser\_}};}
+\DoxyCodeLine{62 \}}
+
+\end{DoxyCode}
+
+
+References name\+Selected\+User\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Create\+User(), Green\+House\+::manage\+Delete\+User(), and Green\+House\+::manage\+Update\+User().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a08f0cdd13ff0e3064efa4d76de498087_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_ada24dcde157b829a5fc87d28c1b6a8b7}\label{classMonitoringSystem_ada24dcde157b829a5fc87d28c1b6a8b7}} 
+\index{MonitoringSystem@{MonitoringSystem}!getNIF@{getNIF}}
+\index{getNIF@{getNIF}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getNIF()}{getNIF()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+NIF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the NIF object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 56 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{56 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_a143b6842ee9bcc686095c7c6e660498b}{nif\_}}; \}}
+
+\end{DoxyCode}
+
+
+References nif\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Login().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ada24dcde157b829a5fc87d28c1b6a8b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a7ec712b369369bc18a1f4b39501876c3}\label{classMonitoringSystem_a7ec712b369369bc18a1f4b39501876c3}} 
+\index{MonitoringSystem@{MonitoringSystem}!getNIFSelectedUser@{getNIFSelectedUser}}
+\index{getNIFSelectedUser@{getNIFSelectedUser}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getNIFSelectedUser()}{getNIFSelectedUser()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+NIFSelected\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the NIF Selected \mbox{\hyperlink{classUser}{User}} object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 64 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{64 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_aee289797b6f1c0a8cdded2e18468c7e1}{nifSelectedUser\_}}; \}}
+
+\end{DoxyCode}
+
+
+References nif\+Selected\+User\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Create\+User(), Green\+House\+::manage\+Delete\+User(), and Green\+House\+::manage\+Update\+User().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a7ec712b369369bc18a1f4b39501876c3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_af4340bc457707e547d4c07e1345de24c}\label{classMonitoringSystem_af4340bc457707e547d4c07e1345de24c}} 
+\index{MonitoringSystem@{MonitoringSystem}!getPassword@{getPassword}}
+\index{getPassword@{getPassword}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getPassword()}{getPassword()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+Password (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Password object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{58 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_a5bab4f69031f409b0348d3352c5b922f}{password\_}}; \}}
+
+\end{DoxyCode}
+
+
+References password\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Login().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_af4340bc457707e547d4c07e1345de24c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a0692f64404417b8300b134572fe07470}\label{classMonitoringSystem_a0692f64404417b8300b134572fe07470}} 
+\index{MonitoringSystem@{MonitoringSystem}!getPasswordSelectedUser@{getPasswordSelectedUser}}
+\index{getPasswordSelectedUser@{getPasswordSelectedUser}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getPasswordSelectedUser()}{getPasswordSelectedUser()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+Password\+Selected\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Password Selected \mbox{\hyperlink{classUser}{User}} object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 66 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{66                                                     \{}
+\DoxyCodeLine{67   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_a37a89fc21dd73fa014368ff671394ee5}{passwordSelectedUser\_}};}
+\DoxyCodeLine{68 \}}
+
+\end{DoxyCode}
+
+
+References password\+Selected\+User\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Create\+User(), Green\+House\+::manage\+Delete\+User(), and Green\+House\+::manage\+Update\+User().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a0692f64404417b8300b134572fe07470_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a7f637f3c6c73c1eefabe167a6f956670}\label{classMonitoringSystem_a7f637f3c6c73c1eefabe167a6f956670}} 
+\index{MonitoringSystem@{MonitoringSystem}!getPrivilegesSelectedUser@{getPrivilegesSelectedUser}}
+\index{getPrivilegesSelectedUser@{getPrivilegesSelectedUser}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getPrivilegesSelectedUser()}{getPrivilegesSelectedUser()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+Privileges\+Selected\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Privileges Selected \mbox{\hyperlink{classUser}{User}} object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 70 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{70                                                       \{}
+\DoxyCodeLine{71   \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_ad393372fc330141928dab8adc3735502}{privilegesSelectedUser\_}};}
+\DoxyCodeLine{72 \}}
+
+\end{DoxyCode}
+
+
+References privileges\+Selected\+User\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Create\+User(), and Green\+House\+::manage\+Update\+User().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a7f637f3c6c73c1eefabe167a6f956670_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}\label{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}} 
+\index{MonitoringSystem@{MonitoringSystem}!getSelection@{getSelection}}
+\index{getSelection@{getSelection}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getSelection()}{getSelection()}}
+{\footnotesize\ttfamily int Monitoring\+System\+::get\+Selection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Selection object. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 26 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{26 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}{selection\_}}; \}}
+
+\end{DoxyCode}
+
+
+References selection\+\_\+.
+
+
+
+Referenced by main(), Green\+House\+::main\+System(), Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), and Green\+House\+::manage\+Guest().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a508751e3f490b9942202e17664ea9893_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a1d98be1cb48544ca7c9ae3038b55f1bd}\label{classMonitoringSystem_a1d98be1cb48544ca7c9ae3038b55f1bd}} 
+\index{MonitoringSystem@{MonitoringSystem}!getTypeAlarm@{getTypeAlarm}}
+\index{getTypeAlarm@{getTypeAlarm}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getTypeAlarm()}{getTypeAlarm()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+Type\+Alarm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Type Alarm object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 48 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_a875ec350300597df6863ea241e63c1d2}{typeAlarm\_}}; \}}
+
+\end{DoxyCode}
+
+
+References type\+Alarm\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a1d98be1cb48544ca7c9ae3038b55f1bd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a75802f644139c04fd5213577cf4afd49}\label{classMonitoringSystem_a75802f644139c04fd5213577cf4afd49}} 
+\index{MonitoringSystem@{MonitoringSystem}!getTypeCamera@{getTypeCamera}}
+\index{getTypeCamera@{getTypeCamera}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{getTypeCamera()}{getTypeCamera()}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::get\+Type\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Type \mbox{\hyperlink{classCamera}{Camera}} object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 269 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{269 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classMonitoringSystem_a4609b025ae756e5baafcf1d364c896b2}{typeCamera\_}}; \}}
+
+\end{DoxyCode}
+
+
+References type\+Camera\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a75802f644139c04fd5213577cf4afd49_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a340c74f50e28880c3e52a515101d65db}\label{classMonitoringSystem_a340c74f50e28880c3e52a515101d65db}} 
+\index{MonitoringSystem@{MonitoringSystem}!initialScreen@{initialScreen}}
+\index{initialScreen@{initialScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{initialScreen()}{initialScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::initial\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method initializes the screen and keyboard. 
+
+
+
+Definition at line 99 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{99                                      \{}
+\DoxyCodeLine{100   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{101   \textcolor{keywordtype}{int} options = \mbox{\hyperlink{MonitoringSystem_8cpp_a7750096aea70d158bac5cfad88ac13a8}{MAIN\_MENU\_OPTIONS}};}
+\DoxyCodeLine{102   \textcolor{comment}{// Muestro de screen la initialWindow, luego pido con el keyboard un input}}
+\DoxyCodeLine{103   \textcolor{comment}{// hasta que este entre los valores correctos}}
+\DoxyCodeLine{104   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a9eae9fac122d740af58454007c17b0a8}{initialWindow}}();}
+\DoxyCodeLine{105   \mbox{\hyperlink{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}{selection\_}} = \mbox{\hyperlink{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767}{askInputInt}}(options);}
+\DoxyCodeLine{106 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Input\+Int(), Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::initial\+Window(), MAIN\+\_\+\+MENU\+\_\+\+OPTIONS, screen, and selection\+\_\+.
+
+
+
+Referenced by main(), and Green\+House\+::start\+System().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a340c74f50e28880c3e52a515101d65db_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a340c74f50e28880c3e52a515101d65db_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a2514c2079286352acd12ef85163ff69f}\label{classMonitoringSystem_a2514c2079286352acd12ef85163ff69f}} 
+\index{MonitoringSystem@{MonitoringSystem}!inputCorrect@{inputCorrect}}
+\index{inputCorrect@{inputCorrect}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{inputCorrect()}{inputCorrect()}}
+{\footnotesize\ttfamily bool Monitoring\+System\+::input\+Correct (\begin{DoxyParamCaption}\item[{int}]{input,  }\item[{int}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method checks if the input is correct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & \\
+\hline
+{\em max} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 78 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{78                                                       \{}
+\DoxyCodeLine{79   \textcolor{keywordtype}{bool} correct = input >= 1 \&\& input <= max;}
+\DoxyCodeLine{80   \textcolor{keywordflow}{if} (!correct) \{}
+\DoxyCodeLine{81     cout << \textcolor{stringliteral}{"{}Invalid input. Please enter an integer that corresponds to one of "{}}}
+\DoxyCodeLine{82             \textcolor{stringliteral}{"{}the options"{}}}
+\DoxyCodeLine{83          << endl;}
+\DoxyCodeLine{84   \}}
+\DoxyCodeLine{85   \textcolor{comment}{// Input debe de estar entre 1 y max}}
+\DoxyCodeLine{86   \textcolor{keywordflow}{return} correct;}
+\DoxyCodeLine{87 \}}
+
+\end{DoxyCode}
+
+
+Referenced by ask\+Input\+Int().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a2514c2079286352acd12ef85163ff69f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a4abdaf1876463edb964e36006c54b479}\label{classMonitoringSystem_a4abdaf1876463edb964e36006c54b479}} 
+\index{MonitoringSystem@{MonitoringSystem}!loginScreen@{loginScreen}}
+\index{loginScreen@{loginScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{loginScreen()}{loginScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::login\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the login screen. 
+
+
+
+Definition at line 139 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{139                                    \{}
+\DoxyCodeLine{140   \textcolor{comment}{// Muestro de screen la loginWindow, luego pido con el keyboard un input hasta}}
+\DoxyCodeLine{141   \textcolor{comment}{// que este entre los valores correctos}}
+\DoxyCodeLine{142   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{143   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a3c0c7e0d14e1a89c17307cf715541453}{loginWindow}}();}
+\DoxyCodeLine{144   \mbox{\hyperlink{classMonitoringSystem_a6c7b7e82406440ad1b68c60aebe0507f}{askMainUser}}();}
+\DoxyCodeLine{145   \textcolor{comment}{// std::cout << name\_ << "{} "{} << password\_ << "{} "{} << nif\_ << endl;}}
+\DoxyCodeLine{146 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Main\+User(), Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::login\+Window(), and screen.
+
+
+
+Referenced by main(), and Green\+House\+::main\+System().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a4abdaf1876463edb964e36006c54b479_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a4abdaf1876463edb964e36006c54b479_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a3288619b3d16cf1ae901d86bee832398}\label{classMonitoringSystem_a3288619b3d16cf1ae901d86bee832398}} 
+\index{MonitoringSystem@{MonitoringSystem}!mainWindowAdmin@{mainWindowAdmin}}
+\index{mainWindowAdmin@{mainWindowAdmin}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{mainWindowAdmin()}{mainWindowAdmin()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::main\+Window\+Admin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the main menu for the admins. 
+
+
+
+Definition at line 148 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{148                                        \{}
+\DoxyCodeLine{149   \textcolor{comment}{// Muestro de screen la mainWindowAdmin, luego pido con el keyboard un input}}
+\DoxyCodeLine{150   \textcolor{comment}{// hasta que este entre los valores correctos}}
+\DoxyCodeLine{151   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{152   \textcolor{keywordtype}{int} options = \mbox{\hyperlink{MonitoringSystem_8cpp_a23cdc7718b6e139a7d1a37d626f9480e}{ADMIN\_MENU\_OPTIONS}};}
+\DoxyCodeLine{153   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_aeccf9ac678246eba7721ed1c6b839a75}{mainWindowAdmin}}();}
+\DoxyCodeLine{154   \mbox{\hyperlink{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}{selection\_}} = \mbox{\hyperlink{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767}{askInputInt}}(options);}
+\DoxyCodeLine{155 \}}
+
+\end{DoxyCode}
+
+
+References ADMIN\+\_\+\+MENU\+\_\+\+OPTIONS, ask\+Input\+Int(), Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::main\+Window\+Admin(), screen, and selection\+\_\+.
+
+
+
+Referenced by main(), and Green\+House\+::manage\+Admin().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a3288619b3d16cf1ae901d86bee832398_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a3288619b3d16cf1ae901d86bee832398_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a982281f93905645ed1c510fedf8dcc51}\label{classMonitoringSystem_a982281f93905645ed1c510fedf8dcc51}} 
+\index{MonitoringSystem@{MonitoringSystem}!mainWindowEmployee@{mainWindowEmployee}}
+\index{mainWindowEmployee@{mainWindowEmployee}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{mainWindowEmployee()}{mainWindowEmployee()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::main\+Window\+Employee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the main menu for the employees. 
+
+
+
+Definition at line 157 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{157                                           \{}
+\DoxyCodeLine{158   \textcolor{comment}{// Muestro de screen la mainWindowEmployee, luego pido con el keyboard un}}
+\DoxyCodeLine{159   \textcolor{comment}{// input hasta que este entre los valores correctos}}
+\DoxyCodeLine{160   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{161   \textcolor{keywordtype}{int} options = \mbox{\hyperlink{MonitoringSystem_8cpp_aec50b4779816e8b912fe4d007d8389db}{EMPLOYEE\_MENU\_OPTIONS}};}
+\DoxyCodeLine{162   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a2edcf1f9600ce2df0ca89f85be9b07a9}{mainWindowEmployee}}();}
+\DoxyCodeLine{163   \mbox{\hyperlink{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}{selection\_}} = \mbox{\hyperlink{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767}{askInputInt}}(options);}
+\DoxyCodeLine{164 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Input\+Int(), Screen\+Hardware\+::clean\+Screen(), EMPLOYEE\+\_\+\+MENU\+\_\+\+OPTIONS, Screen\+Hardware\+::main\+Window\+Employee(), screen, and selection\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Employee().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a982281f93905645ed1c510fedf8dcc51_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a982281f93905645ed1c510fedf8dcc51_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_acf2c408f4e2487e6602543adf5a996a1}\label{classMonitoringSystem_acf2c408f4e2487e6602543adf5a996a1}} 
+\index{MonitoringSystem@{MonitoringSystem}!mainWindowGuest@{mainWindowGuest}}
+\index{mainWindowGuest@{mainWindowGuest}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{mainWindowGuest()}{mainWindowGuest()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::main\+Window\+Guest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the main menu for the guests. 
+
+
+
+Definition at line 166 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{166                                        \{}
+\DoxyCodeLine{167   \textcolor{comment}{// Muestro de screen la mainWindowGuest, luego pido con el keyboard un input}}
+\DoxyCodeLine{168   \textcolor{comment}{// hasta que este entre los valores correctos}}
+\DoxyCodeLine{169   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{170   \textcolor{keywordtype}{int} options = \mbox{\hyperlink{MonitoringSystem_8cpp_a747f30337c7216f7d93d7e973757e2ec}{GUEST\_MENU\_OPTIONS}};}
+\DoxyCodeLine{171   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a6c76443eae8a15b5c825b257865f9356}{mainWindowGuest}}();}
+\DoxyCodeLine{172   \mbox{\hyperlink{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}{selection\_}} = \mbox{\hyperlink{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767}{askInputInt}}(options);}
+\DoxyCodeLine{173 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Input\+Int(), Screen\+Hardware\+::clean\+Screen(), GUEST\+\_\+\+MENU\+\_\+\+OPTIONS, Screen\+Hardware\+::main\+Window\+Guest(), screen, and selection\+\_\+.
+
+
+
+Referenced by Green\+House\+::manage\+Guest().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_acf2c408f4e2487e6602543adf5a996a1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_acf2c408f4e2487e6602543adf5a996a1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea}\label{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea}} 
+\index{MonitoringSystem@{MonitoringSystem}!saveAlarmScreen@{saveAlarmScreen}}
+\index{saveAlarmScreen@{saveAlarmScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{saveAlarmScreen()}{saveAlarmScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::save\+Alarm\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to save an alarm. 
+
+
+
+Definition at line 263 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{263                                        \{}
+\DoxyCodeLine{264   \textcolor{comment}{// Muestro de screen la saveAlarmWindow}}
+\DoxyCodeLine{265   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{266   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a41b5ac64d65de71058c055e41dc4850e}{saveAlarmWindow}}();}
+\DoxyCodeLine{267 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::save\+Alarm\+Window(), and screen.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a69183f73af82d68ff6c605020b5bf332}\label{classMonitoringSystem_a69183f73af82d68ff6c605020b5bf332}} 
+\index{MonitoringSystem@{MonitoringSystem}!saveCameraScreen@{saveCameraScreen}}
+\index{saveCameraScreen@{saveCameraScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{saveCameraScreen()}{saveCameraScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::save\+Camera\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Save a \mbox{\hyperlink{classCamera}{Camera}} Screen object. 
+
+
+
+Definition at line 316 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{316                                         \{}
+\DoxyCodeLine{317   \textcolor{comment}{// Muestro de screen la saveCameraWindow}}
+\DoxyCodeLine{318   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{319   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_aa883bd450a4153fbb836f02dacb5de3b}{saveCameraWindow}}();}
+\DoxyCodeLine{320 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::save\+Camera\+Window(), and screen.
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a69183f73af82d68ff6c605020b5bf332_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a69183f73af82d68ff6c605020b5bf332_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_ab327dee734ebabab45548e4ab776f48e}\label{classMonitoringSystem_ab327dee734ebabab45548e4ab776f48e}} 
+\index{MonitoringSystem@{MonitoringSystem}!saveUsersScreen@{saveUsersScreen}}
+\index{saveUsersScreen@{saveUsersScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{saveUsersScreen()}{saveUsersScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::save\+Users\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Save the users screen. 
+
+
+
+Definition at line 327 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{327                                        \{}
+\DoxyCodeLine{328   \textcolor{comment}{// Muestro de screen la saveUsersWindow}}
+\DoxyCodeLine{329   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{330   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a50dcd539bc7a85f64bc7a0cb10e4984b}{saveUsersWindow}}();}
+\DoxyCodeLine{331 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), Screen\+Hardware\+::save\+Users\+Window(), and screen.
+
+
+
+Referenced by Green\+House\+::manage\+Admin().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ab327dee734ebabab45548e4ab776f48e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_ab327dee734ebabab45548e4ab776f48e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a939d9f1856e0b97975e19a4a11f8b73b}\label{classMonitoringSystem_a939d9f1856e0b97975e19a4a11f8b73b}} 
+\index{MonitoringSystem@{MonitoringSystem}!selectUser@{selectUser}}
+\index{selectUser@{selectUser}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{selectUser()}{selectUser()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::select\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the method to select a user. 
+
+In this selection you have to introduce all the parameters of the user. 
+
+Definition at line 28 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{28                                   \{}
+\DoxyCodeLine{29   \mbox{\hyperlink{classMonitoringSystem_aaa8b1f8dd3ebeedc48633e0cbf76707e}{nameSelectedUser\_}} = \mbox{\hyperlink{classMonitoringSystem_acd7c674be2caff1ac2bcc37b2cd0fb3b}{askName}}();}
+\DoxyCodeLine{30   \mbox{\hyperlink{classMonitoringSystem_a37a89fc21dd73fa014368ff671394ee5}{passwordSelectedUser\_}} = \mbox{\hyperlink{classMonitoringSystem_a26cbfb1c9afd14b76c5acbf99eae8569}{askPassword}}();}
+\DoxyCodeLine{31   \mbox{\hyperlink{classMonitoringSystem_aee289797b6f1c0a8cdded2e18468c7e1}{nifSelectedUser\_}} = \mbox{\hyperlink{classMonitoringSystem_af4af355f2a6bbda876e80f36ba1624cc}{askNIF}}();}
+\DoxyCodeLine{32   \mbox{\hyperlink{classMonitoringSystem_ad393372fc330141928dab8adc3735502}{privilegesSelectedUser\_}} = \mbox{\hyperlink{classMonitoringSystem_a64d58db9d958b2f61f601ed71dfb1e3b}{askPrivileges}}();}
+\DoxyCodeLine{33   \mbox{\hyperlink{classMonitoringSystem_a889dfb8f2c0e18c045738215ff375745}{emailSelectedUser\_}} = \mbox{\hyperlink{classMonitoringSystem_a2562b1b9b4de7da761a6a5db52793348}{askEmail}}();}
+\DoxyCodeLine{34 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Email(), ask\+Name(), ask\+NIF(), ask\+Password(), ask\+Privileges(), email\+Selected\+User\+\_\+, name\+Selected\+User\+\_\+, nif\+Selected\+User\+\_\+, password\+Selected\+User\+\_\+, and privileges\+Selected\+User\+\_\+.
+
+
+
+Referenced by create\+User\+Screen(), and update\+User\+Screen().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a939d9f1856e0b97975e19a4a11f8b73b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a939d9f1856e0b97975e19a4a11f8b73b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_aae45015a76d2d1961c281271be5ce488}\label{classMonitoringSystem_aae45015a76d2d1961c281271be5ce488}} 
+\index{MonitoringSystem@{MonitoringSystem}!shortSelectUser@{shortSelectUser}}
+\index{shortSelectUser@{shortSelectUser}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{shortSelectUser()}{shortSelectUser()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::short\+Select\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the method to select a short user. 
+
+In this selection you have to introduce the name, the password and the NIF of the user. 
+
+Definition at line 36 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{36                                        \{}
+\DoxyCodeLine{37   \mbox{\hyperlink{classMonitoringSystem_aaa8b1f8dd3ebeedc48633e0cbf76707e}{nameSelectedUser\_}} = \mbox{\hyperlink{classMonitoringSystem_acd7c674be2caff1ac2bcc37b2cd0fb3b}{askName}}();}
+\DoxyCodeLine{38   \mbox{\hyperlink{classMonitoringSystem_a37a89fc21dd73fa014368ff671394ee5}{passwordSelectedUser\_}} = \mbox{\hyperlink{classMonitoringSystem_a26cbfb1c9afd14b76c5acbf99eae8569}{askPassword}}();}
+\DoxyCodeLine{39   \mbox{\hyperlink{classMonitoringSystem_aee289797b6f1c0a8cdded2e18468c7e1}{nifSelectedUser\_}} = \mbox{\hyperlink{classMonitoringSystem_af4af355f2a6bbda876e80f36ba1624cc}{askNIF}}();}
+\DoxyCodeLine{40 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Name(), ask\+NIF(), ask\+Password(), name\+Selected\+User\+\_\+, nif\+Selected\+User\+\_\+, and password\+Selected\+User\+\_\+.
+
+
+
+Referenced by delete\+User\+Screen().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aae45015a76d2d1961c281271be5ce488_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aae45015a76d2d1961c281271be5ce488_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a6f62fde3b143b20c680a3e2689099f99}\label{classMonitoringSystem_a6f62fde3b143b20c680a3e2689099f99}} 
+\index{MonitoringSystem@{MonitoringSystem}!turnOnOffCameraScreen@{turnOnOffCameraScreen}}
+\index{turnOnOffCameraScreen@{turnOnOffCameraScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{turnOnOffCameraScreen()}{turnOnOffCameraScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::turn\+On\+Off\+Camera\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Turn on or off a \mbox{\hyperlink{classCamera}{Camera}} Screen object. 
+
+
+
+Definition at line 308 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{308                                              \{}
+\DoxyCodeLine{309   \textcolor{comment}{// Muestro de screen la turnOnOffCameraWindow}}
+\DoxyCodeLine{310   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{311   \textcolor{keywordtype}{int} options = 2;}
+\DoxyCodeLine{312   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_ae94ff6c1a4e2078bcfd50334a0c93cf0}{turnOnOffCameraWindow}}();}
+\DoxyCodeLine{313   \mbox{\hyperlink{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}{selection\_}} = \mbox{\hyperlink{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767}{askInputInt}}(options);}
+\DoxyCodeLine{314 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Input\+Int(), Screen\+Hardware\+::clean\+Screen(), screen, selection\+\_\+, and Screen\+Hardware\+::turn\+On\+Off\+Camera\+Window().
+
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a6f62fde3b143b20c680a3e2689099f99_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a6f62fde3b143b20c680a3e2689099f99_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_aa710bcc81ffd855276d6fb73c04fcb9f}\label{classMonitoringSystem_aa710bcc81ffd855276d6fb73c04fcb9f}} 
+\index{MonitoringSystem@{MonitoringSystem}!turnOnOffSystemScreen@{turnOnOffSystemScreen}}
+\index{turnOnOffSystemScreen@{turnOnOffSystemScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{turnOnOffSystemScreen()}{turnOnOffSystemScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::turn\+On\+Off\+System\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to turn on or off the system. 
+
+
+
+Definition at line 222 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{222                                              \{}
+\DoxyCodeLine{223   \textcolor{comment}{// Muestro de screen la turnOnOffSystemWindow}}
+\DoxyCodeLine{224   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{225   \textcolor{keywordtype}{int} options = 2;}
+\DoxyCodeLine{226   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_a88ffeec4b8c9dc5a0da6ba82dc50bb77}{turnOnOffSystemWindow}}();}
+\DoxyCodeLine{227   \mbox{\hyperlink{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}{selection\_}} = \mbox{\hyperlink{classMonitoringSystem_ac68e987a2e231ea1ff2e3e3950caf767}{askInputInt}}(options);}
+\DoxyCodeLine{228 \}}
+
+\end{DoxyCode}
+
+
+References ask\+Input\+Int(), Screen\+Hardware\+::clean\+Screen(), screen, selection\+\_\+, and Screen\+Hardware\+::turn\+On\+Off\+System\+Window().
+
+
+
+Referenced by main(), Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aa710bcc81ffd855276d6fb73c04fcb9f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_aa710bcc81ffd855276d6fb73c04fcb9f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMonitoringSystem_a4fa946aa944f0c38e3e60931d16c0fe3}\label{classMonitoringSystem_a4fa946aa944f0c38e3e60931d16c0fe3}} 
+\index{MonitoringSystem@{MonitoringSystem}!updateUserScreen@{updateUserScreen}}
+\index{updateUserScreen@{updateUserScreen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{updateUserScreen()}{updateUserScreen()}}
+{\footnotesize\ttfamily void Monitoring\+System\+::update\+User\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method shows the message to update a user. 
+
+
+
+Definition at line 193 of file Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{193                                         \{}
+\DoxyCodeLine{194   \textcolor{comment}{// Muestro de screen la updateUserWindow, luego pido con el keyboard un input}}
+\DoxyCodeLine{195   \textcolor{comment}{// hasta que este entre los valores correctos}}
+\DoxyCodeLine{196   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{cleanScreen}}();}
+\DoxyCodeLine{197   \mbox{\hyperlink{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}{screen}}-\/>\mbox{\hyperlink{classScreenHardware_ab506598df41adae147421b538c0f2a16}{updateUserWindow}}();}
+\DoxyCodeLine{198   \mbox{\hyperlink{classMonitoringSystem_a939d9f1856e0b97975e19a4a11f8b73b}{selectUser}}();}
+\DoxyCodeLine{199 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::clean\+Screen(), screen, select\+User(), and Screen\+Hardware\+::update\+User\+Window().
+
+
+
+Referenced by main(), and Green\+House\+::manage\+Update\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a4fa946aa944f0c38e3e60931d16c0fe3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMonitoringSystem_a4fa946aa944f0c38e3e60931d16c0fe3_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classMonitoringSystem_a889dfb8f2c0e18c045738215ff375745}\label{classMonitoringSystem_a889dfb8f2c0e18c045738215ff375745}} 
+\index{MonitoringSystem@{MonitoringSystem}!emailSelectedUser\_@{emailSelectedUser\_}}
+\index{emailSelectedUser\_@{emailSelectedUser\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{emailSelectedUser\_}{emailSelectedUser\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::email\+Selected\+User\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the email of the selected user. 
+
+
+
+Definition at line 414 of file Monitoring\+System.\+h.
+
+
+
+Referenced by get\+Email\+Selected\+User(), and select\+User().
+
+\mbox{\Hypertarget{classMonitoringSystem_ad1e4d4d599d4b1a73e153de62298d1d4}\label{classMonitoringSystem_ad1e4d4d599d4b1a73e153de62298d1d4}} 
+\index{MonitoringSystem@{MonitoringSystem}!idAlarm\_@{idAlarm\_}}
+\index{idAlarm\_@{idAlarm\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{idAlarm\_}{idAlarm\_}}
+{\footnotesize\ttfamily int Monitoring\+System\+::id\+Alarm\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the id of the alarm. 
+
+
+
+Definition at line 430 of file Monitoring\+System.\+h.
+
+
+
+Referenced by create\+Alarm\+Screen(), and get\+Id\+Alarm().
+
+\mbox{\Hypertarget{classMonitoringSystem_a0a7dabc33227f2dc01c8390f4593e8da}\label{classMonitoringSystem_a0a7dabc33227f2dc01c8390f4593e8da}} 
+\index{MonitoringSystem@{MonitoringSystem}!idCamera\_@{idCamera\_}}
+\index{idCamera\_@{idCamera\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{idCamera\_}{idCamera\_}}
+{\footnotesize\ttfamily int Monitoring\+System\+::id\+Camera\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the id of the camera. 
+
+
+
+Definition at line 457 of file Monitoring\+System.\+h.
+
+
+
+Referenced by create\+Camera\+Screen(), and get\+Id\+Camera().
+
+\mbox{\Hypertarget{classMonitoringSystem_ae0feb3bc8ff8f4b6ee5561b43cc9b1d7}\label{classMonitoringSystem_ae0feb3bc8ff8f4b6ee5561b43cc9b1d7}} 
+\index{MonitoringSystem@{MonitoringSystem}!idSelectedAlarm\_@{idSelectedAlarm\_}}
+\index{idSelectedAlarm\_@{idSelectedAlarm\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{idSelectedAlarm\_}{idSelectedAlarm\_}}
+{\footnotesize\ttfamily int Monitoring\+System\+::id\+Selected\+Alarm\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the id of the selected alarm. 
+
+
+
+Definition at line 438 of file Monitoring\+System.\+h.
+
+
+
+Referenced by delete\+Alarm\+Screen(), and get\+Id\+Selected\+Alarm().
+
+\mbox{\Hypertarget{classMonitoringSystem_ac1a13ae07b6ee10b8a54b7d6a058705c}\label{classMonitoringSystem_ac1a13ae07b6ee10b8a54b7d6a058705c}} 
+\index{MonitoringSystem@{MonitoringSystem}!idSelectedCamera\_@{idSelectedCamera\_}}
+\index{idSelectedCamera\_@{idSelectedCamera\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{idSelectedCamera\_}{idSelectedCamera\_}}
+{\footnotesize\ttfamily int Monitoring\+System\+::id\+Selected\+Camera\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the id of the selected camera. 
+
+
+
+Definition at line 467 of file Monitoring\+System.\+h.
+
+
+
+Referenced by delete\+Camera\+Screen(), and get\+Id\+Selected\+Camera().
+
+\mbox{\Hypertarget{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}\label{classMonitoringSystem_af3369b02775e3a4207de80eface7292b}} 
+\index{MonitoringSystem@{MonitoringSystem}!keyboard@{keyboard}}
+\index{keyboard@{keyboard}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{keyboard}{keyboard}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classKeyboardHardware}{Keyboard\+Hardware}}$\ast$ Monitoring\+System\+::keyboard\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the pointer to the \mbox{\hyperlink{classKeyboardHardware}{Keyboard\+Hardware}} object. 
+
+
+
+Definition at line 287 of file Monitoring\+System.\+h.
+
+
+
+Referenced by ask\+Email(), ask\+Id\+Alarm(), ask\+Id\+Camera(), ask\+Input\+Int(), ask\+Name(), ask\+NIF(), ask\+Password(), ask\+Privileges(), ask\+Type\+Alarm(), ask\+Type\+Camera(), display\+Error\+Screen(), and $\sim$\+Monitoring\+System().
+
+\mbox{\Hypertarget{classMonitoringSystem_a42615e65ce322fc132a013e35a8fa52a}\label{classMonitoringSystem_a42615e65ce322fc132a013e35a8fa52a}} 
+\index{MonitoringSystem@{MonitoringSystem}!name\_@{name\_}}
+\index{name\_@{name\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{name\_}{name\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::name\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the name of the user. 
+
+
+
+Definition at line 352 of file Monitoring\+System.\+h.
+
+
+
+Referenced by ask\+Main\+User(), and get\+Name().
+
+\mbox{\Hypertarget{classMonitoringSystem_aaa8b1f8dd3ebeedc48633e0cbf76707e}\label{classMonitoringSystem_aaa8b1f8dd3ebeedc48633e0cbf76707e}} 
+\index{MonitoringSystem@{MonitoringSystem}!nameSelectedUser\_@{nameSelectedUser\_}}
+\index{nameSelectedUser\_@{nameSelectedUser\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{nameSelectedUser\_}{nameSelectedUser\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::name\+Selected\+User\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the name of the selected user. 
+
+This is the NIF of the selected user. 
+
+Definition at line 394 of file Monitoring\+System.\+h.
+
+
+
+Referenced by get\+Name\+Selected\+User(), select\+User(), and short\+Select\+User().
+
+\mbox{\Hypertarget{classMonitoringSystem_a143b6842ee9bcc686095c7c6e660498b}\label{classMonitoringSystem_a143b6842ee9bcc686095c7c6e660498b}} 
+\index{MonitoringSystem@{MonitoringSystem}!nif\_@{nif\_}}
+\index{nif\_@{nif\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{nif\_}{nif\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::nif\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the NIF of the user. 
+
+
+
+Definition at line 357 of file Monitoring\+System.\+h.
+
+
+
+Referenced by ask\+Main\+User(), and get\+NIF().
+
+\mbox{\Hypertarget{classMonitoringSystem_aee289797b6f1c0a8cdded2e18468c7e1}\label{classMonitoringSystem_aee289797b6f1c0a8cdded2e18468c7e1}} 
+\index{MonitoringSystem@{MonitoringSystem}!nifSelectedUser\_@{nifSelectedUser\_}}
+\index{nifSelectedUser\_@{nifSelectedUser\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{nifSelectedUser\_}{nifSelectedUser\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::nif\+Selected\+User\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the password of the selected user. 
+
+
+
+Definition at line 399 of file Monitoring\+System.\+h.
+
+
+
+Referenced by get\+NIFSelected\+User(), select\+User(), and short\+Select\+User().
+
+\mbox{\Hypertarget{classMonitoringSystem_a5bab4f69031f409b0348d3352c5b922f}\label{classMonitoringSystem_a5bab4f69031f409b0348d3352c5b922f}} 
+\index{MonitoringSystem@{MonitoringSystem}!password\_@{password\_}}
+\index{password\_@{password\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{password\_}{password\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::password\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the password of the user. 
+
+
+
+Definition at line 362 of file Monitoring\+System.\+h.
+
+
+
+Referenced by ask\+Main\+User(), and get\+Password().
+
+\mbox{\Hypertarget{classMonitoringSystem_a37a89fc21dd73fa014368ff671394ee5}\label{classMonitoringSystem_a37a89fc21dd73fa014368ff671394ee5}} 
+\index{MonitoringSystem@{MonitoringSystem}!passwordSelectedUser\_@{passwordSelectedUser\_}}
+\index{passwordSelectedUser\_@{passwordSelectedUser\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{passwordSelectedUser\_}{passwordSelectedUser\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::password\+Selected\+User\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the privileges of the selected user. 
+
+
+
+Definition at line 404 of file Monitoring\+System.\+h.
+
+
+
+Referenced by get\+Password\+Selected\+User(), select\+User(), and short\+Select\+User().
+
+\mbox{\Hypertarget{classMonitoringSystem_ad393372fc330141928dab8adc3735502}\label{classMonitoringSystem_ad393372fc330141928dab8adc3735502}} 
+\index{MonitoringSystem@{MonitoringSystem}!privilegesSelectedUser\_@{privilegesSelectedUser\_}}
+\index{privilegesSelectedUser\_@{privilegesSelectedUser\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{privilegesSelectedUser\_}{privilegesSelectedUser\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::privileges\+Selected\+User\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the privileges of the selected user. 
+
+
+
+Definition at line 409 of file Monitoring\+System.\+h.
+
+
+
+Referenced by get\+Privileges\+Selected\+User(), and select\+User().
+
+\mbox{\Hypertarget{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}\label{classMonitoringSystem_a460303af6aa2eae402d8b6f7198a257d}} 
+\index{MonitoringSystem@{MonitoringSystem}!screen@{screen}}
+\index{screen@{screen}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{screen}{screen}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classScreenHardware}{Screen\+Hardware}}$\ast$ Monitoring\+System\+::screen\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the pointer to the \mbox{\hyperlink{classScreenHardware}{Screen\+Hardware}} object. 
+
+
+
+Definition at line 282 of file Monitoring\+System.\+h.
+
+
+
+Referenced by clean\+Screen(), create\+Alarm\+Screen(), create\+Camera\+Screen(), create\+User\+Screen(), delete\+Alarm\+Screen(), delete\+Camera\+Screen(), delete\+User\+Screen(), display\+Alarms\+Screen(), display\+Camera\+Screen(), display\+Error\+Screen(), display\+Sensors\+Screen(), display\+Users\+Screen(), exit\+Screen(), initial\+Screen(), login\+Screen(), main\+Window\+Admin(), main\+Window\+Employee(), main\+Window\+Guest(), save\+Alarm\+Screen(), save\+Camera\+Screen(), save\+Users\+Screen(), turn\+On\+Off\+Camera\+Screen(), turn\+On\+Off\+System\+Screen(), update\+User\+Screen(), and $\sim$\+Monitoring\+System().
+
+\mbox{\Hypertarget{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}\label{classMonitoringSystem_a634966ab0b0e0e3510b1579f92edfe5d}} 
+\index{MonitoringSystem@{MonitoringSystem}!selection\_@{selection\_}}
+\index{selection\_@{selection\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{selection\_}{selection\_}}
+{\footnotesize\ttfamily int Monitoring\+System\+::selection\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the selection of the user. 
+
+
+
+Definition at line 347 of file Monitoring\+System.\+h.
+
+
+
+Referenced by get\+Selection(), initial\+Screen(), main\+Window\+Admin(), main\+Window\+Employee(), main\+Window\+Guest(), turn\+On\+Off\+Camera\+Screen(), and turn\+On\+Off\+System\+Screen().
+
+\mbox{\Hypertarget{classMonitoringSystem_af48753fd96da1b83d146edb7a7057cde}\label{classMonitoringSystem_af48753fd96da1b83d146edb7a7057cde}} 
+\index{MonitoringSystem@{MonitoringSystem}!sw@{sw}}
+\index{sw@{sw}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{sw}{sw}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSwitchHardware}{Switch\+Hardware}}$\ast$ Monitoring\+System\+::sw\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the pointer to the \mbox{\hyperlink{classSwitchHardware}{Switch\+Hardware}} object. 
+
+
+
+Definition at line 292 of file Monitoring\+System.\+h.
+
+
+
+Referenced by $\sim$\+Monitoring\+System().
+
+\mbox{\Hypertarget{classMonitoringSystem_a875ec350300597df6863ea241e63c1d2}\label{classMonitoringSystem_a875ec350300597df6863ea241e63c1d2}} 
+\index{MonitoringSystem@{MonitoringSystem}!typeAlarm\_@{typeAlarm\_}}
+\index{typeAlarm\_@{typeAlarm\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{typeAlarm\_}{typeAlarm\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::type\+Alarm\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the type of the alarm. 
+
+
+
+Definition at line 434 of file Monitoring\+System.\+h.
+
+
+
+Referenced by create\+Alarm\+Screen(), and get\+Type\+Alarm().
+
+\mbox{\Hypertarget{classMonitoringSystem_a4609b025ae756e5baafcf1d364c896b2}\label{classMonitoringSystem_a4609b025ae756e5baafcf1d364c896b2}} 
+\index{MonitoringSystem@{MonitoringSystem}!typeCamera\_@{typeCamera\_}}
+\index{typeCamera\_@{typeCamera\_}!MonitoringSystem@{MonitoringSystem}}
+\doxysubsubsection{\texorpdfstring{typeCamera\_}{typeCamera\_}}
+{\footnotesize\ttfamily std\+::string Monitoring\+System\+::type\+Camera\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the type of the camera. 
+
+
+
+Definition at line 462 of file Monitoring\+System.\+h.
+
+
+
+Referenced by create\+Camera\+Screen(), and get\+Type\+Camera().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{MonitoringSystem_8h}{Monitoring\+System.\+h}}\item 
+src/\mbox{\hyperlink{MonitoringSystem_8cpp}{Monitoring\+System.\+cpp}}\end{DoxyCompactItemize}

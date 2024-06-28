@@ -1,0 +1,8 @@
+<map id="RGBCamera::collectData" name="RGBCamera::collectData">
+<area shape="rect" id="node1" title="This method collects the data of the camera." alt="" coords="5,31,188,57"/>
+<area shape="rect" id="node2" href="$classRGBCamera.html#a18ba5df5c51b29682adfef884c858963" title="This method returns a random number between 0 and 255." alt="" coords="236,5,471,32"/>
+<area shape="rect" id="node3" href="$classRGBCamera.html#a9e065f9b252213cf9676ca110ce7fa8c" title="This method sets the RGB values of the camera." alt="" coords="275,56,432,83"/>
+<area shape="rect" id="node4" href="$classRGBCamera.html#a2582fc3e240af2a365b384234342f6cd" title="This method sets the blue value of the camera." alt="" coords="523,5,682,32"/>
+<area shape="rect" id="node5" href="$classRGBCamera.html#a2214dc62e52a6d1220e341a1e0104898" title="This method sets the green value of the camera." alt="" coords="519,56,687,83"/>
+<area shape="rect" id="node6" href="$classRGBCamera.html#a2dd0706a099b000fca785dada8320d38" title="This method sets the red value of the camera." alt="" coords="525,107,680,133"/>
+</map>

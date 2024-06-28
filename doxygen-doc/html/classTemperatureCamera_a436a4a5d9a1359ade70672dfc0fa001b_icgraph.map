@@ -1,0 +1,10 @@
+<map id="TemperatureCamera::setTemperature" name="TemperatureCamera::setTemperature">
+<area shape="rect" id="node1" title="This method sets the temperature of the camera." alt="" coords="869,35,1032,76"/>
+<area shape="rect" id="node2" href="$classTemperatureCamera.html#a0d985813ab77a25b8787890cead876aa" title="This method collects the data of the camera." alt="" coords="627,5,789,47"/>
+<area shape="rect" id="node4" href="$classManageCameras.html#a103ef988f3c2f02b69b2bf0db7bca3c8" title="Load the cameras from a file." alt="" coords="595,71,821,98"/>
+<area shape="rect" id="node3" href="$mainTemperatureCamera_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="420,13,475,39"/>
+<area shape="rect" id="node5" href="$mainManageCameras_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="420,67,475,94"/>
+<area shape="rect" id="node6" href="$classGreenHouse.html#abbb9d2c2a94f06899e17d772fc1ee19b" title="Manage the login." alt="" coords="348,118,547,145"/>
+<area shape="rect" id="node7" href="$classGreenHouse.html#ae4b034eed62c1ef18fbac1559f0e21e1" title="Main system, after the system is started, you call this method to manage the system with your options..." alt="" coords="108,118,300,145"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,118,60,145"/>
+</map>

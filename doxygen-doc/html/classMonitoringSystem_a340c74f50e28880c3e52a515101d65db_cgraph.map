@@ -1,0 +1,8 @@
+<map id="MonitoringSystem::initialScreen" name="MonitoringSystem::initialScreen">
+<area shape="rect" id="node1" title="This method initializes the screen and keyboard." alt="" coords="5,74,192,115"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#ac68e987a2e231ea1ff2e3e3950caf767" title="This method asks the user for an int input." alt="" coords="242,31,465,57"/>
+<area shape="rect" id="node5" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="245,81,461,108"/>
+<area shape="rect" id="node6" href="$classScreenHardware.html#a9eae9fac122d740af58454007c17b0a8" title="This method displays the initial window of the system." alt="" coords="240,132,467,159"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="524,5,735,32"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#a2514c2079286352acd12ef85163ff69f" title="This method checks if the input is correct." alt="" coords="515,56,744,83"/>
+</map>

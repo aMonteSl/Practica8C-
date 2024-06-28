@@ -1,0 +1,4 @@
+<map id="PhSensor::collectData" name="PhSensor::collectData">
+<area shape="rect" id="node1" title="Collect data of the Ph Sensor." alt="" coords="5,5,169,32"/>
+<area shape="rect" id="node2" href="$classSensor.html#a8c3a63a324230f81e78972d37f9ddfb1" title="Set the Data object." alt="" coords="217,5,343,32"/>
+</map>

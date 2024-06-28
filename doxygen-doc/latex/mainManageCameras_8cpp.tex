@@ -1,0 +1,69 @@
+\hypertarget{mainManageCameras_8cpp}{}\doxysection{src/main\+Manage\+Cameras.cpp File Reference}
+\label{mainManageCameras_8cpp}\index{src/mainManageCameras.cpp@{src/mainManageCameras.cpp}}
+{\ttfamily \#include \char`\"{}Manage\+Cameras.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for main\+Manage\+Cameras.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainManageCameras_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainManageCameras_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainManageCameras_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainManageCameras_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainManageCameras.cpp@{mainManageCameras.cpp}!main@{main}}
+\index{main@{main}!mainManageCameras.cpp@{mainManageCameras.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 4 of file main\+Manage\+Cameras.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{4            \{}
+\DoxyCodeLine{5   \mbox{\hyperlink{classManageCameras}{ManageCameras}} manageCameras;}
+\DoxyCodeLine{6   manageCameras.\mbox{\hyperlink{classManageCameras_a5bf18315e0e3c2a58ff1bde6dbb1258a}{createCamera}}(3, \textcolor{stringliteral}{"{}RGB"{}});}
+\DoxyCodeLine{7   manageCameras.\mbox{\hyperlink{classManageCameras_a5bf18315e0e3c2a58ff1bde6dbb1258a}{createCamera}}(4, \textcolor{stringliteral}{"{}Temperature"{}});}
+\DoxyCodeLine{8   manageCameras.\mbox{\hyperlink{classManageCameras_a56049f6bea7450dda3d604134aa35fb9}{displayAllCameras}}();}
+\DoxyCodeLine{9   manageCameras.\mbox{\hyperlink{classManageCameras_a11454a76f4b7f1da6a3b58c303280f7a}{collectData}}();}
+\DoxyCodeLine{10   manageCameras.\mbox{\hyperlink{classManageCameras_a56049f6bea7450dda3d604134aa35fb9}{displayAllCameras}}();}
+\DoxyCodeLine{11   manageCameras.\mbox{\hyperlink{classManageCameras_a3366afee06399e88c6726988691ed3ff}{turnOffCameras}}();}
+\DoxyCodeLine{12   manageCameras.\mbox{\hyperlink{classManageCameras_a56049f6bea7450dda3d604134aa35fb9}{displayAllCameras}}();}
+\DoxyCodeLine{13   manageCameras.\mbox{\hyperlink{classManageCameras_a7869d4da264f7f63714b04dfc9193a22}{removeCamera}}(3);}
+\DoxyCodeLine{14   manageCameras.\mbox{\hyperlink{classManageCameras_a56049f6bea7450dda3d604134aa35fb9}{displayAllCameras}}();}
+\DoxyCodeLine{15   manageCameras.\mbox{\hyperlink{classManageCameras_a5bf18315e0e3c2a58ff1bde6dbb1258a}{createCamera}}(4, \textcolor{stringliteral}{"{}RGB"{}});}
+\DoxyCodeLine{16   manageCameras.\mbox{\hyperlink{classManageCameras_a56049f6bea7450dda3d604134aa35fb9}{displayAllCameras}}();}
+\DoxyCodeLine{17   manageCameras.\mbox{\hyperlink{classManageCameras_a5bf18315e0e3c2a58ff1bde6dbb1258a}{createCamera}}(5, \textcolor{stringliteral}{"{}Temperature"{}});}
+\DoxyCodeLine{18   manageCameras.\mbox{\hyperlink{classManageCameras_a5bf18315e0e3c2a58ff1bde6dbb1258a}{createCamera}}(5, \textcolor{stringliteral}{"{}Rgb"{}});}
+\DoxyCodeLine{19   manageCameras.\mbox{\hyperlink{classManageCameras_a56049f6bea7450dda3d604134aa35fb9}{displayAllCameras}}();}
+\DoxyCodeLine{20   manageCameras.\mbox{\hyperlink{classManageCameras_ab57c05b493a36caeb96e3b54374cd00a}{saveCameras}}();}
+\DoxyCodeLine{21   \textcolor{comment}{// Limpiar terminal}}
+\DoxyCodeLine{22   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)033[2J\(\backslash\)033[1;1H"{}};}
+\DoxyCodeLine{23   \mbox{\hyperlink{classManageCameras}{ManageCameras}} manageCameras2;}
+\DoxyCodeLine{24   manageCameras2.\mbox{\hyperlink{classManageCameras_a103ef988f3c2f02b69b2bf0db7bca3c8}{loadCameras}}();}
+\DoxyCodeLine{25   manageCameras2.\mbox{\hyperlink{classManageCameras_a56049f6bea7450dda3d604134aa35fb9}{displayAllCameras}}();}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27   \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{28 \}}
+
+\end{DoxyCode}
+
+
+References Manage\+Cameras\+::collect\+Data(), Manage\+Cameras\+::create\+Camera(), Manage\+Cameras\+::display\+All\+Cameras(), Manage\+Cameras\+::load\+Cameras(), Manage\+Cameras\+::remove\+Camera(), Manage\+Cameras\+::save\+Cameras(), and Manage\+Cameras\+::turn\+Off\+Cameras().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainManageCameras_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,10 @@
+<map id="MonitoringSystem::getNIFSelectedUser" name="MonitoringSystem::getNIFSelectedUser">
+<area shape="rect" id="node1" title="Get the NIF Selected User object." alt="" coords="1136,56,1413,83"/>
+<area shape="rect" id="node2" href="$classGreenHouse.html#a64682596d40e083a328bc02f091994d9" title="Manage the create user." alt="" coords="850,5,1086,32"/>
+<area shape="rect" id="node7" href="$classGreenHouse.html#aab417a3db3791c88954382bd91644196" title="Manage the delete user." alt="" coords="850,56,1086,83"/>
+<area shape="rect" id="node8" href="$classGreenHouse.html#ae1e6db8f518501ebb007f508780b8c32" title="Manage the update user." alt="" coords="848,107,1088,133"/>
+<area shape="rect" id="node3" href="$classGreenHouse.html#ace913cf34c4663d7a12031874ed282cc" title="Manage the admin." alt="" coords="595,56,800,83"/>
+<area shape="rect" id="node4" href="$classGreenHouse.html#abbb9d2c2a94f06899e17d772fc1ee19b" title="Manage the login." alt="" coords="348,56,547,83"/>
+<area shape="rect" id="node5" href="$classGreenHouse.html#ae4b034eed62c1ef18fbac1559f0e21e1" title="Main system, after the system is started, you call this method to manage the system with your options..." alt="" coords="108,56,300,83"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
+</map>

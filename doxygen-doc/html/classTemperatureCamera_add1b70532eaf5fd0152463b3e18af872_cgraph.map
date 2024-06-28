@@ -1,0 +1,5 @@
+<map id="TemperatureCamera::printCamera" name="TemperatureCamera::printCamera">
+<area shape="rect" id="node1" title="This method prints the camera information." alt="" coords="5,23,168,65"/>
+<area shape="rect" id="node2" href="$classCamera.html#ad2731f65f680be02d41d3b396d7db1be" title="Get the id of the camera." alt="" coords="225,5,340,32"/>
+<area shape="rect" id="node3" href="$classCamera.html#ada24ccf1d1d0d6fc72886b8f64b504c4" title="Check if the camera is active." alt="" coords="216,56,349,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Camera::isActive" name="Camera::isActive">
+<area shape="rect" id="node1" title="Check if the camera is active." alt="" coords="347,35,480,61"/>
+<area shape="rect" id="node2" href="$classRGBCamera.html#aae2d2c6a21168d82ccadb564bccd6611" title="This method prints the camera information." alt="" coords="108,5,299,32"/>
+<area shape="rect" id="node4" href="$classTemperatureCamera.html#add1b70532eaf5fd0152463b3e18af872" title="This method prints the camera information." alt="" coords="122,57,285,98"/>
+<area shape="rect" id="node3" href="$mainRGBCamera_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node5" href="$mainTemperatureCamera_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,64,60,91"/>
+</map>

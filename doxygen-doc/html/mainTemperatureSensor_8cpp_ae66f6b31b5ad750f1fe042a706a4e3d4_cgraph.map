@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,130,60,157"/>
+<area shape="rect" id="node2" href="$classTemperatureSensor.html#a8bd9830643bd9726c988fccf56759d6f" title="Collect and print the data of the Temperature Sensor." alt="" coords="108,123,264,164"/>
+<area shape="rect" id="node3" href="$classTemperatureSensor.html#aa5fafed08ffab4a8f300b884c841e51f" title="Collect data of the Temperature Sensor." alt="" coords="312,5,468,47"/>
+<area shape="rect" id="node5" href="$classTemperatureSensor.html#a3119dd0c9914efdbccd8ee9584f88b62" title="Print the data of the Temperature Sensor." alt="" coords="312,172,468,213"/>
+<area shape="rect" id="node6" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="924,122,1051,149"/>
+<area shape="rect" id="node9" href="$classTemperatureSensor.html#acd28d8060aa781117fc8a828deaaed56" title="String status of the Temperature Sensor." alt="" coords="516,275,672,316"/>
+<area shape="rect" id="node4" href="$classSensor.html#a8c3a63a324230f81e78972d37f9ddfb1" title="Set the Data object." alt="" coords="531,13,657,39"/>
+<area shape="rect" id="node7" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="541,223,647,250"/>
+<area shape="rect" id="node8" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="735,185,861,211"/>
+<area shape="rect" id="node10" href="$classTemperatureSensor.html#ac0a66fbba4b1d8363de5ff807c123354" title="Check if the Temperature Sensor is working properly." alt="" coords="720,261,876,303"/>
+</map>

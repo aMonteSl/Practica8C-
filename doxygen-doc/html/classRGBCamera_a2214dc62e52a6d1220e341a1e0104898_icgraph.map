@@ -1,0 +1,11 @@
+<map id="RGBCamera::setGreen" name="RGBCamera::setGreen">
+<area shape="rect" id="node1" title="This method sets the green value of the camera." alt="" coords="1075,31,1243,57"/>
+<area shape="rect" id="node2" href="$classRGBCamera.html#a9e065f9b252213cf9676ca110ce7fa8c" title="This method sets the RGB values of the camera." alt="" coords="869,31,1027,57"/>
+<area shape="rect" id="node3" href="$classRGBCamera.html#acd25620bf8e2ee814c79624c2e89c7b8" title="This method collects the data of the camera." alt="" coords="617,5,799,32"/>
+<area shape="rect" id="node5" href="$classManageCameras.html#a103ef988f3c2f02b69b2bf0db7bca3c8" title="Load the cameras from a file." alt="" coords="595,56,821,83"/>
+<area shape="rect" id="node4" href="$mainRGBCamera_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="420,5,475,32"/>
+<area shape="rect" id="node6" href="$mainManageCameras_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="420,56,475,83"/>
+<area shape="rect" id="node7" href="$classGreenHouse.html#abbb9d2c2a94f06899e17d772fc1ee19b" title="Manage the login." alt="" coords="348,107,547,133"/>
+<area shape="rect" id="node8" href="$classGreenHouse.html#ae4b034eed62c1ef18fbac1559f0e21e1" title="Main system, after the system is started, you call this method to manage the system with your options..." alt="" coords="108,107,300,133"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,107,60,133"/>
+</map>

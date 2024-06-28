@@ -1,0 +1,13 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,60,133"/>
+<area shape="rect" id="node2" href="$classRGBCamera.html#acd25620bf8e2ee814c79624c2e89c7b8" title="This method collects the data of the camera." alt="" coords="112,56,295,83"/>
+<area shape="rect" id="node8" href="$classRGBCamera.html#aae2d2c6a21168d82ccadb564bccd6611" title="This method prints the camera information." alt="" coords="108,107,299,133"/>
+<area shape="rect" id="node11" href="$classCamera.html#a90fca4b59b72c967a01aa6eb93e2c6e1" title="Turn off the camera." alt="" coords="140,157,267,184"/>
+<area shape="rect" id="node3" href="$classRGBCamera.html#a18ba5df5c51b29682adfef884c858963" title="This method returns a random number between 0 and 255." alt="" coords="347,5,581,32"/>
+<area shape="rect" id="node4" href="$classRGBCamera.html#a9e065f9b252213cf9676ca110ce7fa8c" title="This method sets the RGB values of the camera." alt="" coords="385,56,543,83"/>
+<area shape="rect" id="node5" href="$classRGBCamera.html#a2582fc3e240af2a365b384234342f6cd" title="This method sets the blue value of the camera." alt="" coords="634,5,793,32"/>
+<area shape="rect" id="node6" href="$classRGBCamera.html#a2214dc62e52a6d1220e341a1e0104898" title="This method sets the green value of the camera." alt="" coords="629,56,797,83"/>
+<area shape="rect" id="node7" href="$classRGBCamera.html#a2dd0706a099b000fca785dada8320d38" title="This method sets the red value of the camera." alt="" coords="636,107,791,133"/>
+<area shape="rect" id="node9" href="$classCamera.html#ad2731f65f680be02d41d3b396d7db1be" title="Get the id of the camera." alt="" coords="407,107,521,133"/>
+<area shape="rect" id="node10" href="$classCamera.html#ada24ccf1d1d0d6fc72886b8f64b504c4" title="Check if the camera is active." alt="" coords="397,157,531,184"/>
+</map>

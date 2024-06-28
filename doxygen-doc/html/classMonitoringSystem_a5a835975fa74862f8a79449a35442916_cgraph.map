@@ -1,0 +1,8 @@
+<map id="MonitoringSystem::displayErrorScreen" name="MonitoringSystem::displayErrorScreen">
+<area shape="rect" id="node1" title="This method shows the message if and error occurs." alt="" coords="5,61,201,102"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="516,13,732,40"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#ab1fc9cc20fb80dfe6fd1293f50ebd034" title="Display the error window." alt="" coords="251,31,466,73"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#aa68121a3c71f4600182ac143a06c3cbe" title="This method exits the screen." alt="" coords="249,97,468,124"/>
+<area shape="rect" id="node6" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="263,149,454,190"/>
+<area shape="rect" id="node5" href="$classScreenHardware.html#a0b6267a91e8c459d98adb9c406a3d493" title="Exit the window." alt="" coords="517,97,731,124"/>
+</map>

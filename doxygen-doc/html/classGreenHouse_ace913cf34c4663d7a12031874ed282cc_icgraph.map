@@ -1,0 +1,6 @@
+<map id="GreenHouse::manageAdmin" name="GreenHouse::manageAdmin">
+<area shape="rect" id="node1" title="Manage the admin." alt="" coords="595,5,800,32"/>
+<area shape="rect" id="node2" href="$classGreenHouse.html#abbb9d2c2a94f06899e17d772fc1ee19b" title="Manage the login." alt="" coords="348,5,547,32"/>
+<area shape="rect" id="node3" href="$classGreenHouse.html#ae4b034eed62c1ef18fbac1559f0e21e1" title="Main system, after the system is started, you call this method to manage the system with your options..." alt="" coords="108,5,300,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>

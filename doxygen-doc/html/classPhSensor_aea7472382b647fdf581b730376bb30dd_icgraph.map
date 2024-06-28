@@ -1,0 +1,6 @@
+<map id="PhSensor::qualifyPh" name="PhSensor::qualifyPh">
+<area shape="rect" id="node1" title="This qualifies the Ph Sensor into Acidic, Neutral or Alkaline." alt="" coords="543,31,693,57"/>
+<area shape="rect" id="node2" href="$classPhSensor.html#a55c2c68cc33cc039d8907da047c42615" title="This method prints the data of the Ph Sensor." alt="" coords="344,31,495,57"/>
+<area shape="rect" id="node3" href="$classPhSensor.html#ad6ef01f8f2f219af51739d8b309aa5eb" title="Collect and print the data of the Ph Sensor." alt="" coords="108,5,296,32"/>
+<area shape="rect" id="node4" href="$mainPhSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="PressureSensor::collectAndPrint" name="PressureSensor::collectAndPrint">
+<area shape="rect" id="node1" title="Collect and print the data of the Pressure Sensor." alt="" coords="5,74,204,115"/>
+<area shape="rect" id="node2" href="$classPressureSensor.html#ab607b8d4fc6f14a7414ee7a689dac874" title="Collect data of the Pressure Sensor." alt="" coords="252,31,456,57"/>
+<area shape="rect" id="node4" href="$classPressureSensor.html#aa1657b60ae025902a8051174c1d8716f" title="Print the data of the Pressure Sensor." alt="" coords="259,107,449,133"/>
+<area shape="rect" id="node3" href="$classSensor.html#a8c3a63a324230f81e78972d37f9ddfb1" title="Set the Data object." alt="" coords="545,5,671,32"/>
+<area shape="rect" id="node5" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="1025,132,1152,159"/>
+<area shape="rect" id="node6" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="555,107,661,133"/>
+<area shape="rect" id="node7" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="805,157,932,184"/>
+<area shape="rect" id="node8" href="$classPressureSensor.html#ad7256708aa69c3eb35e1794728a21316" title="This method returns the status in a string." alt="" coords="504,208,712,235"/>
+<area shape="rect" id="node9" href="$classPressureSensor.html#a20efcd32659e79ccca2a2bbd72e9533d" title="Check if the Pressure Sensor is working properly." alt="" coords="760,208,977,235"/>
+</map>

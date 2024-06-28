@@ -1,0 +1,61 @@
+\hypertarget{mainPressureSensor_8cpp}{}\doxysection{src/main\+Pressure\+Sensor.cpp File Reference}
+\label{mainPressureSensor_8cpp}\index{src/mainPressureSensor.cpp@{src/mainPressureSensor.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Pressure\+Sensor.\+h\char`\"{}}\newline
+Include dependency graph for main\+Pressure\+Sensor.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{mainPressureSensor_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainPressureSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainPressureSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainPressureSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainPressureSensor.cpp@{mainPressureSensor.cpp}!main@{main}}
+\index{main@{main}!mainPressureSensor.cpp@{mainPressureSensor.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file main\+Pressure\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6            \{}
+\DoxyCodeLine{7   \mbox{\hyperlink{classPressureSensor}{PressureSensor}} pressureSensor(1, \textcolor{keyword}{true});}
+\DoxyCodeLine{8   \textcolor{comment}{// Imprimo la presion por defecto}}
+\DoxyCodeLine{9   pressureSensor.printData();}
+\DoxyCodeLine{10   \textcolor{comment}{// Cambio el valor de la presion}}
+\DoxyCodeLine{11   pressureSensor.collectData();}
+\DoxyCodeLine{12   \textcolor{comment}{// Imprimo la nueva presion}}
+\DoxyCodeLine{13   pressureSensor.printData();}
+\DoxyCodeLine{14   \textcolor{comment}{// Vuelvo a imprimir la presion}}
+\DoxyCodeLine{15   cout << \textcolor{stringliteral}{"{}Pressure: "{}} << pressureSensor.getData() << endl;}
+\DoxyCodeLine{16   cout << \textcolor{stringliteral}{"{}Status: "{}} << pressureSensor.stringStatus() << endl;}
+\DoxyCodeLine{17   pressureSensor.collectData();}
+\DoxyCodeLine{18   \textcolor{comment}{// Imprimo el sensor de nuevo}}
+\DoxyCodeLine{19   pressureSensor.printData();}
+\DoxyCodeLine{20   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{21   pressureSensor.collectAndPrint();}
+\DoxyCodeLine{22 \}}
+
+\end{DoxyCode}
+
+
+References Pressure\+Sensor\+::collect\+And\+Print(), Pressure\+Sensor\+::collect\+Data(), Sensor\+::get\+Data(), Pressure\+Sensor\+::print\+Data(), and Pressure\+Sensor\+::string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainPressureSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

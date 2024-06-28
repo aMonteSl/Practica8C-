@@ -1,0 +1,4 @@
+<map id="UsersDatabase::deleteUserByNif" name="UsersDatabase::deleteUserByNif">
+<area shape="rect" id="node1" title="Delete a user from the set of users with the NIF." alt="" coords="108,5,308,47"/>
+<area shape="rect" id="node2" href="$mainUsersDatabase_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,60,39"/>
+</map>

@@ -1,0 +1,1311 @@
+\begin{theindex}
+
+  \item {$\sim$AirQualitySensor}
+    \subitem {AirQualitySensor}, \hyperpage{12}
+  \item {$\sim$AlarmSensors}
+    \subitem {AlarmSensors}, \hyperpage{20}
+  \item {$\sim$Camera}
+    \subitem {Camera}, \hyperpage{32}
+  \item {$\sim$GreenHouse}
+    \subitem {GreenHouse}, \hyperpage{53}
+  \item {$\sim$Hardware}
+    \subitem {Hardware}, \hyperpage{75}
+  \item {$\sim$HydrometerSensor}
+    \subitem {HydrometerSensor}, \hyperpage{84}
+  \item {$\sim$KeyboardHardware}
+    \subitem {KeyboardHardware}, \hyperpage{92}
+  \item {$\sim$LightSensor}
+    \subitem {LightSensor}, \hyperpage{98}
+  \item {$\sim$ManageCameras}
+    \subitem {ManageCameras}, \hyperpage{105}
+  \item {$\sim$MonitoringSystem}
+    \subitem {MonitoringSystem}, \hyperpage{119}
+  \item {$\sim$PhSensor}
+    \subitem {PhSensor}, \hyperpage{164}
+  \item {$\sim$PressureSensor}
+    \subitem {PressureSensor}, \hyperpage{173}
+  \item {$\sim$RGBCamera}
+    \subitem {RGBCamera}, \hyperpage{182}
+  \item {$\sim$ScreenHardware}
+    \subitem {ScreenHardware}, \hyperpage{194}
+  \item {$\sim$Sensor}
+    \subitem {Sensor}, \hyperpage{212}
+  \item {$\sim$SwitchHardware}
+    \subitem {SwitchHardware}, \hyperpage{228}
+  \item {$\sim$TemperatureCamera}
+    \subitem {TemperatureCamera}, \hyperpage{235}
+  \item {$\sim$TemperatureSensor}
+    \subitem {TemperatureSensor}, \hyperpage{242}
+  \item {$\sim$User}
+    \subitem {User}, \hyperpage{252}
+  \item {$\sim$UserAdmin}
+    \subitem {UserAdmin}, \hyperpage{268}
+  \item {$\sim$UserEmployee}
+    \subitem {UserEmployee}, \hyperpage{272}
+  \item {$\sim$UserGuest}
+    \subitem {UserGuest}, \hyperpage{276}
+  \item {$\sim$UsersDatabase}
+    \subitem {UsersDatabase}, \hyperpage{281}
+  \item {$\sim$UsersServer}
+    \subitem {UsersServer}, \hyperpage{298}
+
+  \indexspace
+
+  \item {active\_}
+    \subitem {Camera}, \hyperpage{37}
+    \subitem {Hardware}, \hyperpage{81}
+    \subitem {Sensor}, \hyperpage{225}
+  \item {addCamera}
+    \subitem {ManageCameras}, \hyperpage{105}
+  \item {addSensor}
+    \subitem {AlarmSensors}, \hyperpage{20}
+  \item {addUser}
+    \subitem {UsersDatabase}, \hyperpage{281}
+  \item {ADMIN\_MENU\_OPTIONS}
+    \subitem {MonitoringSystem.cpp}, \hyperpage{370}
+    \subitem {MonitoringSystem.h}, \hyperpage{372}
+  \item {AIR\_QUALITY}
+    \subitem {Sensor}, \hyperpage{211}
+  \item {AirQualitySensor}, \hyperpage{9}
+    \subitem {$\sim$AirQualitySensor}, \hyperpage{12}
+    \subitem {AirQualitySensor}, \hyperpage{12}
+    \subitem {checkAllgood}, \hyperpage{13}
+    \subitem {collectAndPrint}, \hyperpage{13}
+    \subitem {collectData}, \hyperpage{14}
+    \subitem {operator$<$$<$}, \hyperpage{17}
+    \subitem {printData}, \hyperpage{15}
+    \subitem {stringStatus}, \hyperpage{16}
+  \item {AirQualitySensor.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{311}
+  \item {alarm\_}
+    \subitem {GreenHouse}, \hyperpage{70}
+  \item {AlarmSensors}, \hyperpage{18}
+    \subitem {$\sim$AlarmSensors}, \hyperpage{20}
+    \subitem {addSensor}, \hyperpage{20}
+    \subitem {AlarmSensors}, \hyperpage{19}
+    \subitem {checkAllgood}, \hyperpage{21}
+    \subitem {checkSensors}, \hyperpage{21}
+    \subitem {deleteSensor}, \hyperpage{22}
+    \subitem {displayAlarmStatus}, \hyperpage{23}
+    \subitem {displayAllSensorsData}, \hyperpage{23}
+    \subitem {fileNameBin}, \hyperpage{29}
+    \subitem {fileNameTxt}, \hyperpage{29}
+    \subitem {loadSensorsData}, \hyperpage{24}
+    \subitem {loadSensorsDataBin}, \hyperpage{24}
+    \subitem {loadSensorsDataTxt}, \hyperpage{25}
+    \subitem {saveSensorsData}, \hyperpage{25}
+    \subitem {saveSensorsDataBin}, \hyperpage{26}
+    \subitem {saveSensorsDataTxt}, \hyperpage{26}
+    \subitem {sensorExists}, \hyperpage{26}
+    \subitem {sensors\_}, \hyperpage{29}
+    \subitem {sensorsIniticialized}, \hyperpage{27}
+    \subitem {status\_}, \hyperpage{29}
+    \subitem {turnOffSystem}, \hyperpage{27}
+    \subitem {turnOnOffSystem}, \hyperpage{28}
+    \subitem {turnOnSystem}, \hyperpage{28}
+  \item {ASK\_DATA}
+    \subitem {ScreenHardware.cpp}, \hyperpage{379}
+  \item {askEmail}
+    \subitem {MonitoringSystem}, \hyperpage{119}
+  \item {askIdAlarm}
+    \subitem {MonitoringSystem}, \hyperpage{120}
+  \item {askIdCamera}
+    \subitem {MonitoringSystem}, \hyperpage{121}
+  \item {askInput}
+    \subitem {Hardware}, \hyperpage{75}
+    \subitem {KeyboardHardware}, \hyperpage{93}
+    \subitem {ScreenHardware}, \hyperpage{194}
+    \subitem {SwitchHardware}, \hyperpage{228}
+  \item {askInputInt}
+    \subitem {MonitoringSystem}, \hyperpage{121}
+  \item {askMainUser}
+    \subitem {MonitoringSystem}, \hyperpage{122}
+  \item {askName}
+    \subitem {MonitoringSystem}, \hyperpage{123}
+  \item {askNIF}
+    \subitem {MonitoringSystem}, \hyperpage{124}
+  \item {askPassword}
+    \subitem {MonitoringSystem}, \hyperpage{125}
+  \item {askPrivileges}
+    \subitem {MonitoringSystem}, \hyperpage{126}
+  \item {askTypeAlarm}
+    \subitem {MonitoringSystem}, \hyperpage{126}
+  \item {askTypeCamera}
+    \subitem {MonitoringSystem}, \hyperpage{127}
+
+  \indexspace
+
+  \item {blue\_}
+    \subitem {RGBCamera}, \hyperpage{189}
+
+  \indexspace
+
+  \item {Camera}, \hyperpage{30}
+    \subitem {$\sim$Camera}, \hyperpage{32}
+    \subitem {active\_}, \hyperpage{37}
+    \subitem {Camera}, \hyperpage{32}
+    \subitem {collectData}, \hyperpage{33}
+    \subitem {getId}, \hyperpage{33}
+    \subitem {getType}, \hyperpage{33}
+    \subitem {id\_}, \hyperpage{37}
+    \subitem {isActive}, \hyperpage{34}
+    \subitem {printCamera}, \hyperpage{34}
+    \subitem {setId}, \hyperpage{34}
+    \subitem {setType}, \hyperpage{36}
+    \subitem {turnOff}, \hyperpage{36}
+    \subitem {turnOn}, \hyperpage{36}
+    \subitem {type\_}, \hyperpage{37}
+  \item {cameras\_}
+    \subitem {ManageCameras}, \hyperpage{113}
+  \item {checkAllgood}
+    \subitem {AirQualitySensor}, \hyperpage{13}
+    \subitem {AlarmSensors}, \hyperpage{21}
+    \subitem {HydrometerSensor}, \hyperpage{85}
+    \subitem {LightSensor}, \hyperpage{99}
+    \subitem {PhSensor}, \hyperpage{165}
+    \subitem {PressureSensor}, \hyperpage{174}
+    \subitem {Sensor}, \hyperpage{212}
+    \subitem {TemperatureSensor}, \hyperpage{243}
+  \item {checkSensors}
+    \subitem {AlarmSensors}, \hyperpage{21}
+  \item {cleanScreen}
+    \subitem {MonitoringSystem}, \hyperpage{128}
+    \subitem {ScreenHardware}, \hyperpage{195}
+  \item {clearCameras}
+    \subitem {ManageCameras}, \hyperpage{106}
+  \item {collectAndDisplayData}
+    \subitem {ManageCameras}, \hyperpage{106}
+  \item {collectAndPrint}
+    \subitem {AirQualitySensor}, \hyperpage{13}
+    \subitem {HydrometerSensor}, \hyperpage{85}
+    \subitem {LightSensor}, \hyperpage{99}
+    \subitem {PhSensor}, \hyperpage{165}
+    \subitem {PressureSensor}, \hyperpage{174}
+    \subitem {Sensor}, \hyperpage{213}
+    \subitem {TemperatureSensor}, \hyperpage{243}
+  \item {collectData}
+    \subitem {AirQualitySensor}, \hyperpage{14}
+    \subitem {Camera}, \hyperpage{33}
+    \subitem {HydrometerSensor}, \hyperpage{86}
+    \subitem {LightSensor}, \hyperpage{100}
+    \subitem {ManageCameras}, \hyperpage{106}
+    \subitem {PhSensor}, \hyperpage{166}
+    \subitem {PressureSensor}, \hyperpage{175}
+    \subitem {RGBCamera}, \hyperpage{182}
+    \subitem {Sensor}, \hyperpage{213}
+    \subitem {TemperatureCamera}, \hyperpage{235}
+    \subitem {TemperatureSensor}, \hyperpage{244}
+  \item {createAlarmScreen}
+    \subitem {MonitoringSystem}, \hyperpage{129}
+  \item {createAlarmWindow}
+    \subitem {ScreenHardware}, \hyperpage{196}
+  \item {createCamera}
+    \subitem {ManageCameras}, \hyperpage{107}
+  \item {createCameraScreen}
+    \subitem {MonitoringSystem}, \hyperpage{130}
+  \item {createCameraWindow}
+    \subitem {ScreenHardware}, \hyperpage{196}
+  \item {createUser}
+    \subitem {UsersServer}, \hyperpage{298}
+  \item {createUserScreen}
+    \subitem {MonitoringSystem}, \hyperpage{130}
+  \item {createUserWindow}
+    \subitem {ScreenHardware}, \hyperpage{197}
+
+  \indexspace
+
+  \item {data\_}
+    \subitem {KeyboardHardware}, \hyperpage{95}
+    \subitem {Sensor}, \hyperpage{225}
+  \item {deleteAlarmScreen}
+    \subitem {MonitoringSystem}, \hyperpage{131}
+  \item {deleteAlarmWindow}
+    \subitem {ScreenHardware}, \hyperpage{197}
+  \item {deleteCameraScreen}
+    \subitem {MonitoringSystem}, \hyperpage{132}
+  \item {deleteCameraWindow}
+    \subitem {ScreenHardware}, \hyperpage{198}
+  \item {deleteSensor}
+    \subitem {AlarmSensors}, \hyperpage{22}
+  \item {deleteUser}
+    \subitem {UsersDatabase}, \hyperpage{282}
+    \subitem {UsersServer}, \hyperpage{299}
+  \item {deleteUserByEmail}
+    \subitem {UsersDatabase}, \hyperpage{283}
+  \item {deleteUserByName}
+    \subitem {UsersDatabase}, \hyperpage{284}
+  \item {deleteUserByNif}
+    \subitem {UsersDatabase}, \hyperpage{285}
+  \item {deleteUserScreen}
+    \subitem {MonitoringSystem}, \hyperpage{133}
+  \item {deleteUserWindow}
+    \subitem {ScreenHardware}, \hyperpage{198}
+  \item {displayAlarmsScreen}
+    \subitem {MonitoringSystem}, \hyperpage{133}
+  \item {displayAlarmStatus}
+    \subitem {AlarmSensors}, \hyperpage{23}
+  \item {displayAlarmsWindow}
+    \subitem {ScreenHardware}, \hyperpage{199}
+  \item {displayAllCameras}
+    \subitem {ManageCameras}, \hyperpage{108}
+  \item {displayAllSensorsData}
+    \subitem {AlarmSensors}, \hyperpage{23}
+  \item {displayCameraScreen}
+    \subitem {MonitoringSystem}, \hyperpage{134}
+  \item {displayCameraWindow}
+    \subitem {ScreenHardware}, \hyperpage{199}
+  \item {displayErrorScreen}
+    \subitem {MonitoringSystem}, \hyperpage{135}
+  \item {displayErrorWindow}
+    \subitem {ScreenHardware}, \hyperpage{200}
+  \item {displayOutput}
+    \subitem {Hardware}, \hyperpage{75}
+    \subitem {KeyboardHardware}, \hyperpage{93}
+    \subitem {ScreenHardware}, \hyperpage{200}
+    \subitem {SwitchHardware}, \hyperpage{229}
+  \item {displaySensorsScreen}
+    \subitem {MonitoringSystem}, \hyperpage{136}
+  \item {displaySensorsWindow}
+    \subitem {ScreenHardware}, \hyperpage{201}
+  \item {displayUsersScreen}
+    \subitem {MonitoringSystem}, \hyperpage{137}
+  \item {displayUsersWindow}
+    \subitem {ScreenHardware}, \hyperpage{201}
+
+  \indexspace
+
+  \item {email}
+    \subitem {User}, \hyperpage{263}
+  \item {emailSelectedUser\_}
+    \subitem {MonitoringSystem}, \hyperpage{157}
+  \item {EMPLOYEE\_MENU\_OPTIONS}
+    \subitem {MonitoringSystem.cpp}, \hyperpage{370}
+    \subitem {MonitoringSystem.h}, \hyperpage{372}
+  \item {exitScreen}
+    \subitem {MonitoringSystem}, \hyperpage{137}
+  \item {exitWindow}
+    \subitem {ScreenHardware}, \hyperpage{201}
+
+  \indexspace
+
+  \item {FileCloseError}, \hyperpage{38}
+    \subitem {FileCloseError}, \hyperpage{39}
+  \item {FileCorruptError}, \hyperpage{39}
+    \subitem {FileCorruptError}, \hyperpage{40}
+  \item {FileLockError}, \hyperpage{41}
+    \subitem {FileLockError}, \hyperpage{42}
+  \item {filename\_}
+    \subitem {ManageCameras}, \hyperpage{114}
+  \item {fileNameBi\_}
+    \subitem {UsersServer}, \hyperpage{308}
+  \item {fileNameBin}
+    \subitem {AlarmSensors}, \hyperpage{29}
+  \item {fileNameTxt}
+    \subitem {AlarmSensors}, \hyperpage{29}
+  \item {fileNameTxt\_}
+    \subitem {UsersServer}, \hyperpage{308}
+  \item {FileNotFoundError}, \hyperpage{42}
+    \subitem {FileNotFoundError}, \hyperpage{44}
+  \item {FileOpenError}, \hyperpage{44}
+    \subitem {FileOpenError}, \hyperpage{45}
+  \item {FilePermissionError}, \hyperpage{46}
+    \subitem {FilePermissionError}, \hyperpage{47}
+  \item {FileReadError}, \hyperpage{47}
+    \subitem {FileReadError}, \hyperpage{49}
+  \item {FileWriteError}, \hyperpage{49}
+    \subitem {FileWriteError}, \hyperpage{50}
+  \item {findCamera}
+    \subitem {ManageCameras}, \hyperpage{108}
+  \item {findUser}
+    \subitem {UsersDatabase}, \hyperpage{286}
+  \item {findUserByEmail}
+    \subitem {UsersDatabase}, \hyperpage{287}
+  \item {findUserByName}
+    \subitem {UsersDatabase}, \hyperpage{288}
+  \item {findUserByNif}
+    \subitem {UsersDatabase}, \hyperpage{289}
+  \item {findUserByPassword}
+    \subitem {UsersDatabase}, \hyperpage{290}
+  \item {findUserLogin}
+    \subitem {UsersServer}, \hyperpage{299}
+
+  \indexspace
+
+  \item {getBlue}
+    \subitem {RGBCamera}, \hyperpage{183}
+  \item {getData}
+    \subitem {Sensor}, \hyperpage{214}
+  \item {getEmail}
+    \subitem {User}, \hyperpage{252}
+  \item {getEmailSelectedUser}
+    \subitem {MonitoringSystem}, \hyperpage{138}
+  \item {getGreen}
+    \subitem {RGBCamera}, \hyperpage{183}
+  \item {getId}
+    \subitem {Camera}, \hyperpage{33}
+    \subitem {Sensor}, \hyperpage{215}
+  \item {getIdAlarm}
+    \subitem {MonitoringSystem}, \hyperpage{139}
+  \item {getIdCamera}
+    \subitem {MonitoringSystem}, \hyperpage{139}
+  \item {getIdSelectedAlarm}
+    \subitem {MonitoringSystem}, \hyperpage{140}
+  \item {getIdSelectedCamera}
+    \subitem {MonitoringSystem}, \hyperpage{140}
+  \item {getName}
+    \subitem {MonitoringSystem}, \hyperpage{141}
+    \subitem {User}, \hyperpage{253}
+  \item {getNameSelectedUser}
+    \subitem {MonitoringSystem}, \hyperpage{141}
+  \item {getNIF}
+    \subitem {MonitoringSystem}, \hyperpage{142}
+  \item {getNif}
+    \subitem {User}, \hyperpage{254}
+  \item {getNIFSelectedUser}
+    \subitem {MonitoringSystem}, \hyperpage{142}
+  \item {getPassword}
+    \subitem {MonitoringSystem}, \hyperpage{143}
+    \subitem {User}, \hyperpage{254}
+  \item {getPasswordSelectedUser}
+    \subitem {MonitoringSystem}, \hyperpage{143}
+  \item {getPrivileges}
+    \subitem {User}, \hyperpage{255}
+    \subitem {UsersServer}, \hyperpage{300}
+  \item {getPrivilegesSelectedUser}
+    \subitem {MonitoringSystem}, \hyperpage{144}
+  \item {getRed}
+    \subitem {RGBCamera}, \hyperpage{184}
+  \item {getSelection}
+    \subitem {MonitoringSystem}, \hyperpage{144}
+  \item {getTemperature}
+    \subitem {TemperatureCamera}, \hyperpage{236}
+  \item {getType}
+    \subitem {Camera}, \hyperpage{33}
+    \subitem {Hardware}, \hyperpage{76}
+    \subitem {Sensor}, \hyperpage{216}
+  \item {getTypeAlarm}
+    \subitem {MonitoringSystem}, \hyperpage{145}
+  \item {getTypeCamera}
+    \subitem {MonitoringSystem}, \hyperpage{145}
+  \item {getUsers}
+    \subitem {UsersDatabase}, \hyperpage{290}
+  \item {getUsersSortedByName}
+    \subitem {UsersDatabase}, \hyperpage{291}
+  \item {green\_}
+    \subitem {RGBCamera}, \hyperpage{189}
+  \item {GreenHouse}, \hyperpage{51}
+    \subitem {$\sim$GreenHouse}, \hyperpage{53}
+    \subitem {alarm\_}, \hyperpage{70}
+    \subitem {GreenHouse}, \hyperpage{53}
+    \subitem {mainSystem}, \hyperpage{53}
+    \subitem {manageAdmin}, \hyperpage{55}
+    \subitem {manageCreateUser}, \hyperpage{59}
+    \subitem {manageDeleteUser}, \hyperpage{59}
+    \subitem {manageEmployee}, \hyperpage{60}
+    \subitem {manageGuest}, \hyperpage{63}
+    \subitem {manageLogin}, \hyperpage{64}
+    \subitem {manageUpdateUser}, \hyperpage{67}
+    \subitem {mc\_}, \hyperpage{70}
+    \subitem {ms\_}, \hyperpage{71}
+    \subitem {save}, \hyperpage{68}
+    \subitem {searchUser}, \hyperpage{68}
+    \subitem {sleep}, \hyperpage{69}
+    \subitem {startSystem}, \hyperpage{69}
+    \subitem {us\_}, \hyperpage{71}
+  \item {GUEST\_MENU\_OPTIONS}
+    \subitem {MonitoringSystem.cpp}, \hyperpage{370}
+    \subitem {MonitoringSystem.h}, \hyperpage{372}
+
+  \indexspace
+
+  \item {Hardware}, \hyperpage{72}
+    \subitem {$\sim$Hardware}, \hyperpage{75}
+    \subitem {active\_}, \hyperpage{81}
+    \subitem {askInput}, \hyperpage{75}
+    \subitem {displayOutput}, \hyperpage{75}
+    \subitem {getType}, \hyperpage{76}
+    \subitem {Hardware}, \hyperpage{74, 75}
+    \subitem {isActive}, \hyperpage{76}
+    \subitem {KEYBOARD}, \hyperpage{74}
+    \subitem {NONE}, \hyperpage{74}
+    \subitem {SCREEN}, \hyperpage{74}
+    \subitem {setType}, \hyperpage{77}
+    \subitem {stringStatus}, \hyperpage{78}
+    \subitem {stringToType}, \hyperpage{79}
+    \subitem {SWITCH}, \hyperpage{74}
+    \subitem {turnOff}, \hyperpage{80}
+    \subitem {turnOn}, \hyperpage{80}
+    \subitem {type\_}, \hyperpage{81}
+    \subitem {Types\_Hardware}, \hyperpage{74}
+    \subitem {typeToString}, \hyperpage{80}
+  \item {HYDROMETER}
+    \subitem {Sensor}, \hyperpage{211}
+  \item {HydrometerSensor}, \hyperpage{82}
+    \subitem {$\sim$HydrometerSensor}, \hyperpage{84}
+    \subitem {checkAllgood}, \hyperpage{85}
+    \subitem {collectAndPrint}, \hyperpage{85}
+    \subitem {collectData}, \hyperpage{86}
+    \subitem {HydrometerSensor}, \hyperpage{84}
+    \subitem {operator$<$$<$}, \hyperpage{89}
+    \subitem {printData}, \hyperpage{87}
+    \subitem {stringStatus}, \hyperpage{88}
+  \item {HydrometerSensor.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{321}
+
+  \indexspace
+
+  \item {id\_}
+    \subitem {Camera}, \hyperpage{37}
+    \subitem {Sensor}, \hyperpage{225}
+  \item {idAlarm\_}
+    \subitem {MonitoringSystem}, \hyperpage{157}
+  \item {idCamera\_}
+    \subitem {MonitoringSystem}, \hyperpage{157}
+  \item {idSelectedAlarm\_}
+    \subitem {MonitoringSystem}, \hyperpage{157}
+  \item {idSelectedCamera\_}
+    \subitem {MonitoringSystem}, \hyperpage{158}
+  \item {initialScreen}
+    \subitem {MonitoringSystem}, \hyperpage{146}
+  \item {initialWindow}
+    \subitem {ScreenHardware}, \hyperpage{202}
+  \item {inputCorrect}
+    \subitem {MonitoringSystem}, \hyperpage{147}
+  \item {isActive}
+    \subitem {Camera}, \hyperpage{34}
+    \subitem {Hardware}, \hyperpage{76}
+    \subitem {Sensor}, \hyperpage{217}
+  \item {isValidPrivileges}
+    \subitem {UsersDatabase}, \hyperpage{291}
+
+  \indexspace
+
+  \item {KEYBOARD}
+    \subitem {Hardware}, \hyperpage{74}
+  \item {keyboard}
+    \subitem {MonitoringSystem}, \hyperpage{158}
+  \item {KeyboardHardware}, \hyperpage{90}
+    \subitem {$\sim$KeyboardHardware}, \hyperpage{92}
+    \subitem {askInput}, \hyperpage{93}
+    \subitem {data\_}, \hyperpage{95}
+    \subitem {displayOutput}, \hyperpage{93}
+    \subitem {KeyboardHardware}, \hyperpage{92}
+    \subitem {stringData\_}, \hyperpage{95}
+    \subitem {stringInput}, \hyperpage{94}
+
+  \indexspace
+
+  \item {LIGHT\_SENSOR}
+    \subitem {Sensor}, \hyperpage{211}
+  \item {LightSensor}, \hyperpage{95}
+    \subitem {$\sim$LightSensor}, \hyperpage{98}
+    \subitem {checkAllgood}, \hyperpage{99}
+    \subitem {collectAndPrint}, \hyperpage{99}
+    \subitem {collectData}, \hyperpage{100}
+    \subitem {LightSensor}, \hyperpage{98}
+    \subitem {operator$<$$<$}, \hyperpage{103}
+    \subitem {printData}, \hyperpage{101}
+    \subitem {stringStatus}, \hyperpage{102}
+  \item {LightSensor.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{325}
+  \item {loadCameras}
+    \subitem {ManageCameras}, \hyperpage{109}
+  \item {loadSensorsData}
+    \subitem {AlarmSensors}, \hyperpage{24}
+  \item {loadSensorsDataBin}
+    \subitem {AlarmSensors}, \hyperpage{24}
+  \item {loadSensorsDataTxt}
+    \subitem {AlarmSensors}, \hyperpage{25}
+  \item {loadUsersFromFile}
+    \subitem {UsersServer}, \hyperpage{301}
+  \item {loginScreen}
+    \subitem {MonitoringSystem}, \hyperpage{147}
+  \item {loginWindow}
+    \subitem {ScreenHardware}, \hyperpage{202}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{327}
+    \subitem {mainAirQualitySensor.cpp}, \hyperpage{328}
+    \subitem {mainAlarmSensors.cpp}, \hyperpage{329}
+    \subitem {mainGreenHouse.cpp}, \hyperpage{331}
+    \subitem {mainHardware.cpp}, \hyperpage{333}
+    \subitem {mainHydrometerSensor.cpp}, \hyperpage{334}
+    \subitem {mainKeyboardHardware.cpp}, \hyperpage{336}
+    \subitem {mainLightSensor.cpp}, \hyperpage{338}
+    \subitem {mainManageCameras.cpp}, \hyperpage{339}
+    \subitem {mainMonitoringSystem.cpp}, \hyperpage{341}
+    \subitem {mainPhSensor.cpp}, \hyperpage{343}
+    \subitem {mainPressureSensor.cpp}, \hyperpage{344}
+    \subitem {mainRGBCamera.cpp}, \hyperpage{345}
+    \subitem {mainScreenHardware.cpp}, \hyperpage{347}
+    \subitem {mainSensor.cpp}, \hyperpage{349}
+    \subitem {mainSwitchHardware.cpp}, \hyperpage{352}
+    \subitem {mainTemperatureCamera.cpp}, \hyperpage{353}
+    \subitem {mainTemperatureSensor.cpp}, \hyperpage{355}
+    \subitem {mainUser.cpp}, \hyperpage{356}
+    \subitem {mainUserAdmin.cpp}, \hyperpage{359}
+    \subitem {mainUserEmployee.cpp}, \hyperpage{361}
+    \subitem {mainUserGuest.cpp}, \hyperpage{362}
+    \subitem {mainUsersDatabase.cpp}, \hyperpage{364}
+    \subitem {mainUsersServer.cpp}, \hyperpage{366}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{327}
+  \item {MAIN\_MENU\_OPTIONS}
+    \subitem {MonitoringSystem.cpp}, \hyperpage{371}
+    \subitem {MonitoringSystem.h}, \hyperpage{373}
+  \item {mainAirQualitySensor.cpp}
+    \subitem {main}, \hyperpage{328}
+  \item {mainAlarmSensors.cpp}
+    \subitem {main}, \hyperpage{329}
+  \item {mainGreenHouse.cpp}
+    \subitem {main}, \hyperpage{331}
+  \item {mainHardware.cpp}
+    \subitem {main}, \hyperpage{333}
+  \item {mainHydrometerSensor.cpp}
+    \subitem {main}, \hyperpage{334}
+  \item {mainKeyboardHardware.cpp}
+    \subitem {main}, \hyperpage{336}
+  \item {mainLightSensor.cpp}
+    \subitem {main}, \hyperpage{338}
+  \item {mainManageCameras.cpp}
+    \subitem {main}, \hyperpage{339}
+  \item {mainMonitoringSystem.cpp}
+    \subitem {main}, \hyperpage{341}
+  \item {mainPhSensor.cpp}
+    \subitem {main}, \hyperpage{343}
+  \item {mainPressureSensor.cpp}
+    \subitem {main}, \hyperpage{344}
+  \item {mainRGBCamera.cpp}
+    \subitem {main}, \hyperpage{345}
+  \item {mainScreenHardware.cpp}
+    \subitem {main}, \hyperpage{347}
+  \item {mainSensor.cpp}
+    \subitem {main}, \hyperpage{349}
+  \item {mainSwitchHardware.cpp}
+    \subitem {main}, \hyperpage{352}
+  \item {mainSystem}
+    \subitem {GreenHouse}, \hyperpage{53}
+  \item {mainTemperatureCamera.cpp}
+    \subitem {main}, \hyperpage{353}
+  \item {mainTemperatureSensor.cpp}
+    \subitem {main}, \hyperpage{355}
+  \item {mainUser.cpp}
+    \subitem {main}, \hyperpage{356}
+  \item {mainUserAdmin.cpp}
+    \subitem {main}, \hyperpage{359}
+  \item {mainUserEmployee.cpp}
+    \subitem {main}, \hyperpage{361}
+  \item {mainUserGuest.cpp}
+    \subitem {main}, \hyperpage{362}
+  \item {mainUsersDatabase.cpp}
+    \subitem {main}, \hyperpage{364}
+  \item {mainUsersServer.cpp}
+    \subitem {main}, \hyperpage{366}
+  \item {mainWindowAdmin}
+    \subitem {MonitoringSystem}, \hyperpage{148}
+    \subitem {ScreenHardware}, \hyperpage{203}
+  \item {mainWindowEmployee}
+    \subitem {MonitoringSystem}, \hyperpage{149}
+    \subitem {ScreenHardware}, \hyperpage{204}
+  \item {mainWindowGuest}
+    \subitem {MonitoringSystem}, \hyperpage{150}
+    \subitem {ScreenHardware}, \hyperpage{205}
+  \item {manageAdmin}
+    \subitem {GreenHouse}, \hyperpage{55}
+  \item {ManageCameras}, \hyperpage{103}
+    \subitem {$\sim$ManageCameras}, \hyperpage{105}
+    \subitem {addCamera}, \hyperpage{105}
+    \subitem {cameras\_}, \hyperpage{113}
+    \subitem {clearCameras}, \hyperpage{106}
+    \subitem {collectAndDisplayData}, \hyperpage{106}
+    \subitem {collectData}, \hyperpage{106}
+    \subitem {createCamera}, \hyperpage{107}
+    \subitem {displayAllCameras}, \hyperpage{108}
+    \subitem {filename\_}, \hyperpage{114}
+    \subitem {findCamera}, \hyperpage{108}
+    \subitem {loadCameras}, \hyperpage{109}
+    \subitem {ManageCameras}, \hyperpage{105}
+    \subitem {removeCamera}, \hyperpage{110}
+    \subitem {saveCameras}, \hyperpage{111}
+    \subitem {turnOffCameras}, \hyperpage{112}
+    \subitem {turnOnCameras}, \hyperpage{113}
+    \subitem {turnOnOffCameras}, \hyperpage{113}
+  \item {manageCreateUser}
+    \subitem {GreenHouse}, \hyperpage{59}
+  \item {manageDeleteUser}
+    \subitem {GreenHouse}, \hyperpage{59}
+  \item {manageEmployee}
+    \subitem {GreenHouse}, \hyperpage{60}
+  \item {manageGuest}
+    \subitem {GreenHouse}, \hyperpage{63}
+  \item {manageLogin}
+    \subitem {GreenHouse}, \hyperpage{64}
+  \item {manageUpdateUser}
+    \subitem {GreenHouse}, \hyperpage{67}
+  \item {mc\_}
+    \subitem {GreenHouse}, \hyperpage{70}
+  \item {MonitoringSystem}, \hyperpage{114}
+    \subitem {$\sim$MonitoringSystem}, \hyperpage{119}
+    \subitem {askEmail}, \hyperpage{119}
+    \subitem {askIdAlarm}, \hyperpage{120}
+    \subitem {askIdCamera}, \hyperpage{121}
+    \subitem {askInputInt}, \hyperpage{121}
+    \subitem {askMainUser}, \hyperpage{122}
+    \subitem {askName}, \hyperpage{123}
+    \subitem {askNIF}, \hyperpage{124}
+    \subitem {askPassword}, \hyperpage{125}
+    \subitem {askPrivileges}, \hyperpage{126}
+    \subitem {askTypeAlarm}, \hyperpage{126}
+    \subitem {askTypeCamera}, \hyperpage{127}
+    \subitem {cleanScreen}, \hyperpage{128}
+    \subitem {createAlarmScreen}, \hyperpage{129}
+    \subitem {createCameraScreen}, \hyperpage{130}
+    \subitem {createUserScreen}, \hyperpage{130}
+    \subitem {deleteAlarmScreen}, \hyperpage{131}
+    \subitem {deleteCameraScreen}, \hyperpage{132}
+    \subitem {deleteUserScreen}, \hyperpage{133}
+    \subitem {displayAlarmsScreen}, \hyperpage{133}
+    \subitem {displayCameraScreen}, \hyperpage{134}
+    \subitem {displayErrorScreen}, \hyperpage{135}
+    \subitem {displaySensorsScreen}, \hyperpage{136}
+    \subitem {displayUsersScreen}, \hyperpage{137}
+    \subitem {emailSelectedUser\_}, \hyperpage{157}
+    \subitem {exitScreen}, \hyperpage{137}
+    \subitem {getEmailSelectedUser}, \hyperpage{138}
+    \subitem {getIdAlarm}, \hyperpage{139}
+    \subitem {getIdCamera}, \hyperpage{139}
+    \subitem {getIdSelectedAlarm}, \hyperpage{140}
+    \subitem {getIdSelectedCamera}, \hyperpage{140}
+    \subitem {getName}, \hyperpage{141}
+    \subitem {getNameSelectedUser}, \hyperpage{141}
+    \subitem {getNIF}, \hyperpage{142}
+    \subitem {getNIFSelectedUser}, \hyperpage{142}
+    \subitem {getPassword}, \hyperpage{143}
+    \subitem {getPasswordSelectedUser}, \hyperpage{143}
+    \subitem {getPrivilegesSelectedUser}, \hyperpage{144}
+    \subitem {getSelection}, \hyperpage{144}
+    \subitem {getTypeAlarm}, \hyperpage{145}
+    \subitem {getTypeCamera}, \hyperpage{145}
+    \subitem {idAlarm\_}, \hyperpage{157}
+    \subitem {idCamera\_}, \hyperpage{157}
+    \subitem {idSelectedAlarm\_}, \hyperpage{157}
+    \subitem {idSelectedCamera\_}, \hyperpage{158}
+    \subitem {initialScreen}, \hyperpage{146}
+    \subitem {inputCorrect}, \hyperpage{147}
+    \subitem {keyboard}, \hyperpage{158}
+    \subitem {loginScreen}, \hyperpage{147}
+    \subitem {mainWindowAdmin}, \hyperpage{148}
+    \subitem {mainWindowEmployee}, \hyperpage{149}
+    \subitem {mainWindowGuest}, \hyperpage{150}
+    \subitem {MonitoringSystem}, \hyperpage{119}
+    \subitem {name\_}, \hyperpage{158}
+    \subitem {nameSelectedUser\_}, \hyperpage{158}
+    \subitem {nif\_}, \hyperpage{159}
+    \subitem {nifSelectedUser\_}, \hyperpage{159}
+    \subitem {password\_}, \hyperpage{159}
+    \subitem {passwordSelectedUser\_}, \hyperpage{159}
+    \subitem {privilegesSelectedUser\_}, \hyperpage{160}
+    \subitem {saveAlarmScreen}, \hyperpage{151}
+    \subitem {saveCameraScreen}, \hyperpage{151}
+    \subitem {saveUsersScreen}, \hyperpage{152}
+    \subitem {screen}, \hyperpage{160}
+    \subitem {selection\_}, \hyperpage{160}
+    \subitem {selectUser}, \hyperpage{153}
+    \subitem {shortSelectUser}, \hyperpage{154}
+    \subitem {sw}, \hyperpage{160}
+    \subitem {turnOnOffCameraScreen}, \hyperpage{154}
+    \subitem {turnOnOffSystemScreen}, \hyperpage{155}
+    \subitem {typeAlarm\_}, \hyperpage{161}
+    \subitem {typeCamera\_}, \hyperpage{161}
+    \subitem {updateUserScreen}, \hyperpage{156}
+  \item {MonitoringSystem.cpp}
+    \subitem {ADMIN\_MENU\_OPTIONS}, \hyperpage{370}
+    \subitem {EMPLOYEE\_MENU\_OPTIONS}, \hyperpage{370}
+    \subitem {GUEST\_MENU\_OPTIONS}, \hyperpage{370}
+    \subitem {MAIN\_MENU\_OPTIONS}, \hyperpage{371}
+  \item {MonitoringSystem.h}
+    \subitem {ADMIN\_MENU\_OPTIONS}, \hyperpage{372}
+    \subitem {EMPLOYEE\_MENU\_OPTIONS}, \hyperpage{372}
+    \subitem {GUEST\_MENU\_OPTIONS}, \hyperpage{372}
+    \subitem {MAIN\_MENU\_OPTIONS}, \hyperpage{373}
+  \item {ms\_}
+    \subitem {GreenHouse}, \hyperpage{71}
+
+  \indexspace
+
+  \item {name}
+    \subitem {User}, \hyperpage{263}
+  \item {name\_}
+    \subitem {MonitoringSystem}, \hyperpage{158}
+  \item {nameSelectedUser\_}
+    \subitem {MonitoringSystem}, \hyperpage{158}
+  \item {nif}
+    \subitem {User}, \hyperpage{263}
+  \item {nif\_}
+    \subitem {MonitoringSystem}, \hyperpage{159}
+  \item {nifSelectedUser\_}
+    \subitem {MonitoringSystem}, \hyperpage{159}
+  \item {NONE}
+    \subitem {Hardware}, \hyperpage{74}
+    \subitem {Sensor}, \hyperpage{211}
+
+  \indexspace
+
+  \item {operator$<$}
+    \subitem {Sensor}, \hyperpage{217}
+    \subitem {User}, \hyperpage{255}
+  \item {operator$<$$<$}
+    \subitem {AirQualitySensor}, \hyperpage{17}
+    \subitem {AirQualitySensor.cpp}, \hyperpage{311}
+    \subitem {HydrometerSensor}, \hyperpage{89}
+    \subitem {HydrometerSensor.cpp}, \hyperpage{321}
+    \subitem {LightSensor}, \hyperpage{103}
+    \subitem {LightSensor.cpp}, \hyperpage{325}
+    \subitem {PhSensor}, \hyperpage{170}
+    \subitem {PhSensor.cpp}, \hyperpage{374}
+    \subitem {PressureSensor}, \hyperpage{178}
+    \subitem {PressureSensor.cpp}, \hyperpage{376}
+    \subitem {Sensor}, \hyperpage{224}
+    \subitem {Sensor.cpp}, \hyperpage{381}
+    \subitem {TemperatureSensor}, \hyperpage{247}
+    \subitem {TemperatureSensor.cpp}, \hyperpage{388}
+    \subitem {User}, \hyperpage{262}
+    \subitem {User.cpp}, \hyperpage{390}
+  \item {operator$>$}
+    \subitem {Sensor}, \hyperpage{218}
+    \subitem {User}, \hyperpage{256}
+  \item {operator$>$$>$}
+    \subitem {Sensor}, \hyperpage{224}
+    \subitem {Sensor.cpp}, \hyperpage{383}
+    \subitem {User}, \hyperpage{262}
+    \subitem {User.cpp}, \hyperpage{391}
+  \item {operator()}
+    \subitem {UserNameComparator}, \hyperpage{277}
+    \subitem {UserPtrComparator}, \hyperpage{278}
+  \item {operator==}
+    \subitem {Sensor}, \hyperpage{218}
+    \subitem {User}, \hyperpage{256}
+
+  \indexspace
+
+  \item {password}
+    \subitem {User}, \hyperpage{264}
+  \item {password\_}
+    \subitem {MonitoringSystem}, \hyperpage{159}
+  \item {passwordSelectedUser\_}
+    \subitem {MonitoringSystem}, \hyperpage{159}
+  \item {PH\_SENSOR}
+    \subitem {Sensor}, \hyperpage{211}
+  \item {PhSensor}, \hyperpage{162}
+    \subitem {$\sim$PhSensor}, \hyperpage{164}
+    \subitem {checkAllgood}, \hyperpage{165}
+    \subitem {collectAndPrint}, \hyperpage{165}
+    \subitem {collectData}, \hyperpage{166}
+    \subitem {operator$<$$<$}, \hyperpage{170}
+    \subitem {PhSensor}, \hyperpage{164}
+    \subitem {printData}, \hyperpage{167}
+    \subitem {qualifyPh}, \hyperpage{168}
+    \subitem {stringStatus}, \hyperpage{169}
+  \item {PhSensor.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{374}
+  \item {PRESSURE}
+    \subitem {Sensor}, \hyperpage{211}
+  \item {PressureSensor}, \hyperpage{170}
+    \subitem {$\sim$PressureSensor}, \hyperpage{173}
+    \subitem {checkAllgood}, \hyperpage{174}
+    \subitem {collectAndPrint}, \hyperpage{174}
+    \subitem {collectData}, \hyperpage{175}
+    \subitem {operator$<$$<$}, \hyperpage{178}
+    \subitem {PressureSensor}, \hyperpage{173}
+    \subitem {printData}, \hyperpage{176}
+    \subitem {stringStatus}, \hyperpage{177}
+  \item {PressureSensor.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{376}
+  \item {printCamera}
+    \subitem {Camera}, \hyperpage{34}
+    \subitem {RGBCamera}, \hyperpage{184}
+    \subitem {TemperatureCamera}, \hyperpage{236}
+  \item {printData}
+    \subitem {AirQualitySensor}, \hyperpage{15}
+    \subitem {HydrometerSensor}, \hyperpage{87}
+    \subitem {LightSensor}, \hyperpage{101}
+    \subitem {PhSensor}, \hyperpage{167}
+    \subitem {PressureSensor}, \hyperpage{176}
+    \subitem {Sensor}, \hyperpage{219}
+    \subitem {TemperatureSensor}, \hyperpage{245}
+  \item {printDeletedUser}
+    \subitem {UsersDatabase}, \hyperpage{292}
+  \item {printUser}
+    \subitem {User}, \hyperpage{257}
+  \item {printUsers}
+    \subitem {UsersDatabase}, \hyperpage{293}
+  \item {printUsersServer}
+    \subitem {UsersServer}, \hyperpage{302}
+  \item {privileges}
+    \subitem {User}, \hyperpage{264}
+  \item {privilegesSelectedUser\_}
+    \subitem {MonitoringSystem}, \hyperpage{160}
+
+  \indexspace
+
+  \item {qualifyPh}
+    \subitem {PhSensor}, \hyperpage{168}
+
+  \indexspace
+
+  \item {randomComponent}
+    \subitem {RGBCamera}, \hyperpage{185}
+  \item {randomTemperature}
+    \subitem {TemperatureCamera}, \hyperpage{237}
+  \item {readUsersFromFileBi}
+    \subitem {UsersServer}, \hyperpage{302}
+  \item {readUsersFromFileTxt}
+    \subitem {UsersServer}, \hyperpage{304}
+  \item {red\_}
+    \subitem {RGBCamera}, \hyperpage{189}
+  \item {removeCamera}
+    \subitem {ManageCameras}, \hyperpage{110}
+  \item {RGBCamera}, \hyperpage{179}
+    \subitem {$\sim$RGBCamera}, \hyperpage{182}
+    \subitem {blue\_}, \hyperpage{189}
+    \subitem {collectData}, \hyperpage{182}
+    \subitem {getBlue}, \hyperpage{183}
+    \subitem {getGreen}, \hyperpage{183}
+    \subitem {getRed}, \hyperpage{184}
+    \subitem {green\_}, \hyperpage{189}
+    \subitem {printCamera}, \hyperpage{184}
+    \subitem {randomComponent}, \hyperpage{185}
+    \subitem {red\_}, \hyperpage{189}
+    \subitem {RGBCamera}, \hyperpage{181}
+    \subitem {setBlue}, \hyperpage{186}
+    \subitem {setGreen}, \hyperpage{187}
+    \subitem {setRed}, \hyperpage{187}
+    \subitem {setRGB}, \hyperpage{188}
+
+  \indexspace
+
+  \item {save}
+    \subitem {GreenHouse}, \hyperpage{68}
+  \item {saveAlarmScreen}
+    \subitem {MonitoringSystem}, \hyperpage{151}
+  \item {saveAlarmWindow}
+    \subitem {ScreenHardware}, \hyperpage{205}
+  \item {saveCameras}
+    \subitem {ManageCameras}, \hyperpage{111}
+  \item {saveCameraScreen}
+    \subitem {MonitoringSystem}, \hyperpage{151}
+  \item {saveCameraWindow}
+    \subitem {ScreenHardware}, \hyperpage{205}
+  \item {saveSensorsData}
+    \subitem {AlarmSensors}, \hyperpage{25}
+  \item {saveSensorsDataBin}
+    \subitem {AlarmSensors}, \hyperpage{26}
+  \item {saveSensorsDataTxt}
+    \subitem {AlarmSensors}, \hyperpage{26}
+  \item {saveUsersScreen}
+    \subitem {MonitoringSystem}, \hyperpage{152}
+  \item {saveUsersToFile}
+    \subitem {UsersServer}, \hyperpage{305}
+  \item {saveUsersWindow}
+    \subitem {ScreenHardware}, \hyperpage{206}
+  \item {SCREEN}
+    \subitem {Hardware}, \hyperpage{74}
+  \item {screen}
+    \subitem {MonitoringSystem}, \hyperpage{160}
+  \item {ScreenHardware}, \hyperpage{190}
+    \subitem {$\sim$ScreenHardware}, \hyperpage{194}
+    \subitem {askInput}, \hyperpage{194}
+    \subitem {cleanScreen}, \hyperpage{195}
+    \subitem {createAlarmWindow}, \hyperpage{196}
+    \subitem {createCameraWindow}, \hyperpage{196}
+    \subitem {createUserWindow}, \hyperpage{197}
+    \subitem {deleteAlarmWindow}, \hyperpage{197}
+    \subitem {deleteCameraWindow}, \hyperpage{198}
+    \subitem {deleteUserWindow}, \hyperpage{198}
+    \subitem {displayAlarmsWindow}, \hyperpage{199}
+    \subitem {displayCameraWindow}, \hyperpage{199}
+    \subitem {displayErrorWindow}, \hyperpage{200}
+    \subitem {displayOutput}, \hyperpage{200}
+    \subitem {displaySensorsWindow}, \hyperpage{201}
+    \subitem {displayUsersWindow}, \hyperpage{201}
+    \subitem {exitWindow}, \hyperpage{201}
+    \subitem {initialWindow}, \hyperpage{202}
+    \subitem {loginWindow}, \hyperpage{202}
+    \subitem {mainWindowAdmin}, \hyperpage{203}
+    \subitem {mainWindowEmployee}, \hyperpage{204}
+    \subitem {mainWindowGuest}, \hyperpage{205}
+    \subitem {saveAlarmWindow}, \hyperpage{205}
+    \subitem {saveCameraWindow}, \hyperpage{205}
+    \subitem {saveUsersWindow}, \hyperpage{206}
+    \subitem {ScreenHardware}, \hyperpage{194}
+    \subitem {turnOnOffCameraWindow}, \hyperpage{206}
+    \subitem {turnOnOffSystemWindow}, \hyperpage{207}
+    \subitem {updateUserWindow}, \hyperpage{207}
+  \item {ScreenHardware.cpp}
+    \subitem {ASK\_DATA}, \hyperpage{379}
+    \subitem {USER\_PROMPT}, \hyperpage{380}
+  \item {searchUser}
+    \subitem {GreenHouse}, \hyperpage{68}
+  \item {selection\_}
+    \subitem {MonitoringSystem}, \hyperpage{160}
+  \item {selectUser}
+    \subitem {MonitoringSystem}, \hyperpage{153}
+  \item {Sensor}, \hyperpage{208}
+    \subitem {$\sim$Sensor}, \hyperpage{212}
+    \subitem {active\_}, \hyperpage{225}
+    \subitem {AIR\_QUALITY}, \hyperpage{211}
+    \subitem {checkAllgood}, \hyperpage{212}
+    \subitem {collectAndPrint}, \hyperpage{213}
+    \subitem {collectData}, \hyperpage{213}
+    \subitem {data\_}, \hyperpage{225}
+    \subitem {getData}, \hyperpage{214}
+    \subitem {getId}, \hyperpage{215}
+    \subitem {getType}, \hyperpage{216}
+    \subitem {HYDROMETER}, \hyperpage{211}
+    \subitem {id\_}, \hyperpage{225}
+    \subitem {isActive}, \hyperpage{217}
+    \subitem {LIGHT\_SENSOR}, \hyperpage{211}
+    \subitem {NONE}, \hyperpage{211}
+    \subitem {operator$<$}, \hyperpage{217}
+    \subitem {operator$<$$<$}, \hyperpage{224}
+    \subitem {operator$>$}, \hyperpage{218}
+    \subitem {operator$>$$>$}, \hyperpage{224}
+    \subitem {operator==}, \hyperpage{218}
+    \subitem {PH\_SENSOR}, \hyperpage{211}
+    \subitem {PRESSURE}, \hyperpage{211}
+    \subitem {printData}, \hyperpage{219}
+    \subitem {Sensor}, \hyperpage{211, 212}
+    \subitem {setData}, \hyperpage{219}
+    \subitem {setId}, \hyperpage{220}
+    \subitem {setType}, \hyperpage{221}
+    \subitem {stringToType}, \hyperpage{221}
+    \subitem {TEMPERATURE}, \hyperpage{211}
+    \subitem {turnOff}, \hyperpage{222}
+    \subitem {turnOn}, \hyperpage{222}
+    \subitem {type\_}, \hyperpage{225}
+    \subitem {Types}, \hyperpage{211}
+    \subitem {typeToString}, \hyperpage{223}
+  \item {Sensor.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{381}
+    \subitem {operator$>$$>$}, \hyperpage{383}
+  \item {sensorExists}
+    \subitem {AlarmSensors}, \hyperpage{26}
+  \item {sensors\_}
+    \subitem {AlarmSensors}, \hyperpage{29}
+  \item {sensorsIniticialized}
+    \subitem {AlarmSensors}, \hyperpage{27}
+  \item {setBlue}
+    \subitem {RGBCamera}, \hyperpage{186}
+  \item {setData}
+    \subitem {Sensor}, \hyperpage{219}
+  \item {setEmail}
+    \subitem {User}, \hyperpage{257}
+  \item {setGreen}
+    \subitem {RGBCamera}, \hyperpage{187}
+  \item {setId}
+    \subitem {Camera}, \hyperpage{34}
+    \subitem {Sensor}, \hyperpage{220}
+  \item {setName}
+    \subitem {User}, \hyperpage{258}
+  \item {setNif}
+    \subitem {User}, \hyperpage{259}
+  \item {setPassword}
+    \subitem {User}, \hyperpage{260}
+  \item {setPrivileges}
+    \subitem {User}, \hyperpage{261}
+  \item {setRed}
+    \subitem {RGBCamera}, \hyperpage{187}
+  \item {setRGB}
+    \subitem {RGBCamera}, \hyperpage{188}
+  \item {setTemperature}
+    \subitem {TemperatureCamera}, \hyperpage{238}
+  \item {setType}
+    \subitem {Camera}, \hyperpage{36}
+    \subitem {Hardware}, \hyperpage{77}
+    \subitem {Sensor}, \hyperpage{221}
+  \item {setUsers}
+    \subitem {UsersDatabase}, \hyperpage{293}
+  \item {shortSelectUser}
+    \subitem {MonitoringSystem}, \hyperpage{154}
+  \item {sleep}
+    \subitem {GreenHouse}, \hyperpage{69}
+  \item {src/AirQualitySensor.cpp}, \hyperpage{311}
+  \item {src/AirQualitySensor.h}, \hyperpage{312}
+  \item {src/AlarmSensors.cpp}, \hyperpage{313}
+  \item {src/AlarmSensors.h}, \hyperpage{313}
+  \item {src/Camera.cpp}, \hyperpage{315}
+  \item {src/Camera.h}, \hyperpage{315}
+  \item {src/Exceptions.h}, \hyperpage{316}
+  \item {src/GreenHouse.cpp}, \hyperpage{317}
+  \item {src/GreenHouse.h}, \hyperpage{318}
+  \item {src/Hardware.cpp}, \hyperpage{319}
+  \item {src/Hardware.h}, \hyperpage{320}
+  \item {src/HydrometerSensor.cpp}, \hyperpage{321}
+  \item {src/HydrometerSensor.h}, \hyperpage{322}
+  \item {src/KeyboardHardware.cpp}, \hyperpage{323}
+  \item {src/KeyboardHardware.h}, \hyperpage{323}
+  \item {src/LightSensor.cpp}, \hyperpage{324}
+  \item {src/LightSensor.h}, \hyperpage{325}
+  \item {src/main.cpp}, \hyperpage{326}
+  \item {src/mainAirQualitySensor.cpp}, \hyperpage{328}
+  \item {src/mainAlarmSensors.cpp}, \hyperpage{329}
+  \item {src/mainGreenHouse.cpp}, \hyperpage{330}
+  \item {src/mainHardware.cpp}, \hyperpage{332}
+  \item {src/mainHydrometerSensor.cpp}, \hyperpage{334}
+  \item {src/mainKeyboardHardware.cpp}, \hyperpage{335}
+  \item {src/mainLightSensor.cpp}, \hyperpage{337}
+  \item {src/mainManageCameras.cpp}, \hyperpage{338}
+  \item {src/mainMonitoringSystem.cpp}, \hyperpage{340}
+  \item {src/mainPhSensor.cpp}, \hyperpage{342}
+  \item {src/mainPressureSensor.cpp}, \hyperpage{344}
+  \item {src/mainRGBCamera.cpp}, \hyperpage{345}
+  \item {src/mainScreenHardware.cpp}, \hyperpage{346}
+  \item {src/mainSensor.cpp}, \hyperpage{348}
+  \item {src/mainSwitchHardware.cpp}, \hyperpage{351}
+  \item {src/mainTemperatureCamera.cpp}, \hyperpage{353}
+  \item {src/mainTemperatureSensor.cpp}, \hyperpage{354}
+  \item {src/mainUser.cpp}, \hyperpage{356}
+  \item {src/mainUserAdmin.cpp}, \hyperpage{358}
+  \item {src/mainUserEmployee.cpp}, \hyperpage{360}
+  \item {src/mainUserGuest.cpp}, \hyperpage{362}
+  \item {src/mainUsersDatabase.cpp}, \hyperpage{363}
+  \item {src/mainUsersServer.cpp}, \hyperpage{365}
+  \item {src/ManageCameras.cpp}, \hyperpage{367}
+  \item {src/ManageCameras.h}, \hyperpage{368}
+  \item {src/MonitoringSystem.cpp}, \hyperpage{370}
+  \item {src/MonitoringSystem.h}, \hyperpage{371}
+  \item {src/PhSensor.cpp}, \hyperpage{373}
+  \item {src/PhSensor.h}, \hyperpage{374}
+  \item {src/PressureSensor.cpp}, \hyperpage{375}
+  \item {src/PressureSensor.h}, \hyperpage{376}
+  \item {src/RGBCamera.cpp}, \hyperpage{377}
+  \item {src/RGBCamera.h}, \hyperpage{378}
+  \item {src/ScreenHardware.cpp}, \hyperpage{379}
+  \item {src/ScreenHardware.h}, \hyperpage{380}
+  \item {src/Sensor.cpp}, \hyperpage{381}
+  \item {src/Sensor.h}, \hyperpage{383}
+  \item {src/SwitchHardware.cpp}, \hyperpage{384}
+  \item {src/SwitchHardware.h}, \hyperpage{385}
+  \item {src/TemperatureCamera.cpp}, \hyperpage{386}
+  \item {src/TemperatureCamera.h}, \hyperpage{387}
+  \item {src/TemperatureSensor.cpp}, \hyperpage{388}
+  \item {src/TemperatureSensor.h}, \hyperpage{389}
+  \item {src/User.cpp}, \hyperpage{390}
+  \item {src/User.h}, \hyperpage{391}
+  \item {src/UserAdmin.cpp}, \hyperpage{392}
+  \item {src/UserAdmin.h}, \hyperpage{393}
+  \item {src/UserEmployee.cpp}, \hyperpage{394}
+  \item {src/UserEmployee.h}, \hyperpage{394}
+  \item {src/UserGuest.cpp}, \hyperpage{395}
+  \item {src/UserGuest.h}, \hyperpage{396}
+  \item {src/UsersDatabase.cpp}, \hyperpage{397}
+  \item {src/UsersDatabase.h}, \hyperpage{397}
+  \item {src/UsersServer.cpp}, \hyperpage{398}
+  \item {src/UsersServer.h}, \hyperpage{399}
+  \item {startSystem}
+    \subitem {GreenHouse}, \hyperpage{69}
+  \item {status\_}
+    \subitem {AlarmSensors}, \hyperpage{29}
+  \item {stringData\_}
+    \subitem {KeyboardHardware}, \hyperpage{95}
+  \item {stringInput}
+    \subitem {KeyboardHardware}, \hyperpage{94}
+  \item {stringStatus}
+    \subitem {AirQualitySensor}, \hyperpage{16}
+    \subitem {Hardware}, \hyperpage{78}
+    \subitem {HydrometerSensor}, \hyperpage{88}
+    \subitem {LightSensor}, \hyperpage{102}
+    \subitem {PhSensor}, \hyperpage{169}
+    \subitem {PressureSensor}, \hyperpage{177}
+    \subitem {TemperatureSensor}, \hyperpage{246}
+  \item {stringToType}
+    \subitem {Hardware}, \hyperpage{79}
+    \subitem {Sensor}, \hyperpage{221}
+  \item {sw}
+    \subitem {MonitoringSystem}, \hyperpage{160}
+  \item {SWITCH}
+    \subitem {Hardware}, \hyperpage{74}
+  \item {SwitchHardware}, \hyperpage{226}
+    \subitem {$\sim$SwitchHardware}, \hyperpage{228}
+    \subitem {askInput}, \hyperpage{228}
+    \subitem {displayOutput}, \hyperpage{229}
+    \subitem {SwitchHardware}, \hyperpage{228}
+    \subitem {translateInput}, \hyperpage{230}
+
+  \indexspace
+
+  \item {TEMPERATURE}
+    \subitem {Sensor}, \hyperpage{211}
+  \item {temperature\_}
+    \subitem {TemperatureCamera}, \hyperpage{239}
+  \item {TemperatureCamera}, \hyperpage{231}
+    \subitem {$\sim$TemperatureCamera}, \hyperpage{235}
+    \subitem {collectData}, \hyperpage{235}
+    \subitem {getTemperature}, \hyperpage{236}
+    \subitem {printCamera}, \hyperpage{236}
+    \subitem {randomTemperature}, \hyperpage{237}
+    \subitem {setTemperature}, \hyperpage{238}
+    \subitem {temperature\_}, \hyperpage{239}
+    \subitem {TemperatureCamera}, \hyperpage{234}
+  \item {TemperatureSensor}, \hyperpage{239}
+    \subitem {$\sim$TemperatureSensor}, \hyperpage{242}
+    \subitem {checkAllgood}, \hyperpage{243}
+    \subitem {collectAndPrint}, \hyperpage{243}
+    \subitem {collectData}, \hyperpage{244}
+    \subitem {operator$<$$<$}, \hyperpage{247}
+    \subitem {printData}, \hyperpage{245}
+    \subitem {stringStatus}, \hyperpage{246}
+    \subitem {TemperatureSensor}, \hyperpage{242}
+  \item {TemperatureSensor.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{388}
+  \item {translateInput}
+    \subitem {SwitchHardware}, \hyperpage{230}
+  \item {turnOff}
+    \subitem {Camera}, \hyperpage{36}
+    \subitem {Hardware}, \hyperpage{80}
+    \subitem {Sensor}, \hyperpage{222}
+  \item {turnOffCameras}
+    \subitem {ManageCameras}, \hyperpage{112}
+  \item {turnOffSystem}
+    \subitem {AlarmSensors}, \hyperpage{27}
+  \item {turnOn}
+    \subitem {Camera}, \hyperpage{36}
+    \subitem {Hardware}, \hyperpage{80}
+    \subitem {Sensor}, \hyperpage{222}
+  \item {turnOnCameras}
+    \subitem {ManageCameras}, \hyperpage{113}
+  \item {turnOnOffCameras}
+    \subitem {ManageCameras}, \hyperpage{113}
+  \item {turnOnOffCameraScreen}
+    \subitem {MonitoringSystem}, \hyperpage{154}
+  \item {turnOnOffCameraWindow}
+    \subitem {ScreenHardware}, \hyperpage{206}
+  \item {turnOnOffSystem}
+    \subitem {AlarmSensors}, \hyperpage{28}
+  \item {turnOnOffSystemScreen}
+    \subitem {MonitoringSystem}, \hyperpage{155}
+  \item {turnOnOffSystemWindow}
+    \subitem {ScreenHardware}, \hyperpage{207}
+  \item {turnOnSystem}
+    \subitem {AlarmSensors}, \hyperpage{28}
+  \item {type\_}
+    \subitem {Camera}, \hyperpage{37}
+    \subitem {Hardware}, \hyperpage{81}
+    \subitem {Sensor}, \hyperpage{225}
+  \item {typeAlarm\_}
+    \subitem {MonitoringSystem}, \hyperpage{161}
+  \item {typeCamera\_}
+    \subitem {MonitoringSystem}, \hyperpage{161}
+  \item {Types}
+    \subitem {Sensor}, \hyperpage{211}
+  \item {Types\_Hardware}
+    \subitem {Hardware}, \hyperpage{74}
+  \item {typeToString}
+    \subitem {Hardware}, \hyperpage{80}
+    \subitem {Sensor}, \hyperpage{223}
+
+  \indexspace
+
+  \item {updateUser}
+    \subitem {UsersServer}, \hyperpage{306}
+  \item {updateUserScreen}
+    \subitem {MonitoringSystem}, \hyperpage{156}
+  \item {updateUserWindow}
+    \subitem {ScreenHardware}, \hyperpage{207}
+  \item {us\_}
+    \subitem {GreenHouse}, \hyperpage{71}
+  \item {User}, \hyperpage{248}
+    \subitem {$\sim$User}, \hyperpage{252}
+    \subitem {email}, \hyperpage{263}
+    \subitem {getEmail}, \hyperpage{252}
+    \subitem {getName}, \hyperpage{253}
+    \subitem {getNif}, \hyperpage{254}
+    \subitem {getPassword}, \hyperpage{254}
+    \subitem {getPrivileges}, \hyperpage{255}
+    \subitem {name}, \hyperpage{263}
+    \subitem {nif}, \hyperpage{263}
+    \subitem {operator$<$}, \hyperpage{255}
+    \subitem {operator$<$$<$}, \hyperpage{262}
+    \subitem {operator$>$}, \hyperpage{256}
+    \subitem {operator$>$$>$}, \hyperpage{262}
+    \subitem {operator==}, \hyperpage{256}
+    \subitem {password}, \hyperpage{264}
+    \subitem {printUser}, \hyperpage{257}
+    \subitem {privileges}, \hyperpage{264}
+    \subitem {setEmail}, \hyperpage{257}
+    \subitem {setName}, \hyperpage{258}
+    \subitem {setNif}, \hyperpage{259}
+    \subitem {setPassword}, \hyperpage{260}
+    \subitem {setPrivileges}, \hyperpage{261}
+    \subitem {User}, \hyperpage{250, 251}
+  \item {User.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{390}
+    \subitem {operator$>$$>$}, \hyperpage{391}
+  \item {USER\_PROMPT}
+    \subitem {ScreenHardware.cpp}, \hyperpage{380}
+  \item {UserAdmin}, \hyperpage{265}
+    \subitem {$\sim$UserAdmin}, \hyperpage{268}
+    \subitem {UserAdmin}, \hyperpage{266, 267}
+  \item {UserEmployee}, \hyperpage{269}
+    \subitem {$\sim$UserEmployee}, \hyperpage{272}
+    \subitem {UserEmployee}, \hyperpage{270, 271}
+  \item {UserGuest}, \hyperpage{273}
+    \subitem {$\sim$UserGuest}, \hyperpage{276}
+    \subitem {UserGuest}, \hyperpage{274, 275}
+  \item {UserNameComparator}, \hyperpage{277}
+    \subitem {operator()}, \hyperpage{277}
+  \item {UserPtrComparator}, \hyperpage{278}
+    \subitem {operator()}, \hyperpage{278}
+  \item {users\_}
+    \subitem {UsersDatabase}, \hyperpage{294}
+  \item {UsersDatabase}, \hyperpage{279}
+    \subitem {$\sim$UsersDatabase}, \hyperpage{281}
+    \subitem {addUser}, \hyperpage{281}
+    \subitem {deleteUser}, \hyperpage{282}
+    \subitem {deleteUserByEmail}, \hyperpage{283}
+    \subitem {deleteUserByName}, \hyperpage{284}
+    \subitem {deleteUserByNif}, \hyperpage{285}
+    \subitem {findUser}, \hyperpage{286}
+    \subitem {findUserByEmail}, \hyperpage{287}
+    \subitem {findUserByName}, \hyperpage{288}
+    \subitem {findUserByNif}, \hyperpage{289}
+    \subitem {findUserByPassword}, \hyperpage{290}
+    \subitem {getUsers}, \hyperpage{290}
+    \subitem {getUsersSortedByName}, \hyperpage{291}
+    \subitem {isValidPrivileges}, \hyperpage{291}
+    \subitem {printDeletedUser}, \hyperpage{292}
+    \subitem {printUsers}, \hyperpage{293}
+    \subitem {setUsers}, \hyperpage{293}
+    \subitem {users\_}, \hyperpage{294}
+    \subitem {UsersDatabase}, \hyperpage{280}
+  \item {usersDatabase\_}
+    \subitem {UsersServer}, \hyperpage{309}
+  \item {UsersServer}, \hyperpage{295}
+    \subitem {$\sim$UsersServer}, \hyperpage{298}
+    \subitem {createUser}, \hyperpage{298}
+    \subitem {deleteUser}, \hyperpage{299}
+    \subitem {fileNameBi\_}, \hyperpage{308}
+    \subitem {fileNameTxt\_}, \hyperpage{308}
+    \subitem {findUserLogin}, \hyperpage{299}
+    \subitem {getPrivileges}, \hyperpage{300}
+    \subitem {loadUsersFromFile}, \hyperpage{301}
+    \subitem {printUsersServer}, \hyperpage{302}
+    \subitem {readUsersFromFileBi}, \hyperpage{302}
+    \subitem {readUsersFromFileTxt}, \hyperpage{304}
+    \subitem {saveUsersToFile}, \hyperpage{305}
+    \subitem {updateUser}, \hyperpage{306}
+    \subitem {usersDatabase\_}, \hyperpage{309}
+    \subitem {UsersServer}, \hyperpage{297}
+    \subitem {writeUserToFileBi}, \hyperpage{307}
+    \subitem {writeUserToFileTxt}, \hyperpage{308}
+
+  \indexspace
+
+  \item {writeUserToFileBi}
+    \subitem {UsersServer}, \hyperpage{307}
+  \item {writeUserToFileTxt}
+    \subitem {UsersServer}, \hyperpage{308}
+
+\end{theindex}

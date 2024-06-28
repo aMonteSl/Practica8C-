@@ -1,0 +1,12 @@
+<map id="PhSensor::collectAndPrint" name="PhSensor::collectAndPrint">
+<area shape="rect" id="node1" title="Collect and print the data of the Ph Sensor." alt="" coords="5,107,193,133"/>
+<area shape="rect" id="node2" href="$classPhSensor.html#a481bad025182910fb03c8b6d5b6c9394" title="Collect data of the Ph Sensor." alt="" coords="241,44,405,71"/>
+<area shape="rect" id="node4" href="$classPhSensor.html#a55c2c68cc33cc039d8907da047c42615" title="This method prints the data of the Ph Sensor." alt="" coords="248,132,399,159"/>
+<area shape="rect" id="node3" href="$classSensor.html#a8c3a63a324230f81e78972d37f9ddfb1" title="Set the Data object." alt="" coords="475,5,600,32"/>
+<area shape="rect" id="node5" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="895,208,1021,235"/>
+<area shape="rect" id="node6" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="484,107,591,133"/>
+<area shape="rect" id="node7" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="695,157,821,184"/>
+<area shape="rect" id="node8" href="$classPhSensor.html#aea7472382b647fdf581b730376bb30dd" title="This qualifies the Ph Sensor into Acidic, Neutral or Alkaline." alt="" coords="462,259,613,285"/>
+<area shape="rect" id="node10" href="$classPhSensor.html#a058b0d28c34757144c509eaf06a36abc" title="This method returns the status in a string." alt="" coords="453,208,621,235"/>
+<area shape="rect" id="node9" href="$classPhSensor.html#aed7b60fbcd223ac08c84301b94635bd3" title="Check if the Ph Sensor is working properly." alt="" coords="669,208,847,235"/>
+</map>

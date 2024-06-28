@@ -1,0 +1,6 @@
+<map id="TemperatureSensor::stringStatus" name="TemperatureSensor::stringStatus">
+<area shape="rect" id="node1" title="String status of the Temperature Sensor." alt="" coords="516,5,672,47"/>
+<area shape="rect" id="node2" href="$mainTemperatureSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,34,60,61"/>
+<area shape="rect" id="node3" href="$classTemperatureSensor.html#a3119dd0c9914efdbccd8ee9584f88b62" title="Print the data of the Temperature Sensor." alt="" coords="312,35,468,76"/>
+<area shape="rect" id="node4" href="$classTemperatureSensor.html#a8bd9830643bd9726c988fccf56759d6f" title="Collect and print the data of the Temperature Sensor." alt="" coords="108,85,264,127"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="HydrometerSensor::checkAllgood" name="HydrometerSensor::checkAllgood">
+<area shape="rect" id="node1" title="Check if the Hydrometer Sensor is working properly." alt="" coords="849,13,1088,39"/>
+<area shape="rect" id="node2" href="$classHydrometerSensor.html#a6042f094b9ddcf689beba1729b5eb61a" title="Collect and print the data of the Hydrometer Sensor." alt="" coords="612,5,801,47"/>
+<area shape="rect" id="node3" href="$mainHydrometerSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,38,60,65"/>
+<area shape="rect" id="node4" href="$classHydrometerSensor.html#a92f8c8b584be1955f123168ee7c8641d" title="Print the data of the Hydrometer Sensor." alt="" coords="351,38,564,65"/>
+<area shape="rect" id="node5" href="$classHydrometerSensor.html#aa2eef3b9912f075f6198d7f90e3fb454" title="Collect and print the data of the Hydrometer Sensor." alt="" coords="108,89,303,131"/>
+</map>

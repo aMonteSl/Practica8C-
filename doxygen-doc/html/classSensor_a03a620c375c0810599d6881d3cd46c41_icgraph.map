@@ -1,0 +1,34 @@
+<map id="Sensor::getData" name="Sensor::getData">
+<area shape="rect" id="node1" title="Get the Data object." alt="" coords="1164,493,1291,520"/>
+<area shape="rect" id="node2" href="$classAirQualitySensor.html#a6ee3e9fa4e4b1af8e50a6acc876ac407" title="Check if the Air Quality Sensor is working properly." alt="" coords="883,156,1110,183"/>
+<area shape="rect" id="node4" href="$mainAirQualitySensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,68,60,95"/>
+<area shape="rect" id="node5" href="$classAirQualitySensor.html#a8b9bf156728de2c119344b990d19097a" title="Print the data of the Air Quality Sensor." alt="" coords="367,152,567,179"/>
+<area shape="rect" id="node7" href="$classHydrometerSensor.html#a463ada24b296bdbf0a3a68e4df7f3d16" title="Check if the Hydrometer Sensor is working properly." alt="" coords="877,312,1116,339"/>
+<area shape="rect" id="node10" href="$classHydrometerSensor.html#a92f8c8b584be1955f123168ee7c8641d" title="Print the data of the Hydrometer Sensor." alt="" coords="360,308,573,335"/>
+<area shape="rect" id="node12" href="$classLightSensor.html#a004261e3ba593ff04b76ce3839d7c438" title="Check if the Light Sensor is working properly." alt="" coords="900,417,1093,444"/>
+<area shape="rect" id="node15" href="$classLightSensor.html#ad25cff6fc6d2c36b7d45ae2f6d967f1e" title="Print the data of the Light Sensor." alt="" coords="383,455,550,481"/>
+<area shape="rect" id="node17" href="$classPhSensor.html#aed7b60fbcd223ac08c84301b94635bd3" title="Check if the Ph Sensor is working properly." alt="" coords="908,620,1085,647"/>
+<area shape="rect" id="node18" href="$classPhSensor.html#aea7472382b647fdf581b730376bb30dd" title="This qualifies the Ph Sensor into Acidic, Neutral or Alkaline." alt="" coords="650,569,801,596"/>
+<area shape="rect" id="node19" href="$classPhSensor.html#a55c2c68cc33cc039d8907da047c42615" title="This method prints the data of the Ph Sensor." alt="" coords="391,569,542,596"/>
+<area shape="rect" id="node23" href="$classPressureSensor.html#a20efcd32659e79ccca2a2bbd72e9533d" title="Check if the Pressure Sensor is working properly." alt="" coords="888,671,1105,697"/>
+<area shape="rect" id="node26" href="$classPressureSensor.html#aa1657b60ae025902a8051174c1d8716f" title="Print the data of the Pressure Sensor." alt="" coords="371,733,562,760"/>
+<area shape="rect" id="node28" href="$classTemperatureSensor.html#ac0a66fbba4b1d8363de5ff807c123354" title="Check if the Temperature Sensor is working properly." alt="" coords="919,814,1075,855"/>
+<area shape="rect" id="node31" href="$classTemperatureSensor.html#a3119dd0c9914efdbccd8ee9584f88b62" title="Print the data of the Temperature Sensor." alt="" coords="389,902,545,943"/>
+<area shape="rect" id="node3" href="$classAirQualitySensor.html#a66b1dba1f5fa1e552d4c015316c9bca5" title="This method returns if the Air Quality Sensor is active or not and if its active, it returns if its g..." alt="" coords="637,145,813,186"/>
+<area shape="rect" id="node6" href="$classAirQualitySensor.html#a0c5427a9a79033e9490a5ad6ae4023a7" title="Collect and print the data of the Air Quality Sensor." alt="" coords="119,145,301,186"/>
+<area shape="rect" id="node8" href="$classHydrometerSensor.html#a6042f094b9ddcf689beba1729b5eb61a" title="Collect and print the data of the Hydrometer Sensor." alt="" coords="631,301,820,342"/>
+<area shape="rect" id="node9" href="$mainHydrometerSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,261,60,288"/>
+<area shape="rect" id="node11" href="$classHydrometerSensor.html#aa2eef3b9912f075f6198d7f90e3fb454" title="Collect and print the data of the Hydrometer Sensor." alt="" coords="113,313,307,354"/>
+<area shape="rect" id="node13" href="$classLightSensor.html#a649f67791977f6e9ee0366267b25e367" title="Collect and print the data of the Light Sensor." alt="" coords="633,417,817,444"/>
+<area shape="rect" id="node14" href="$mainLightSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,429,60,456"/>
+<area shape="rect" id="node16" href="$classLightSensor.html#a577e1c14fdde492c4a07af6a82dd59bd" title="Collect and print the data of the Light Sensor." alt="" coords="108,480,312,507"/>
+<area shape="rect" id="node22" href="$classPhSensor.html#a058b0d28c34757144c509eaf06a36abc" title="This method returns the status in a string." alt="" coords="641,620,809,647"/>
+<area shape="rect" id="node20" href="$classPhSensor.html#ad6ef01f8f2f219af51739d8b309aa5eb" title="Collect and print the data of the Ph Sensor." alt="" coords="116,581,304,608"/>
+<area shape="rect" id="node21" href="$mainPhSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,581,60,608"/>
+<area shape="rect" id="node24" href="$classPressureSensor.html#ad7256708aa69c3eb35e1794728a21316" title="This method returns the status in a string." alt="" coords="621,683,829,709"/>
+<area shape="rect" id="node25" href="$mainPressureSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,733,60,760"/>
+<area shape="rect" id="node27" href="$classPressureSensor.html#ae63402f455301b3f204249edb73c87d9" title="Collect and print the data of the Pressure Sensor." alt="" coords="111,785,309,826"/>
+<area shape="rect" id="node29" href="$classTemperatureSensor.html#acd28d8060aa781117fc8a828deaaed56" title="String status of the Temperature Sensor." alt="" coords="647,843,803,885"/>
+<area shape="rect" id="node30" href="$mainTemperatureSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,901,60,928"/>
+<area shape="rect" id="node32" href="$classTemperatureSensor.html#a8bd9830643bd9726c988fccf56759d6f" title="Collect and print the data of the Temperature Sensor." alt="" coords="132,953,288,994"/>
+</map>

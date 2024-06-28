@@ -1,0 +1,7 @@
+<map id="MonitoringSystem::shortSelectUser" name="MonitoringSystem::shortSelectUser">
+<area shape="rect" id="node1" title="This is the method to select a short user." alt="" coords="5,56,257,83"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#acd7c674be2caff1ac2bcc37b2cd0fb3b" title="This method asks the user for an input for the name." alt="" coords="317,5,527,32"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#af4af355f2a6bbda876e80f36ba1624cc" title="This method asks the user for an input for the NIF." alt="" coords="325,56,519,83"/>
+<area shape="rect" id="node5" href="$classMonitoringSystem.html#a26cbfb1c9afd14b76c5acbf99eae8569" title="This method asks the user for an input for the password." alt="" coords="305,107,539,133"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="587,49,777,90"/>
+</map>

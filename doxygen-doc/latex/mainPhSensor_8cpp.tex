@@ -1,0 +1,63 @@
+\hypertarget{mainPhSensor_8cpp}{}\doxysection{src/main\+Ph\+Sensor.cpp File Reference}
+\label{mainPhSensor_8cpp}\index{src/mainPhSensor.cpp@{src/mainPhSensor.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Ph\+Sensor.\+h\char`\"{}}\newline
+Include dependency graph for main\+Ph\+Sensor.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{mainPhSensor_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainPhSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainPhSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainPhSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainPhSensor.cpp@{mainPhSensor.cpp}!main@{main}}
+\index{main@{main}!mainPhSensor.cpp@{mainPhSensor.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file main\+Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6            \{}
+\DoxyCodeLine{7   \mbox{\hyperlink{classPhSensor}{PhSensor}} phsensor(1, \textcolor{keyword}{true});}
+\DoxyCodeLine{8   \textcolor{comment}{// Imprimo el ph por defecto}}
+\DoxyCodeLine{9   phsensor.printData();}
+\DoxyCodeLine{10   \textcolor{comment}{// Cambio el valor de la luz}}
+\DoxyCodeLine{11   phsensor.collectData();}
+\DoxyCodeLine{12   \textcolor{comment}{// Imprimo la nueva luz}}
+\DoxyCodeLine{13   phsensor.printData();}
+\DoxyCodeLine{14   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{15   std::cout << \textcolor{stringliteral}{"{}PH: "{}} << phsensor.getData() << std::endl;}
+\DoxyCodeLine{16   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{17   std::cout << \textcolor{stringliteral}{"{}Status: "{}} << phsensor.stringStatus() << std::endl;}
+\DoxyCodeLine{18   \textcolor{comment}{// Imprimo el sensor de nuevo}}
+\DoxyCodeLine{19   phsensor.collectData();}
+\DoxyCodeLine{20   \textcolor{comment}{// Imprimo el sensor de nuevo}}
+\DoxyCodeLine{21   phsensor.printData();}
+\DoxyCodeLine{22   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{23   phsensor.collectAndPrint();}
+\DoxyCodeLine{24 \}}
+
+\end{DoxyCode}
+
+
+References Ph\+Sensor\+::collect\+And\+Print(), Ph\+Sensor\+::collect\+Data(), Sensor\+::get\+Data(), Ph\+Sensor\+::print\+Data(), and Ph\+Sensor\+::string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainPhSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

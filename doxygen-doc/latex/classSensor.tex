@@ -1,0 +1,1043 @@
+\hypertarget{classSensor}{}\doxysection{Sensor Class Reference}
+\label{classSensor}\index{Sensor@{Sensor}}
+
+
+{\ttfamily \#include $<$Sensor.\+h$>$}
+
+
+
+Inheritance diagram for Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSensor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{classSensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Types}} \{ \newline
+\mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a15f79d4babbafcf994fde69780b17380}{NONE}}
+, \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5aaecf18793fbfd8dbc331322a873fc5d2}{TEMPERATURE}}
+, \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5ad24209b22d8b08d9e6037a5f88c39875}{AIR\+\_\+\+QUALITY}}
+, \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a0005ba3dee1809f9bf15800c255d0430}{HYDROMETER}}
+, \newline
+\mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a8d4e7f233728c53a02870bca67854e7f}{PRESSURE}}
+, \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a80e18a1de104aad68da03e1c437918e1}{LIGHT\+\_\+\+SENSOR}}
+, \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a4bb253952ef9106bb0c4679385154087}{PH\+\_\+\+SENSOR}}
+ \}
+\begin{DoxyCompactList}\small\item\em This is the enum Types. It contains the types of the sensors. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSensor_a342d6d11ef572c8cba92cb76fb1a294b}{Sensor}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSensor_a077cf4b98579317a27a64fd5abd81191}{Sensor}} (int id, \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Types}} type, bool active)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classSensor_aee8c70e7ef05ce65e7ee33686b5d7db2}{$\sim$\+Sensor}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classSensor_a8ffb0f2473f7e1de1d9947937f2db53a}{collect\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Collect data of the \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classSensor_a9b3ddd058bce63adc5d444da4818dd83}{collect\+And\+Print}} ()
+\begin{DoxyCompactList}\small\item\em Collect and print the data of the \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{is\+Active}} () const
+\begin{DoxyCompactList}\small\item\em Return if is active or not the sensor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSensor_a7e0dadfc3dcde4c6c7b20d0c0ae09082}{turn\+Off}} ()
+\begin{DoxyCompactList}\small\item\em Turn off the sensor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSensor_ab687b1dd4e4ecb1d806bf947cedc9b76}{turn\+On}} ()
+\begin{DoxyCompactList}\small\item\em Turn on the sensor. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{get\+Data}} () const
+\begin{DoxyCompactList}\small\item\em Get the Data object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSensor_a8c3a63a324230f81e78972d37f9ddfb1}{set\+Data}} (float data)
+\begin{DoxyCompactList}\small\item\em Set the Data object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{get\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Get the Id object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSensor_a3c4b515de7b3b1d92ff2e92bd33ff020}{set\+Id}} (int newid)
+\begin{DoxyCompactList}\small\item\em Set the Id object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classSensor_a39b6154305fb7273b43b4c6ec1cb7431}{get\+Type}} () const
+\begin{DoxyCompactList}\small\item\em Get the Type object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSensor_a74089ea5ed02fb4125948998b2d78507}{set\+Type}} (std\+::string newtype)
+\begin{DoxyCompactList}\small\item\em Set the Type object. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classSensor_a7bae778c5814d5d33c0b496a7add75cd}{check\+Allgood}} () const
+\begin{DoxyCompactList}\small\item\em Check if the \mbox{\hyperlink{classSensor}{Sensor}} is working properly. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSensor_ad151dcd210047438ad8ad074f95f3d98}{operator$<$}} (const \mbox{\hyperlink{classSensor}{Sensor}} \&\mbox{\hyperlink{classSensor}{Sensor}}) const
+\begin{DoxyCompactList}\small\item\em Operator $<$ overload. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSensor_a08e343af00826f236dd92d952cac6278}{operator$>$}} (const \mbox{\hyperlink{classSensor}{Sensor}} \&\mbox{\hyperlink{classSensor}{Sensor}}) const
+\begin{DoxyCompactList}\small\item\em Operator $>$ overload. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSensor_a72804647b09a1381b38337e4b828ef15}{operator==}} (const \mbox{\hyperlink{classSensor}{Sensor}} \&\mbox{\hyperlink{classSensor}{Sensor}}) const
+\begin{DoxyCompactList}\small\item\em Operator == overload. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classSensor_ab96627dab3d2e727f07d7f1ea83379e1}{print\+Data}} () const
+\begin{DoxyCompactList}\small\item\em Print the data of the \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Types}} \mbox{\hyperlink{classSensor_a60f71381915658a2f932ec64ccfd40eb}{string\+To\+Type}} (const std\+::string \&type) const
+\begin{DoxyCompactList}\small\item\em Convert the string to the type. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classSensor_a3dd8660ffa950dbdfc60ec3c6aeeea35}{type\+To\+String}} (\mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Types}} type) const
+\begin{DoxyCompactList}\small\item\em Convert the type to the string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\+\_\+}}
+\begin{DoxyCompactList}\small\item\em The id of the sensor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Types}} \mbox{\hyperlink{classSensor_a4461054083ff14c0860433e803a82c3e}{type\+\_\+}}
+\begin{DoxyCompactList}\small\item\em The type of the sensor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSensor_a8a952b3dc35b753421911f3783d4bbbf}{active\+\_\+}}
+\begin{DoxyCompactList}\small\item\em The state of the sensor. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classSensor_ac0788914500e8167aedbe84e4dffae01}{data\+\_\+}}
+\begin{DoxyCompactList}\small\item\em The data of the sensor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{classSensor_aa0f89047d73bfd39d393f3d5ce196235}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classSensor}{Sensor}} \&\mbox{\hyperlink{classSensor}{Sensor}})
+\begin{DoxyCompactList}\small\item\em Operator $<$$<$ overload. \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{classSensor_a9cc30af30f902dff163c64c8d4c14a4f}{operator$>$$>$}} (std\+::istream \&is, \mbox{\hyperlink{classSensor}{Sensor}} \&\mbox{\hyperlink{classSensor}{Sensor}})
+\begin{DoxyCompactList}\small\item\em Operator $>$$>$ overload. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 13 of file Sensor.\+h.
+
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}\label{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}} 
+\index{Sensor@{Sensor}!Types@{Types}}
+\index{Types@{Types}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{Types}{Types}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Sensor\+::\+Types}}}
+
+
+
+This is the enum Types. It contains the types of the sensors. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NONE@{NONE}!Sensor@{Sensor}}\index{Sensor@{Sensor}!NONE@{NONE}}}\mbox{\Hypertarget{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a15f79d4babbafcf994fde69780b17380}\label{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a15f79d4babbafcf994fde69780b17380}} 
+NONE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TEMPERATURE@{TEMPERATURE}!Sensor@{Sensor}}\index{Sensor@{Sensor}!TEMPERATURE@{TEMPERATURE}}}\mbox{\Hypertarget{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5aaecf18793fbfd8dbc331322a873fc5d2}\label{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5aaecf18793fbfd8dbc331322a873fc5d2}} 
+TEMPERATURE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AIR\_QUALITY@{AIR\_QUALITY}!Sensor@{Sensor}}\index{Sensor@{Sensor}!AIR\_QUALITY@{AIR\_QUALITY}}}\mbox{\Hypertarget{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5ad24209b22d8b08d9e6037a5f88c39875}\label{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5ad24209b22d8b08d9e6037a5f88c39875}} 
+AIR\+\_\+\+QUALITY&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HYDROMETER@{HYDROMETER}!Sensor@{Sensor}}\index{Sensor@{Sensor}!HYDROMETER@{HYDROMETER}}}\mbox{\Hypertarget{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a0005ba3dee1809f9bf15800c255d0430}\label{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a0005ba3dee1809f9bf15800c255d0430}} 
+HYDROMETER&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PRESSURE@{PRESSURE}!Sensor@{Sensor}}\index{Sensor@{Sensor}!PRESSURE@{PRESSURE}}}\mbox{\Hypertarget{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a8d4e7f233728c53a02870bca67854e7f}\label{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a8d4e7f233728c53a02870bca67854e7f}} 
+PRESSURE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LIGHT\_SENSOR@{LIGHT\_SENSOR}!Sensor@{Sensor}}\index{Sensor@{Sensor}!LIGHT\_SENSOR@{LIGHT\_SENSOR}}}\mbox{\Hypertarget{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a80e18a1de104aad68da03e1c437918e1}\label{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a80e18a1de104aad68da03e1c437918e1}} 
+LIGHT\+\_\+\+SENSOR&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PH\_SENSOR@{PH\_SENSOR}!Sensor@{Sensor}}\index{Sensor@{Sensor}!PH\_SENSOR@{PH\_SENSOR}}}\mbox{\Hypertarget{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a4bb253952ef9106bb0c4679385154087}\label{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a4bb253952ef9106bb0c4679385154087}} 
+PH\+\_\+\+SENSOR&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 19 of file Sensor.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{19              \{}
+\DoxyCodeLine{20     \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a15f79d4babbafcf994fde69780b17380}{NONE}},}
+\DoxyCodeLine{21     \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5aaecf18793fbfd8dbc331322a873fc5d2}{TEMPERATURE}},}
+\DoxyCodeLine{22     \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5ad24209b22d8b08d9e6037a5f88c39875}{AIR\_QUALITY}},}
+\DoxyCodeLine{23     \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a0005ba3dee1809f9bf15800c255d0430}{HYDROMETER}},}
+\DoxyCodeLine{24     \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a8d4e7f233728c53a02870bca67854e7f}{PRESSURE}},}
+\DoxyCodeLine{25     \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a80e18a1de104aad68da03e1c437918e1}{LIGHT\_SENSOR}},}
+\DoxyCodeLine{26     \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5a4bb253952ef9106bb0c4679385154087}{PH\_SENSOR}},}
+\DoxyCodeLine{27   \};}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSensor_a342d6d11ef572c8cba92cb76fb1a294b}\label{classSensor_a342d6d11ef572c8cba92cb76fb1a294b}} 
+\index{Sensor@{Sensor}!Sensor@{Sensor}}
+\index{Sensor@{Sensor}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{Sensor()}{Sensor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Sensor\+::\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+Creates a new \mbox{\hyperlink{classSensor}{Sensor}} object with the default values (id, type, active).
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classSensor}{Sensor}} object 
+\end{DoxyReturn}
+
+
+Definition at line 6 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6                \{}
+\DoxyCodeLine{7   \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}} = -\/1;}
+\DoxyCodeLine{8   \mbox{\hyperlink{classSensor_a4461054083ff14c0860433e803a82c3e}{type\_}} = Types::NONE;}
+\DoxyCodeLine{9   \mbox{\hyperlink{classSensor_a8a952b3dc35b753421911f3783d4bbbf}{active\_}} = \textcolor{keyword}{false};}
+\DoxyCodeLine{10   \mbox{\hyperlink{classSensor_ac0788914500e8167aedbe84e4dffae01}{data\_}} = -\/1;}
+\DoxyCodeLine{11 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classSensor_a077cf4b98579317a27a64fd5abd81191}\label{classSensor_a077cf4b98579317a27a64fd5abd81191}} 
+\index{Sensor@{Sensor}!Sensor@{Sensor}}
+\index{Sensor@{Sensor}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{Sensor()}{Sensor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Sensor\+::\+Sensor (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{\mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Types}}}]{type,  }\item[{bool}]{active }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+Creates a new \mbox{\hyperlink{classSensor}{Sensor}} object with the values passed as parameters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & of the sensor \\
+\hline
+{\em type} & of the sensor \\
+\hline
+{\em active} & of the sensor \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classSensor}{Sensor}} object 
+\end{DoxyReturn}
+
+
+Definition at line 13 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13                                               \{}
+\DoxyCodeLine{14   \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}} = id;}
+\DoxyCodeLine{15   \mbox{\hyperlink{classSensor_a4461054083ff14c0860433e803a82c3e}{type\_}} = type;}
+\DoxyCodeLine{16   \mbox{\hyperlink{classSensor_a8a952b3dc35b753421911f3783d4bbbf}{active\_}} = active;}
+\DoxyCodeLine{17   \mbox{\hyperlink{classSensor_ac0788914500e8167aedbe84e4dffae01}{data\_}} = -\/1;}
+\DoxyCodeLine{18 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classSensor_aee8c70e7ef05ce65e7ee33686b5d7db2}\label{classSensor_aee8c70e7ef05ce65e7ee33686b5d7db2}} 
+\index{Sensor@{Sensor}!````~Sensor@{$\sim$Sensor}}
+\index{````~Sensor@{$\sim$Sensor}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{$\sim$Sensor()}{~Sensor()}}
+{\footnotesize\ttfamily Sensor\+::$\sim$\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+
+Definition at line 20 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{20 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSensor_a7bae778c5814d5d33c0b496a7add75cd}\label{classSensor_a7bae778c5814d5d33c0b496a7add75cd}} 
+\index{Sensor@{Sensor}!checkAllgood@{checkAllgood}}
+\index{checkAllgood@{checkAllgood}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{checkAllgood()}{checkAllgood()}}
+{\footnotesize\ttfamily bool Sensor\+::check\+Allgood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Check if the \mbox{\hyperlink{classSensor}{Sensor}} is working properly. 
+
+\begin{DoxyReturn}{Returns}
+true if the \mbox{\hyperlink{classSensor}{Sensor}} is working properly 
+
+false if the \mbox{\hyperlink{classSensor}{Sensor}} is not working properly 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classTemperatureSensor_ac0a66fbba4b1d8363de5ff807c123354}{Temperature\+Sensor}}, \mbox{\hyperlink{classPressureSensor_a20efcd32659e79ccca2a2bbd72e9533d}{Pressure\+Sensor}}, \mbox{\hyperlink{classPhSensor_aed7b60fbcd223ac08c84301b94635bd3}{Ph\+Sensor}}, \mbox{\hyperlink{classLightSensor_a004261e3ba593ff04b76ce3839d7c438}{Light\+Sensor}}, \mbox{\hyperlink{classHydrometerSensor_a463ada24b296bdbf0a3a68e4df7f3d16}{Hydrometer\+Sensor}}, and \mbox{\hyperlink{classAirQualitySensor_a6ee3e9fa4e4b1af8e50a6acc876ac407}{Air\+Quality\+Sensor}}.
+
+
+
+Definition at line 128 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{128 \{ \textcolor{keywordflow}{return} \textcolor{keyword}{true}; \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{classSensor_a7bae778c5814d5d33c0b496a7add75cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a9b3ddd058bce63adc5d444da4818dd83}\label{classSensor_a9b3ddd058bce63adc5d444da4818dd83}} 
+\index{Sensor@{Sensor}!collectAndPrint@{collectAndPrint}}
+\index{collectAndPrint@{collectAndPrint}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{collectAndPrint()}{collectAndPrint()}}
+{\footnotesize\ttfamily void Sensor\+::collect\+And\+Print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Collect and print the data of the \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented in \mbox{\hyperlink{classTemperatureSensor_a8bd9830643bd9726c988fccf56759d6f}{Temperature\+Sensor}}, \mbox{\hyperlink{classPressureSensor_ae63402f455301b3f204249edb73c87d9}{Pressure\+Sensor}}, \mbox{\hyperlink{classPhSensor_ad6ef01f8f2f219af51739d8b309aa5eb}{Ph\+Sensor}}, \mbox{\hyperlink{classLightSensor_a577e1c14fdde492c4a07af6a82dd59bd}{Light\+Sensor}}, \mbox{\hyperlink{classHydrometerSensor_aa2eef3b9912f075f6198d7f90e3fb454}{Hydrometer\+Sensor}}, and \mbox{\hyperlink{classAirQualitySensor_a0c5427a9a79033e9490a5ad6ae4023a7}{Air\+Quality\+Sensor}}.
+
+
+
+Definition at line 31 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{31                              \{}
+\DoxyCodeLine{32   \mbox{\hyperlink{classSensor_a8ffb0f2473f7e1de1d9947937f2db53a}{collectData}}();}
+\DoxyCodeLine{33   \mbox{\hyperlink{classSensor_ab96627dab3d2e727f07d7f1ea83379e1}{printData}}();}
+\DoxyCodeLine{34 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classSensor_a8ffb0f2473f7e1de1d9947937f2db53a}\label{classSensor_a8ffb0f2473f7e1de1d9947937f2db53a}} 
+\index{Sensor@{Sensor}!collectData@{collectData}}
+\index{collectData@{collectData}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{collectData()}{collectData()}}
+{\footnotesize\ttfamily void Sensor\+::collect\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Collect data of the \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented in \mbox{\hyperlink{classTemperatureSensor_aa5fafed08ffab4a8f300b884c841e51f}{Temperature\+Sensor}}, \mbox{\hyperlink{classPressureSensor_ab607b8d4fc6f14a7414ee7a689dac874}{Pressure\+Sensor}}, \mbox{\hyperlink{classPhSensor_a481bad025182910fb03c8b6d5b6c9394}{Ph\+Sensor}}, \mbox{\hyperlink{classLightSensor_a25c96763d1fe30bdb3705000bae8dc12}{Light\+Sensor}}, \mbox{\hyperlink{classHydrometerSensor_ac7e52e59c37d29cb52d6f282661c4037}{Hydrometer\+Sensor}}, and \mbox{\hyperlink{classAirQualitySensor_a02f45cca3d2bf759a2709b1b31163d78}{Air\+Quality\+Sensor}}.
+
+
+
+Definition at line 22 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22                          \{}
+\DoxyCodeLine{23   cout << \textcolor{stringliteral}{"{}Collecting data from sensor id"{}} << \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}} << \textcolor{stringliteral}{"{} wich is: "{}} << \mbox{\hyperlink{classSensor_a39b6154305fb7273b43b4c6ec1cb7431}{getType}}()}
+\DoxyCodeLine{24        << endl;}
+\DoxyCodeLine{25   \mbox{\hyperlink{classSensor_a8c3a63a324230f81e78972d37f9ddfb1}{setData}}(-\/10000);}
+\DoxyCodeLine{26   \textcolor{comment}{// This function will be implemented in the derived classes}}
+\DoxyCodeLine{27   \textcolor{comment}{// en la clase derivada se implementara la funcion, generaremos de manera}}
+\DoxyCodeLine{28   \textcolor{comment}{// aleatoria el valor y despues lo asignaremos al atributo data\_ con setData()}}
+\DoxyCodeLine{29 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classSensor_a8ffb0f2473f7e1de1d9947937f2db53a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a03a620c375c0810599d6881d3cd46c41}\label{classSensor_a03a620c375c0810599d6881d3cd46c41}} 
+\index{Sensor@{Sensor}!getData@{getData}}
+\index{getData@{getData}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{getData()}{getData()}}
+{\footnotesize\ttfamily float Sensor\+::get\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Data object. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+
+
+Definition at line 42 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{42 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classSensor_ac0788914500e8167aedbe84e4dffae01}{data\_}}; \}}
+
+\end{DoxyCode}
+
+
+Referenced by Air\+Quality\+Sensor\+::check\+Allgood(), Hydrometer\+Sensor\+::check\+Allgood(), Light\+Sensor\+::check\+Allgood(), Ph\+Sensor\+::check\+Allgood(), Pressure\+Sensor\+::check\+Allgood(), Temperature\+Sensor\+::check\+Allgood(), main(), Air\+Quality\+Sensor\+::print\+Data(), Hydrometer\+Sensor\+::print\+Data(), Light\+Sensor\+::print\+Data(), Ph\+Sensor\+::print\+Data(), Pressure\+Sensor\+::print\+Data(), Temperature\+Sensor\+::print\+Data(), and Ph\+Sensor\+::qualify\+Ph().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSensor_a03a620c375c0810599d6881d3cd46c41_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a2f57593dc57b88e0667907e282b4e2ef}\label{classSensor_a2f57593dc57b88e0667907e282b4e2ef}} 
+\index{Sensor@{Sensor}!getId@{getId}}
+\index{getId@{getId}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily int Sensor\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Id object. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 46 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{46 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}}; \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), Air\+Quality\+Sensor\+::print\+Data(), Hydrometer\+Sensor\+::print\+Data(), Light\+Sensor\+::print\+Data(), Ph\+Sensor\+::print\+Data(), Pressure\+Sensor\+::print\+Data(), and Temperature\+Sensor\+::print\+Data().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSensor_a2f57593dc57b88e0667907e282b4e2ef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a39b6154305fb7273b43b4c6ec1cb7431}\label{classSensor_a39b6154305fb7273b43b4c6ec1cb7431}} 
+\index{Sensor@{Sensor}!getType@{getType}}
+\index{getType@{getType}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily std\+::string Sensor\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Type object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 50 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{50                                 \{}
+\DoxyCodeLine{51   std::string type = \mbox{\hyperlink{classSensor_a3dd8660ffa950dbdfc60ec3c6aeeea35}{typeToString}}(\mbox{\hyperlink{classSensor_a4461054083ff14c0860433e803a82c3e}{type\_}});}
+\DoxyCodeLine{52   \textcolor{keywordflow}{return} type;}
+\DoxyCodeLine{53 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{classSensor_a39b6154305fb7273b43b4c6ec1cb7431_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a10a9c7f2957817dde28b32b2000e5d65}\label{classSensor_a10a9c7f2957817dde28b32b2000e5d65}} 
+\index{Sensor@{Sensor}!isActive@{isActive}}
+\index{isActive@{isActive}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily bool Sensor\+::is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Return if is active or not the sensor. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 36 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{36 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classSensor_a8a952b3dc35b753421911f3783d4bbbf}{active\_}}; \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), Air\+Quality\+Sensor\+::print\+Data(), Hydrometer\+Sensor\+::print\+Data(), Light\+Sensor\+::print\+Data(), Ph\+Sensor\+::print\+Data(), Pressure\+Sensor\+::print\+Data(), Temperature\+Sensor\+::print\+Data(), Air\+Quality\+Sensor\+::string\+Status(), Hydrometer\+Sensor\+::string\+Status(), Light\+Sensor\+::string\+Status(), Ph\+Sensor\+::string\+Status(), Pressure\+Sensor\+::string\+Status(), and Temperature\+Sensor\+::string\+Status().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSensor_a10a9c7f2957817dde28b32b2000e5d65_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_ad151dcd210047438ad8ad074f95f3d98}\label{classSensor_ad151dcd210047438ad8ad074f95f3d98}} 
+\index{Sensor@{Sensor}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool Sensor\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classSensor}{Sensor}} \&}]{Sensor }\end{DoxyParamCaption}) const}
+
+
+
+Operator $<$ overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classSensor}{Sensor}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 94 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{94 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}} < \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}}; \}}
+
+\end{DoxyCode}
+
+
+References id\+\_\+.
+
+\mbox{\Hypertarget{classSensor_a72804647b09a1381b38337e4b828ef15}\label{classSensor_a72804647b09a1381b38337e4b828ef15}} 
+\index{Sensor@{Sensor}!operator==@{operator==}}
+\index{operator==@{operator==}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Sensor\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classSensor}{Sensor}} \&}]{Sensor }\end{DoxyParamCaption}) const}
+
+
+
+Operator == overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classSensor}{Sensor}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 98 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{98                                                   \{}
+\DoxyCodeLine{99   \textcolor{keywordflow}{return} \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}} == \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}};}
+\DoxyCodeLine{100 \}}
+
+\end{DoxyCode}
+
+
+References id\+\_\+.
+
+\mbox{\Hypertarget{classSensor_a08e343af00826f236dd92d952cac6278}\label{classSensor_a08e343af00826f236dd92d952cac6278}} 
+\index{Sensor@{Sensor}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily bool Sensor\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classSensor}{Sensor}} \&}]{Sensor }\end{DoxyParamCaption}) const}
+
+
+
+Operator $>$ overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classSensor}{Sensor}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 96 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{96 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}} > \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}}; \}}
+
+\end{DoxyCode}
+
+
+References id\+\_\+.
+
+\mbox{\Hypertarget{classSensor_ab96627dab3d2e727f07d7f1ea83379e1}\label{classSensor_ab96627dab3d2e727f07d7f1ea83379e1}} 
+\index{Sensor@{Sensor}!printData@{printData}}
+\index{printData@{printData}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{printData()}{printData()}}
+{\footnotesize\ttfamily void Sensor\+::print\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Print the data of the \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented in \mbox{\hyperlink{classTemperatureSensor_a3119dd0c9914efdbccd8ee9584f88b62}{Temperature\+Sensor}}, \mbox{\hyperlink{classPressureSensor_aa1657b60ae025902a8051174c1d8716f}{Pressure\+Sensor}}, \mbox{\hyperlink{classPhSensor_a55c2c68cc33cc039d8907da047c42615}{Ph\+Sensor}}, \mbox{\hyperlink{classLightSensor_ad25cff6fc6d2c36b7d45ae2f6d967f1e}{Light\+Sensor}}, \mbox{\hyperlink{classHydrometerSensor_a92f8c8b584be1955f123168ee7c8641d}{Hydrometer\+Sensor}}, and \mbox{\hyperlink{classAirQualitySensor_a8b9bf156728de2c119344b990d19097a}{Air\+Quality\+Sensor}}.
+
+
+
+Definition at line 122 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{122                              \{}
+\DoxyCodeLine{123   cout << \textcolor{stringliteral}{"{}This prints the data of sensor "{}} << \mbox{\hyperlink{classSensor_a39b6154305fb7273b43b4c6ec1cb7431}{getType}}() << \textcolor{stringliteral}{"{} with id"{}} << \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}}}
+\DoxyCodeLine{124        << \textcolor{stringliteral}{"{} please use the correct function to print the data"{}} << endl;}
+\DoxyCodeLine{125   \textcolor{comment}{// This function will be implemented in the derived classes}}
+\DoxyCodeLine{126 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{classSensor_ab96627dab3d2e727f07d7f1ea83379e1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a8c3a63a324230f81e78972d37f9ddfb1}\label{classSensor_a8c3a63a324230f81e78972d37f9ddfb1}} 
+\index{Sensor@{Sensor}!setData@{setData}}
+\index{setData@{setData}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{setData()}{setData()}}
+{\footnotesize\ttfamily void Sensor\+::set\+Data (\begin{DoxyParamCaption}\item[{float}]{data }\end{DoxyParamCaption})}
+
+
+
+Set the Data object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 44 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{44 \{ \mbox{\hyperlink{classSensor_ac0788914500e8167aedbe84e4dffae01}{data\_}} = data; \}}
+
+\end{DoxyCode}
+
+
+Referenced by Air\+Quality\+Sensor\+::collect\+Data(), Hydrometer\+Sensor\+::collect\+Data(), Light\+Sensor\+::collect\+Data(), Ph\+Sensor\+::collect\+Data(), Pressure\+Sensor\+::collect\+Data(), Temperature\+Sensor\+::collect\+Data(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSensor_a8c3a63a324230f81e78972d37f9ddfb1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a3c4b515de7b3b1d92ff2e92bd33ff020}\label{classSensor_a3c4b515de7b3b1d92ff2e92bd33ff020}} 
+\index{Sensor@{Sensor}!setId@{setId}}
+\index{setId@{setId}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Sensor\+::set\+Id (\begin{DoxyParamCaption}\item[{int}]{newid }\end{DoxyParamCaption})}
+
+
+
+Set the Id object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em newid} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 48 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48 \{ \mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}} = newid; \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{classSensor_a3c4b515de7b3b1d92ff2e92bd33ff020_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a74089ea5ed02fb4125948998b2d78507}\label{classSensor_a74089ea5ed02fb4125948998b2d78507}} 
+\index{Sensor@{Sensor}!setType@{setType}}
+\index{setType@{setType}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{setType()}{setType()}}
+{\footnotesize\ttfamily void Sensor\+::set\+Type (\begin{DoxyParamCaption}\item[{std\+::string}]{newtype }\end{DoxyParamCaption})}
+
+
+
+Set the Type object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em newtype} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 55 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{55 \{ \mbox{\hyperlink{classSensor_a4461054083ff14c0860433e803a82c3e}{type\_}} = \mbox{\hyperlink{classSensor_a60f71381915658a2f932ec64ccfd40eb}{stringToType}}(newtype); \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classSensor_a74089ea5ed02fb4125948998b2d78507_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a60f71381915658a2f932ec64ccfd40eb}\label{classSensor_a60f71381915658a2f932ec64ccfd40eb}} 
+\index{Sensor@{Sensor}!stringToType@{stringToType}}
+\index{stringToType@{stringToType}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{stringToType()}{stringToType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Sensor\+::\+Types}} Sensor\+::string\+To\+Type (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{type }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convert the string to the type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Types 
+\end{DoxyReturn}
+
+
+Definition at line 57 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{57                                                             \{}
+\DoxyCodeLine{58   \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}TEMPERATURE"{}}) \{}
+\DoxyCodeLine{59     \textcolor{keywordflow}{return} Types::TEMPERATURE;}
+\DoxyCodeLine{60   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}AIR\_QUALITY"{}}) \{}
+\DoxyCodeLine{61     \textcolor{keywordflow}{return} Types::AIR\_QUALITY;}
+\DoxyCodeLine{62   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}HYDROMETER"{}}) \{}
+\DoxyCodeLine{63     \textcolor{keywordflow}{return} Types::HYDROMETER;}
+\DoxyCodeLine{64   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}PRESSURE"{}}) \{}
+\DoxyCodeLine{65     \textcolor{keywordflow}{return} Types::PRESSURE;}
+\DoxyCodeLine{66   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}LIGHT\_SENSOR"{}}) \{}
+\DoxyCodeLine{67     \textcolor{keywordflow}{return} Types::LIGHT\_SENSOR;}
+\DoxyCodeLine{68   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}PH\_SENSOR"{}}) \{}
+\DoxyCodeLine{69     \textcolor{keywordflow}{return} Types::PH\_SENSOR;}
+\DoxyCodeLine{70   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{71     \textcolor{keywordflow}{return} Types::NONE;}
+\DoxyCodeLine{72   \}}
+\DoxyCodeLine{73 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classSensor_a7e0dadfc3dcde4c6c7b20d0c0ae09082}\label{classSensor_a7e0dadfc3dcde4c6c7b20d0c0ae09082}} 
+\index{Sensor@{Sensor}!turnOff@{turnOff}}
+\index{turnOff@{turnOff}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{turnOff()}{turnOff()}}
+{\footnotesize\ttfamily void Sensor\+::turn\+Off (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Turn off the sensor. 
+
+
+
+Definition at line 38 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{38 \{ \mbox{\hyperlink{classSensor_a8a952b3dc35b753421911f3783d4bbbf}{active\_}} = \textcolor{keyword}{false}; \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classSensor_a7e0dadfc3dcde4c6c7b20d0c0ae09082_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_ab687b1dd4e4ecb1d806bf947cedc9b76}\label{classSensor_ab687b1dd4e4ecb1d806bf947cedc9b76}} 
+\index{Sensor@{Sensor}!turnOn@{turnOn}}
+\index{turnOn@{turnOn}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{turnOn()}{turnOn()}}
+{\footnotesize\ttfamily void Sensor\+::turn\+On (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Turn on the sensor. 
+
+
+
+Definition at line 40 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{40 \{ \mbox{\hyperlink{classSensor_a8a952b3dc35b753421911f3783d4bbbf}{active\_}} = \textcolor{keyword}{true}; \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classSensor_ab687b1dd4e4ecb1d806bf947cedc9b76_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSensor_a3dd8660ffa950dbdfc60ec3c6aeeea35}\label{classSensor_a3dd8660ffa950dbdfc60ec3c6aeeea35}} 
+\index{Sensor@{Sensor}!typeToString@{typeToString}}
+\index{typeToString@{typeToString}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{typeToString()}{typeToString()}}
+{\footnotesize\ttfamily std\+::string Sensor\+::type\+To\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Types}}}]{type }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convert the type to the string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 75 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{75                                                \{}
+\DoxyCodeLine{76   \textcolor{keywordflow}{switch} (type) \{}
+\DoxyCodeLine{77   \textcolor{keywordflow}{case} Types::TEMPERATURE:}
+\DoxyCodeLine{78     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}TEMPERATURE"{}};}
+\DoxyCodeLine{79   \textcolor{keywordflow}{case} Types::AIR\_QUALITY:}
+\DoxyCodeLine{80     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}AIR\_QUALITY"{}};}
+\DoxyCodeLine{81   \textcolor{keywordflow}{case} Types::HYDROMETER:}
+\DoxyCodeLine{82     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}HYDROMETER"{}};}
+\DoxyCodeLine{83   \textcolor{keywordflow}{case} Types::PRESSURE:}
+\DoxyCodeLine{84     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}PRESSURE"{}};}
+\DoxyCodeLine{85   \textcolor{keywordflow}{case} Types::LIGHT\_SENSOR:}
+\DoxyCodeLine{86     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}LIGHT\_SENSOR"{}};}
+\DoxyCodeLine{87   \textcolor{keywordflow}{case} Types::PH\_SENSOR:}
+\DoxyCodeLine{88     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}PH\_SENSOR"{}};}
+\DoxyCodeLine{89   \textcolor{keywordflow}{default}:}
+\DoxyCodeLine{90     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}NONE"{}};}
+\DoxyCodeLine{91   \}}
+\DoxyCodeLine{92 \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classSensor_aa0f89047d73bfd39d393f3d5ce196235}\label{classSensor_aa0f89047d73bfd39d393f3d5ce196235}} 
+\index{Sensor@{Sensor}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classSensor}{Sensor}} \&}]{Sensor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator $<$$<$ overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em \mbox{\hyperlink{classSensor}{Sensor}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+
+
+Definition at line 102 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{102                                                              \{}
+\DoxyCodeLine{103   os << \textcolor{stringliteral}{"{}ID: "{}} << \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{getId}}() << \textcolor{stringliteral}{"{} Type: "{}} << \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a39b6154305fb7273b43b4c6ec1cb7431}{getType}}()}
+\DoxyCodeLine{104      << \textcolor{stringliteral}{"{} Active: "{}} << \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{isActive}}() << \textcolor{stringliteral}{"{} Data: "{}} << \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{getData}}()}
+\DoxyCodeLine{105      << std::endl;}
+\DoxyCodeLine{106   \textcolor{keywordflow}{return} os;}
+\DoxyCodeLine{107 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classSensor_a9cc30af30f902dff163c64c8d4c14a4f}\label{classSensor_a9cc30af30f902dff163c64c8d4c14a4f}} 
+\index{Sensor@{Sensor}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{classSensor}{Sensor}} \&}]{Sensor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator $>$$>$ overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em \mbox{\hyperlink{classSensor}{Sensor}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+Definition at line 109 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{109                                                        \{}
+\DoxyCodeLine{110   cout << \textcolor{stringliteral}{"{}Enter sensor ID: "{}};}
+\DoxyCodeLine{111   is >> sensor.id\_;}
+\DoxyCodeLine{112   cout << \textcolor{stringliteral}{"{}Enter the type: "{}};}
+\DoxyCodeLine{113   std::string type;}
+\DoxyCodeLine{114   is >> type;}
+\DoxyCodeLine{115   sensor.setType(type);}
+\DoxyCodeLine{116   cout << \textcolor{stringliteral}{"{}Enter sensor active: "{}};}
+\DoxyCodeLine{117   is >> sensor.active\_;}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{119   \textcolor{keywordflow}{return} is;}
+\DoxyCodeLine{120 \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classSensor_a8a952b3dc35b753421911f3783d4bbbf}\label{classSensor_a8a952b3dc35b753421911f3783d4bbbf}} 
+\index{Sensor@{Sensor}!active\_@{active\_}}
+\index{active\_@{active\_}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{active\_}{active\_}}
+{\footnotesize\ttfamily bool Sensor\+::active\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The state of the sensor. 
+
+
+
+Definition at line 194 of file Sensor.\+h.
+
+\mbox{\Hypertarget{classSensor_ac0788914500e8167aedbe84e4dffae01}\label{classSensor_ac0788914500e8167aedbe84e4dffae01}} 
+\index{Sensor@{Sensor}!data\_@{data\_}}
+\index{data\_@{data\_}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{data\_}{data\_}}
+{\footnotesize\ttfamily float Sensor\+::data\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The data of the sensor. 
+
+
+
+Definition at line 199 of file Sensor.\+h.
+
+\mbox{\Hypertarget{classSensor_a850d32639622b7fa1f2bb8b15a96609b}\label{classSensor_a850d32639622b7fa1f2bb8b15a96609b}} 
+\index{Sensor@{Sensor}!id\_@{id\_}}
+\index{id\_@{id\_}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{id\_}{id\_}}
+{\footnotesize\ttfamily int Sensor\+::id\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The id of the sensor. 
+
+
+
+Definition at line 184 of file Sensor.\+h.
+
+
+
+Referenced by operator$<$(), operator==(), and operator$>$().
+
+\mbox{\Hypertarget{classSensor_a4461054083ff14c0860433e803a82c3e}\label{classSensor_a4461054083ff14c0860433e803a82c3e}} 
+\index{Sensor@{Sensor}!type\_@{type\_}}
+\index{type\_@{type\_}!Sensor@{Sensor}}
+\doxysubsubsection{\texorpdfstring{type\_}{type\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSensor_ab15129ca0ef06dd924d0f24aebb7aae5}{Types}} Sensor\+::type\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The type of the sensor. 
+
+
+
+Definition at line 189 of file Sensor.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Sensor_8h}{Sensor.\+h}}\item 
+src/\mbox{\hyperlink{Sensor_8cpp}{Sensor.\+cpp}}\end{DoxyCompactItemize}

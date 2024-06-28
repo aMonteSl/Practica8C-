@@ -1,0 +1,7 @@
+<map id="MonitoringSystem::mainWindowGuest" name="MonitoringSystem::mainWindowGuest">
+<area shape="rect" id="node1" title="This method shows the main menu for the guests." alt="" coords="844,5,1079,47"/>
+<area shape="rect" id="node2" href="$classGreenHouse.html#a146566af38aa51815d885d61f1c53df6" title="Manage the guest." alt="" coords="595,13,796,39"/>
+<area shape="rect" id="node3" href="$classGreenHouse.html#abbb9d2c2a94f06899e17d772fc1ee19b" title="Manage the login." alt="" coords="348,13,547,39"/>
+<area shape="rect" id="node4" href="$classGreenHouse.html#ae4b034eed62c1ef18fbac1559f0e21e1" title="Main system, after the system is started, you call this method to manage the system with your options..." alt="" coords="108,13,300,39"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,60,39"/>
+</map>

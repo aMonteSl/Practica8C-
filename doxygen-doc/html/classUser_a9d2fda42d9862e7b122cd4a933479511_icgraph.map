@@ -1,0 +1,9 @@
+<map id="User::setName" name="User::setName">
+<area shape="rect" id="node1" title="Set the Name object." alt="" coords="273,148,392,175"/>
+<area shape="rect" id="node2" href="$mainUser_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="88,5,143,32"/>
+<area shape="rect" id="node3" href="$classUsersServer.html#a8655f96ea475b164bc898926efff9421" title="This method reads the users from a file binary." alt="" coords="11,57,219,98"/>
+<area shape="rect" id="node4" href="$classUser.html#a616dac6ac029b9f74cad0b95f368a790" title="Construct a new User object." alt="" coords="70,123,161,149"/>
+<area shape="rect" id="node5" href="$classUserAdmin.html#a933b4999660eb420322d96c555257974" title="Construct a new User Admin object." alt="" coords="28,173,203,200"/>
+<area shape="rect" id="node6" href="$classUserEmployee.html#aeaeda7d3d1a675269085f27c48ddec5e" title="Construct a new User Employee object." alt="" coords="5,224,225,251"/>
+<area shape="rect" id="node7" href="$classUserGuest.html#a3a4cf32008149638291c449214ebf7e8" title="Construct a new User Guest object." alt="" coords="32,275,199,301"/>
+</map>

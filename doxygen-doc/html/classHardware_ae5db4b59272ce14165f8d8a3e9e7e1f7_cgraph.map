@@ -1,0 +1,4 @@
+<map id="Hardware::getType" name="Hardware::getType">
+<area shape="rect" id="node1" title="Get the Type object." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node2" href="$classHardware.html#ad52fd1042e4e087dac8d03c3647411fc" title="This method converts the type of hardware to a string." alt="" coords="197,5,372,32"/>
+</map>

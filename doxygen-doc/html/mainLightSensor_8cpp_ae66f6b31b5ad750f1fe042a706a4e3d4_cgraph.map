@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,60,133"/>
+<area shape="rect" id="node2" href="$classLightSensor.html#a577e1c14fdde492c4a07af6a82dd59bd" title="Collect and print the data of the Light Sensor." alt="" coords="108,107,312,133"/>
+<area shape="rect" id="node3" href="$classLightSensor.html#a25c96763d1fe30bdb3705000bae8dc12" title="Collect data of the Light Sensor." alt="" coords="360,5,540,32"/>
+<area shape="rect" id="node5" href="$classLightSensor.html#ad25cff6fc6d2c36b7d45ae2f6d967f1e" title="Print the data of the Light Sensor." alt="" coords="367,157,533,184"/>
+<area shape="rect" id="node6" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="1061,107,1188,133"/>
+<area shape="rect" id="node9" href="$classLightSensor.html#a649f67791977f6e9ee0366267b25e367" title="Collect and print the data of the Light Sensor." alt="" coords="588,259,772,285"/>
+<area shape="rect" id="node4" href="$classSensor.html#a8c3a63a324230f81e78972d37f9ddfb1" title="Set the Data object." alt="" coords="617,5,743,32"/>
+<area shape="rect" id="node7" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="627,208,733,235"/>
+<area shape="rect" id="node8" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="853,169,980,196"/>
+<area shape="rect" id="node10" href="$classLightSensor.html#a004261e3ba593ff04b76ce3839d7c438" title="Check if the Light Sensor is working properly." alt="" coords="820,245,1013,272"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="GreenHouse::manageUpdateUser" name="GreenHouse::manageUpdateUser">
+<area shape="rect" id="node1" title="Manage the update user." alt="" coords="5,229,245,255"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#a9675bb382a6211a1e72573fdbe219ab0" title="Get the Email Selected User object." alt="" coords="329,5,535,47"/>
+<area shape="rect" id="node3" href="$classMonitoringSystem.html#a08f0cdd13ff0e3064efa4d76de498087" title="Get the Name Selected User object." alt="" coords="327,71,537,112"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#a7ec712b369369bc18a1f4b39501876c3" title="Get the NIF Selected User object." alt="" coords="293,137,571,163"/>
+<area shape="rect" id="node5" href="$classMonitoringSystem.html#a0692f64404417b8300b134572fe07470" title="Get the Password Selected User object." alt="" coords="317,188,547,229"/>
+<area shape="rect" id="node6" href="$classMonitoringSystem.html#a7f637f3c6c73c1eefabe167a6f956670" title="Get the Privileges Selected User object." alt="" coords="315,253,549,295"/>
+<area shape="rect" id="node7" href="$classGreenHouse.html#a28f5dbd503c2f731ce4dadb9646f443c" title="Manage search user." alt="" coords="341,319,523,346"/>
+<area shape="rect" id="node9" href="$classUsersServer.html#a3500268cb464053ac588a0f4534ac36c" title="Update User." alt="" coords="340,370,524,397"/>
+<area shape="rect" id="node12" href="$classMonitoringSystem.html#a4fa946aa944f0c38e3e60931d16c0fe3" title="This method shows the message to update a user." alt="" coords="335,443,529,484"/>
+<area shape="rect" id="node8" href="$classUsersServer.html#a113e388eb93cf9aa9dd585d87e3a557b" title="Find User Login." alt="" coords="629,283,827,310"/>
+<area shape="rect" id="node10" href="$classUser.html#ad25e420b6470b7c840d28d6e9bb87fe3" title="Set the Email object." alt="" coords="669,334,787,361"/>
+<area shape="rect" id="node11" href="$classUser.html#aa72db65160cea95ad93a14b084825bad" title="Set the Privileges object." alt="" coords="656,385,800,411"/>
+<area shape="rect" id="node13" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="620,435,836,462"/>
+<area shape="rect" id="node14" href="$classMonitoringSystem.html#a939d9f1856e0b97975e19a4a11f8b73b" title="This is the method to select a user." alt="" coords="619,486,837,513"/>
+<area shape="rect" id="node21" href="$classScreenHardware.html#ab506598df41adae147421b538c0f2a16" title="Update a User object window." alt="" coords="622,537,834,579"/>
+<area shape="rect" id="node15" href="$classMonitoringSystem.html#a2562b1b9b4de7da761a6a5db52793348" title="This method asks the user for an input for the email." alt="" coords="899,385,1108,411"/>
+<area shape="rect" id="node17" href="$classMonitoringSystem.html#acd7c674be2caff1ac2bcc37b2cd0fb3b" title="This method asks the user for an input for the name." alt="" coords="898,435,1109,462"/>
+<area shape="rect" id="node18" href="$classMonitoringSystem.html#af4af355f2a6bbda876e80f36ba1624cc" title="This method asks the user for an input for the NIF." alt="" coords="906,486,1101,513"/>
+<area shape="rect" id="node19" href="$classMonitoringSystem.html#a26cbfb1c9afd14b76c5acbf99eae8569" title="This method asks the user for an input for the password." alt="" coords="887,537,1120,563"/>
+<area shape="rect" id="node20" href="$classMonitoringSystem.html#a64d58db9d958b2f61f601ed71dfb1e3b" title="This method asks the user for an input for the privileges." alt="" coords="885,587,1121,614"/>
+<area shape="rect" id="node16" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="1169,479,1360,520"/>
+</map>

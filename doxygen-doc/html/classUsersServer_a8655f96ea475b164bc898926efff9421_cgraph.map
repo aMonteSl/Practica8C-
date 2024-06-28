@@ -1,0 +1,11 @@
+<map id="UsersServer::readUsersFromFileBi" name="UsersServer::readUsersFromFileBi">
+<area shape="rect" id="node1" title="This method reads the users from a file binary." alt="" coords="5,175,213,217"/>
+<area shape="rect" id="node2" href="$classUser.html#a446a64e63adafbc2e1428532275ad6a1" title="Get the Name object." alt="" coords="274,5,394,32"/>
+<area shape="rect" id="node3" href="$classUser.html#a45b909a4f4e6b56cb00a5c6dae251a9a" title="Get the Nif object." alt="" coords="284,56,384,83"/>
+<area shape="rect" id="node4" href="$classUser.html#afb94652eecf297a0b27418e0a6211a70" title="Get the Privileges object." alt="" coords="261,107,407,133"/>
+<area shape="rect" id="node5" href="$classUser.html#ad25e420b6470b7c840d28d6e9bb87fe3" title="Set the Email object." alt="" coords="275,157,393,184"/>
+<area shape="rect" id="node6" href="$classUser.html#a9d2fda42d9862e7b122cd4a933479511" title="Set the Name object." alt="" coords="275,208,393,235"/>
+<area shape="rect" id="node7" href="$classUser.html#aa10c232ba4f5baf1b9062263a9f5450f" title="Set the Nif object." alt="" coords="285,259,383,285"/>
+<area shape="rect" id="node8" href="$classUser.html#ac3544d3457d10ea27da89f500d37c5b7" title="Set the Password object." alt="" coords="263,309,405,336"/>
+<area shape="rect" id="node9" href="$classUser.html#aa72db65160cea95ad93a14b084825bad" title="Set the Privileges object." alt="" coords="262,360,406,387"/>
+</map>

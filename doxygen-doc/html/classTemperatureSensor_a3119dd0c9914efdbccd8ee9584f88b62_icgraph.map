@@ -1,0 +1,5 @@
+<map id="TemperatureSensor::printData" name="TemperatureSensor::printData">
+<area shape="rect" id="node1" title="Print the data of the Temperature Sensor." alt="" coords="312,35,468,76"/>
+<area shape="rect" id="node2" href="$classTemperatureSensor.html#a8bd9830643bd9726c988fccf56759d6f" title="Collect and print the data of the Temperature Sensor." alt="" coords="108,5,264,47"/>
+<area shape="rect" id="node3" href="$mainTemperatureSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,42,60,69"/>
+</map>

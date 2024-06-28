@@ -1,0 +1,65 @@
+\hypertarget{mainKeyboardHardware_8cpp}{}\doxysection{src/main\+Keyboard\+Hardware.cpp File Reference}
+\label{mainKeyboardHardware_8cpp}\index{src/mainKeyboardHardware.cpp@{src/mainKeyboardHardware.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Keyboard\+Hardware.\+h\char`\"{}}\newline
+Include dependency graph for main\+Keyboard\+Hardware.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{mainKeyboardHardware_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainKeyboardHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainKeyboardHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainKeyboardHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainKeyboardHardware.cpp@{mainKeyboardHardware.cpp}!main@{main}}
+\index{main@{main}!mainKeyboardHardware.cpp@{mainKeyboardHardware.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file main\+Keyboard\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6            \{}
+\DoxyCodeLine{7   \mbox{\hyperlink{classKeyboardHardware}{KeyboardHardware}} keyboard(\textcolor{keyword}{true});}
+\DoxyCodeLine{8   \textcolor{keywordflow}{if} (keyboard.isActive()) \{}
+\DoxyCodeLine{9     std::cout << \textcolor{stringliteral}{"{}Active"{}} << std::endl;}
+\DoxyCodeLine{10   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{11     std::cout << \textcolor{stringliteral}{"{}No Active"{}} << std::endl;}
+\DoxyCodeLine{12   \}}
+\DoxyCodeLine{13   \textcolor{comment}{// apagamos}}
+\DoxyCodeLine{14   keyboard.turnOff();}
+\DoxyCodeLine{15   std::cout << keyboard.stringStatus() << std::endl;}
+\DoxyCodeLine{16   \textcolor{comment}{// encnedemos}}
+\DoxyCodeLine{17   keyboard.turnOn();}
+\DoxyCodeLine{18   std::cout << keyboard.stringStatus() << std::endl;}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20   \textcolor{comment}{// Preguntamos un input y luego mostramos el ultimo input}}
+\DoxyCodeLine{21   std::cout << keyboard.askInput() << std::endl;}
+\DoxyCodeLine{22   std::cout << keyboard.stringInput() << std::endl;}
+\DoxyCodeLine{23   keyboard.displayOutput();}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25   \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{26 \}}
+
+\end{DoxyCode}
+
+
+References Keyboard\+Hardware\+::ask\+Input(), Keyboard\+Hardware\+::display\+Output(), Hardware\+::is\+Active(), Keyboard\+Hardware\+::string\+Input(), Hardware\+::string\+Status(), Hardware\+::turn\+Off(), and Hardware\+::turn\+On().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainKeyboardHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,6 @@
+<map id="HydrometerSensor::stringStatus" name="HydrometerSensor::stringStatus">
+<area shape="rect" id="node1" title="Collect and print the data of the Hydrometer Sensor." alt="" coords="5,23,195,65"/>
+<area shape="rect" id="node2" href="$classHydrometerSensor.html#a463ada24b296bdbf0a3a68e4df7f3d16" title="Check if the Hydrometer Sensor is working properly." alt="" coords="243,5,481,32"/>
+<area shape="rect" id="node4" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="299,56,425,83"/>
+<area shape="rect" id="node3" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="529,5,656,32"/>
+</map>

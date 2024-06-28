@@ -1,0 +1,7 @@
+<map id="UsersDatabase::addUser" name="UsersDatabase::addUser">
+<area shape="rect" id="node1" title="Add a user to the set of users." alt="" coords="5,81,188,108"/>
+<area shape="rect" id="node2" href="$classUsersDatabase.html#a81c2193fa38bd3f63403e8877b741a2c" title="Fiend a user in the set of users with the NIF." alt="" coords="245,5,463,32"/>
+<area shape="rect" id="node3" href="$classUser.html#a45b909a4f4e6b56cb00a5c6dae251a9a" title="Get the Nif object." alt="" coords="304,56,404,83"/>
+<area shape="rect" id="node4" href="$classUser.html#afb94652eecf297a0b27418e0a6211a70" title="Get the Privileges object." alt="" coords="281,107,427,133"/>
+<area shape="rect" id="node5" href="$classUsersDatabase.html#a6cf2dcc2c9bf73ef4e262c173e4dc5a4" title="This method checks if the privileges are valid." alt="" coords="236,157,472,184"/>
+</map>

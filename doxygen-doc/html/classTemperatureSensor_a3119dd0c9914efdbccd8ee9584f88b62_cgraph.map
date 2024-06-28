@@ -1,0 +1,8 @@
+<map id="TemperatureSensor::printData" name="TemperatureSensor::printData">
+<area shape="rect" id="node1" title="Print the data of the Temperature Sensor." alt="" coords="5,45,161,87"/>
+<area shape="rect" id="node2" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="617,57,744,83"/>
+<area shape="rect" id="node3" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="234,27,341,54"/>
+<area shape="rect" id="node4" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="428,78,555,105"/>
+<area shape="rect" id="node5" href="$classTemperatureSensor.html#acd28d8060aa781117fc8a828deaaed56" title="String status of the Temperature Sensor." alt="" coords="209,129,365,171"/>
+<area shape="rect" id="node6" href="$classTemperatureSensor.html#ac0a66fbba4b1d8363de5ff807c123354" title="Check if the Temperature Sensor is working properly." alt="" coords="413,129,569,171"/>
+</map>

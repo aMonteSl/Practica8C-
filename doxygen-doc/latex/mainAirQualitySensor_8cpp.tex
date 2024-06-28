@@ -1,0 +1,64 @@
+\hypertarget{mainAirQualitySensor_8cpp}{}\doxysection{src/main\+Air\+Quality\+Sensor.cpp File Reference}
+\label{mainAirQualitySensor_8cpp}\index{src/mainAirQualitySensor.cpp@{src/mainAirQualitySensor.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Air\+Quality\+Sensor.\+h\char`\"{}}\newline
+Include dependency graph for main\+Air\+Quality\+Sensor.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{mainAirQualitySensor_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainAirQualitySensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainAirQualitySensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainAirQualitySensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainAirQualitySensor.cpp@{mainAirQualitySensor.cpp}!main@{main}}
+\index{main@{main}!mainAirQualitySensor.cpp@{mainAirQualitySensor.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file main\+Air\+Quality\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6            \{}
+\DoxyCodeLine{7   \textcolor{comment}{// Genero un sensor tipo calidad del aire}}
+\DoxyCodeLine{8   \mbox{\hyperlink{classAirQualitySensor}{AirQualitySensor}} airQualitySensor(1, \textcolor{keyword}{true});}
+\DoxyCodeLine{9   \textcolor{comment}{// Imprimo la calidad del aire por defecto}}
+\DoxyCodeLine{10   airQualitySensor.printData();}
+\DoxyCodeLine{11   \textcolor{comment}{// Cambio el valor de la calidad del aire}}
+\DoxyCodeLine{12   airQualitySensor.collectData();}
+\DoxyCodeLine{13   \textcolor{comment}{// Imprimo la nueva calidad del aire}}
+\DoxyCodeLine{14   airQualitySensor.printData();}
+\DoxyCodeLine{15   \textcolor{comment}{// Vuelvo a imprimir la calidad del aire}}
+\DoxyCodeLine{16   cout << \textcolor{stringliteral}{"{}Air Quality: "{}} << airQualitySensor.getData() << endl;}
+\DoxyCodeLine{17   cout << \textcolor{stringliteral}{"{}Status: "{}} << airQualitySensor.stringStatus() << endl;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19   airQualitySensor.collectData();}
+\DoxyCodeLine{20   \textcolor{comment}{// Imprimo el sensor de nuevo}}
+\DoxyCodeLine{21   airQualitySensor.printData();}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{24   airQualitySensor.collectAndPrint();}
+\DoxyCodeLine{25 \}}
+
+\end{DoxyCode}
+
+
+References Air\+Quality\+Sensor\+::collect\+And\+Print(), Air\+Quality\+Sensor\+::collect\+Data(), Sensor\+::get\+Data(), Air\+Quality\+Sensor\+::print\+Data(), and Air\+Quality\+Sensor\+::string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainAirQualitySensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,11 @@
+<map id="GreenHouse::save" name="GreenHouse::save">
+<area shape="rect" id="node1" title="Save the system." alt="" coords="5,157,147,184"/>
+<area shape="rect" id="node2" href="$classManageCameras.html#ab57c05b493a36caeb96e3b54374cd00a" title="Save the cameras to a file." alt="" coords="197,107,426,133"/>
+<area shape="rect" id="node8" href="$classAlarmSensors.html#af51225da8d29225aaaaa65b162870242" title="This method saves the sensors data to a file, one .txt and other one .dat." alt="" coords="195,157,428,184"/>
+<area shape="rect" id="node9" href="$classUsersServer.html#a09ff022e97cf02e1737dc735b43364fe" title="Save Users to File Save users to a file." alt="" coords="204,208,419,235"/>
+<area shape="rect" id="node3" href="$classRGBCamera.html#af1ac5808fe1915c447452b29bcc8069a" title="This method returns the blue value of the camera." alt="" coords="481,5,640,32"/>
+<area shape="rect" id="node4" href="$classRGBCamera.html#a6057aacfc5c6e7c71ad05e3446509107" title="This method returns the green value of the camera." alt="" coords="476,56,645,83"/>
+<area shape="rect" id="node5" href="$classCamera.html#ad2731f65f680be02d41d3b396d7db1be" title="Get the id of the camera." alt="" coords="503,107,618,133"/>
+<area shape="rect" id="node6" href="$classRGBCamera.html#abcbb3268f8ccb69819e698f40d261890" title="This method returns the red value of the camera." alt="" coords="483,157,638,184"/>
+<area shape="rect" id="node7" href="$classTemperatureCamera.html#a4f900629f149b32101d4616f9071be5b" title="This method gets the temperature of the camera." alt="" coords="479,209,642,250"/>
+</map>

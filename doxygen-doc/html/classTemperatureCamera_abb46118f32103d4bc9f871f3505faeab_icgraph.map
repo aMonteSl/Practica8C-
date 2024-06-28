@@ -1,0 +1,5 @@
+<map id="TemperatureCamera::randomTemperature" name="TemperatureCamera::randomTemperature">
+<area shape="rect" id="node1" title="This method generates a random temperature." alt="" coords="319,5,481,47"/>
+<area shape="rect" id="node2" href="$classTemperatureCamera.html#a0d985813ab77a25b8787890cead876aa" title="This method collects the data of the camera." alt="" coords="108,5,271,47"/>
+<area shape="rect" id="node3" href="$mainTemperatureCamera_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,60,39"/>
+</map>

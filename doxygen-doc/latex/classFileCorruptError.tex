@@ -1,0 +1,68 @@
+\hypertarget{classFileCorruptError}{}\doxysection{File\+Corrupt\+Error Class Reference}
+\label{classFileCorruptError}\index{FileCorruptError@{FileCorruptError}}
+
+
+{\ttfamily \#include $<$Exceptions.\+h$>$}
+
+
+
+Inheritance diagram for File\+Corrupt\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classFileCorruptError__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for File\+Corrupt\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classFileCorruptError__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFileCorruptError_a2b2eb256d89d3f07fd862a3b3871df8e}{File\+Corrupt\+Error}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Construct a new File Corrupt Error object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 91 of file Exceptions.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFileCorruptError_a2b2eb256d89d3f07fd862a3b3871df8e}\label{classFileCorruptError_a2b2eb256d89d3f07fd862a3b3871df8e}} 
+\index{FileCorruptError@{FileCorruptError}!FileCorruptError@{FileCorruptError}}
+\index{FileCorruptError@{FileCorruptError}!FileCorruptError@{FileCorruptError}}
+\doxysubsubsection{\texorpdfstring{FileCorruptError()}{FileCorruptError()}}
+{\footnotesize\ttfamily File\+Corrupt\+Error\+::\+File\+Corrupt\+Error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Construct a new File Corrupt Error object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 98 of file Exceptions.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{99       : std::runtime\_error(\textcolor{stringliteral}{"{}File is corrupt: "{}} + filename) \{\}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Exceptions_8h}{Exceptions.\+h}}\end{DoxyCompactItemize}

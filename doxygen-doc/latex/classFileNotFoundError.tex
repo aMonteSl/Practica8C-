@@ -1,0 +1,68 @@
+\hypertarget{classFileNotFoundError}{}\doxysection{File\+Not\+Found\+Error Class Reference}
+\label{classFileNotFoundError}\index{FileNotFoundError@{FileNotFoundError}}
+
+
+{\ttfamily \#include $<$Exceptions.\+h$>$}
+
+
+
+Inheritance diagram for File\+Not\+Found\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classFileNotFoundError__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for File\+Not\+Found\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classFileNotFoundError__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFileNotFoundError_a3de70c8b34cf70a1676eb0f6817f315b}{File\+Not\+Found\+Error}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Construct a new File Not Found Error object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 69 of file Exceptions.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFileNotFoundError_a3de70c8b34cf70a1676eb0f6817f315b}\label{classFileNotFoundError_a3de70c8b34cf70a1676eb0f6817f315b}} 
+\index{FileNotFoundError@{FileNotFoundError}!FileNotFoundError@{FileNotFoundError}}
+\index{FileNotFoundError@{FileNotFoundError}!FileNotFoundError@{FileNotFoundError}}
+\doxysubsubsection{\texorpdfstring{FileNotFoundError()}{FileNotFoundError()}}
+{\footnotesize\ttfamily File\+Not\+Found\+Error\+::\+File\+Not\+Found\+Error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Construct a new File Not Found Error object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 76 of file Exceptions.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{77       : std::runtime\_error(\textcolor{stringliteral}{"{}File not found: "{}} + filename) \{\}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Exceptions_8h}{Exceptions.\+h}}\end{DoxyCompactItemize}

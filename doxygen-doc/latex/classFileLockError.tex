@@ -1,0 +1,68 @@
+\hypertarget{classFileLockError}{}\doxysection{File\+Lock\+Error Class Reference}
+\label{classFileLockError}\index{FileLockError@{FileLockError}}
+
+
+{\ttfamily \#include $<$Exceptions.\+h$>$}
+
+
+
+Inheritance diagram for File\+Lock\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classFileLockError__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for File\+Lock\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classFileLockError__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFileLockError_aa331661afb6ea8e9bebbf386d3250527}{File\+Lock\+Error}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Construct a new File Lock Error object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 80 of file Exceptions.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFileLockError_aa331661afb6ea8e9bebbf386d3250527}\label{classFileLockError_aa331661afb6ea8e9bebbf386d3250527}} 
+\index{FileLockError@{FileLockError}!FileLockError@{FileLockError}}
+\index{FileLockError@{FileLockError}!FileLockError@{FileLockError}}
+\doxysubsubsection{\texorpdfstring{FileLockError()}{FileLockError()}}
+{\footnotesize\ttfamily File\+Lock\+Error\+::\+File\+Lock\+Error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Construct a new File Lock Error object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 87 of file Exceptions.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{88       : std::runtime\_error(\textcolor{stringliteral}{"{}File is locked: "{}} + filename) \{\}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Exceptions_8h}{Exceptions.\+h}}\end{DoxyCompactItemize}

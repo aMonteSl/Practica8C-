@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,110,60,137"/>
+<area shape="rect" id="node2" href="$classTemperatureCamera.html#a0d985813ab77a25b8787890cead876aa" title="This method collects the data of the camera." alt="" coords="108,69,271,111"/>
+<area shape="rect" id="node5" href="$classTemperatureCamera.html#add1b70532eaf5fd0152463b3e18af872" title="This method prints the camera information." alt="" coords="108,135,271,176"/>
+<area shape="rect" id="node3" href="$classTemperatureCamera.html#abb46118f32103d4bc9f871f3505faeab" title="This method generates a random temperature." alt="" coords="319,5,481,47"/>
+<area shape="rect" id="node4" href="$classTemperatureCamera.html#a436a4a5d9a1359ade70672dfc0fa001b" title="This method sets the temperature of the camera." alt="" coords="319,71,481,112"/>
+<area shape="rect" id="node6" href="$classCamera.html#ad2731f65f680be02d41d3b396d7db1be" title="Get the id of the camera." alt="" coords="343,139,457,166"/>
+<area shape="rect" id="node7" href="$classCamera.html#ada24ccf1d1d0d6fc72886b8f64b504c4" title="Check if the camera is active." alt="" coords="333,190,467,217"/>
+</map>

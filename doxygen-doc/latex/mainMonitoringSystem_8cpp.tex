@@ -1,0 +1,99 @@
+\hypertarget{mainMonitoringSystem_8cpp}{}\doxysection{src/main\+Monitoring\+System.cpp File Reference}
+\label{mainMonitoringSystem_8cpp}\index{src/mainMonitoringSystem.cpp@{src/mainMonitoringSystem.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Keyboard\+Hardware.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Monitoring\+System.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Screen\+Hardware.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Switch\+Hardware.\+h\char`\"{}}\newline
+Include dependency graph for main\+Monitoring\+System.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainMonitoringSystem_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainMonitoringSystem_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainMonitoringSystem_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainMonitoringSystem_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainMonitoringSystem.cpp@{mainMonitoringSystem.cpp}!main@{main}}
+\index{main@{main}!mainMonitoringSystem.cpp@{mainMonitoringSystem.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 9 of file main\+Monitoring\+System.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9            \{}
+\DoxyCodeLine{10   \textcolor{comment}{// Creo un MonitoringSystem}}
+\DoxyCodeLine{11   \mbox{\hyperlink{classMonitoringSystem}{MonitoringSystem}} *ms =}
+\DoxyCodeLine{12       \textcolor{keyword}{new} \mbox{\hyperlink{classMonitoringSystem}{MonitoringSystem}}(\textcolor{keyword}{new} \mbox{\hyperlink{classScreenHardware}{ScreenHardware}}(\textcolor{keyword}{true}), \textcolor{keyword}{new} \mbox{\hyperlink{classKeyboardHardware}{KeyboardHardware}}(\textcolor{keyword}{true}),}
+\DoxyCodeLine{13                            \textcolor{keyword}{new} \mbox{\hyperlink{classSwitchHardware}{SwitchHardware}}(\textcolor{keyword}{true}));}
+\DoxyCodeLine{14   \textcolor{comment}{// Llamo a la funcion initialScreen() que muestra el menu inicial}}
+\DoxyCodeLine{15   ms-\/>\mbox{\hyperlink{classMonitoringSystem_a340c74f50e28880c3e52a515101d65db}{initialScreen}}();}
+\DoxyCodeLine{16   \textcolor{keywordflow}{if} (ms-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}() == 1) \{}
+\DoxyCodeLine{17     ms-\/>\mbox{\hyperlink{classMonitoringSystem_a4abdaf1876463edb964e36006c54b479}{loginScreen}}();}
+\DoxyCodeLine{18     \textcolor{comment}{// (SUponemos que ha entrado bien el usuario y que es admin)}}
+\DoxyCodeLine{19     \textcolor{keywordtype}{bool} exit = \textcolor{keyword}{false};}
+\DoxyCodeLine{20     \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{21       ms-\/>\mbox{\hyperlink{classMonitoringSystem_a3288619b3d16cf1ae901d86bee832398}{mainWindowAdmin}}();}
+\DoxyCodeLine{22       \textcolor{comment}{// Ahora probamos la ventana de employee}}
+\DoxyCodeLine{23       \textcolor{comment}{// ms-\/>mainWindowEmployee();}}
+\DoxyCodeLine{24       \textcolor{comment}{// Ahora probamos la ventana de guest}}
+\DoxyCodeLine{25       \textcolor{comment}{// ms-\/>mainWindowGuest();}}
+\DoxyCodeLine{26       \textcolor{keywordflow}{if} (ms-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}() == 1) \{}
+\DoxyCodeLine{27         ms-\/>\mbox{\hyperlink{classMonitoringSystem_adf36d0956870ce3eb0789fee62116f21}{createUserScreen}}();}
+\DoxyCodeLine{28       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (ms-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}() == 2) \{}
+\DoxyCodeLine{29         ms-\/>\mbox{\hyperlink{classMonitoringSystem_a0d1bd6d0bd300ec9e0ccd8e79ab491ed}{deleteUserScreen}}();}
+\DoxyCodeLine{30       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (ms-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}() == 3) \{}
+\DoxyCodeLine{31         ms-\/>\mbox{\hyperlink{classMonitoringSystem_a4fa946aa944f0c38e3e60931d16c0fe3}{updateUserScreen}}();}
+\DoxyCodeLine{32       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (ms-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}() == 4) \{}
+\DoxyCodeLine{33         ms-\/>\mbox{\hyperlink{classMonitoringSystem_aff79411cc2b839659fbf77281a9c80ac}{displayUsersScreen}}();}
+\DoxyCodeLine{34       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (ms-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}() == 5) \{}
+\DoxyCodeLine{35         ms-\/>\mbox{\hyperlink{classMonitoringSystem_aa83416a623e4ad81d4554f8c5ac2c2d4}{displaySensorsScreen}}();}
+\DoxyCodeLine{36       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (ms-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}() == 6) \{}
+\DoxyCodeLine{37         ms-\/>\mbox{\hyperlink{classMonitoringSystem_a7ed15cd1c877014b91d1572ec056d866}{displayAlarmsScreen}}();}
+\DoxyCodeLine{38       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (ms-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}() == 7) \{}
+\DoxyCodeLine{39         ms-\/>\mbox{\hyperlink{classMonitoringSystem_aa710bcc81ffd855276d6fb73c04fcb9f}{turnOnOffSystemScreen}}();}
+\DoxyCodeLine{40       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (ms-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}() == 8) \{}
+\DoxyCodeLine{41         ms-\/>\mbox{\hyperlink{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}{exitScreen}}();}
+\DoxyCodeLine{42         exit = \textcolor{keyword}{true};}
+\DoxyCodeLine{43       \}}
+\DoxyCodeLine{44     \} \textcolor{keywordflow}{while} (!exit);}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46     \textcolor{comment}{/*ms-\/>createUserScreen();}}
+\DoxyCodeLine{47 \textcolor{comment}{    ms-\/>deleteUserScreen();}}
+\DoxyCodeLine{48 \textcolor{comment}{    ms-\/>updateUserScreen();}}
+\DoxyCodeLine{49 \textcolor{comment}{    ms-\/>displayUsersScreen();}}
+\DoxyCodeLine{50 \textcolor{comment}{    ms-\/>displaySensorsScreen();}}
+\DoxyCodeLine{51 \textcolor{comment}{    ms-\/>displayAlarmsScreen();}}
+\DoxyCodeLine{52 \textcolor{comment}{    ms-\/>turnOnOffSystemScreen();}}
+\DoxyCodeLine{53 \textcolor{comment}{    ms-\/>displayErrorScreen();*/}}
+\DoxyCodeLine{54   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{55     \textcolor{comment}{// Llamo a la funcion exitScreen() que muestra el exitWindow}}
+\DoxyCodeLine{56     ms-\/>\mbox{\hyperlink{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}{exitScreen}}();}
+\DoxyCodeLine{57   \}}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59   \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{60 \}}
+
+\end{DoxyCode}
+
+
+References Monitoring\+System\+::create\+User\+Screen(), Monitoring\+System\+::delete\+User\+Screen(), Monitoring\+System\+::display\+Alarms\+Screen(), Monitoring\+System\+::display\+Sensors\+Screen(), Monitoring\+System\+::display\+Users\+Screen(), Monitoring\+System\+::exit\+Screen(), Monitoring\+System\+::get\+Selection(), Monitoring\+System\+::initial\+Screen(), Monitoring\+System\+::login\+Screen(), Monitoring\+System\+::main\+Window\+Admin(), Monitoring\+System\+::turn\+On\+Off\+System\+Screen(), and Monitoring\+System\+::update\+User\+Screen().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainMonitoringSystem_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>945</y>
+      <w>70</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>User
+--
+Name: String
+Nif: String
+Password: String
+Privileges: String
+Email: String
+--
+Get each Attribute
+Set each Attribute
+PrintUser</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>355</x>
+      <y>1095</y>
+      <w>100</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>UserAdmin
+--
+Privileges: String = ADMIN
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>UserEmployee
+--
+Privileges: String = EMPLOYEE
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>595</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>UserGuest
+--
+Privileges: String = GUEST
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>1025</y>
+      <w>135</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>250.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>1025</y>
+      <w>15</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>1025</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>835</y>
+      <w>85</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>UsersDatabase
+--
+users_: set&lt;Usuario*&gt;
+--
+addUser
+setUsers
+findUser
+deleteUser
+printUsers</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>905</y>
+      <w>25</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+1..n</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>465</x>
+      <y>705</y>
+      <w>125</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>UsersServer
+--
+usersDatabase_: UsersDatabase
+fileNameTxt_: string "users.txt"
+fileNameBi_: string "users.dat"
+--
+createUser
+deleteUser
+findUser
+updateUser
+printUsersServer
+loadUsersFromFile (txt/dat)
+saveUsersFromFile	(txt/dat)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>800</y>
+      <w>25</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+1..1</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1055</x>
+      <y>905</y>
+      <w>120</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Sensor
+--
+Types: enum
+id_: int
+type_:Types
+active_: bool
+data_: float
+--
+Get each attribute
+Set each attribute
+collectData
+collectAndPrint
+isActive
+turnOn
+turnOff
+checkAllGood
+printData</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>AirQualitySensor
+--
+type_: AirQuality</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>HydrometerSensor
+--
+type_: Hydrometer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>LightSensor
+--
+type_: Light</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>TemperatureSensor
+--
+type_: Temperature</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1240</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>PressureSensor
+--
+type_: Pressure</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1360</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>PhSensor
+--
+type_: Ph
+--
+qualifyPh</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>1030</y>
+      <w>315</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>610.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>930</x>
+      <y>1030</y>
+      <w>195</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>370.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>1030</y>
+      <w>75</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1110</x>
+      <y>1030</y>
+      <w>80</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1110</x>
+      <y>1030</y>
+      <w>195</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;370.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1110</x>
+      <y>1030</y>
+      <w>320</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;620.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1055</x>
+      <y>705</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>AlarmSensors
+--
+sensors_: set&lt;Sensor *&gt;
+fileNameTxt: string "sensors.txt"
+fileNameBin: string "sensors.dat"
+--
+addSensor
+deleteSensor
+displayAlarmStatus
+displayAllSensorsData
+turnOnOffSystem
+saveSensorsData (txt/dat)
+loadSensorsData (txt/dat)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1110</x>
+      <y>800</y>
+      <w>25</w>
+      <h>115</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+1..n</panel_attributes>
+    <additional_attributes>10.0;210.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1645</x>
+      <y>910</y>
+      <w>95</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>HardWare
+--
+Types_Hardware: enum
+active_: bool
+type_: Types_Hardware
+--
+getType
+setType
+isActive
+turnOn
+turnOff
+askInput
+displayOutput</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1510</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>KeyboardHardware
+--
+type_: Keyboard
+data_: int
+stringData_: string
+--
+askInput (int)
+stringInput (string)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1630</x>
+      <y>1095</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>ScreenHardware
+--
+type_: Screen
+--
+initialWindow
+mainWindowAdmin
+mainWindowEmployee
+mainWindowGuest
+createUserWindow
+deleteUserWindow
+updateUserWindow
+displayUserWindow
+createAlarmWindow
+(all the windows of the system)
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1765</x>
+      <y>1095</y>
+      <w>110</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>SwitchHardware
+--
+type_: Switch
+--
+askInput (int)
+translateInput
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1560</x>
+      <y>1005</y>
+      <w>145</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>270.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1690</x>
+      <y>1005</y>
+      <w>15</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1690</x>
+      <y>1005</y>
+      <w>140</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1635</x>
+      <y>705</y>
+      <w>120</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>MonitoringSystem
+--
+*screen: ScreenHardware
+*keyboard: KeyboardHardware
+*sw: SwitchHardware
+name_: string
+nif_: string
+password: string
+nameSelectedUser_: string
+nifSelectedUser_: string
+...
+idAlarm_: int
+typeAlarm_: string
+idSelectedAlarm_: int
+--
+Getters
+Setters
+All kind of window
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1690</x>
+      <y>840</y>
+      <w>25</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+1..3</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1560</x>
+      <y>850</y>
+      <w>95</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>A MonitoringSystem needs a piece of Hardware of each type
+Keyboard
+Screen
+Switch
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>925</x>
+      <y>830</y>
+      <w>115</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>You can have 0 sensors in the system
+Default one of each type
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>575</x>
+      <y>910</y>
+      <w>165</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>You can have UsersDatabase with 0 Users
+Default one of each type
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>265</x>
+      <y>805</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Your UsersServer can have 0 UsersDatabase = No users
+Default you have one user of each type
+admin 12345678X admin ADMIN admin@example.com
+employee 12345678Y employee EMPLOYEE employee@example.com
+guest 12345678Z guest GUEST guest@example.com
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>705</y>
+      <w>75</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Exceptions
+--
+FileOpenError
+FileCloseError
+FileReadError
+FileWriteError
+FilePermissionError
+FileNotFoundError
+FIleLockError
+FileCorruptError</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>745</y>
+      <w>225</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;430.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>870</x>
+      <y>745</y>
+      <w>195</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>370.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>810</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>920</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1035</x>
+      <y>845</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>860</y>
+      <w>55</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>980</x>
+      <y>415</y>
+      <w>270</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>GreenHouse
+--
+*alarm_: AlarmSensors
+*ms_: MonitoringSystem
+*us_: UsersServer
+--
+startSystem
+mainSystem
+save
+sleep
+manageLogin
+manageAdmin
+manageEmployee
+manageGuest
+manageUpdateUser
+manageCreateUser
+manageDeleteUser
+searchUser
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>555</y>
+      <w>605</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+1..1</panel_attributes>
+    <additional_attributes>10.0;300.0;1190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1110</x>
+      <y>555</y>
+      <w>25</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+1..1</panel_attributes>
+    <additional_attributes>10.0;300.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1110</x>
+      <y>555</y>
+      <w>600</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+1..1</panel_attributes>
+    <additional_attributes>1180.0;300.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

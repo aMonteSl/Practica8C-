@@ -1,0 +1,4 @@
+<map id="TemperatureSensor::checkAllgood" name="TemperatureSensor::checkAllgood">
+<area shape="rect" id="node1" title="Check if the Temperature Sensor is working properly." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="209,13,336,39"/>
+</map>

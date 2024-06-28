@@ -1,0 +1,8 @@
+<map id="ManageCameras::saveCameras" name="ManageCameras::saveCameras">
+<area shape="rect" id="node1" title="Save the cameras to a file." alt="" coords="5,107,235,133"/>
+<area shape="rect" id="node2" href="$classRGBCamera.html#af1ac5808fe1915c447452b29bcc8069a" title="This method returns the blue value of the camera." alt="" coords="288,5,447,32"/>
+<area shape="rect" id="node3" href="$classRGBCamera.html#a6057aacfc5c6e7c71ad05e3446509107" title="This method returns the green value of the camera." alt="" coords="283,56,452,83"/>
+<area shape="rect" id="node4" href="$classCamera.html#ad2731f65f680be02d41d3b396d7db1be" title="Get the id of the camera." alt="" coords="310,107,425,133"/>
+<area shape="rect" id="node5" href="$classRGBCamera.html#abcbb3268f8ccb69819e698f40d261890" title="This method returns the red value of the camera." alt="" coords="290,157,445,184"/>
+<area shape="rect" id="node6" href="$classTemperatureCamera.html#a4f900629f149b32101d4616f9071be5b" title="This method gets the temperature of the camera." alt="" coords="286,209,449,250"/>
+</map>

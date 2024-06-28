@@ -1,0 +1,68 @@
+\hypertarget{classFileOpenError}{}\doxysection{File\+Open\+Error Class Reference}
+\label{classFileOpenError}\index{FileOpenError@{FileOpenError}}
+
+
+{\ttfamily \#include $<$Exceptions.\+h$>$}
+
+
+
+Inheritance diagram for File\+Open\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classFileOpenError__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for File\+Open\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classFileOpenError__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFileOpenError_a11aed5a4d1c8a57fa1d70b9d8b05a62d}{File\+Open\+Error}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Construct a new File Open Error object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file Exceptions.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFileOpenError_a11aed5a4d1c8a57fa1d70b9d8b05a62d}\label{classFileOpenError_a11aed5a4d1c8a57fa1d70b9d8b05a62d}} 
+\index{FileOpenError@{FileOpenError}!FileOpenError@{FileOpenError}}
+\index{FileOpenError@{FileOpenError}!FileOpenError@{FileOpenError}}
+\doxysubsubsection{\texorpdfstring{FileOpenError()}{FileOpenError()}}
+{\footnotesize\ttfamily File\+Open\+Error\+::\+File\+Open\+Error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Construct a new File Open Error object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 21 of file Exceptions.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22       : std::runtime\_error(\textcolor{stringliteral}{"{}Error opening file: "{}} + filename) \{\}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Exceptions_8h}{Exceptions.\+h}}\end{DoxyCompactItemize}

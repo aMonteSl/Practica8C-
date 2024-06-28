@@ -1,0 +1,9 @@
+<map id="MonitoringSystem::createAlarmScreen" name="MonitoringSystem::createAlarmScreen">
+<area shape="rect" id="node1" title="This method shows the message to create a new alarm." alt="" coords="5,86,196,127"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#a0ec7f8e47b126a33656b9db2a6ec98c2" title="This is the method to ask the id of the alarm." alt="" coords="244,5,467,32"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#a1c21a694a22b5ef0d596764239edd8e1" title="This is the method to ask the type of the alarm." alt="" coords="254,57,457,98"/>
+<area shape="rect" id="node6" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="247,123,463,149"/>
+<area shape="rect" id="node7" href="$classScreenHardware.html#a6e27fbc2c5101439153e6c99f00f8420" title="Create a Alarm Window object." alt="" coords="247,174,464,215"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="515,5,725,32"/>
+<area shape="rect" id="node5" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="525,57,715,98"/>
+</map>

@@ -1,0 +1,640 @@
+\hypertarget{classHardware}{}\doxysection{Hardware Class Reference}
+\label{classHardware}\index{Hardware@{Hardware}}
+
+
+{\ttfamily \#include $<$Hardware.\+h$>$}
+
+
+
+Inheritance diagram for Hardware\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Hardware\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classHardware__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Types\+\_\+\+Hardware}} \{ \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dda30bfa3a3e6bb83a8f5dd907f1f5f6c11}{NONE}}
+, \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dda0a8d8f35ac607219a807a3fc91348ef9}{SCREEN}}
+, \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0ddaac0f8ddf2c313bf8b505f28d35b0edc0}{KEYBOARD}}
+, \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0ddaa56f0e2d9eeba23798893aa23ce93c3b}{SWITCH}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum of the types of hardware. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHardware_ad39ea32ec68d35db1320d3b8454085e4}{Hardware}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classHardware}{Hardware}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHardware_a4622d91b20b157f0105bce3caf3cc6fc}{Hardware}} (bool active, \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Types\+\_\+\+Hardware}} type)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classHardware}{Hardware}} object. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classHardware_a92901a44130552d28485409bcf6906f5}{$\sim$\+Hardware}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classHardware}{Hardware}} object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classHardware_ae5db4b59272ce14165f8d8a3e9e7e1f7}{get\+Type}} () const
+\begin{DoxyCompactList}\small\item\em Get the Type object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHardware_ad5bc6aaa1df01cebe16dce369bbc3ffb}{set\+Type}} (std\+::string newtype)
+\begin{DoxyCompactList}\small\item\em Set the Type object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHardware_ad5e780f3751896acdbde65557b683286}{is\+Active}} () const
+\begin{DoxyCompactList}\small\item\em If the hardware is active. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHardware_aee21531986a03e2fe8fcb3db70c5c6d1}{turn\+On}} ()
+\begin{DoxyCompactList}\small\item\em Turn on the hardware. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHardware_a03fc02b36d9f2e5d151ef3efaf788e2a}{turn\+Off}} ()
+\begin{DoxyCompactList}\small\item\em Turn off the hardware. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classHardware_acb5abd5dd06aab68f25115a93ba3ec37}{string\+Status}} () const
+\begin{DoxyCompactList}\small\item\em This method returns if the hardware is active or not in a string. \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{classHardware_a86ad934a24b012512273018a8e7237d8}{ask\+Input}} ()
+\begin{DoxyCompactList}\small\item\em This method asks the user for an input. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classHardware_a69a557514ea0c2e139e0355e9207dc9a}{display\+Output}} () const
+\begin{DoxyCompactList}\small\item\em This method displays the output of the hardware. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classHardware_ad52fd1042e4e087dac8d03c3647411fc}{type\+To\+String}} (\mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Types\+\_\+\+Hardware}} type) const
+\begin{DoxyCompactList}\small\item\em This method converts the type of hardware to a string. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Types\+\_\+\+Hardware}} \mbox{\hyperlink{classHardware_a43c67d91b1922f32e4ccc15bc8269866}{string\+To\+Type}} (std\+::string type) const
+\begin{DoxyCompactList}\small\item\em This method converts the string to a type of hardware. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classHardware_a6e1ae739d3a2b1831579b84904d90d4a}{active\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This atrribute is the status of the hardware. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Types\+\_\+\+Hardware}} \mbox{\hyperlink{classHardware_a6218e7f2aec6a110b95b8b17ce1062dd}{type\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the type of the hardware. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 15 of file Hardware.\+h.
+
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}\label{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}} 
+\index{Hardware@{Hardware}!Types\_Hardware@{Types\_Hardware}}
+\index{Types\_Hardware@{Types\_Hardware}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{Types\_Hardware}{Types\_Hardware}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Hardware\+::\+Types\+\_\+\+Hardware}}}
+
+
+
+Enum of the types of hardware. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NONE@{NONE}!Hardware@{Hardware}}\index{Hardware@{Hardware}!NONE@{NONE}}}\mbox{\Hypertarget{classHardware_ad91832333d9edae5ad60c7d22d47f0dda30bfa3a3e6bb83a8f5dd907f1f5f6c11}\label{classHardware_ad91832333d9edae5ad60c7d22d47f0dda30bfa3a3e6bb83a8f5dd907f1f5f6c11}} 
+NONE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SCREEN@{SCREEN}!Hardware@{Hardware}}\index{Hardware@{Hardware}!SCREEN@{SCREEN}}}\mbox{\Hypertarget{classHardware_ad91832333d9edae5ad60c7d22d47f0dda0a8d8f35ac607219a807a3fc91348ef9}\label{classHardware_ad91832333d9edae5ad60c7d22d47f0dda0a8d8f35ac607219a807a3fc91348ef9}} 
+SCREEN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{KEYBOARD@{KEYBOARD}!Hardware@{Hardware}}\index{Hardware@{Hardware}!KEYBOARD@{KEYBOARD}}}\mbox{\Hypertarget{classHardware_ad91832333d9edae5ad60c7d22d47f0ddaac0f8ddf2c313bf8b505f28d35b0edc0}\label{classHardware_ad91832333d9edae5ad60c7d22d47f0ddaac0f8ddf2c313bf8b505f28d35b0edc0}} 
+KEYBOARD&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SWITCH@{SWITCH}!Hardware@{Hardware}}\index{Hardware@{Hardware}!SWITCH@{SWITCH}}}\mbox{\Hypertarget{classHardware_ad91832333d9edae5ad60c7d22d47f0ddaa56f0e2d9eeba23798893aa23ce93c3b}\label{classHardware_ad91832333d9edae5ad60c7d22d47f0ddaa56f0e2d9eeba23798893aa23ce93c3b}} 
+SWITCH&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 21 of file Hardware.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{21 \{ \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dda30bfa3a3e6bb83a8f5dd907f1f5f6c11}{NONE}}, \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dda0a8d8f35ac607219a807a3fc91348ef9}{SCREEN}}, \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0ddaac0f8ddf2c313bf8b505f28d35b0edc0}{KEYBOARD}}, \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0ddaa56f0e2d9eeba23798893aa23ce93c3b}{SWITCH}} \};}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHardware_ad39ea32ec68d35db1320d3b8454085e4}\label{classHardware_ad39ea32ec68d35db1320d3b8454085e4}} 
+\index{Hardware@{Hardware}!Hardware@{Hardware}}
+\index{Hardware@{Hardware}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{Hardware()}{Hardware()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Hardware\+::\+Hardware (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classHardware}{Hardware}} object. 
+
+
+
+Definition at line 7 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{7 : \mbox{\hyperlink{classHardware_a6e1ae739d3a2b1831579b84904d90d4a}{active\_}}(\textcolor{keyword}{false}), \mbox{\hyperlink{classHardware_a6218e7f2aec6a110b95b8b17ce1062dd}{type\_}}(Types\_Hardware::NONE) \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classHardware_a4622d91b20b157f0105bce3caf3cc6fc}\label{classHardware_a4622d91b20b157f0105bce3caf3cc6fc}} 
+\index{Hardware@{Hardware}!Hardware@{Hardware}}
+\index{Hardware@{Hardware}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{Hardware()}{Hardware()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Hardware\+::\+Hardware (\begin{DoxyParamCaption}\item[{bool}]{active,  }\item[{\mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Types\+\_\+\+Hardware}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new \mbox{\hyperlink{classHardware}{Hardware}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em active} & \\
+\hline
+{\em type} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 8 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9     : \mbox{\hyperlink{classHardware_a6e1ae739d3a2b1831579b84904d90d4a}{active\_}}(active), \mbox{\hyperlink{classHardware_a6218e7f2aec6a110b95b8b17ce1062dd}{type\_}}(type) \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classHardware_a92901a44130552d28485409bcf6906f5}\label{classHardware_a92901a44130552d28485409bcf6906f5}} 
+\index{Hardware@{Hardware}!````~Hardware@{$\sim$Hardware}}
+\index{````~Hardware@{$\sim$Hardware}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{$\sim$Hardware()}{~Hardware()}}
+{\footnotesize\ttfamily Hardware\+::$\sim$\+Hardware (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \mbox{\hyperlink{classHardware}{Hardware}} object. 
+
+
+
+Definition at line 10 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{10 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHardware_a86ad934a24b012512273018a8e7237d8}\label{classHardware_a86ad934a24b012512273018a8e7237d8}} 
+\index{Hardware@{Hardware}!askInput@{askInput}}
+\index{askInput@{askInput}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{askInput()}{askInput()}}
+{\footnotesize\ttfamily int Hardware\+::ask\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+This method asks the user for an input. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classSwitchHardware_a99473486f88c19e9bd39a9cda29121f1}{Switch\+Hardware}}, \mbox{\hyperlink{classScreenHardware_ae9c77b5f39cf1174d23142cb60a42365}{Screen\+Hardware}}, and \mbox{\hyperlink{classKeyboardHardware_a4225dfabd4f55b440c3be007fc95c687}{Keyboard\+Hardware}}.
+
+
+
+Definition at line 34 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{34                        \{}
+\DoxyCodeLine{35   \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{36   \textcolor{comment}{// esta funcion sera definida en clases hijas}}
+\DoxyCodeLine{37   \textcolor{comment}{// pero la idea es qeu muestre un mensaje estilo Pantalla: (Aqui viene el}}
+\DoxyCodeLine{38   \textcolor{comment}{// input del usuario)}}
+\DoxyCodeLine{39 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classHardware_a69a557514ea0c2e139e0355e9207dc9a}\label{classHardware_a69a557514ea0c2e139e0355e9207dc9a}} 
+\index{Hardware@{Hardware}!displayOutput@{displayOutput}}
+\index{displayOutput@{displayOutput}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{displayOutput()}{displayOutput()}}
+{\footnotesize\ttfamily void Hardware\+::display\+Output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+This method displays the output of the hardware. 
+
+
+
+Reimplemented in \mbox{\hyperlink{classSwitchHardware_a9b127583aa5904381399b254617f7b04}{Switch\+Hardware}}, \mbox{\hyperlink{classScreenHardware_a5de35e22897aa8266e95057dca20595f}{Screen\+Hardware}}, and \mbox{\hyperlink{classKeyboardHardware_a2918ac5e57423ff23d08b9c8f4547f72}{Keyboard\+Hardware}}.
+
+
+
+Definition at line 41 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41                                    \{}
+\DoxyCodeLine{42   \textcolor{comment}{// Esta funcion sera definida en las clases hijas}}
+\DoxyCodeLine{43   \textcolor{comment}{// Por ahora mostramos un mensaje generico}}
+\DoxyCodeLine{44   cout << \textcolor{stringliteral}{"{}Hardware cannot display output for this type"{}} << endl;}
+\DoxyCodeLine{45 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classHardware_ae5db4b59272ce14165f8d8a3e9e7e1f7}\label{classHardware_ae5db4b59272ce14165f8d8a3e9e7e1f7}} 
+\index{Hardware@{Hardware}!getType@{getType}}
+\index{getType@{getType}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily std\+::string Hardware\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Type object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 12 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{12 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classHardware_ad52fd1042e4e087dac8d03c3647411fc}{typeToString}}(\mbox{\hyperlink{classHardware_a6218e7f2aec6a110b95b8b17ce1062dd}{type\_}}); \}}
+
+\end{DoxyCode}
+
+
+References type\+\_\+, and type\+To\+String().
+
+
+
+Referenced by main(), and string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_ae5db4b59272ce14165f8d8a3e9e7e1f7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_ae5db4b59272ce14165f8d8a3e9e7e1f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHardware_ad5e780f3751896acdbde65557b683286}\label{classHardware_ad5e780f3751896acdbde65557b683286}} 
+\index{Hardware@{Hardware}!isActive@{isActive}}
+\index{isActive@{isActive}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily bool Hardware\+::is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+If the hardware is active. 
+
+\begin{DoxyReturn}{Returns}
+true if the hardware is active 
+
+false if the hardware is not active 
+\end{DoxyReturn}
+
+
+Definition at line 16 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{16 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classHardware_a6e1ae739d3a2b1831579b84904d90d4a}{active\_}}; \}}
+
+\end{DoxyCode}
+
+
+References active\+\_\+.
+
+
+
+Referenced by main(), and string\+Status().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_ad5e780f3751896acdbde65557b683286_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHardware_ad5bc6aaa1df01cebe16dce369bbc3ffb}\label{classHardware_ad5bc6aaa1df01cebe16dce369bbc3ffb}} 
+\index{Hardware@{Hardware}!setType@{setType}}
+\index{setType@{setType}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{setType()}{setType()}}
+{\footnotesize\ttfamily void Hardware\+::set\+Type (\begin{DoxyParamCaption}\item[{std\+::string}]{newtype }\end{DoxyParamCaption})}
+
+
+
+Set the Type object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em newtype} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{14 \{ \mbox{\hyperlink{classHardware_a6218e7f2aec6a110b95b8b17ce1062dd}{type\_}} = \mbox{\hyperlink{classHardware_a43c67d91b1922f32e4ccc15bc8269866}{stringToType}}(newtype); \}}
+
+\end{DoxyCode}
+
+
+References string\+To\+Type(), and type\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_ad5bc6aaa1df01cebe16dce369bbc3ffb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{classHardware_ad5bc6aaa1df01cebe16dce369bbc3ffb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHardware_acb5abd5dd06aab68f25115a93ba3ec37}\label{classHardware_acb5abd5dd06aab68f25115a93ba3ec37}} 
+\index{Hardware@{Hardware}!stringStatus@{stringStatus}}
+\index{stringStatus@{stringStatus}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{stringStatus()}{stringStatus()}}
+{\footnotesize\ttfamily std\+::string Hardware\+::string\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+This method returns if the hardware is active or not in a string. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 22 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22                                        \{}
+\DoxyCodeLine{23   std::string status;}
+\DoxyCodeLine{24   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classHardware_ad5e780f3751896acdbde65557b683286}{isActive}}()) \{}
+\DoxyCodeLine{25     status = \textcolor{stringliteral}{"{}ON"{}};}
+\DoxyCodeLine{26   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{27     status = \textcolor{stringliteral}{"{}OFF"{}};}
+\DoxyCodeLine{28   \}}
+\DoxyCodeLine{29   status += \textcolor{stringliteral}{"{} -\/ "{}};}
+\DoxyCodeLine{30   status += \mbox{\hyperlink{classHardware_ae5db4b59272ce14165f8d8a3e9e7e1f7}{getType}}();}
+\DoxyCodeLine{31   \textcolor{keywordflow}{return} status;}
+\DoxyCodeLine{32 \}}
+
+\end{DoxyCode}
+
+
+References get\+Type(), and is\+Active().
+
+
+
+Referenced by Switch\+Hardware\+::display\+Output(), and main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_acb5abd5dd06aab68f25115a93ba3ec37_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_acb5abd5dd06aab68f25115a93ba3ec37_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHardware_a43c67d91b1922f32e4ccc15bc8269866}\label{classHardware_a43c67d91b1922f32e4ccc15bc8269866}} 
+\index{Hardware@{Hardware}!stringToType@{stringToType}}
+\index{stringToType@{stringToType}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{stringToType()}{stringToType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Hardware\+::\+Types\+\_\+\+Hardware}} Hardware\+::string\+To\+Type (\begin{DoxyParamCaption}\item[{std\+::string}]{type }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method converts the string to a type of hardware. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Types\+\_\+\+Hardware 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{60                                                                   \{}
+\DoxyCodeLine{61   \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}SCREEN"{}}) \{}
+\DoxyCodeLine{62     \textcolor{keywordflow}{return} Hardware::Types\_Hardware::SCREEN;}
+\DoxyCodeLine{63   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}KEYBOARD"{}}) \{}
+\DoxyCodeLine{64     \textcolor{keywordflow}{return} Hardware::Types\_Hardware::KEYBOARD;}
+\DoxyCodeLine{65   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}SWITCH"{}}) \{}
+\DoxyCodeLine{66     \textcolor{keywordflow}{return} Hardware::Types\_Hardware::SWITCH;}
+\DoxyCodeLine{67   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{68     \textcolor{keywordflow}{return} Hardware::Types\_Hardware::NONE;}
+\DoxyCodeLine{69   \}}
+\DoxyCodeLine{70 \}}
+
+\end{DoxyCode}
+
+
+Referenced by set\+Type().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_a43c67d91b1922f32e4ccc15bc8269866_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHardware_a03fc02b36d9f2e5d151ef3efaf788e2a}\label{classHardware_a03fc02b36d9f2e5d151ef3efaf788e2a}} 
+\index{Hardware@{Hardware}!turnOff@{turnOff}}
+\index{turnOff@{turnOff}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{turnOff()}{turnOff()}}
+{\footnotesize\ttfamily void Hardware\+::turn\+Off (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Turn off the hardware. 
+
+
+
+Definition at line 20 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{20 \{ \mbox{\hyperlink{classHardware_a6e1ae739d3a2b1831579b84904d90d4a}{active\_}} = \textcolor{keyword}{false}; \}}
+
+\end{DoxyCode}
+
+
+References active\+\_\+.
+
+
+
+Referenced by main(), and Switch\+Hardware\+::translate\+Input().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_a03fc02b36d9f2e5d151ef3efaf788e2a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHardware_aee21531986a03e2fe8fcb3db70c5c6d1}\label{classHardware_aee21531986a03e2fe8fcb3db70c5c6d1}} 
+\index{Hardware@{Hardware}!turnOn@{turnOn}}
+\index{turnOn@{turnOn}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{turnOn()}{turnOn()}}
+{\footnotesize\ttfamily void Hardware\+::turn\+On (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Turn on the hardware. 
+
+
+
+Definition at line 18 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{18 \{ \mbox{\hyperlink{classHardware_a6e1ae739d3a2b1831579b84904d90d4a}{active\_}} = \textcolor{keyword}{true}; \}}
+
+\end{DoxyCode}
+
+
+References active\+\_\+.
+
+
+
+Referenced by main(), and Switch\+Hardware\+::translate\+Input().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_aee21531986a03e2fe8fcb3db70c5c6d1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHardware_ad52fd1042e4e087dac8d03c3647411fc}\label{classHardware_ad52fd1042e4e087dac8d03c3647411fc}} 
+\index{Hardware@{Hardware}!typeToString@{typeToString}}
+\index{typeToString@{typeToString}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{typeToString()}{typeToString()}}
+{\footnotesize\ttfamily std\+::string Hardware\+::type\+To\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Types\+\_\+\+Hardware}}}]{type }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method converts the type of hardware to a string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 47 of file Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{47                                                           \{}
+\DoxyCodeLine{48   \textcolor{keywordflow}{switch} (type) \{}
+\DoxyCodeLine{49   \textcolor{keywordflow}{case} Types\_Hardware::SCREEN:}
+\DoxyCodeLine{50     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}SCREEN"{}};}
+\DoxyCodeLine{51   \textcolor{keywordflow}{case} Types\_Hardware::KEYBOARD:}
+\DoxyCodeLine{52     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}KEYBOARD"{}};}
+\DoxyCodeLine{53   \textcolor{keywordflow}{case} Types\_Hardware::SWITCH:}
+\DoxyCodeLine{54     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}SWITCH"{}};}
+\DoxyCodeLine{55   \textcolor{keywordflow}{default}:}
+\DoxyCodeLine{56     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}None"{}};}
+\DoxyCodeLine{57   \}}
+\DoxyCodeLine{58 \}}
+
+\end{DoxyCode}
+
+
+Referenced by get\+Type().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHardware_ad52fd1042e4e087dac8d03c3647411fc_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classHardware_a6e1ae739d3a2b1831579b84904d90d4a}\label{classHardware_a6e1ae739d3a2b1831579b84904d90d4a}} 
+\index{Hardware@{Hardware}!active\_@{active\_}}
+\index{active\_@{active\_}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{active\_}{active\_}}
+{\footnotesize\ttfamily bool Hardware\+::active\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This atrribute is the status of the hardware. 
+
+
+
+Definition at line 95 of file Hardware.\+h.
+
+
+
+Referenced by is\+Active(), turn\+Off(), and turn\+On().
+
+\mbox{\Hypertarget{classHardware_a6218e7f2aec6a110b95b8b17ce1062dd}\label{classHardware_a6218e7f2aec6a110b95b8b17ce1062dd}} 
+\index{Hardware@{Hardware}!type\_@{type\_}}
+\index{type\_@{type\_}!Hardware@{Hardware}}
+\doxysubsubsection{\texorpdfstring{type\_}{type\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHardware_ad91832333d9edae5ad60c7d22d47f0dd}{Types\+\_\+\+Hardware}} Hardware\+::type\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the type of the hardware. 
+
+
+
+Definition at line 100 of file Hardware.\+h.
+
+
+
+Referenced by get\+Type(), and set\+Type().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Hardware_8h}{Hardware.\+h}}\item 
+src/\mbox{\hyperlink{Hardware_8cpp}{Hardware.\+cpp}}\end{DoxyCompactItemize}

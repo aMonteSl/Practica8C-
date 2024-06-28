@@ -1,0 +1,26 @@
+<map id="GreenHouse::manageGuest" name="GreenHouse::manageGuest">
+<area shape="rect" id="node1" title="Manage the guest." alt="" coords="5,583,207,610"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#ae19e4b400b81885b0480807093f2a456" title="Clean the screen." alt="" coords="541,122,769,149"/>
+<area shape="rect" id="node4" href="$classManageCameras.html#aeac5b4a6d145735266acbc0b7f26e9b9" title="Collect and display the data of all the cameras." alt="" coords="268,671,476,712"/>
+<area shape="rect" id="node5" href="$classMonitoringSystem.html#a7ed15cd1c877014b91d1572ec056d866" title="This method shows the message to show the alarms." alt="" coords="274,64,470,105"/>
+<area shape="rect" id="node7" href="$classAlarmSensors.html#a185412bdad879f251eea84eefc95fde3" title="Display the Alarm Status." alt="" coords="269,736,475,777"/>
+<area shape="rect" id="node8" href="$classAlarmSensors.html#a6b7509cfc7b77ab9943f1fa6052f56da" title="Display all Sensors Data." alt="" coords="280,801,464,843"/>
+<area shape="rect" id="node9" href="$classMonitoringSystem.html#ae9f07ef1b405619e84469da1c9622b13" title="Display the camera screen." alt="" coords="274,349,470,391"/>
+<area shape="rect" id="node11" href="$classMonitoringSystem.html#a5a835975fa74862f8a79449a35442916" title="This method shows the message if and error occurs." alt="" coords="274,488,470,529"/>
+<area shape="rect" id="node13" href="$classMonitoringSystem.html#aa68121a3c71f4600182ac143a06c3cbe" title="This method exits the screen." alt="" coords="545,590,764,617"/>
+<area shape="rect" id="node16" href="$classMonitoringSystem.html#aa83416a623e4ad81d4554f8c5ac2c2d4" title="This method shows the message to show the sensors." alt="" coords="274,232,470,273"/>
+<area shape="rect" id="node18" href="$classMonitoringSystem.html#a508751e3f490b9942202e17664ea9893" title="Get the Selection object." alt="" coords="257,867,487,894"/>
+<area shape="rect" id="node19" href="$classMonitoringSystem.html#acf2c408f4e2487e6602543adf5a996a1" title="This method shows the main menu for the guests." alt="" coords="255,605,489,647"/>
+<area shape="rect" id="node24" href="$classGreenHouse.html#a2b0cf6d2bb8a13658754ab1e2d2ad10e" title="Sleep the system." alt="" coords="299,918,445,945"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="827,357,1043,383"/>
+<area shape="rect" id="node6" href="$classScreenHardware.html#ae5d2ae56d576f3aef512f2ef0402124f" title="Display all Alarms window." alt="" coords="539,5,770,47"/>
+<area shape="rect" id="node10" href="$classScreenHardware.html#a5afb8ed9e0166caae909b52aca171558" title="Display the camera window." alt="" coords="537,291,772,332"/>
+<area shape="rect" id="node12" href="$classScreenHardware.html#ab1fc9cc20fb80dfe6fd1293f50ebd034" title="Display the error window." alt="" coords="547,524,762,565"/>
+<area shape="rect" id="node15" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="559,459,750,500"/>
+<area shape="rect" id="node14" href="$classScreenHardware.html#a0b6267a91e8c459d98adb9c406a3d493" title="Exit the window." alt="" coords="827,590,1042,617"/>
+<area shape="rect" id="node17" href="$classScreenHardware.html#a0b5ab699148ef2c5215e2ee47e695e72" title="Display all Sensors window." alt="" coords="537,173,772,215"/>
+<area shape="rect" id="node20" href="$classMonitoringSystem.html#ac68e987a2e231ea1ff2e3e3950caf767" title="This method asks the user for an int input." alt="" coords="543,758,766,785"/>
+<area shape="rect" id="node23" href="$classScreenHardware.html#a6c76443eae8a15b5c825b257865f9356" title="This method displays the main window of the system for the guest." alt="" coords="543,692,766,733"/>
+<area shape="rect" id="node21" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="829,733,1040,759"/>
+<area shape="rect" id="node22" href="$classMonitoringSystem.html#a2514c2079286352acd12ef85163ff69f" title="This method checks if the input is correct." alt="" coords="820,783,1049,810"/>
+</map>

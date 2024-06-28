@@ -1,0 +1,80 @@
+\hypertarget{User_8cpp}{}\doxysection{src/\+User.cpp File Reference}
+\label{User_8cpp}\index{src/User.cpp@{src/User.cpp}}
+{\ttfamily \#include \char`\"{}User.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for User.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{User_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{User_8cpp_a8096d4eb432e19f22dd6566e10007454}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classUser}{User}} \&user)
+\item 
+std\+::istream \& \mbox{\hyperlink{User_8cpp_ae27ad24b2888db471519a431b21e19bb}{operator$>$$>$}} (std\+::istream \&is, \mbox{\hyperlink{classUser}{User}} \&user)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{User_8cpp_a8096d4eb432e19f22dd6566e10007454}\label{User_8cpp_a8096d4eb432e19f22dd6566e10007454}} 
+\index{User.cpp@{User.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!User.cpp@{User.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classUser}{User}} \&}]{user }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+
+
+Definition at line 76 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{76                                                          \{}
+\DoxyCodeLine{77   os << user.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} "{}} << user.\mbox{\hyperlink{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}{getNif}}() << \textcolor{stringliteral}{"{} "{}} << user.\mbox{\hyperlink{classUser_a180e5acdc4b150463652d90d54caa8fc}{getPassword}}()}
+\DoxyCodeLine{78      << \textcolor{stringliteral}{"{} "{}} << user.\mbox{\hyperlink{classUser_afb94652eecf297a0b27418e0a6211a70}{getPrivileges}}() << \textcolor{stringliteral}{"{} "{}} << user.\mbox{\hyperlink{classUser_a68c520e78268ba63c97ff04b6fb210a1}{getEmail}}() << std::endl;}
+\DoxyCodeLine{79   \textcolor{keywordflow}{return} os;}
+\DoxyCodeLine{80 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{User_8cpp_ae27ad24b2888db471519a431b21e19bb}\label{User_8cpp_ae27ad24b2888db471519a431b21e19bb}} 
+\index{User.cpp@{User.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!User.cpp@{User.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{classUser}{User}} \&}]{user }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+Definition at line 83 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{83                                                    \{}
+\DoxyCodeLine{84   std::string privilege;}
+\DoxyCodeLine{85   is >> user.\mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}} >> user.\mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}} >> user.\mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}} >> privilege >> user.\mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}};}
+\DoxyCodeLine{86   user.\mbox{\hyperlink{classUser_aa72db65160cea95ad93a14b084825bad}{setPrivileges}}(privilege);}
+\DoxyCodeLine{87   \textcolor{keywordflow}{return} is;}
+\DoxyCodeLine{88 \}}
+
+\end{DoxyCode}

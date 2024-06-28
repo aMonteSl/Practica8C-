@@ -1,0 +1,406 @@
+\hypertarget{classLightSensor}{}\doxysection{Light\+Sensor Class Reference}
+\label{classLightSensor}\index{LightSensor@{LightSensor}}
+
+
+{\ttfamily \#include $<$Light\+Sensor.\+h$>$}
+
+
+
+Inheritance diagram for Light\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{classLightSensor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Light\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{classLightSensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classLightSensor_a8d108439ac4d35e9bfad67a1b954583b}{Light\+Sensor}} (int id, bool active)
+\begin{DoxyCompactList}\small\item\em Construct a new Light \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classLightSensor_aa517d589bc303bea68c27aff707538c7}{$\sim$\+Light\+Sensor}} () override
+\begin{DoxyCompactList}\small\item\em Destroy the Light \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLightSensor_a25c96763d1fe30bdb3705000bae8dc12}{collect\+Data}} () override
+\begin{DoxyCompactList}\small\item\em Collect data of the Light \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classLightSensor_a004261e3ba593ff04b76ce3839d7c438}{check\+Allgood}} () const override
+\begin{DoxyCompactList}\small\item\em Check if the Light \mbox{\hyperlink{classSensor}{Sensor}} is working properly. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLightSensor_ad25cff6fc6d2c36b7d45ae2f6d967f1e}{print\+Data}} () const override
+\begin{DoxyCompactList}\small\item\em Print the data of the Light \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classLightSensor_a649f67791977f6e9ee0366267b25e367}{string\+Status}} () const
+\begin{DoxyCompactList}\small\item\em Collect and print the data of the Light \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLightSensor_a577e1c14fdde492c4a07af6a82dd59bd}{collect\+And\+Print}} ()
+\begin{DoxyCompactList}\small\item\em Collect and print the data of the Light \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{classLightSensor_a838a85d65bc9731ba7fec57ed8aeb65e}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classLightSensor}{Light\+Sensor}} \&sensor)
+\begin{DoxyCompactList}\small\item\em Get the Light object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 15 of file Light\+Sensor.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classLightSensor_a8d108439ac4d35e9bfad67a1b954583b}\label{classLightSensor_a8d108439ac4d35e9bfad67a1b954583b}} 
+\index{LightSensor@{LightSensor}!LightSensor@{LightSensor}}
+\index{LightSensor@{LightSensor}!LightSensor@{LightSensor}}
+\doxysubsubsection{\texorpdfstring{LightSensor()}{LightSensor()}}
+{\footnotesize\ttfamily Light\+Sensor\+::\+Light\+Sensor (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{bool}]{active }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Light \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em active} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classLightSensor}{Light\+Sensor}} object 
+\end{DoxyReturn}
+
+
+Definition at line 8 of file Light\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9     : \mbox{\hyperlink{classSensor_a342d6d11ef572c8cba92cb76fb1a294b}{Sensor}}(\textcolor{keywordtype}{id}, Sensor::Types::LIGHT\_SENSOR, active) \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classLightSensor_aa517d589bc303bea68c27aff707538c7}\label{classLightSensor_aa517d589bc303bea68c27aff707538c7}} 
+\index{LightSensor@{LightSensor}!````~LightSensor@{$\sim$LightSensor}}
+\index{````~LightSensor@{$\sim$LightSensor}!LightSensor@{LightSensor}}
+\doxysubsubsection{\texorpdfstring{$\sim$LightSensor()}{~LightSensor()}}
+{\footnotesize\ttfamily Light\+Sensor\+::$\sim$\+Light\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Destroy the Light \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+
+Definition at line 11 of file Light\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{11 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classLightSensor_a004261e3ba593ff04b76ce3839d7c438}\label{classLightSensor_a004261e3ba593ff04b76ce3839d7c438}} 
+\index{LightSensor@{LightSensor}!checkAllgood@{checkAllgood}}
+\index{checkAllgood@{checkAllgood}!LightSensor@{LightSensor}}
+\doxysubsubsection{\texorpdfstring{checkAllgood()}{checkAllgood()}}
+{\footnotesize\ttfamily bool Light\+Sensor\+::check\+Allgood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Check if the Light \mbox{\hyperlink{classSensor}{Sensor}} is working properly. 
+
+\begin{DoxyReturn}{Returns}
+true if the Light \mbox{\hyperlink{classSensor}{Sensor}} is working properly 
+
+false if the Light \mbox{\hyperlink{classSensor}{Sensor}} is not working properly 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_a7bae778c5814d5d33c0b496a7add75cd}{Sensor}}.
+
+
+
+Definition at line 23 of file Light\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23                                      \{}
+\DoxyCodeLine{24   \textcolor{keywordtype}{float} data = \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{Sensor::getData}}();}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26   \textcolor{keywordflow}{if} (data >= 300 \&\& data <= 3900) \{}
+\DoxyCodeLine{27     \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{28   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{29     \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{30   \}}
+\DoxyCodeLine{31 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::get\+Data().
+
+
+
+Referenced by string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classLightSensor_a004261e3ba593ff04b76ce3839d7c438_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classLightSensor_a004261e3ba593ff04b76ce3839d7c438_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classLightSensor_a577e1c14fdde492c4a07af6a82dd59bd}\label{classLightSensor_a577e1c14fdde492c4a07af6a82dd59bd}} 
+\index{LightSensor@{LightSensor}!collectAndPrint@{collectAndPrint}}
+\index{collectAndPrint@{collectAndPrint}!LightSensor@{LightSensor}}
+\doxysubsubsection{\texorpdfstring{collectAndPrint()}{collectAndPrint()}}
+{\footnotesize\ttfamily void Light\+Sensor\+::collect\+And\+Print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Collect and print the data of the Light \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_a9b3ddd058bce63adc5d444da4818dd83}{Sensor}}.
+
+
+
+Definition at line 61 of file Light\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{61                                   \{}
+\DoxyCodeLine{62   \mbox{\hyperlink{classLightSensor_a25c96763d1fe30bdb3705000bae8dc12}{collectData}}();}
+\DoxyCodeLine{63   \mbox{\hyperlink{classLightSensor_ad25cff6fc6d2c36b7d45ae2f6d967f1e}{printData}}();}
+\DoxyCodeLine{64 \}}
+
+\end{DoxyCode}
+
+
+References collect\+Data(), and print\+Data().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classLightSensor_a577e1c14fdde492c4a07af6a82dd59bd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classLightSensor_a577e1c14fdde492c4a07af6a82dd59bd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classLightSensor_a25c96763d1fe30bdb3705000bae8dc12}\label{classLightSensor_a25c96763d1fe30bdb3705000bae8dc12}} 
+\index{LightSensor@{LightSensor}!collectData@{collectData}}
+\index{collectData@{collectData}!LightSensor@{LightSensor}}
+\doxysubsubsection{\texorpdfstring{collectData()}{collectData()}}
+{\footnotesize\ttfamily void Light\+Sensor\+::collect\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Collect data of the Light \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+This method collects the data of the Light \mbox{\hyperlink{classSensor}{Sensor}} and stores it in the data attribute. 
+
+Reimplemented from \mbox{\hyperlink{classSensor_a8ffb0f2473f7e1de1d9947937f2db53a}{Sensor}}.
+
+
+
+Definition at line 13 of file Light\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13                               \{}
+\DoxyCodeLine{14   \textcolor{comment}{// Medido en lux entre 200-\/4000 lux}}
+\DoxyCodeLine{15   std::random\_device rd;}
+\DoxyCodeLine{16   std::mt19937 gen(rd());}
+\DoxyCodeLine{17   std::uniform\_int\_distribution<> dis(200, 4000);}
+\DoxyCodeLine{18   \textcolor{keywordtype}{int} reading = dis(gen);}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20   \mbox{\hyperlink{classSensor_a8c3a63a324230f81e78972d37f9ddfb1}{Sensor::setData}}(reading);}
+\DoxyCodeLine{21 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::set\+Data().
+
+
+
+Referenced by collect\+And\+Print(), and main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{classLightSensor_a25c96763d1fe30bdb3705000bae8dc12_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classLightSensor_a25c96763d1fe30bdb3705000bae8dc12_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classLightSensor_ad25cff6fc6d2c36b7d45ae2f6d967f1e}\label{classLightSensor_ad25cff6fc6d2c36b7d45ae2f6d967f1e}} 
+\index{LightSensor@{LightSensor}!printData@{printData}}
+\index{printData@{printData}!LightSensor@{LightSensor}}
+\doxysubsubsection{\texorpdfstring{printData()}{printData()}}
+{\footnotesize\ttfamily void Light\+Sensor\+::print\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Print the data of the Light \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_ab96627dab3d2e727f07d7f1ea83379e1}{Sensor}}.
+
+
+
+Definition at line 38 of file Light\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{38                                   \{}
+\DoxyCodeLine{39   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{Sensor::isActive}}()) \{}
+\DoxyCodeLine{40     std::cout << \textcolor{stringliteral}{"{}Light Sensor with "{}}}
+\DoxyCodeLine{41               << \textcolor{stringliteral}{"{}ID: "{}} << \mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{Sensor::getId}}() << \textcolor{stringliteral}{"{} -\/ Data: "{}} << \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{Sensor::getData}}()}
+\DoxyCodeLine{42               << \textcolor{stringliteral}{"{} lux -\/ Status: "{}} << \mbox{\hyperlink{classLightSensor_a649f67791977f6e9ee0366267b25e367}{stringStatus}}() << endl;}
+\DoxyCodeLine{43   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{44     std::cout << \textcolor{stringliteral}{"{}Light Sensor ID: "{}} << \mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{Sensor::getId}}()}
+\DoxyCodeLine{45               << \textcolor{stringliteral}{"{} -\/ Status: "{}} << \mbox{\hyperlink{classLightSensor_a649f67791977f6e9ee0366267b25e367}{stringStatus}}() << endl;}
+\DoxyCodeLine{46   \}}
+\DoxyCodeLine{47 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::get\+Data(), Sensor\+::get\+Id(), Sensor\+::is\+Active(), and string\+Status().
+
+
+
+Referenced by collect\+And\+Print(), and main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classLightSensor_ad25cff6fc6d2c36b7d45ae2f6d967f1e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classLightSensor_ad25cff6fc6d2c36b7d45ae2f6d967f1e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classLightSensor_a649f67791977f6e9ee0366267b25e367}\label{classLightSensor_a649f67791977f6e9ee0366267b25e367}} 
+\index{LightSensor@{LightSensor}!stringStatus@{stringStatus}}
+\index{stringStatus@{stringStatus}!LightSensor@{LightSensor}}
+\doxysubsubsection{\texorpdfstring{stringStatus()}{stringStatus()}}
+{\footnotesize\ttfamily std\+::string Light\+Sensor\+::string\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Collect and print the data of the Light \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Definition at line 49 of file Light\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{49                                           \{}
+\DoxyCodeLine{50   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{Sensor::isActive}}()) \{}
+\DoxyCodeLine{51     \textcolor{keywordflow}{if} (this-\/>\mbox{\hyperlink{classLightSensor_a004261e3ba593ff04b76ce3839d7c438}{checkAllgood}}()) \{}
+\DoxyCodeLine{52       \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}ACTIVE -\/ GOOD STATUS"{}};}
+\DoxyCodeLine{53     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{54       \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}ACTIVE -\/ BAD STATUS"{}};}
+\DoxyCodeLine{55     \}}
+\DoxyCodeLine{56   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{57     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}INACTIVE"{}};}
+\DoxyCodeLine{58   \}}
+\DoxyCodeLine{59 \}}
+
+\end{DoxyCode}
+
+
+References check\+Allgood(), and Sensor\+::is\+Active().
+
+
+
+Referenced by main(), and print\+Data().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classLightSensor_a649f67791977f6e9ee0366267b25e367_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classLightSensor_a649f67791977f6e9ee0366267b25e367_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classLightSensor_a838a85d65bc9731ba7fec57ed8aeb65e}\label{classLightSensor_a838a85d65bc9731ba7fec57ed8aeb65e}} 
+\index{LightSensor@{LightSensor}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!LightSensor@{LightSensor}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classLightSensor}{Light\+Sensor}} \&}]{sensor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Get the Light object. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file Light\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{33                                                                   \{}
+\DoxyCodeLine{34   sensor.\mbox{\hyperlink{classLightSensor_ad25cff6fc6d2c36b7d45ae2f6d967f1e}{printData}}();}
+\DoxyCodeLine{35   \textcolor{keywordflow}{return} os;}
+\DoxyCodeLine{36 \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{LightSensor_8h}{Light\+Sensor.\+h}}\item 
+src/\mbox{\hyperlink{LightSensor_8cpp}{Light\+Sensor.\+cpp}}\end{DoxyCompactItemize}

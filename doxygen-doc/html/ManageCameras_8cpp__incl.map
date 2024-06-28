@@ -1,0 +1,11 @@
+<map id="src/ManageCameras.cpp" name="src/ManageCameras.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="152,5,335,32"/>
+<area shape="rect" id="node2" href="$ManageCameras_8h.html" title="This is the class ManageCameras. It contains the attributes and methods of the ManageCameras class...." alt="" coords="117,80,261,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="120,304,200,331"/>
+<area shape="rect" id="node5" href="$RGBCamera_8h.html" title="This is the class RGBCamera. It contains the attributes and methods of the RGBCamera class...." alt="" coords="23,155,136,181"/>
+<area shape="rect" id="node7" href="$TemperatureCamera_8h.html" title="This is the class Temperature Camera. It contains the attributes and methods of the TemperatureCamera..." alt="" coords="279,155,446,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="336,80,410,107"/>
+<area shape="rect" id="node9" title=" " alt="" coords="434,80,483,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="161,155,204,181"/>
+<area shape="rect" id="node6" href="$Camera_8h.html" title="This is the class Camera. It contains the attributes and methods of the Camera class...." alt="" coords="117,229,202,256"/>
+</map>

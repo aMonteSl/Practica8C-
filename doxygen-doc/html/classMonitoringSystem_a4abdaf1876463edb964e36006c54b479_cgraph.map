@@ -1,0 +1,10 @@
+<map id="MonitoringSystem::loginScreen" name="MonitoringSystem::loginScreen">
+<area shape="rect" id="node1" title="This method shows the login screen." alt="" coords="5,107,231,133"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#a6c7b7e82406440ad1b68c60aebe0507f" title="This is the method to ask the main user, the one that its going to loggin." alt="" coords="279,56,513,83"/>
+<area shape="rect" id="node7" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="288,107,504,133"/>
+<area shape="rect" id="node8" href="$classScreenHardware.html#a3c0c7e0d14e1a89c17307cf715541453" title="This method displays the login window of the system." alt="" coords="285,157,507,184"/>
+<area shape="rect" id="node3" href="$classMonitoringSystem.html#acd7c674be2caff1ac2bcc37b2cd0fb3b" title="This method asks the user for an input for the name." alt="" coords="573,5,783,32"/>
+<area shape="rect" id="node5" href="$classMonitoringSystem.html#af4af355f2a6bbda876e80f36ba1624cc" title="This method asks the user for an input for the NIF." alt="" coords="581,56,775,83"/>
+<area shape="rect" id="node6" href="$classMonitoringSystem.html#a26cbfb1c9afd14b76c5acbf99eae8569" title="This method asks the user for an input for the password." alt="" coords="561,107,795,133"/>
+<area shape="rect" id="node4" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="843,49,1033,90"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="User::User" name="User::User">
+<area shape="rect" id="node1" title="Construct a new User object." alt="" coords="5,107,96,133"/>
+<area shape="rect" id="node2" href="$classUser.html#ad25e420b6470b7c840d28d6e9bb87fe3" title="Set the Email object." alt="" coords="157,5,275,32"/>
+<area shape="rect" id="node3" href="$classUser.html#a9d2fda42d9862e7b122cd4a933479511" title="Set the Name object." alt="" coords="157,56,275,83"/>
+<area shape="rect" id="node4" href="$classUser.html#aa10c232ba4f5baf1b9062263a9f5450f" title="Set the Nif object." alt="" coords="167,107,265,133"/>
+<area shape="rect" id="node5" href="$classUser.html#ac3544d3457d10ea27da89f500d37c5b7" title="Set the Password object." alt="" coords="145,157,287,184"/>
+<area shape="rect" id="node6" href="$classUser.html#aa72db65160cea95ad93a14b084825bad" title="Set the Privileges object." alt="" coords="144,208,288,235"/>
+</map>

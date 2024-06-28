@@ -1,0 +1,4 @@
+<map id="MonitoringSystem::askTypeAlarm" name="MonitoringSystem::askTypeAlarm">
+<area shape="rect" id="node1" title="This is the method to ask the type of the alarm." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="256,5,447,47"/>
+</map>

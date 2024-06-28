@@ -1,0 +1,9 @@
+<map id="MonitoringSystem::createCameraScreen" name="MonitoringSystem::createCameraScreen">
+<area shape="rect" id="node1" title="Create a Camera Screen object." alt="" coords="5,86,196,127"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#a4ad4cb75bab824f4ee2d001d2aec222d" title="This is the method to ask the id of the camera." alt="" coords="244,5,479,32"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#aad41e18ca2c35c55c630d2f491b27c12" title="This is the method to ask the type of the camera." alt="" coords="260,57,463,98"/>
+<area shape="rect" id="node6" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="253,123,469,149"/>
+<area shape="rect" id="node7" href="$classScreenHardware.html#ab11aba01858fc8faaee1857f14915a4a" title="Create a camera window." alt="" coords="247,174,476,215"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="527,5,737,32"/>
+<area shape="rect" id="node5" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="537,57,727,98"/>
+</map>

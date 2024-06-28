@@ -1,0 +1,305 @@
+\hypertarget{classKeyboardHardware}{}\doxysection{Keyboard\+Hardware Class Reference}
+\label{classKeyboardHardware}\index{KeyboardHardware@{KeyboardHardware}}
+
+
+{\ttfamily \#include $<$Keyboard\+Hardware.\+h$>$}
+
+
+
+Inheritance diagram for Keyboard\+Hardware\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classKeyboardHardware__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Keyboard\+Hardware\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classKeyboardHardware__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classKeyboardHardware_a1a1faafff99cb987b0c04ac771cef37d}{Keyboard\+Hardware}} (bool active)
+\begin{DoxyCompactList}\small\item\em Construct a new Keyboard \mbox{\hyperlink{classHardware}{Hardware}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classKeyboardHardware_ac07dd43e6be1e2b30c1f2e1ad4533561}{$\sim$\+Keyboard\+Hardware}} () override
+\begin{DoxyCompactList}\small\item\em Destroy the Keyboard \mbox{\hyperlink{classHardware}{Hardware}} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classKeyboardHardware_a4225dfabd4f55b440c3be007fc95c687}{ask\+Input}} () override
+\begin{DoxyCompactList}\small\item\em Ask for an input to the user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}{string\+Input}} ()
+\begin{DoxyCompactList}\small\item\em Ask for a string input to the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classKeyboardHardware_a2918ac5e57423ff23d08b9c8f4547f72}{display\+Output}} () const override
+\begin{DoxyCompactList}\small\item\em Display the output of the Keyboard \mbox{\hyperlink{classHardware}{Hardware}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classKeyboardHardware_a93c7b9d541cd1a5c6c05f5e201fce1c7}{data\+\_\+}}
+\begin{DoxyCompactList}\small\item\em The int data of the Keyboard \mbox{\hyperlink{classHardware}{Hardware}}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classKeyboardHardware_a31a90cd11873a4ae614975489bbf94a5}{string\+Data\+\_\+}}
+\begin{DoxyCompactList}\small\item\em The string data of the Keyboard \mbox{\hyperlink{classHardware}{Hardware}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file Keyboard\+Hardware.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classKeyboardHardware_a1a1faafff99cb987b0c04ac771cef37d}\label{classKeyboardHardware_a1a1faafff99cb987b0c04ac771cef37d}} 
+\index{KeyboardHardware@{KeyboardHardware}!KeyboardHardware@{KeyboardHardware}}
+\index{KeyboardHardware@{KeyboardHardware}!KeyboardHardware@{KeyboardHardware}}
+\doxysubsubsection{\texorpdfstring{KeyboardHardware()}{KeyboardHardware()}}
+{\footnotesize\ttfamily Keyboard\+Hardware\+::\+Keyboard\+Hardware (\begin{DoxyParamCaption}\item[{bool}]{active }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Keyboard \mbox{\hyperlink{classHardware}{Hardware}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em active} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classKeyboardHardware}{Keyboard\+Hardware}} object 
+\end{DoxyReturn}
+
+
+Definition at line 9 of file Keyboard\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{10     : \mbox{\hyperlink{classHardware_ad39ea32ec68d35db1320d3b8454085e4}{Hardware}}(active, Hardware::Types\_Hardware::KEYBOARD) \{}
+\DoxyCodeLine{11   \mbox{\hyperlink{classKeyboardHardware_a93c7b9d541cd1a5c6c05f5e201fce1c7}{data\_}} = 0;}
+\DoxyCodeLine{12   \mbox{\hyperlink{classKeyboardHardware_a31a90cd11873a4ae614975489bbf94a5}{stringData\_}} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{13 \}}
+
+\end{DoxyCode}
+
+
+References data\+\_\+, and string\+Data\+\_\+.
+
+\mbox{\Hypertarget{classKeyboardHardware_ac07dd43e6be1e2b30c1f2e1ad4533561}\label{classKeyboardHardware_ac07dd43e6be1e2b30c1f2e1ad4533561}} 
+\index{KeyboardHardware@{KeyboardHardware}!````~KeyboardHardware@{$\sim$KeyboardHardware}}
+\index{````~KeyboardHardware@{$\sim$KeyboardHardware}!KeyboardHardware@{KeyboardHardware}}
+\doxysubsubsection{\texorpdfstring{$\sim$KeyboardHardware()}{~KeyboardHardware()}}
+{\footnotesize\ttfamily Keyboard\+Hardware\+::$\sim$\+Keyboard\+Hardware (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Destroy the Keyboard \mbox{\hyperlink{classHardware}{Hardware}} object. 
+
+
+
+Definition at line 15 of file Keyboard\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{15 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classKeyboardHardware_a4225dfabd4f55b440c3be007fc95c687}\label{classKeyboardHardware_a4225dfabd4f55b440c3be007fc95c687}} 
+\index{KeyboardHardware@{KeyboardHardware}!askInput@{askInput}}
+\index{askInput@{askInput}!KeyboardHardware@{KeyboardHardware}}
+\doxysubsubsection{\texorpdfstring{askInput()}{askInput()}}
+{\footnotesize\ttfamily int Keyboard\+Hardware\+::ask\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Ask for an input to the user. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classHardware_a86ad934a24b012512273018a8e7237d8}{Hardware}}.
+
+
+
+Definition at line 17 of file Keyboard\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{17                                \{}
+\DoxyCodeLine{18   \textcolor{keywordtype}{bool} exit = \textcolor{keyword}{false};}
+\DoxyCodeLine{19   \textcolor{keywordtype}{int} input;}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21   \textcolor{keywordflow}{while} (not exit) \{}
+\DoxyCodeLine{22     std::cout << \textcolor{stringliteral}{"{}-\/ Keyboard waiting for input (integer): "{}};}
+\DoxyCodeLine{23     std::cin >> input;}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     \textcolor{comment}{// Verificar si la entrada es un número}}
+\DoxyCodeLine{26     \textcolor{keywordflow}{if} (std::cin.fail()) \{}
+\DoxyCodeLine{27       std::cin.clear(); \textcolor{comment}{// Restablecer el estado de cin}}
+\DoxyCodeLine{28       std::cin.ignore(std::numeric\_limits<std::streamsize>::max(),}
+\DoxyCodeLine{29                       \textcolor{charliteral}{'\(\backslash\)n'}); \textcolor{comment}{// Limpiar el buffer de entrada}}
+\DoxyCodeLine{30       std::cout << \textcolor{stringliteral}{"{}Invalid input. Please enter an integer that corresponse to "{}}}
+\DoxyCodeLine{31                    \textcolor{stringliteral}{"{}one of the options"{}}}
+\DoxyCodeLine{32                 << std::endl;}
+\DoxyCodeLine{33     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{34       exit = \textcolor{keyword}{true};}
+\DoxyCodeLine{35       \mbox{\hyperlink{classKeyboardHardware_a93c7b9d541cd1a5c6c05f5e201fce1c7}{data\_}} = input; \textcolor{comment}{// Guardar el valor ingresado en data\_}}
+\DoxyCodeLine{36     \}}
+\DoxyCodeLine{37   \}}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39   \textcolor{keywordflow}{return} \mbox{\hyperlink{classKeyboardHardware_a93c7b9d541cd1a5c6c05f5e201fce1c7}{data\_}};}
+\DoxyCodeLine{40 \}}
+
+\end{DoxyCode}
+
+
+References data\+\_\+.
+
+
+
+Referenced by Monitoring\+System\+::ask\+Id\+Alarm(), Monitoring\+System\+::ask\+Id\+Camera(), Monitoring\+System\+::ask\+Input\+Int(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classKeyboardHardware_a4225dfabd4f55b440c3be007fc95c687_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classKeyboardHardware_a2918ac5e57423ff23d08b9c8f4547f72}\label{classKeyboardHardware_a2918ac5e57423ff23d08b9c8f4547f72}} 
+\index{KeyboardHardware@{KeyboardHardware}!displayOutput@{displayOutput}}
+\index{displayOutput@{displayOutput}!KeyboardHardware@{KeyboardHardware}}
+\doxysubsubsection{\texorpdfstring{displayOutput()}{displayOutput()}}
+{\footnotesize\ttfamily void Keyboard\+Hardware\+::display\+Output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Display the output of the Keyboard \mbox{\hyperlink{classHardware}{Hardware}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classHardware_a69a557514ea0c2e139e0355e9207dc9a}{Hardware}}.
+
+
+
+Definition at line 50 of file Keyboard\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{50                                            \{}
+\DoxyCodeLine{51   std::cout << \textcolor{stringliteral}{"{}-\/Last intput(integer) of the keyboard: "{}} << \mbox{\hyperlink{classKeyboardHardware_a93c7b9d541cd1a5c6c05f5e201fce1c7}{data\_}} << std::endl;}
+\DoxyCodeLine{52   std::cout << \textcolor{stringliteral}{"{}-\/Last intput(string) of the keyboard: "{}} << \mbox{\hyperlink{classKeyboardHardware_a31a90cd11873a4ae614975489bbf94a5}{stringData\_}}}
+\DoxyCodeLine{53             << std::endl;}
+\DoxyCodeLine{54 \}}
+
+\end{DoxyCode}
+
+
+References data\+\_\+, and string\+Data\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{classKeyboardHardware_a2918ac5e57423ff23d08b9c8f4547f72_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}\label{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce}} 
+\index{KeyboardHardware@{KeyboardHardware}!stringInput@{stringInput}}
+\index{stringInput@{stringInput}!KeyboardHardware@{KeyboardHardware}}
+\doxysubsubsection{\texorpdfstring{stringInput()}{stringInput()}}
+{\footnotesize\ttfamily std\+::string Keyboard\+Hardware\+::string\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ask for a string input to the user. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 42 of file Keyboard\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{42                                         \{}
+\DoxyCodeLine{43   std::cout << \textcolor{stringliteral}{"{}-\/ Keyboard waiting for input (string): "{}};}
+\DoxyCodeLine{44   std::string input;}
+\DoxyCodeLine{45   std::cin >> input;}
+\DoxyCodeLine{46   \mbox{\hyperlink{classKeyboardHardware_a31a90cd11873a4ae614975489bbf94a5}{stringData\_}} = input;}
+\DoxyCodeLine{47   \textcolor{keywordflow}{return} \mbox{\hyperlink{classKeyboardHardware_a31a90cd11873a4ae614975489bbf94a5}{stringData\_}};}
+\DoxyCodeLine{48 \}}
+
+\end{DoxyCode}
+
+
+References string\+Data\+\_\+.
+
+
+
+Referenced by Monitoring\+System\+::ask\+Email(), Monitoring\+System\+::ask\+Name(), Monitoring\+System\+::ask\+NIF(), Monitoring\+System\+::ask\+Password(), Monitoring\+System\+::ask\+Privileges(), Monitoring\+System\+::ask\+Type\+Alarm(), Monitoring\+System\+::ask\+Type\+Camera(), Monitoring\+System\+::display\+Error\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classKeyboardHardware_a653d2180f0c6f1b626f0f147667923ce_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classKeyboardHardware_a93c7b9d541cd1a5c6c05f5e201fce1c7}\label{classKeyboardHardware_a93c7b9d541cd1a5c6c05f5e201fce1c7}} 
+\index{KeyboardHardware@{KeyboardHardware}!data\_@{data\_}}
+\index{data\_@{data\_}!KeyboardHardware@{KeyboardHardware}}
+\doxysubsubsection{\texorpdfstring{data\_}{data\_}}
+{\footnotesize\ttfamily int Keyboard\+Hardware\+::data\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The int data of the Keyboard \mbox{\hyperlink{classHardware}{Hardware}}. 
+
+
+
+Definition at line 52 of file Keyboard\+Hardware.\+h.
+
+
+
+Referenced by ask\+Input(), display\+Output(), and Keyboard\+Hardware().
+
+\mbox{\Hypertarget{classKeyboardHardware_a31a90cd11873a4ae614975489bbf94a5}\label{classKeyboardHardware_a31a90cd11873a4ae614975489bbf94a5}} 
+\index{KeyboardHardware@{KeyboardHardware}!stringData\_@{stringData\_}}
+\index{stringData\_@{stringData\_}!KeyboardHardware@{KeyboardHardware}}
+\doxysubsubsection{\texorpdfstring{stringData\_}{stringData\_}}
+{\footnotesize\ttfamily std\+::string Keyboard\+Hardware\+::string\+Data\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The string data of the Keyboard \mbox{\hyperlink{classHardware}{Hardware}}. 
+
+
+
+Definition at line 57 of file Keyboard\+Hardware.\+h.
+
+
+
+Referenced by display\+Output(), Keyboard\+Hardware(), and string\+Input().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{KeyboardHardware_8h}{Keyboard\+Hardware.\+h}}\item 
+src/\mbox{\hyperlink{KeyboardHardware_8cpp}{Keyboard\+Hardware.\+cpp}}\end{DoxyCompactItemize}

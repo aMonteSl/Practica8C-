@@ -1,0 +1,5 @@
+<map id="UsersServer::updateUser" name="UsersServer::updateUser">
+<area shape="rect" id="node1" title="Update User." alt="" coords="5,31,189,57"/>
+<area shape="rect" id="node2" href="$classUser.html#ad25e420b6470b7c840d28d6e9bb87fe3" title="Set the Email object." alt="" coords="251,5,368,32"/>
+<area shape="rect" id="node3" href="$classUser.html#aa72db65160cea95ad93a14b084825bad" title="Set the Privileges object." alt="" coords="237,56,381,83"/>
+</map>

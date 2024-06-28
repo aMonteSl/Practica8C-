@@ -1,0 +1,9 @@
+<map id="Sensor" name="Sensor">
+<area shape="rect" id="node1" title=" " alt="" coords="484,5,629,303"/>
+<area shape="rect" id="node2" href="$classAirQualitySensor.html" title=" " alt="" coords="5,358,172,523"/>
+<area shape="rect" id="node3" href="$classHydrometerSensor.html" title=" " alt="" coords="196,358,376,523"/>
+<area shape="rect" id="node4" href="$classLightSensor.html" title=" " alt="" coords="400,358,545,523"/>
+<area shape="rect" id="node5" href="$classPhSensor.html" title=" " alt="" coords="569,351,715,531"/>
+<area shape="rect" id="node6" href="$classPressureSensor.html" title=" " alt="" coords="739,358,897,523"/>
+<area shape="rect" id="node7" href="$classTemperatureSensor.html" title=" " alt="" coords="922,358,1106,523"/>
+</map>

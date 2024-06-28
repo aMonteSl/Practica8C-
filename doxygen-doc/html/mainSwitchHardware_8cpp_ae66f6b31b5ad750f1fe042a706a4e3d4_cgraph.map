@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,84,60,111"/>
+<area shape="rect" id="node2" href="$classSwitchHardware.html#a99473486f88c19e9bd39a9cda29121f1" title="Ask for an input." alt="" coords="125,57,317,84"/>
+<area shape="rect" id="node6" href="$classSwitchHardware.html#a9b127583aa5904381399b254617f7b04" title="Display the output of the Switch Hardware." alt="" coords="108,109,335,136"/>
+<area shape="rect" id="node3" href="$classSwitchHardware.html#a80786432a1c16f8eb3a999e16aabaad5" title="The data of the Switch Hardware." alt="" coords="383,47,577,89"/>
+<area shape="rect" id="node4" href="$classHardware.html#a03fc02b36d9f2e5d151ef3efaf788e2a" title="Turn off the hardware." alt="" coords="629,5,767,32"/>
+<area shape="rect" id="node5" href="$classHardware.html#aee21531986a03e2fe8fcb3db70c5c6d1" title="Turn on the hardware." alt="" coords="629,56,767,83"/>
+<area shape="rect" id="node7" href="$classHardware.html#acb5abd5dd06aab68f25115a93ba3ec37" title="This method returns if the hardware is active or not in a string." alt="" coords="395,113,565,140"/>
+<area shape="rect" id="node8" href="$classHardware.html#ae5db4b59272ce14165f8d8a3e9e7e1f7" title="Get the Type object." alt="" coords="626,111,770,137"/>
+<area shape="rect" id="node10" href="$classHardware.html#ad5e780f3751896acdbde65557b683286" title="If the hardware is active." alt="" coords="625,161,771,188"/>
+<area shape="rect" id="node9" href="$classHardware.html#ad52fd1042e4e087dac8d03c3647411fc" title="This method converts the type of hardware to a string." alt="" coords="819,111,993,137"/>
+</map>

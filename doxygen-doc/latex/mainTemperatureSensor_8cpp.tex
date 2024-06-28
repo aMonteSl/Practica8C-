@@ -1,0 +1,63 @@
+\hypertarget{mainTemperatureSensor_8cpp}{}\doxysection{src/main\+Temperature\+Sensor.cpp File Reference}
+\label{mainTemperatureSensor_8cpp}\index{src/mainTemperatureSensor.cpp@{src/mainTemperatureSensor.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Temperature\+Sensor.\+h\char`\"{}}\newline
+Include dependency graph for main\+Temperature\+Sensor.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{mainTemperatureSensor_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainTemperatureSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainTemperatureSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainTemperatureSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainTemperatureSensor.cpp@{mainTemperatureSensor.cpp}!main@{main}}
+\index{main@{main}!mainTemperatureSensor.cpp@{mainTemperatureSensor.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file main\+Temperature\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6            \{}
+\DoxyCodeLine{7   \textcolor{comment}{// Genero un sensor tipo temperatura}}
+\DoxyCodeLine{8   \mbox{\hyperlink{classTemperatureSensor}{TemperatureSensor}} tempSensor(1, \textcolor{keyword}{true});}
+\DoxyCodeLine{9   \textcolor{comment}{// Imprimo la temperatura por defecto}}
+\DoxyCodeLine{10   tempSensor.printData();}
+\DoxyCodeLine{11   \textcolor{comment}{// Cambio el valor de la temperatura}}
+\DoxyCodeLine{12   tempSensor.collectData();}
+\DoxyCodeLine{13   \textcolor{comment}{// Imprimo la nueva temperatura}}
+\DoxyCodeLine{14   tempSensor.printData();}
+\DoxyCodeLine{15   \textcolor{comment}{// Vuelvo a imprimir la temperatura}}
+\DoxyCodeLine{16   cout << \textcolor{stringliteral}{"{}Temperature: "{}} << tempSensor.getData() << endl;}
+\DoxyCodeLine{17   cout << \textcolor{stringliteral}{"{}Status: "{}} << tempSensor.stringStatus() << endl;}
+\DoxyCodeLine{18   tempSensor.collectData();}
+\DoxyCodeLine{19   \textcolor{comment}{// Imprimo el sensor de nuevo}}
+\DoxyCodeLine{20   tempSensor.printData();}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{23   tempSensor.collectAndPrint();}
+\DoxyCodeLine{24 \}}
+
+\end{DoxyCode}
+
+
+References Temperature\+Sensor\+::collect\+And\+Print(), Temperature\+Sensor\+::collect\+Data(), Sensor\+::get\+Data(), Temperature\+Sensor\+::print\+Data(), and Temperature\+Sensor\+::string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainTemperatureSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

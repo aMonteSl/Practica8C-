@@ -1,0 +1,866 @@
+\hypertarget{classAlarmSensors}{}\doxysection{Alarm\+Sensors Class Reference}
+\label{classAlarmSensors}\index{AlarmSensors@{AlarmSensors}}
+
+
+{\ttfamily \#include $<$Alarm\+Sensors.\+h$>$}
+
+
+
+Collaboration diagram for Alarm\+Sensors\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{classAlarmSensors__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAlarmSensors_a48c7fd227cf25184951851cdc06ea317}{Alarm\+Sensors}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Alarm Sensors object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classAlarmSensors_ae871e99e9a52a082cbfd7f2653490e1e}{$\sim$\+Alarm\+Sensors}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Alarm Sensors object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a1497086628b3bb30d60f2987eca8fe7f}{add\+Sensor}} (int id, std\+::string type)
+\begin{DoxyCompactList}\small\item\em Add a \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a67e891efa5f14c93ba7e205081d675fc}{delete\+Sensor}} (int id)
+\begin{DoxyCompactList}\small\item\em Delete a \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a185412bdad879f251eea84eefc95fde3}{display\+Alarm\+Status}} ()
+\begin{DoxyCompactList}\small\item\em Display the Alarm Status. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a6b7509cfc7b77ab9943f1fa6052f56da}{display\+All\+Sensors\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Display all Sensors Data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a45ac4465f0170fad4f498ee3f51258de}{turn\+On\+Off\+System}} (int input)
+\begin{DoxyCompactList}\small\item\em This method turns on or off the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_af51225da8d29225aaaaa65b162870242}{save\+Sensors\+Data}} ()
+\begin{DoxyCompactList}\small\item\em This method saves the sensors data to a file, one .txt and other one .dat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a2eee7dba81bb31084f94ec156f989055}{load\+Sensors\+Data}} ()
+\begin{DoxyCompactList}\small\item\em This method loads the sensors data from a file .dat, but you can change to loads the sensor from a .txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a431b6b5bec038111e9e0ca436c74672b}{save\+Sensors\+Data\+Txt}} ()
+\begin{DoxyCompactList}\small\item\em This method saves the sensors data to a file .txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_ad385592be3fb7563cee7424f5d2050dc}{load\+Sensors\+Data\+Txt}} ()
+\begin{DoxyCompactList}\small\item\em This method loads the sensors data from a file .txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_aab020d13cc54935d4392f68f35651fb9}{save\+Sensors\+Data\+Bin}} ()
+\begin{DoxyCompactList}\small\item\em This method saves the sensors data to a file .dat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a572e1b76f82ddf0c0c8a8c595fe8f023}{load\+Sensors\+Data\+Bin}} ()
+\begin{DoxyCompactList}\small\item\em This method loads the sensors data from a file .dat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classAlarmSensors_a6c0b5ac5a930dcee6223f7eb485fc717}{check\+Sensors}} ()
+\begin{DoxyCompactList}\small\item\em Check the Sensors. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classAlarmSensors_abda78076c35377d192bc0e41ce63bb1c}{sensors\+Initicialized}} ()
+\begin{DoxyCompactList}\small\item\em Check if the Sensors are Initialized. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classAlarmSensors_a55efd37c983f212da7d879cd7dce6d08}{sensor\+Exists}} (int id)
+\begin{DoxyCompactList}\small\item\em Check if a \mbox{\hyperlink{classSensor}{Sensor}} exists. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classAlarmSensors_a607f5f31b5e417231a2df526ac4700cc}{check\+Allgood}} ()
+\begin{DoxyCompactList}\small\item\em Check if the Sensors have good measurements. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a30f6ac6520860d51ebfea558ef88d944}{turn\+On\+System}} ()
+\begin{DoxyCompactList}\small\item\em Turn on the System. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAlarmSensors_a316ec9a1e5c334c8919b320c57021818}{turn\+Off\+System}} ()
+\begin{DoxyCompactList}\small\item\em Turn off the System. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::set$<$ \mbox{\hyperlink{classSensor}{Sensor}} $\ast$ $>$ \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the set of \mbox{\hyperlink{classSensor}{Sensor}} pointers. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classAlarmSensors_a437f61700f4a83a70c334c30e7b41e2b}{file\+Name\+Txt}} = \char`\"{}sensors.\+txt\char`\"{}
+\begin{DoxyCompactList}\small\item\em This is the name of the file .txt. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classAlarmSensors_a7fbbca5990b92af6d75fe3be5fca3c89}{file\+Name\+Bin}} = \char`\"{}sensors.\+dat\char`\"{}
+\begin{DoxyCompactList}\small\item\em This is the name of the file .dat. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classAlarmSensors_a399cafc1deefc947494d05886e65ba47}{status\+\_\+}} = true
+\begin{DoxyCompactList}\small\item\em The status of the alarm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 25 of file Alarm\+Sensors.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classAlarmSensors_a48c7fd227cf25184951851cdc06ea317}\label{classAlarmSensors_a48c7fd227cf25184951851cdc06ea317}} 
+\index{AlarmSensors@{AlarmSensors}!AlarmSensors@{AlarmSensors}}
+\index{AlarmSensors@{AlarmSensors}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{AlarmSensors()}{AlarmSensors()}}
+{\footnotesize\ttfamily Alarm\+Sensors\+::\+Alarm\+Sensors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Alarm Sensors object. 
+
+
+
+Definition at line 19 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{19                            \{}
+\DoxyCodeLine{20   \textcolor{comment}{// El set de sensores se inicializa con un sensor de cada tipo}}
+\DoxyCodeLine{21   \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classTemperatureSensor}{TemperatureSensor}}(1, \textcolor{keyword}{true}));}
+\DoxyCodeLine{22   \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classAirQualitySensor}{AirQualitySensor}}(2, \textcolor{keyword}{true}));}
+\DoxyCodeLine{23   \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classHydrometerSensor}{HydrometerSensor}}(3, \textcolor{keyword}{true}));}
+\DoxyCodeLine{24   \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classPressureSensor}{PressureSensor}}(4, \textcolor{keyword}{true}));}
+\DoxyCodeLine{25   \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classLightSensor}{LightSensor}}(5, \textcolor{keyword}{true}));}
+\DoxyCodeLine{26   \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classPhSensor}{PhSensor}}(6, \textcolor{keyword}{true}));}
+\DoxyCodeLine{27 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_ae871e99e9a52a082cbfd7f2653490e1e}\label{classAlarmSensors_ae871e99e9a52a082cbfd7f2653490e1e}} 
+\index{AlarmSensors@{AlarmSensors}!````~AlarmSensors@{$\sim$AlarmSensors}}
+\index{````~AlarmSensors@{$\sim$AlarmSensors}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{$\sim$AlarmSensors()}{~AlarmSensors()}}
+{\footnotesize\ttfamily Alarm\+Sensors\+::$\sim$\+Alarm\+Sensors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the Alarm Sensors object. 
+
+
+
+Definition at line 29 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{29                             \{}
+\DoxyCodeLine{30   \textcolor{comment}{// Destructor que elimina todos los sensores}}
+\DoxyCodeLine{31   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{32     \textcolor{keyword}{delete} sensor;}
+\DoxyCodeLine{33   \}}
+\DoxyCodeLine{34 \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAlarmSensors_a1497086628b3bb30d60f2987eca8fe7f}\label{classAlarmSensors_a1497086628b3bb30d60f2987eca8fe7f}} 
+\index{AlarmSensors@{AlarmSensors}!addSensor@{addSensor}}
+\index{addSensor@{addSensor}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{addSensor()}{addSensor()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::add\+Sensor (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{std\+::string}]{type }\end{DoxyParamCaption})}
+
+
+
+Add a \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em type} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 46 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{46                                                    \{}
+\DoxyCodeLine{47   \textcolor{comment}{// Si el sensor ya existe no se puede añadir}}
+\DoxyCodeLine{48   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classAlarmSensors_a55efd37c983f212da7d879cd7dce6d08}{sensorExists}}(\textcolor{keywordtype}{id})) \{}
+\DoxyCodeLine{49     cout << \textcolor{stringliteral}{"{}Sensor already exists"{}} << endl;}
+\DoxyCodeLine{50     \textcolor{keywordflow}{return};}
+\DoxyCodeLine{51   \}}
+\DoxyCodeLine{52   \textcolor{comment}{// Pasar a mayusculas el tipo de sensor}}
+\DoxyCodeLine{53   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} \&c : type) \{}
+\DoxyCodeLine{54     c = toupper(c);}
+\DoxyCodeLine{55   \}}
+\DoxyCodeLine{56   \textcolor{comment}{// Añadir un sensor al set de sensores}}
+\DoxyCodeLine{57   \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}TEMPERATURE"{}}) \{}
+\DoxyCodeLine{58     \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classTemperatureSensor}{TemperatureSensor}}(\textcolor{keywordtype}{id}, \textcolor{keyword}{true}));}
+\DoxyCodeLine{59   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}AIR\_QUALITY"{}}) \{}
+\DoxyCodeLine{60     \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classAirQualitySensor}{AirQualitySensor}}(\textcolor{keywordtype}{id}, \textcolor{keyword}{true}));}
+\DoxyCodeLine{61   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}HYDROMETER"{}}) \{}
+\DoxyCodeLine{62     \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classHydrometerSensor}{HydrometerSensor}}(\textcolor{keywordtype}{id}, \textcolor{keyword}{true}));}
+\DoxyCodeLine{63   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}PRESSURE"{}}) \{}
+\DoxyCodeLine{64     \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classPressureSensor}{PressureSensor}}(\textcolor{keywordtype}{id}, \textcolor{keyword}{true}));}
+\DoxyCodeLine{65   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}LIGHT"{}}) \{}
+\DoxyCodeLine{66     \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classLightSensor}{LightSensor}}(\textcolor{keywordtype}{id}, \textcolor{keyword}{true}));}
+\DoxyCodeLine{67   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (type == \textcolor{stringliteral}{"{}PH"{}}) \{}
+\DoxyCodeLine{68     \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classPhSensor}{PhSensor}}(\textcolor{keywordtype}{id}, \textcolor{keyword}{true}));}
+\DoxyCodeLine{69   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{70     cout << \textcolor{stringliteral}{"{}Sensor type not valid"{}} << endl;}
+\DoxyCodeLine{71   \}}
+\DoxyCodeLine{72 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAlarmSensors_a1497086628b3bb30d60f2987eca8fe7f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAlarmSensors_a607f5f31b5e417231a2df526ac4700cc}\label{classAlarmSensors_a607f5f31b5e417231a2df526ac4700cc}} 
+\index{AlarmSensors@{AlarmSensors}!checkAllgood@{checkAllgood}}
+\index{checkAllgood@{checkAllgood}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{checkAllgood()}{checkAllgood()}}
+{\footnotesize\ttfamily bool Alarm\+Sensors\+::check\+Allgood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Check if the Sensors have good measurements. 
+
+\begin{DoxyReturn}{Returns}
+true if the Sensors have good measurements 
+
+false if the Sensors do not have good measurements 
+\end{DoxyReturn}
+
+
+Definition at line 102 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{102                                 \{}
+\DoxyCodeLine{103   \textcolor{comment}{// Si los sensores tienen buenas mediciones}}
+\DoxyCodeLine{104   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{105     \textcolor{keywordflow}{if} (!sensor-\/>checkAllgood()) \{}
+\DoxyCodeLine{106       \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{107     \}}
+\DoxyCodeLine{108   \}}
+\DoxyCodeLine{109   \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{110 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_a6c0b5ac5a930dcee6223f7eb485fc717}\label{classAlarmSensors_a6c0b5ac5a930dcee6223f7eb485fc717}} 
+\index{AlarmSensors@{AlarmSensors}!checkSensors@{checkSensors}}
+\index{checkSensors@{checkSensors}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{checkSensors()}{checkSensors()}}
+{\footnotesize\ttfamily int Alarm\+Sensors\+::check\+Sensors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Check the Sensors. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 112 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{112                                \{}
+\DoxyCodeLine{113   \textcolor{keywordflow}{if} (!\mbox{\hyperlink{classAlarmSensors_abda78076c35377d192bc0e41ce63bb1c}{sensorsIniticialized}}()) \{}
+\DoxyCodeLine{114     \textcolor{keywordflow}{return} -\/1;}
+\DoxyCodeLine{115   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{116     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classAlarmSensors_a607f5f31b5e417231a2df526ac4700cc}{checkAllgood}}()) \{}
+\DoxyCodeLine{117       \textcolor{keywordflow}{return} 1;}
+\DoxyCodeLine{118     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{119       \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{120     \}}
+\DoxyCodeLine{121   \}}
+\DoxyCodeLine{122 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_a67e891efa5f14c93ba7e205081d675fc}\label{classAlarmSensors_a67e891efa5f14c93ba7e205081d675fc}} 
+\index{AlarmSensors@{AlarmSensors}!deleteSensor@{deleteSensor}}
+\index{deleteSensor@{deleteSensor}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{deleteSensor()}{deleteSensor()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::delete\+Sensor (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Delete a \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 74 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{74                                       \{}
+\DoxyCodeLine{75   \textcolor{keywordtype}{bool} found = \textcolor{keyword}{false};}
+\DoxyCodeLine{76   \textcolor{comment}{// Eliminar un sensor del set de sensores}}
+\DoxyCodeLine{77   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{78     \textcolor{keywordflow}{if} (sensor-\/>getId() == \textcolor{keywordtype}{id}) \{}
+\DoxyCodeLine{79       std::cout << \textcolor{stringliteral}{"{}Sensor with id: "{}} << \textcolor{keywordtype}{id} << \textcolor{stringliteral}{"{} deleted"{}} << std::endl;}
+\DoxyCodeLine{80       \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}.erase(sensor);}
+\DoxyCodeLine{81       \textcolor{keyword}{delete} sensor;}
+\DoxyCodeLine{82       found = \textcolor{keyword}{true};}
+\DoxyCodeLine{83       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{84     \}}
+\DoxyCodeLine{85   \}}
+\DoxyCodeLine{86   \textcolor{keywordflow}{if} (!found) \{}
+\DoxyCodeLine{87     std::cout << \textcolor{stringliteral}{"{}Sensor with id: "{}} << \textcolor{keywordtype}{id} << \textcolor{stringliteral}{"{} not found"{}} << std::endl;}
+\DoxyCodeLine{88   \}}
+\DoxyCodeLine{89 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAlarmSensors_a67e891efa5f14c93ba7e205081d675fc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAlarmSensors_a185412bdad879f251eea84eefc95fde3}\label{classAlarmSensors_a185412bdad879f251eea84eefc95fde3}} 
+\index{AlarmSensors@{AlarmSensors}!displayAlarmStatus@{displayAlarmStatus}}
+\index{displayAlarmStatus@{displayAlarmStatus}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{displayAlarmStatus()}{displayAlarmStatus()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::display\+Alarm\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Display the Alarm Status. 
+
+
+
+Definition at line 124 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{124                                       \{}
+\DoxyCodeLine{125   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classAlarmSensors_a399cafc1deefc947494d05886e65ba47}{status\_}}) \{}
+\DoxyCodeLine{126     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classAlarmSensors_a6c0b5ac5a930dcee6223f7eb485fc717}{checkSensors}}() == 1) \{}
+\DoxyCodeLine{127       cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{128       cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{129       cout << \textcolor{stringliteral}{"{}|         All sensors are in good status          |"{}} << endl;}
+\DoxyCodeLine{130       cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{131       cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{132     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{classAlarmSensors_a6c0b5ac5a930dcee6223f7eb485fc717}{checkSensors}}() == 0) \{}
+\DoxyCodeLine{133       \textcolor{comment}{// Dibujar el logo de alarma, el triangulo con la exclamacion en el medio}}
+\DoxyCodeLine{134       cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{135       cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{136       cout << \textcolor{stringliteral}{"{}|  ¡¡One or more sensors are not in good status¡¡ |"{}} << endl;}
+\DoxyCodeLine{137       cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{138       cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{139     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{classAlarmSensors_a6c0b5ac5a930dcee6223f7eb485fc717}{checkSensors}}() == -\/1) \{}
+\DoxyCodeLine{140       cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{141       cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{142       cout << \textcolor{stringliteral}{"{}|  ¡¡One or more sensors are not initialized¡¡    |"{}} << endl;}
+\DoxyCodeLine{143       cout << \textcolor{stringliteral}{"{}|    do a collect of data to initialize them      |"{}} << endl;}
+\DoxyCodeLine{144       cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{145       cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{146     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{147       cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{148       cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{149       cout << \textcolor{stringliteral}{"{}|            ¡¡Error in the system¡¡              |"{}} << endl;}
+\DoxyCodeLine{150       cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{151       cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{152     \}}
+\DoxyCodeLine{153   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{154     cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{155     cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{156     cout << \textcolor{stringliteral}{"{}|                 The system its off              |"{}} << endl;}
+\DoxyCodeLine{157     cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{158     cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{159   \}}
+\DoxyCodeLine{160 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), and Green\+House\+::manage\+Guest().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAlarmSensors_a185412bdad879f251eea84eefc95fde3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAlarmSensors_a6b7509cfc7b77ab9943f1fa6052f56da}\label{classAlarmSensors_a6b7509cfc7b77ab9943f1fa6052f56da}} 
+\index{AlarmSensors@{AlarmSensors}!displayAllSensorsData@{displayAllSensorsData}}
+\index{displayAllSensorsData@{displayAllSensorsData}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{displayAllSensorsData()}{displayAllSensorsData()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::display\+All\+Sensors\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Display all Sensors Data. 
+
+
+
+Definition at line 162 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{162                                          \{}
+\DoxyCodeLine{163   \textcolor{comment}{// Imprimir los datos de todos los sensores}}
+\DoxyCodeLine{164   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{165     sensor-\/>collectAndPrint();}
+\DoxyCodeLine{166   \}}
+\DoxyCodeLine{167 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), and Green\+House\+::manage\+Guest().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAlarmSensors_a6b7509cfc7b77ab9943f1fa6052f56da_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAlarmSensors_a2eee7dba81bb31084f94ec156f989055}\label{classAlarmSensors_a2eee7dba81bb31084f94ec156f989055}} 
+\index{AlarmSensors@{AlarmSensors}!loadSensorsData@{loadSensorsData}}
+\index{loadSensorsData@{loadSensorsData}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{loadSensorsData()}{loadSensorsData()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::load\+Sensors\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method loads the sensors data from a file .dat, but you can change to loads the sensor from a .txt. 
+
+
+
+Definition at line 290 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{290                                    \{}
+\DoxyCodeLine{291   \textcolor{comment}{// Cargar los datos de los sensores de un archivo binario}}
+\DoxyCodeLine{292   \mbox{\hyperlink{classAlarmSensors_a572e1b76f82ddf0c0c8a8c595fe8f023}{loadSensorsDataBin}}();}
+\DoxyCodeLine{293   \textcolor{comment}{// Cargar los datos de los sensores de un archivo de texto}}
+\DoxyCodeLine{294   \textcolor{comment}{// loadSensorsDataTxt();}}
+\DoxyCodeLine{295 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Green\+House\+::manage\+Login().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAlarmSensors_a2eee7dba81bb31084f94ec156f989055_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAlarmSensors_a572e1b76f82ddf0c0c8a8c595fe8f023}\label{classAlarmSensors_a572e1b76f82ddf0c0c8a8c595fe8f023}} 
+\index{AlarmSensors@{AlarmSensors}!loadSensorsDataBin@{loadSensorsDataBin}}
+\index{loadSensorsDataBin@{loadSensorsDataBin}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{loadSensorsDataBin()}{loadSensorsDataBin()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::load\+Sensors\+Data\+Bin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method loads the sensors data from a file .dat. 
+
+
+
+Definition at line 262 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{262                                       \{}
+\DoxyCodeLine{263   \textcolor{comment}{// Cargar los datos de los sensores de un archivo binario usando trunc}}
+\DoxyCodeLine{264   ifstream file(\mbox{\hyperlink{classAlarmSensors_a7fbbca5990b92af6d75fe3be5fca3c89}{fileNameBin}}, ios::binary);}
+\DoxyCodeLine{265   \textcolor{keywordtype}{int} id;}
+\DoxyCodeLine{266   \textcolor{keywordtype}{string} type;}
+\DoxyCodeLine{267   \textcolor{keywordtype}{int} data;}
+\DoxyCodeLine{268   \textcolor{keywordflow}{while} (file.read(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&\textcolor{keywordtype}{id}), \textcolor{keyword}{sizeof}(\textcolor{keywordtype}{int}))) \{}
+\DoxyCodeLine{269     \textcolor{comment}{// Strings cannot be read directly as binary data due to their dynamic size}}
+\DoxyCodeLine{270     \textcolor{comment}{// First, read the length of the string}}
+\DoxyCodeLine{271     \textcolor{keywordtype}{size\_t} typeLength;}
+\DoxyCodeLine{272     \textcolor{keywordflow}{if} (file.read(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&typeLength), \textcolor{keyword}{sizeof}(\textcolor{keywordtype}{size\_t}))) \{}
+\DoxyCodeLine{273       \textcolor{comment}{// Resize the string to the read length}}
+\DoxyCodeLine{274       type.resize(typeLength);}
+\DoxyCodeLine{275       \textcolor{comment}{// Now, read the string data}}
+\DoxyCodeLine{276       file.read(\&type[0], typeLength);}
+\DoxyCodeLine{277     \}}
+\DoxyCodeLine{278     file.read(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&data), \textcolor{keyword}{sizeof}(\textcolor{keywordtype}{int}));}
+\DoxyCodeLine{279     \mbox{\hyperlink{classAlarmSensors_a1497086628b3bb30d60f2987eca8fe7f}{addSensor}}(\textcolor{keywordtype}{id}, type);}
+\DoxyCodeLine{280     \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{281       \textcolor{keywordflow}{if} (sensor-\/>getId() == \textcolor{keywordtype}{id}) \{}
+\DoxyCodeLine{282         sensor-\/>setData(data);}
+\DoxyCodeLine{283       \}}
+\DoxyCodeLine{284     \}}
+\DoxyCodeLine{285     std::cout << \textcolor{stringliteral}{"{}Sensor with id: "{}} << \textcolor{keywordtype}{id} << \textcolor{stringliteral}{"{} loaded (binary)"{}} << std::endl;}
+\DoxyCodeLine{286   \}}
+\DoxyCodeLine{287   file.close();}
+\DoxyCodeLine{288 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_ad385592be3fb7563cee7424f5d2050dc}\label{classAlarmSensors_ad385592be3fb7563cee7424f5d2050dc}} 
+\index{AlarmSensors@{AlarmSensors}!loadSensorsDataTxt@{loadSensorsDataTxt}}
+\index{loadSensorsDataTxt@{loadSensorsDataTxt}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{loadSensorsDataTxt()}{loadSensorsDataTxt()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::load\+Sensors\+Data\+Txt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method loads the sensors data from a file .txt. 
+
+
+
+Definition at line 243 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{243                                       \{}
+\DoxyCodeLine{244   \textcolor{comment}{// Cargar los datos de los sensores de un archivo de texto}}
+\DoxyCodeLine{245   ifstream file;}
+\DoxyCodeLine{246   file.open(\mbox{\hyperlink{classAlarmSensors_a437f61700f4a83a70c334c30e7b41e2b}{fileNameTxt}});}
+\DoxyCodeLine{247   \textcolor{keywordtype}{int} id;}
+\DoxyCodeLine{248   \textcolor{keywordtype}{string} type;}
+\DoxyCodeLine{249   \textcolor{keywordtype}{int} data;}
+\DoxyCodeLine{250   \textcolor{keywordflow}{while} (file >> \textcolor{keywordtype}{id} >> type >> data) \{}
+\DoxyCodeLine{251     \mbox{\hyperlink{classAlarmSensors_a1497086628b3bb30d60f2987eca8fe7f}{addSensor}}(\textcolor{keywordtype}{id}, type);}
+\DoxyCodeLine{252     \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{253       \textcolor{keywordflow}{if} (sensor-\/>getId() == \textcolor{keywordtype}{id}) \{}
+\DoxyCodeLine{254         sensor-\/>setData(data);}
+\DoxyCodeLine{255       \}}
+\DoxyCodeLine{256     \}}
+\DoxyCodeLine{257     std::cout << \textcolor{stringliteral}{"{}Sensor with id: "{}} << \textcolor{keywordtype}{id} << \textcolor{stringliteral}{"{} loaded (txt)"{}} << std::endl;}
+\DoxyCodeLine{258   \}}
+\DoxyCodeLine{259   file.close();}
+\DoxyCodeLine{260 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_af51225da8d29225aaaaa65b162870242}\label{classAlarmSensors_af51225da8d29225aaaaa65b162870242}} 
+\index{AlarmSensors@{AlarmSensors}!saveSensorsData@{saveSensorsData}}
+\index{saveSensorsData@{saveSensorsData}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{saveSensorsData()}{saveSensorsData()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::save\+Sensors\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method saves the sensors data to a file, one .txt and other one .dat. 
+
+
+
+Definition at line 236 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{236                                    \{}
+\DoxyCodeLine{237   \textcolor{comment}{// Guardar los datos de los sensores en un archivo binario}}
+\DoxyCodeLine{238   \mbox{\hyperlink{classAlarmSensors_aab020d13cc54935d4392f68f35651fb9}{saveSensorsDataBin}}();}
+\DoxyCodeLine{239   \textcolor{comment}{// GUardar los datos de los sensores en un archivo de texto}}
+\DoxyCodeLine{240   \mbox{\hyperlink{classAlarmSensors_a431b6b5bec038111e9e0ca436c74672b}{saveSensorsDataTxt}}();}
+\DoxyCodeLine{241 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Green\+House\+::manage\+Admin(), Green\+House\+::manage\+Employee(), and Green\+House\+::save().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAlarmSensors_af51225da8d29225aaaaa65b162870242_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAlarmSensors_aab020d13cc54935d4392f68f35651fb9}\label{classAlarmSensors_aab020d13cc54935d4392f68f35651fb9}} 
+\index{AlarmSensors@{AlarmSensors}!saveSensorsDataBin@{saveSensorsDataBin}}
+\index{saveSensorsDataBin@{saveSensorsDataBin}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{saveSensorsDataBin()}{saveSensorsDataBin()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::save\+Sensors\+Data\+Bin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method saves the sensors data to a file .dat. 
+
+
+
+Definition at line 217 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{217                                       \{}
+\DoxyCodeLine{218   ofstream file(\mbox{\hyperlink{classAlarmSensors_a7fbbca5990b92af6d75fe3be5fca3c89}{fileNameBin}}, ios::binary | ios::trunc);}
+\DoxyCodeLine{219   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{220     \textcolor{keywordtype}{int} \textcolor{keywordtype}{id} = sensor-\/>getId();}
+\DoxyCodeLine{221     file.write(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&\textcolor{keywordtype}{id}), \textcolor{keyword}{sizeof}(\textcolor{keywordtype}{int}));}
+\DoxyCodeLine{222 }
+\DoxyCodeLine{223     \textcolor{keywordtype}{size\_t} typeLength = sensor-\/>getType().length();}
+\DoxyCodeLine{224     file.write(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&typeLength), \textcolor{keyword}{sizeof}(\textcolor{keywordtype}{size\_t}));}
+\DoxyCodeLine{225     file.write(sensor-\/>getType().c\_str(), typeLength);}
+\DoxyCodeLine{226 }
+\DoxyCodeLine{227     \textcolor{keywordtype}{int} data = sensor-\/>getData();}
+\DoxyCodeLine{228     file.write(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&data), \textcolor{keyword}{sizeof}(\textcolor{keywordtype}{int}));}
+\DoxyCodeLine{229 }
+\DoxyCodeLine{230     std::cout << \textcolor{stringliteral}{"{}Sensor with id: "{}} << sensor-\/>getId() << \textcolor{stringliteral}{"{} saved (binary)"{}}}
+\DoxyCodeLine{231               << std::endl;}
+\DoxyCodeLine{232   \}}
+\DoxyCodeLine{233   file.close();}
+\DoxyCodeLine{234 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_a431b6b5bec038111e9e0ca436c74672b}\label{classAlarmSensors_a431b6b5bec038111e9e0ca436c74672b}} 
+\index{AlarmSensors@{AlarmSensors}!saveSensorsDataTxt@{saveSensorsDataTxt}}
+\index{saveSensorsDataTxt@{saveSensorsDataTxt}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{saveSensorsDataTxt()}{saveSensorsDataTxt()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::save\+Sensors\+Data\+Txt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method saves the sensors data to a file .txt. 
+
+
+
+Definition at line 204 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{204                                       \{}
+\DoxyCodeLine{205   \textcolor{comment}{// Guardar los datos de los sensores en un archivo de texto}}
+\DoxyCodeLine{206   ofstream file;}
+\DoxyCodeLine{207   file.open(\mbox{\hyperlink{classAlarmSensors_a437f61700f4a83a70c334c30e7b41e2b}{fileNameTxt}});}
+\DoxyCodeLine{208   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{209     file << sensor-\/>getId() << \textcolor{stringliteral}{"{} "{}} << sensor-\/>getType() << \textcolor{stringliteral}{"{} "{}}}
+\DoxyCodeLine{210          << sensor-\/>getData() << endl;}
+\DoxyCodeLine{211     std::cout << \textcolor{stringliteral}{"{}Sensor with id: "{}} << sensor-\/>getId() << \textcolor{stringliteral}{"{} saved (txt)"{}}}
+\DoxyCodeLine{212               << std::endl;}
+\DoxyCodeLine{213   \}}
+\DoxyCodeLine{214   file.close();}
+\DoxyCodeLine{215 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_a55efd37c983f212da7d879cd7dce6d08}\label{classAlarmSensors_a55efd37c983f212da7d879cd7dce6d08}} 
+\index{AlarmSensors@{AlarmSensors}!sensorExists@{sensorExists}}
+\index{sensorExists@{sensorExists}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{sensorExists()}{sensorExists()}}
+{\footnotesize\ttfamily bool Alarm\+Sensors\+::sensor\+Exists (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Check if a \mbox{\hyperlink{classSensor}{Sensor}} exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the \mbox{\hyperlink{classSensor}{Sensor}} exists 
+
+false if the \mbox{\hyperlink{classSensor}{Sensor}} does not exist 
+\end{DoxyReturn}
+
+
+Definition at line 36 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{36                                       \{}
+\DoxyCodeLine{37   \textcolor{comment}{// Ver si existe un sensor}}
+\DoxyCodeLine{38   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{39     \textcolor{keywordflow}{if} (sensor-\/>getId() == \textcolor{keywordtype}{id}) \{}
+\DoxyCodeLine{40       \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{41     \}}
+\DoxyCodeLine{42   \}}
+\DoxyCodeLine{43   \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{44 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_abda78076c35377d192bc0e41ce63bb1c}\label{classAlarmSensors_abda78076c35377d192bc0e41ce63bb1c}} 
+\index{AlarmSensors@{AlarmSensors}!sensorsIniticialized@{sensorsIniticialized}}
+\index{sensorsIniticialized@{sensorsIniticialized}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{sensorsIniticialized()}{sensorsIniticialized()}}
+{\footnotesize\ttfamily bool Alarm\+Sensors\+::sensors\+Initicialized (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Check if the Sensors are Initialized. 
+
+\begin{DoxyReturn}{Returns}
+true if the Sensors are Initialized 
+
+false if the Sensors are not Initialized 
+\end{DoxyReturn}
+
+
+Definition at line 91 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{91                                         \{}
+\DoxyCodeLine{92   \textcolor{comment}{// Los sensores estan iniciados si todos los sensores no tienen el valor por}}
+\DoxyCodeLine{93   \textcolor{comment}{// defecto de -\/1}}
+\DoxyCodeLine{94   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{95     \textcolor{keywordflow}{if} (sensor-\/>getData() == -\/1) \{}
+\DoxyCodeLine{96       \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{97     \}}
+\DoxyCodeLine{98   \}}
+\DoxyCodeLine{99   \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{100 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_a316ec9a1e5c334c8919b320c57021818}\label{classAlarmSensors_a316ec9a1e5c334c8919b320c57021818}} 
+\index{AlarmSensors@{AlarmSensors}!turnOffSystem@{turnOffSystem}}
+\index{turnOffSystem@{turnOffSystem}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{turnOffSystem()}{turnOffSystem()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::turn\+Off\+System (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Turn off the System. 
+
+
+
+Definition at line 176 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{176                                  \{}
+\DoxyCodeLine{177   \textcolor{comment}{// Apagar todos los sensores del set}}
+\DoxyCodeLine{178   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{179     sensor-\/>turnOff();}
+\DoxyCodeLine{180   \}}
+\DoxyCodeLine{181 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classAlarmSensors_a45ac4465f0170fad4f498ee3f51258de}\label{classAlarmSensors_a45ac4465f0170fad4f498ee3f51258de}} 
+\index{AlarmSensors@{AlarmSensors}!turnOnOffSystem@{turnOnOffSystem}}
+\index{turnOnOffSystem@{turnOnOffSystem}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{turnOnOffSystem()}{turnOnOffSystem()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::turn\+On\+Off\+System (\begin{DoxyParamCaption}\item[{int}]{input }\end{DoxyParamCaption})}
+
+
+
+This method turns on or off the system. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 183 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{183                                             \{}
+\DoxyCodeLine{184   \textcolor{comment}{// Si el input es igual a true entonces encender todos los sensores}}
+\DoxyCodeLine{185   \textcolor{keywordflow}{if} (input == 1) \{}
+\DoxyCodeLine{186     \mbox{\hyperlink{classAlarmSensors_a30f6ac6520860d51ebfea558ef88d944}{turnOnSystem}}();}
+\DoxyCodeLine{187     cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{188     cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{189     cout << \textcolor{stringliteral}{"{}|                 System turned on                |"{}} << endl;}
+\DoxyCodeLine{190     cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{191     cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{192     \mbox{\hyperlink{classAlarmSensors_a399cafc1deefc947494d05886e65ba47}{status\_}} = \textcolor{keyword}{true};}
+\DoxyCodeLine{193   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (input == 2) \{}
+\DoxyCodeLine{194     \mbox{\hyperlink{classAlarmSensors_a316ec9a1e5c334c8919b320c57021818}{turnOffSystem}}();}
+\DoxyCodeLine{195     cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{196     cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{197     cout << \textcolor{stringliteral}{"{}|                 System turned off               |"{}} << endl;}
+\DoxyCodeLine{198     cout << \textcolor{stringliteral}{"{}|                                                 |"{}} << endl;}
+\DoxyCodeLine{199     cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{200     \mbox{\hyperlink{classAlarmSensors_a399cafc1deefc947494d05886e65ba47}{status\_}} = \textcolor{keyword}{false};}
+\DoxyCodeLine{201   \}}
+\DoxyCodeLine{202 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), Green\+House\+::manage\+Admin(), and Green\+House\+::manage\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAlarmSensors_a45ac4465f0170fad4f498ee3f51258de_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAlarmSensors_a30f6ac6520860d51ebfea558ef88d944}\label{classAlarmSensors_a30f6ac6520860d51ebfea558ef88d944}} 
+\index{AlarmSensors@{AlarmSensors}!turnOnSystem@{turnOnSystem}}
+\index{turnOnSystem@{turnOnSystem}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{turnOnSystem()}{turnOnSystem()}}
+{\footnotesize\ttfamily void Alarm\+Sensors\+::turn\+On\+System (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Turn on the System. 
+
+
+
+Definition at line 169 of file Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{169                                 \{}
+\DoxyCodeLine{170   \textcolor{comment}{// Encender todos los sensores del set}}
+\DoxyCodeLine{171   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} sensor : \mbox{\hyperlink{classAlarmSensors_a673a568a494afca928ba75e862130563}{sensors\_}}) \{}
+\DoxyCodeLine{172     sensor-\/>turnOn();}
+\DoxyCodeLine{173   \}}
+\DoxyCodeLine{174 \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classAlarmSensors_a7fbbca5990b92af6d75fe3be5fca3c89}\label{classAlarmSensors_a7fbbca5990b92af6d75fe3be5fca3c89}} 
+\index{AlarmSensors@{AlarmSensors}!fileNameBin@{fileNameBin}}
+\index{fileNameBin@{fileNameBin}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{fileNameBin}{fileNameBin}}
+{\footnotesize\ttfamily std\+::string Alarm\+Sensors\+::file\+Name\+Bin = \char`\"{}sensors.\+dat\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the name of the file .dat. 
+
+
+
+Definition at line 131 of file Alarm\+Sensors.\+h.
+
+\mbox{\Hypertarget{classAlarmSensors_a437f61700f4a83a70c334c30e7b41e2b}\label{classAlarmSensors_a437f61700f4a83a70c334c30e7b41e2b}} 
+\index{AlarmSensors@{AlarmSensors}!fileNameTxt@{fileNameTxt}}
+\index{fileNameTxt@{fileNameTxt}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{fileNameTxt}{fileNameTxt}}
+{\footnotesize\ttfamily std\+::string Alarm\+Sensors\+::file\+Name\+Txt = \char`\"{}sensors.\+txt\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the name of the file .txt. 
+
+
+
+Definition at line 126 of file Alarm\+Sensors.\+h.
+
+\mbox{\Hypertarget{classAlarmSensors_a673a568a494afca928ba75e862130563}\label{classAlarmSensors_a673a568a494afca928ba75e862130563}} 
+\index{AlarmSensors@{AlarmSensors}!sensors\_@{sensors\_}}
+\index{sensors\_@{sensors\_}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{sensors\_}{sensors\_}}
+{\footnotesize\ttfamily std\+::set$<$\mbox{\hyperlink{classSensor}{Sensor}} $\ast$$>$ Alarm\+Sensors\+::sensors\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the set of \mbox{\hyperlink{classSensor}{Sensor}} pointers. 
+
+
+
+Definition at line 119 of file Alarm\+Sensors.\+h.
+
+\mbox{\Hypertarget{classAlarmSensors_a399cafc1deefc947494d05886e65ba47}\label{classAlarmSensors_a399cafc1deefc947494d05886e65ba47}} 
+\index{AlarmSensors@{AlarmSensors}!status\_@{status\_}}
+\index{status\_@{status\_}!AlarmSensors@{AlarmSensors}}
+\doxysubsubsection{\texorpdfstring{status\_}{status\_}}
+{\footnotesize\ttfamily bool Alarm\+Sensors\+::status\+\_\+ = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The status of the alarm. 
+
+
+
+Definition at line 183 of file Alarm\+Sensors.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{AlarmSensors_8h}{Alarm\+Sensors.\+h}}\item 
+src/\mbox{\hyperlink{AlarmSensors_8cpp}{Alarm\+Sensors.\+cpp}}\end{DoxyCompactItemize}

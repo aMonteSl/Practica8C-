@@ -1,0 +1,7 @@
+<map id="MonitoringSystem::askMainUser" name="MonitoringSystem::askMainUser">
+<area shape="rect" id="node1" title="This is the method to ask the main user, the one that its going to loggin." alt="" coords="621,31,856,57"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#a4abdaf1876463edb964e36006c54b479" title="This method shows the login screen." alt="" coords="348,31,573,57"/>
+<area shape="rect" id="node3" href="$mainMonitoringSystem_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="177,5,231,32"/>
+<area shape="rect" id="node4" href="$classGreenHouse.html#ae4b034eed62c1ef18fbac1559f0e21e1" title="Main system, after the system is started, you call this method to manage the system with your options..." alt="" coords="108,56,300,83"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
+</map>

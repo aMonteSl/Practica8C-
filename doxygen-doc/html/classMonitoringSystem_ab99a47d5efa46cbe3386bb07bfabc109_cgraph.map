@@ -1,0 +1,7 @@
+<map id="MonitoringSystem::deleteAlarmScreen" name="MonitoringSystem::deleteAlarmScreen">
+<area shape="rect" id="node1" title="This method shows the message to delete an alarm." alt="" coords="5,49,196,90"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#a0ec7f8e47b126a33656b9db2a6ec98c2" title="This is the method to ask the id of the alarm." alt="" coords="244,5,467,32"/>
+<area shape="rect" id="node4" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="247,56,463,83"/>
+<area shape="rect" id="node5" href="$classScreenHardware.html#a1ec558773d81663e69212398fbc6a066" title="Delete a Alarm Window object." alt="" coords="247,107,464,149"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="515,5,725,32"/>
+</map>

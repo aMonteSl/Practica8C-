@@ -1,0 +1,8 @@
+<map id="Hardware::typeToString" name="Hardware::typeToString">
+<area shape="rect" id="node1" title="This method converts the type of hardware to a string." alt="" coords="793,31,968,57"/>
+<area shape="rect" id="node2" href="$classHardware.html#ae5db4b59272ce14165f8d8a3e9e7e1f7" title="Get the Type object." alt="" coords="601,31,745,57"/>
+<area shape="rect" id="node3" href="$mainHardware_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="194,5,249,32"/>
+<area shape="rect" id="node4" href="$classHardware.html#acb5abd5dd06aab68f25115a93ba3ec37" title="This method returns if the hardware is active or not in a string." alt="" coords="383,56,553,83"/>
+<area shape="rect" id="node5" href="$classSwitchHardware.html#a9b127583aa5904381399b254617f7b04" title="Display the output of the Switch Hardware." alt="" coords="108,56,335,83"/>
+<area shape="rect" id="node6" href="$mainSwitchHardware_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
+</map>

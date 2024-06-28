@@ -1,0 +1,5 @@
+<map id="MonitoringSystem::displayCameraScreen" name="MonitoringSystem::displayCameraScreen">
+<area shape="rect" id="node1" title="Display the camera screen." alt="" coords="5,27,201,69"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="259,5,475,32"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#a5afb8ed9e0166caae909b52aca171558" title="Display the camera window." alt="" coords="249,57,484,98"/>
+</map>

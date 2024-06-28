@@ -1,0 +1,4 @@
+<map id="UsersServer::getPrivileges" name="UsersServer::getPrivileges">
+<area shape="rect" id="node1" title="Get Privileges." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$classUser.html#afb94652eecf297a0b27418e0a6211a70" title="Get the Privileges object." alt="" coords="248,5,393,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MonitoringSystem::saveCameraScreen" name="MonitoringSystem::saveCameraScreen">
+<area shape="rect" id="node1" title="Save a Camera Screen object." alt="" coords="5,27,236,69"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="285,5,501,32"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#aa883bd450a4153fbb836f02dacb5de3b" title="Save a camera window." alt="" coords="284,57,503,98"/>
+</map>

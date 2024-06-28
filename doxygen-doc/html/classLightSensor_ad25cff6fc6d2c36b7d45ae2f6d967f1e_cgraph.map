@@ -1,0 +1,8 @@
+<map id="LightSensor::printData" name="LightSensor::printData">
+<area shape="rect" id="node1" title="Print the data of the Light Sensor." alt="" coords="5,54,172,81"/>
+<area shape="rect" id="node2" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="693,54,820,81"/>
+<area shape="rect" id="node3" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="259,29,365,56"/>
+<area shape="rect" id="node4" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="485,80,612,106"/>
+<area shape="rect" id="node5" href="$classLightSensor.html#a649f67791977f6e9ee0366267b25e367" title="Collect and print the data of the Light Sensor." alt="" coords="220,130,404,157"/>
+<area shape="rect" id="node6" href="$classLightSensor.html#a004261e3ba593ff04b76ce3839d7c438" title="Check if the Light Sensor is working properly." alt="" coords="452,130,645,157"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="MonitoringSystem::askEmail" name="MonitoringSystem::askEmail">
+<area shape="rect" id="node1" title="This method asks the user for an input for the email." alt="" coords="5,13,215,39"/>
+<area shape="rect" id="node2" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="263,5,453,47"/>
+</map>

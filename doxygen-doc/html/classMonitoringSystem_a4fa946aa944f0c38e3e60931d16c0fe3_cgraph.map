@@ -1,0 +1,12 @@
+<map id="MonitoringSystem::updateUserScreen" name="MonitoringSystem::updateUserScreen">
+<area shape="rect" id="node1" title="This method shows the message to update a user." alt="" coords="5,99,200,141"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="249,56,465,83"/>
+<area shape="rect" id="node3" href="$classMonitoringSystem.html#a939d9f1856e0b97975e19a4a11f8b73b" title="This is the method to select a user." alt="" coords="248,107,467,133"/>
+<area shape="rect" id="node10" href="$classScreenHardware.html#ab506598df41adae147421b538c0f2a16" title="Update a User object window." alt="" coords="251,158,463,199"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#a2562b1b9b4de7da761a6a5db52793348" title="This method asks the user for an input for the email." alt="" coords="528,5,737,32"/>
+<area shape="rect" id="node6" href="$classMonitoringSystem.html#acd7c674be2caff1ac2bcc37b2cd0fb3b" title="This method asks the user for an input for the name." alt="" coords="527,56,738,83"/>
+<area shape="rect" id="node7" href="$classMonitoringSystem.html#af4af355f2a6bbda876e80f36ba1624cc" title="This method asks the user for an input for the NIF." alt="" coords="535,107,730,133"/>
+<area shape="rect" id="node8" href="$classMonitoringSystem.html#a26cbfb1c9afd14b76c5acbf99eae8569" title="This method asks the user for an input for the password." alt="" coords="516,157,749,184"/>
+<area shape="rect" id="node9" href="$classMonitoringSystem.html#a64d58db9d958b2f61f601ed71dfb1e3b" title="This method asks the user for an input for the privileges." alt="" coords="515,208,751,235"/>
+<area shape="rect" id="node5" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="799,99,989,141"/>
+</map>

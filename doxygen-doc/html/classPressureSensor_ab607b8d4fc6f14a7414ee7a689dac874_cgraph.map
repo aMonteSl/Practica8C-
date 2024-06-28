@@ -1,0 +1,4 @@
+<map id="PressureSensor::collectData" name="PressureSensor::collectData">
+<area shape="rect" id="node1" title="Collect data of the Pressure Sensor." alt="" coords="5,5,209,32"/>
+<area shape="rect" id="node2" href="$classSensor.html#a8c3a63a324230f81e78972d37f9ddfb1" title="Set the Data object." alt="" coords="257,5,383,32"/>
+</map>

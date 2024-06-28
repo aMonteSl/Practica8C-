@@ -1,0 +1,14 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,60,209"/>
+<area shape="rect" id="node2" href="$classUsersServer.html#a314dcb58231af84a4d3f40aa58ceda66" title="Create a User object." alt="" coords="133,5,313,32"/>
+<area shape="rect" id="node3" href="$classUsersServer.html#a192f5a7d0ef25994bd161b8029f935ca" title="Delete a User object." alt="" coords="133,56,313,83"/>
+<area shape="rect" id="node4" href="$classUsersServer.html#a113e388eb93cf9aa9dd585d87e3a557b" title="Find User Login." alt="" coords="124,107,323,133"/>
+<area shape="rect" id="node5" href="$classUsersServer.html#a8a29fac8d978a4f0f4b687640b210be7" title="Get Privileges." alt="" coords="126,157,321,184"/>
+<area shape="rect" id="node7" href="$classUsersServer.html#a0cab706bb303ffa44ea46f234e95993f" title="Load Users from File Load users from a file." alt="" coords="108,208,339,235"/>
+<area shape="rect" id="node8" href="$classUsersServer.html#aa23ec5bd6c0b49cabb05e8d6e60f552a" title="Print all Users Print all users in the UsersDatabase object." alt="" coords="114,259,333,285"/>
+<area shape="rect" id="node9" href="$classUsersServer.html#a09ff022e97cf02e1737dc735b43364fe" title="Save Users to File Save users to a file." alt="" coords="116,309,331,336"/>
+<area shape="rect" id="node10" href="$classUsersServer.html#a3500268cb464053ac588a0f4534ac36c" title="Update User." alt="" coords="131,360,315,387"/>
+<area shape="rect" id="node6" href="$classUser.html#afb94652eecf297a0b27418e0a6211a70" title="Get the Privileges object." alt="" coords="387,157,532,184"/>
+<area shape="rect" id="node11" href="$classUser.html#ad25e420b6470b7c840d28d6e9bb87fe3" title="Set the Email object." alt="" coords="401,335,518,361"/>
+<area shape="rect" id="node12" href="$classUser.html#aa72db65160cea95ad93a14b084825bad" title="Set the Privileges object." alt="" coords="387,385,531,412"/>
+</map>

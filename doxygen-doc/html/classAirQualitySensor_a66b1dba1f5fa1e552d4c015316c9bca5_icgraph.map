@@ -1,0 +1,6 @@
+<map id="AirQualitySensor::stringStatus" name="AirQualitySensor::stringStatus">
+<area shape="rect" id="node1" title="This method returns if the Air Quality Sensor is active or not and if its active, it returns if its g..." alt="" coords="587,5,763,47"/>
+<area shape="rect" id="node2" href="$mainAirQualitySensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,38,60,65"/>
+<area shape="rect" id="node3" href="$classAirQualitySensor.html#a8b9bf156728de2c119344b990d19097a" title="Print the data of the Air Quality Sensor." alt="" coords="339,38,539,65"/>
+<area shape="rect" id="node4" href="$classAirQualitySensor.html#a0c5427a9a79033e9490a5ad6ae4023a7" title="Collect and print the data of the Air Quality Sensor." alt="" coords="108,89,291,131"/>
+</map>

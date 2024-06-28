@@ -1,0 +1,4 @@
+<map id="MonitoringSystem::cleanScreen" name="MonitoringSystem::cleanScreen">
+<area shape="rect" id="node1" title="Clean the screen." alt="" coords="5,5,233,32"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="281,5,497,32"/>
+</map>

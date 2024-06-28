@@ -1,0 +1,5 @@
+<map id="MonitoringSystem::displaySensorsScreen" name="MonitoringSystem::displaySensorsScreen">
+<area shape="rect" id="node1" title="This method shows the message to show the sensors." alt="" coords="5,27,201,69"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="259,5,475,32"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#a0b5ab699148ef2c5215e2ee47e695e72" title="Display all Sensors window." alt="" coords="249,57,484,98"/>
+</map>

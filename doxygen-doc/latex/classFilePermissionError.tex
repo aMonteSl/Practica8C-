@@ -1,0 +1,68 @@
+\hypertarget{classFilePermissionError}{}\doxysection{File\+Permission\+Error Class Reference}
+\label{classFilePermissionError}\index{FilePermissionError@{FilePermissionError}}
+
+
+{\ttfamily \#include $<$Exceptions.\+h$>$}
+
+
+
+Inheritance diagram for File\+Permission\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classFilePermissionError__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for File\+Permission\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classFilePermissionError__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFilePermissionError_aa8e76723e6a8e6e02eac4aefa0f0117d}{File\+Permission\+Error}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Construct a new File Permission Error object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 58 of file Exceptions.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFilePermissionError_aa8e76723e6a8e6e02eac4aefa0f0117d}\label{classFilePermissionError_aa8e76723e6a8e6e02eac4aefa0f0117d}} 
+\index{FilePermissionError@{FilePermissionError}!FilePermissionError@{FilePermissionError}}
+\index{FilePermissionError@{FilePermissionError}!FilePermissionError@{FilePermissionError}}
+\doxysubsubsection{\texorpdfstring{FilePermissionError()}{FilePermissionError()}}
+{\footnotesize\ttfamily File\+Permission\+Error\+::\+File\+Permission\+Error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Construct a new File Permission Error object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 65 of file Exceptions.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{66       : std::runtime\_error(\textcolor{stringliteral}{"{}Permission denied: "{}} + filename) \{\}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Exceptions_8h}{Exceptions.\+h}}\end{DoxyCompactItemize}

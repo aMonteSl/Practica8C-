@@ -1,0 +1,4 @@
+<map id="MonitoringSystem::askIdCamera" name="MonitoringSystem::askIdCamera">
+<area shape="rect" id="node1" title="This is the method to ask the id of the camera." alt="" coords="5,5,240,32"/>
+<area shape="rect" id="node2" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="288,5,499,32"/>
+</map>

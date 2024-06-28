@@ -1,0 +1,6 @@
+<map id="Hardware::stringStatus" name="Hardware::stringStatus">
+<area shape="rect" id="node1" title="This method returns if the hardware is active or not in a string." alt="" coords="5,31,176,57"/>
+<area shape="rect" id="node2" href="$classHardware.html#ae5db4b59272ce14165f8d8a3e9e7e1f7" title="Get the Type object." alt="" coords="225,5,369,32"/>
+<area shape="rect" id="node4" href="$classHardware.html#ad5e780f3751896acdbde65557b683286" title="If the hardware is active." alt="" coords="224,56,369,83"/>
+<area shape="rect" id="node3" href="$classHardware.html#ad52fd1042e4e087dac8d03c3647411fc" title="This method converts the type of hardware to a string." alt="" coords="417,5,592,32"/>
+</map>

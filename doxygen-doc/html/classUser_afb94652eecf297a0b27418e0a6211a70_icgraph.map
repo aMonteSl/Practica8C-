@@ -1,0 +1,12 @@
+<map id="User::getPrivileges" name="User::getPrivileges">
+<area shape="rect" id="node1" title="Get the Privileges object." alt="" coords="851,81,996,108"/>
+<area shape="rect" id="node2" href="$classUsersDatabase.html#a6f929d543040ad259bfa29d0c138b74f" title="Add a user to the set of users." alt="" coords="607,5,790,32"/>
+<area shape="rect" id="node4" href="$classUsersServer.html#a8a29fac8d978a4f0f4b687640b210be7" title="Get Privileges." alt="" coords="601,56,796,83"/>
+<area shape="rect" id="node9" href="$mainUser_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="671,107,726,133"/>
+<area shape="rect" id="node10" href="$classUsersServer.html#a8655f96ea475b164bc898926efff9421" title="This method reads the users from a file binary." alt="" coords="595,158,803,199"/>
+<area shape="rect" id="node3" href="$mainUsersDatabase_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="420,5,475,32"/>
+<area shape="rect" id="node5" href="$mainUsersServer_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="420,56,475,83"/>
+<area shape="rect" id="node6" href="$classGreenHouse.html#abbb9d2c2a94f06899e17d772fc1ee19b" title="Manage the login." alt="" coords="348,107,547,133"/>
+<area shape="rect" id="node7" href="$classGreenHouse.html#ae4b034eed62c1ef18fbac1559f0e21e1" title="Main system, after the system is started, you call this method to manage the system with your options..." alt="" coords="108,107,300,133"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,107,60,133"/>
+</map>

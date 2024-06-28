@@ -1,0 +1,5 @@
+<map id="MonitoringSystem::displayAlarmsScreen" name="MonitoringSystem::displayAlarmsScreen">
+<area shape="rect" id="node1" title="This method shows the message to show the alarms." alt="" coords="5,27,201,69"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="257,5,473,32"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#ae5d2ae56d576f3aef512f2ef0402124f" title="Display all Alarms window." alt="" coords="249,57,480,98"/>
+</map>

@@ -1,0 +1,68 @@
+\hypertarget{classFileCloseError}{}\doxysection{File\+Close\+Error Class Reference}
+\label{classFileCloseError}\index{FileCloseError@{FileCloseError}}
+
+
+{\ttfamily \#include $<$Exceptions.\+h$>$}
+
+
+
+Inheritance diagram for File\+Close\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classFileCloseError__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for File\+Close\+Error\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classFileCloseError__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFileCloseError_a69d007d4a1fa6b181ce6b78788fec747}{File\+Close\+Error}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Construct a new File Close Error object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 25 of file Exceptions.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFileCloseError_a69d007d4a1fa6b181ce6b78788fec747}\label{classFileCloseError_a69d007d4a1fa6b181ce6b78788fec747}} 
+\index{FileCloseError@{FileCloseError}!FileCloseError@{FileCloseError}}
+\index{FileCloseError@{FileCloseError}!FileCloseError@{FileCloseError}}
+\doxysubsubsection{\texorpdfstring{FileCloseError()}{FileCloseError()}}
+{\footnotesize\ttfamily File\+Close\+Error\+::\+File\+Close\+Error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Construct a new File Close Error object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 32 of file Exceptions.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{33       : std::runtime\_error(\textcolor{stringliteral}{"{}Error closing file: "{}} + filename) \{\}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Exceptions_8h}{Exceptions.\+h}}\end{DoxyCompactItemize}

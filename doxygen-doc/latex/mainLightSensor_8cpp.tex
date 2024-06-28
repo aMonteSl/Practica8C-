@@ -1,0 +1,65 @@
+\hypertarget{mainLightSensor_8cpp}{}\doxysection{src/main\+Light\+Sensor.cpp File Reference}
+\label{mainLightSensor_8cpp}\index{src/mainLightSensor.cpp@{src/mainLightSensor.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Light\+Sensor.\+h\char`\"{}}\newline
+Include dependency graph for main\+Light\+Sensor.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{mainLightSensor_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainLightSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainLightSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainLightSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainLightSensor.cpp@{mainLightSensor.cpp}!main@{main}}
+\index{main@{main}!mainLightSensor.cpp@{mainLightSensor.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 5 of file main\+Light\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{5            \{}
+\DoxyCodeLine{6   \mbox{\hyperlink{classLightSensor}{LightSensor}} lightSensor(1, \textcolor{keyword}{true});}
+\DoxyCodeLine{7   \textcolor{comment}{// Imprimo la luz por defecto}}
+\DoxyCodeLine{8   lightSensor.printData();}
+\DoxyCodeLine{9   \textcolor{comment}{// Cambio el valor de la luz}}
+\DoxyCodeLine{10   lightSensor.collectData();}
+\DoxyCodeLine{11   \textcolor{comment}{// Imprimo la nueva luz}}
+\DoxyCodeLine{12   lightSensor.printData();}
+\DoxyCodeLine{13   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{14   std::cout << \textcolor{stringliteral}{"{}Light: "{}} << lightSensor.getData() << std::endl;}
+\DoxyCodeLine{15   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{16   std::cout << \textcolor{stringliteral}{"{}Status: "{}} << lightSensor.stringStatus() << std::endl;}
+\DoxyCodeLine{17   \textcolor{comment}{// Imprimo el sensor de nuevo}}
+\DoxyCodeLine{18   lightSensor.collectData();}
+\DoxyCodeLine{19   \textcolor{comment}{// Imprimo el sensor de nuevo}}
+\DoxyCodeLine{20   lightSensor.printData();}
+\DoxyCodeLine{21   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{22   lightSensor.collectAndPrint();}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24   \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{25 \}}
+
+\end{DoxyCode}
+
+
+References Light\+Sensor\+::collect\+And\+Print(), Light\+Sensor\+::collect\+Data(), Sensor\+::get\+Data(), Light\+Sensor\+::print\+Data(), and Light\+Sensor\+::string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainLightSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

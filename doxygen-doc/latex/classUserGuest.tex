@@ -1,0 +1,163 @@
+\hypertarget{classUserGuest}{}\doxysection{User\+Guest Class Reference}
+\label{classUserGuest}\index{UserGuest@{UserGuest}}
+
+
+{\ttfamily \#include $<$User\+Guest.\+h$>$}
+
+
+
+Inheritance diagram for User\+Guest\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=179pt]{classUserGuest__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for User\+Guest\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=179pt]{classUserGuest__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUserGuest_a3a4cf32008149638291c449214ebf7e8}{User\+Guest}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classUser}{User}} Guest object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUserGuest_a9f97284d4f9a0afa137625ebef8f0eeb}{User\+Guest}} (const std\+::string \mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}}, const std\+::string \mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}}, std\+::string \mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}}, std\+::string \mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}})
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classUser}{User}} Guest object. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classUserGuest_ab1519c9aabca67d7c0c19ab19e09aa07}{$\sim$\+User\+Guest}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classUser}{User}} Guest object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 16 of file User\+Guest.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUserGuest_a3a4cf32008149638291c449214ebf7e8}\label{classUserGuest_a3a4cf32008149638291c449214ebf7e8}} 
+\index{UserGuest@{UserGuest}!UserGuest@{UserGuest}}
+\index{UserGuest@{UserGuest}!UserGuest@{UserGuest}}
+\doxysubsubsection{\texorpdfstring{UserGuest()}{UserGuest()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily User\+Guest\+::\+User\+Guest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classUser}{User}} Guest object. 
+
+Creates a new \mbox{\hyperlink{classUserGuest}{User\+Guest}} object with the default values (name, nif, password, email).
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classUserGuest}{User\+Guest}} object 
+\end{DoxyReturn}
+
+
+Definition at line 3 of file User\+Guest.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{3                      \{}
+\DoxyCodeLine{4   \textcolor{comment}{// Utilizar los setters para asignar valores a los atributos}}
+\DoxyCodeLine{5   \mbox{\hyperlink{classUser_a9d2fda42d9862e7b122cd4a933479511}{setName}}(\textcolor{stringliteral}{"{}"{}});}
+\DoxyCodeLine{6   \mbox{\hyperlink{classUser_aa10c232ba4f5baf1b9062263a9f5450f}{setNif}}(\textcolor{stringliteral}{"{}"{}});}
+\DoxyCodeLine{7   \mbox{\hyperlink{classUser_ac3544d3457d10ea27da89f500d37c5b7}{setPassword}}(\textcolor{stringliteral}{"{}"{}});}
+\DoxyCodeLine{8   \mbox{\hyperlink{classUser_ad25e420b6470b7c840d28d6e9bb87fe3}{setEmail}}(\textcolor{stringliteral}{"{}"{}});}
+\DoxyCodeLine{9   \mbox{\hyperlink{classUser_aa72db65160cea95ad93a14b084825bad}{setPrivileges}}(\textcolor{stringliteral}{"{}GUEST"{}});}
+\DoxyCodeLine{10 \}}
+
+\end{DoxyCode}
+
+
+References User\+::set\+Email(), User\+::set\+Name(), User\+::set\+Nif(), User\+::set\+Password(), and User\+::set\+Privileges().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classUserGuest_a3a4cf32008149638291c449214ebf7e8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUserGuest_a9f97284d4f9a0afa137625ebef8f0eeb}\label{classUserGuest_a9f97284d4f9a0afa137625ebef8f0eeb}} 
+\index{UserGuest@{UserGuest}!UserGuest@{UserGuest}}
+\index{UserGuest@{UserGuest}!UserGuest@{UserGuest}}
+\doxysubsubsection{\texorpdfstring{UserGuest()}{UserGuest()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily User\+Guest\+::\+User\+Guest (\begin{DoxyParamCaption}\item[{const std\+::string}]{name,  }\item[{const std\+::string}]{nif,  }\item[{std\+::string}]{password,  }\item[{std\+::string}]{email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new \mbox{\hyperlink{classUser}{User}} Guest object. 
+
+Creates a new \mbox{\hyperlink{classUserGuest}{User\+Guest}} object with the values passed as parameters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & of the user \\
+\hline
+{\em nif} & of the user \\
+\hline
+{\em password} & of the user \\
+\hline
+{\em email} & of the user \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classUserGuest}{User\+Guest}} object 
+\end{DoxyReturn}
+
+
+Definition at line 12 of file User\+Guest.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13                                                           \{}
+\DoxyCodeLine{14   \textcolor{comment}{// Utilizar los setters para asignar valores a los atributos}}
+\DoxyCodeLine{15   \mbox{\hyperlink{classUser_a9d2fda42d9862e7b122cd4a933479511}{setName}}(\mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}});}
+\DoxyCodeLine{16   \mbox{\hyperlink{classUser_aa10c232ba4f5baf1b9062263a9f5450f}{setNif}}(\mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}});}
+\DoxyCodeLine{17   \mbox{\hyperlink{classUser_ac3544d3457d10ea27da89f500d37c5b7}{setPassword}}(\mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}});}
+\DoxyCodeLine{18   \mbox{\hyperlink{classUser_ad25e420b6470b7c840d28d6e9bb87fe3}{setEmail}}(\mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}});}
+\DoxyCodeLine{19   \mbox{\hyperlink{classUser_aa72db65160cea95ad93a14b084825bad}{setPrivileges}}(\textcolor{stringliteral}{"{}GUEST"{}});}
+\DoxyCodeLine{20 \}}
+
+\end{DoxyCode}
+
+
+References User\+::email, User\+::name, User\+::nif, User\+::password, User\+::set\+Email(), User\+::set\+Name(), User\+::set\+Nif(), User\+::set\+Password(), and User\+::set\+Privileges().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classUserGuest_a9f97284d4f9a0afa137625ebef8f0eeb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUserGuest_ab1519c9aabca67d7c0c19ab19e09aa07}\label{classUserGuest_ab1519c9aabca67d7c0c19ab19e09aa07}} 
+\index{UserGuest@{UserGuest}!````~UserGuest@{$\sim$UserGuest}}
+\index{````~UserGuest@{$\sim$UserGuest}!UserGuest@{UserGuest}}
+\doxysubsubsection{\texorpdfstring{$\sim$UserGuest()}{~UserGuest()}}
+{\footnotesize\ttfamily User\+Guest\+::$\sim$\+User\+Guest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \mbox{\hyperlink{classUser}{User}} Guest object. 
+
+
+
+Definition at line 22 of file User\+Guest.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22 \{\}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{UserGuest_8h}{User\+Guest.\+h}}\item 
+src/\mbox{\hyperlink{UserGuest_8cpp}{User\+Guest.\+cpp}}\end{DoxyCompactItemize}

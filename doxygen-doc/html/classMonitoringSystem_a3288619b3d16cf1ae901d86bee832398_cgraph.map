@@ -1,0 +1,8 @@
+<map id="MonitoringSystem::mainWindowAdmin" name="MonitoringSystem::mainWindowAdmin">
+<area shape="rect" id="node1" title="This method shows the main menu for the admins." alt="" coords="5,74,240,115"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#ac68e987a2e231ea1ff2e3e3950caf767" title="This method asks the user for an int input." alt="" coords="288,31,511,57"/>
+<area shape="rect" id="node5" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="291,81,507,108"/>
+<area shape="rect" id="node6" href="$classScreenHardware.html#aeccf9ac678246eba7721ed1c6b839a75" title="This method displays the main window of the system for the admin." alt="" coords="288,133,511,174"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="568,5,779,32"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#a2514c2079286352acd12ef85163ff69f" title="This method checks if the input is correct." alt="" coords="559,56,788,83"/>
+</map>

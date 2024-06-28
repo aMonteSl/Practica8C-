@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,181,60,208"/>
+<area shape="rect" id="node2" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="108,5,319,32"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a2918ac5e57423ff23d08b9c8f4547f72" title="Display the output of the Keyboard Hardware." alt="" coords="113,57,314,98"/>
+<area shape="rect" id="node4" href="$classHardware.html#ad5e780f3751896acdbde65557b683286" title="If the hardware is active." alt="" coords="367,156,512,183"/>
+<area shape="rect" id="node5" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="118,174,309,215"/>
+<area shape="rect" id="node6" href="$classHardware.html#acb5abd5dd06aab68f25115a93ba3ec37" title="This method returns if the hardware is active or not in a string." alt="" coords="128,240,299,267"/>
+<area shape="rect" id="node9" href="$classHardware.html#a03fc02b36d9f2e5d151ef3efaf788e2a" title="Turn off the hardware." alt="" coords="144,291,283,317"/>
+<area shape="rect" id="node10" href="$classHardware.html#aee21531986a03e2fe8fcb3db70c5c6d1" title="Turn on the hardware." alt="" coords="145,341,282,368"/>
+<area shape="rect" id="node7" href="$classHardware.html#ae5db4b59272ce14165f8d8a3e9e7e1f7" title="Get the Type object." alt="" coords="367,240,511,267"/>
+<area shape="rect" id="node8" href="$classHardware.html#ad52fd1042e4e087dac8d03c3647411fc" title="This method converts the type of hardware to a string." alt="" coords="560,240,735,267"/>
+</map>

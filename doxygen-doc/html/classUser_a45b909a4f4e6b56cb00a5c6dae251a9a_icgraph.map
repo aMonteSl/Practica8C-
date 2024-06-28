@@ -1,0 +1,8 @@
+<map id="User::getNif" name="User::getNif">
+<area shape="rect" id="node1" title="Get the Nif object." alt="" coords="364,85,464,112"/>
+<area shape="rect" id="node2" href="$classUsersDatabase.html#a6f929d543040ad259bfa29d0c138b74f" title="Add a user to the set of users." alt="" coords="121,5,303,32"/>
+<area shape="rect" id="node4" href="$mainUser_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="185,56,239,83"/>
+<area shape="rect" id="node5" href="$classUserPtrComparator.html#ae0b32b11d3fbf7da23640b8d4d064537" title=" " alt="" coords="135,107,289,149"/>
+<area shape="rect" id="node6" href="$classUsersServer.html#a8655f96ea475b164bc898926efff9421" title="This method reads the users from a file binary." alt="" coords="108,173,316,214"/>
+<area shape="rect" id="node3" href="$mainUsersDatabase_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>

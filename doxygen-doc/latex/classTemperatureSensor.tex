@@ -1,0 +1,406 @@
+\hypertarget{classTemperatureSensor}{}\doxysection{Temperature\+Sensor Class Reference}
+\label{classTemperatureSensor}\index{TemperatureSensor@{TemperatureSensor}}
+
+
+{\ttfamily \#include $<$Temperature\+Sensor.\+h$>$}
+
+
+
+Inheritance diagram for Temperature\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{classTemperatureSensor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Temperature\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{classTemperatureSensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTemperatureSensor_a8b87e6e0561d2d043b7c6b57b1a7aed8}{Temperature\+Sensor}} (int id, bool active)
+\begin{DoxyCompactList}\small\item\em Construct a new Temperature \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classTemperatureSensor_a3b77655332d816d6e1ab4efe1b402d08}{$\sim$\+Temperature\+Sensor}} () override
+\begin{DoxyCompactList}\small\item\em Destroy the Temperature \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTemperatureSensor_aa5fafed08ffab4a8f300b884c841e51f}{collect\+Data}} () override
+\begin{DoxyCompactList}\small\item\em Collect data of the Temperature \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classTemperatureSensor_ac0a66fbba4b1d8363de5ff807c123354}{check\+Allgood}} () const override
+\begin{DoxyCompactList}\small\item\em Check if the Temperature \mbox{\hyperlink{classSensor}{Sensor}} is working properly. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTemperatureSensor_a3119dd0c9914efdbccd8ee9584f88b62}{print\+Data}} () const override
+\begin{DoxyCompactList}\small\item\em Print the data of the Temperature \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classTemperatureSensor_acd28d8060aa781117fc8a828deaaed56}{string\+Status}} () const
+\begin{DoxyCompactList}\small\item\em String status of the Temperature \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTemperatureSensor_a8bd9830643bd9726c988fccf56759d6f}{collect\+And\+Print}} ()
+\begin{DoxyCompactList}\small\item\em Collect and print the data of the Temperature \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{classTemperatureSensor_acaa6b320b54e7ee7f2748fd7d3d95806}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classTemperatureSensor}{Temperature\+Sensor}} \&sensor)
+\begin{DoxyCompactList}\small\item\em Overloaded operator$<$$<$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 15 of file Temperature\+Sensor.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTemperatureSensor_a8b87e6e0561d2d043b7c6b57b1a7aed8}\label{classTemperatureSensor_a8b87e6e0561d2d043b7c6b57b1a7aed8}} 
+\index{TemperatureSensor@{TemperatureSensor}!TemperatureSensor@{TemperatureSensor}}
+\index{TemperatureSensor@{TemperatureSensor}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{TemperatureSensor()}{TemperatureSensor()}}
+{\footnotesize\ttfamily Temperature\+Sensor\+::\+Temperature\+Sensor (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{bool}]{active }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Temperature \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em active} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classTemperatureSensor}{Temperature\+Sensor}} object 
+\end{DoxyReturn}
+
+
+Definition at line 10 of file Temperature\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{11     : \mbox{\hyperlink{classSensor_a342d6d11ef572c8cba92cb76fb1a294b}{Sensor}}(\textcolor{keywordtype}{id}, Sensor::Types::TEMPERATURE, active) \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classTemperatureSensor_a3b77655332d816d6e1ab4efe1b402d08}\label{classTemperatureSensor_a3b77655332d816d6e1ab4efe1b402d08}} 
+\index{TemperatureSensor@{TemperatureSensor}!````~TemperatureSensor@{$\sim$TemperatureSensor}}
+\index{````~TemperatureSensor@{$\sim$TemperatureSensor}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{$\sim$TemperatureSensor()}{~TemperatureSensor()}}
+{\footnotesize\ttfamily Temperature\+Sensor\+::$\sim$\+Temperature\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Destroy the Temperature \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+
+Definition at line 13 of file Temperature\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTemperatureSensor_ac0a66fbba4b1d8363de5ff807c123354}\label{classTemperatureSensor_ac0a66fbba4b1d8363de5ff807c123354}} 
+\index{TemperatureSensor@{TemperatureSensor}!checkAllgood@{checkAllgood}}
+\index{checkAllgood@{checkAllgood}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{checkAllgood()}{checkAllgood()}}
+{\footnotesize\ttfamily bool Temperature\+Sensor\+::check\+Allgood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Check if the Temperature \mbox{\hyperlink{classSensor}{Sensor}} is working properly. 
+
+\begin{DoxyReturn}{Returns}
+true if the Temperature \mbox{\hyperlink{classSensor}{Sensor}} is working properly 
+
+false if the Temperature \mbox{\hyperlink{classSensor}{Sensor}} is not working properly 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_a7bae778c5814d5d33c0b496a7add75cd}{Sensor}}.
+
+
+
+Definition at line 25 of file Temperature\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{25                                            \{}
+\DoxyCodeLine{26   \textcolor{keywordtype}{float} data = \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{Sensor::getData}}();}
+\DoxyCodeLine{27   \textcolor{comment}{// Entre 20 y 30 estara bien la temperatura, en el resto de los casos no}}
+\DoxyCodeLine{28   \textcolor{comment}{// estara bien}}
+\DoxyCodeLine{29   \textcolor{keywordflow}{if} (data >= 20.0f \&\& data <= 30.0f) \{}
+\DoxyCodeLine{30     \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{31   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{32     \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{33   \}}
+\DoxyCodeLine{34 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::get\+Data().
+
+
+
+Referenced by string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{classTemperatureSensor_ac0a66fbba4b1d8363de5ff807c123354_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureSensor_ac0a66fbba4b1d8363de5ff807c123354_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTemperatureSensor_a8bd9830643bd9726c988fccf56759d6f}\label{classTemperatureSensor_a8bd9830643bd9726c988fccf56759d6f}} 
+\index{TemperatureSensor@{TemperatureSensor}!collectAndPrint@{collectAndPrint}}
+\index{collectAndPrint@{collectAndPrint}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{collectAndPrint()}{collectAndPrint()}}
+{\footnotesize\ttfamily void Temperature\+Sensor\+::collect\+And\+Print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Collect and print the data of the Temperature \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_a9b3ddd058bce63adc5d444da4818dd83}{Sensor}}.
+
+
+
+Definition at line 66 of file Temperature\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{66                                         \{}
+\DoxyCodeLine{67   \mbox{\hyperlink{classTemperatureSensor_aa5fafed08ffab4a8f300b884c841e51f}{collectData}}();}
+\DoxyCodeLine{68   \mbox{\hyperlink{classTemperatureSensor_a3119dd0c9914efdbccd8ee9584f88b62}{printData}}();}
+\DoxyCodeLine{69 \}}
+
+\end{DoxyCode}
+
+
+References collect\+Data(), and print\+Data().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureSensor_a8bd9830643bd9726c988fccf56759d6f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{classTemperatureSensor_a8bd9830643bd9726c988fccf56759d6f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTemperatureSensor_aa5fafed08ffab4a8f300b884c841e51f}\label{classTemperatureSensor_aa5fafed08ffab4a8f300b884c841e51f}} 
+\index{TemperatureSensor@{TemperatureSensor}!collectData@{collectData}}
+\index{collectData@{collectData}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{collectData()}{collectData()}}
+{\footnotesize\ttfamily void Temperature\+Sensor\+::collect\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Collect data of the Temperature \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+This method collects the data of the Temperature \mbox{\hyperlink{classSensor}{Sensor}} and stores it in the data attribute. 
+
+Reimplemented from \mbox{\hyperlink{classSensor_a8ffb0f2473f7e1de1d9947937f2db53a}{Sensor}}.
+
+
+
+Definition at line 15 of file Temperature\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{15                                     \{}
+\DoxyCodeLine{16   \textcolor{comment}{// Generamos una temperatura aleatoria entre 19 y 31 grados Centigrados}}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18   std::random\_device rd;}
+\DoxyCodeLine{19   std::mt19937 gen(rd());}
+\DoxyCodeLine{20   std::uniform\_real\_distribution<> dis(19.0, 31.0);}
+\DoxyCodeLine{21   \textcolor{keywordtype}{float} temperature = dis(gen);}
+\DoxyCodeLine{22   \mbox{\hyperlink{classSensor_a8c3a63a324230f81e78972d37f9ddfb1}{Sensor::setData}}(temperature);}
+\DoxyCodeLine{23 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::set\+Data().
+
+
+
+Referenced by collect\+And\+Print(), and main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{classTemperatureSensor_aa5fafed08ffab4a8f300b884c841e51f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureSensor_aa5fafed08ffab4a8f300b884c841e51f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTemperatureSensor_a3119dd0c9914efdbccd8ee9584f88b62}\label{classTemperatureSensor_a3119dd0c9914efdbccd8ee9584f88b62}} 
+\index{TemperatureSensor@{TemperatureSensor}!printData@{printData}}
+\index{printData@{printData}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{printData()}{printData()}}
+{\footnotesize\ttfamily void Temperature\+Sensor\+::print\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Print the data of the Temperature \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_ab96627dab3d2e727f07d7f1ea83379e1}{Sensor}}.
+
+
+
+Definition at line 53 of file Temperature\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{53                                         \{}
+\DoxyCodeLine{54   \textcolor{comment}{// Imprimimos la temperatura actual del sensor, el id que tiene el sensor, y}}
+\DoxyCodeLine{55   \textcolor{comment}{// si todo esta bien o no con (True/False)}}
+\DoxyCodeLine{56   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{Sensor::isActive}}()) \{}
+\DoxyCodeLine{57     std::cout << \textcolor{stringliteral}{"{}Temperature Sensor with "{}}}
+\DoxyCodeLine{58               << \textcolor{stringliteral}{"{}ID: "{}} << \mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{Sensor::getId}}() << \textcolor{stringliteral}{"{} -\/ Data: "{}} << \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{Sensor::getData}}()}
+\DoxyCodeLine{59               << \textcolor{stringliteral}{"{} Cº -\/ Status: "{}} << \mbox{\hyperlink{classTemperatureSensor_acd28d8060aa781117fc8a828deaaed56}{stringStatus}}() << endl;}
+\DoxyCodeLine{60   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{61     std::cout << \textcolor{stringliteral}{"{}Temperature Sensor with "{}}}
+\DoxyCodeLine{62               << \textcolor{stringliteral}{"{}ID: "{}} << \mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{Sensor::getId}}() << \textcolor{stringliteral}{"{} -\/ INACTIVE"{}} << endl;}
+\DoxyCodeLine{63   \}}
+\DoxyCodeLine{64 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::get\+Data(), Sensor\+::get\+Id(), Sensor\+::is\+Active(), and string\+Status().
+
+
+
+Referenced by collect\+And\+Print(), and main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureSensor_a3119dd0c9914efdbccd8ee9584f88b62_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureSensor_a3119dd0c9914efdbccd8ee9584f88b62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTemperatureSensor_acd28d8060aa781117fc8a828deaaed56}\label{classTemperatureSensor_acd28d8060aa781117fc8a828deaaed56}} 
+\index{TemperatureSensor@{TemperatureSensor}!stringStatus@{stringStatus}}
+\index{stringStatus@{stringStatus}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{stringStatus()}{stringStatus()}}
+{\footnotesize\ttfamily std\+::string Temperature\+Sensor\+::string\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+String status of the Temperature \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Definition at line 41 of file Temperature\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41                                                 \{}
+\DoxyCodeLine{42   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{Sensor::isActive}}()) \{}
+\DoxyCodeLine{43     \textcolor{keywordflow}{if} (this-\/>\mbox{\hyperlink{classTemperatureSensor_ac0a66fbba4b1d8363de5ff807c123354}{checkAllgood}}()) \{}
+\DoxyCodeLine{44       \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}ACTIVE -\/ GOOD STATUS"{}};}
+\DoxyCodeLine{45     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{46       \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}ACTIVE -\/ BAD STATUS"{}};}
+\DoxyCodeLine{47     \}}
+\DoxyCodeLine{48   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{49     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}INACTIVE"{}};}
+\DoxyCodeLine{50   \}}
+\DoxyCodeLine{51 \}}
+
+\end{DoxyCode}
+
+
+References check\+Allgood(), and Sensor\+::is\+Active().
+
+
+
+Referenced by main(), and print\+Data().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureSensor_acd28d8060aa781117fc8a828deaaed56_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureSensor_acd28d8060aa781117fc8a828deaaed56_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classTemperatureSensor_acaa6b320b54e7ee7f2748fd7d3d95806}\label{classTemperatureSensor_acaa6b320b54e7ee7f2748fd7d3d95806}} 
+\index{TemperatureSensor@{TemperatureSensor}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classTemperatureSensor}{Temperature\+Sensor}} \&}]{sensor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overloaded operator$<$$<$. 
+
+
+
+Definition at line 36 of file Temperature\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{36                                                                         \{}
+\DoxyCodeLine{37   sensor.\mbox{\hyperlink{classTemperatureSensor_a3119dd0c9914efdbccd8ee9584f88b62}{printData}}();}
+\DoxyCodeLine{38   \textcolor{keywordflow}{return} os;}
+\DoxyCodeLine{39 \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{TemperatureSensor_8h}{Temperature\+Sensor.\+h}}\item 
+src/\mbox{\hyperlink{TemperatureSensor_8cpp}{Temperature\+Sensor.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="AirQualitySensor::printData" name="AirQualitySensor::printData">
+<area shape="rect" id="node1" title="Print the data of the Air Quality Sensor." alt="" coords="339,42,539,69"/>
+<area shape="rect" id="node2" href="$classAirQualitySensor.html#a0c5427a9a79033e9490a5ad6ae4023a7" title="Collect and print the data of the Air Quality Sensor." alt="" coords="108,5,291,47"/>
+<area shape="rect" id="node3" href="$mainAirQualitySensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,42,60,69"/>
+</map>

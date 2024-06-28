@@ -1,0 +1,6 @@
+<map id="LightSensor::stringStatus" name="LightSensor::stringStatus">
+<area shape="rect" id="node1" title="Collect and print the data of the Light Sensor." alt="" coords="575,5,759,32"/>
+<area shape="rect" id="node2" href="$mainLightSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node3" href="$classLightSensor.html#ad25cff6fc6d2c36b7d45ae2f6d967f1e" title="Print the data of the Light Sensor." alt="" coords="360,31,527,57"/>
+<area shape="rect" id="node4" href="$classLightSensor.html#a577e1c14fdde492c4a07af6a82dd59bd" title="Collect and print the data of the Light Sensor." alt="" coords="108,81,312,108"/>
+</map>

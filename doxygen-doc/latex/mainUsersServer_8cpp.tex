@@ -1,0 +1,89 @@
+\hypertarget{mainUsersServer_8cpp}{}\doxysection{src/main\+Users\+Server.cpp File Reference}
+\label{mainUsersServer_8cpp}\index{src/mainUsersServer.cpp@{src/mainUsersServer.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Users\+Database.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Users\+Server.\+h\char`\"{}}\newline
+Include dependency graph for main\+Users\+Server.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainUsersServer_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainUsersServer_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainUsersServer_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainUsersServer_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainUsersServer.cpp@{mainUsersServer.cpp}!main@{main}}
+\index{main@{main}!mainUsersServer.cpp@{mainUsersServer.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 7 of file main\+Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{7            \{}
+\DoxyCodeLine{8   \textcolor{comment}{// creamos un server de usuarios}}
+\DoxyCodeLine{9   \mbox{\hyperlink{classUsersServer}{UsersServer}} usersServer;}
+\DoxyCodeLine{10   \textcolor{comment}{// Imprimimos usuarios}}
+\DoxyCodeLine{11   usersServer.\mbox{\hyperlink{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}{createUser}}(\textcolor{stringliteral}{"{}Lena"{}}, \textcolor{stringliteral}{"{}LJ809K5ES43"{}}, \textcolor{stringliteral}{"{}Bagumm.87¡"{}}, \textcolor{stringliteral}{"{}admin"{}},}
+\DoxyCodeLine{12                          \textcolor{stringliteral}{"{}liselese.ratte@aol.com"{}});}
+\DoxyCodeLine{13   usersServer.\mbox{\hyperlink{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}{createUser}}(\textcolor{stringliteral}{"{}Lena"{}}, \textcolor{stringliteral}{"{}LJ809K5ES43"{}}, \textcolor{stringliteral}{"{}Bagumm.87¡"{}}, \textcolor{stringliteral}{"{}guest"{}},}
+\DoxyCodeLine{14                          \textcolor{stringliteral}{"{}liselese.ratte@aol.com"{}});}
+\DoxyCodeLine{15   cout << \textcolor{stringliteral}{"{}*** Users created ***"{}} << endl;}
+\DoxyCodeLine{16   usersServer.\mbox{\hyperlink{classUsersServer_aa23ec5bd6c0b49cabb05e8d6e60f552a}{printUsersServer}}();}
+\DoxyCodeLine{17   cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{18   usersServer.\mbox{\hyperlink{classUsersServer_a192f5a7d0ef25994bd161b8029f935ca}{deleteUser}}(\textcolor{stringliteral}{"{}LJ809K5ES43"{}});}
+\DoxyCodeLine{19   usersServer.\mbox{\hyperlink{classUsersServer_a192f5a7d0ef25994bd161b8029f935ca}{deleteUser}}(\textcolor{stringliteral}{"{}AJIJIKJIOKDDIJOIOJD"{}});}
+\DoxyCodeLine{20   usersServer.\mbox{\hyperlink{classUsersServer_a0cab706bb303ffa44ea46f234e95993f}{loadUsersFromFile}}();}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22   usersServer.\mbox{\hyperlink{classUsersServer_aa23ec5bd6c0b49cabb05e8d6e60f552a}{printUsersServer}}();}
+\DoxyCodeLine{23   cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << endl;}
+\DoxyCodeLine{24   usersServer.\mbox{\hyperlink{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}{createUser}}(\textcolor{stringliteral}{"{}adrian"{}}, \textcolor{stringliteral}{"{}47552050X"{}}, \textcolor{stringliteral}{"{}employee"{}}, \textcolor{stringliteral}{"{}employee"{}},}
+\DoxyCodeLine{25                          \textcolor{stringliteral}{"{}adrian@example.com"{}});}
+\DoxyCodeLine{26   usersServer.\mbox{\hyperlink{classUsersServer_a09ff022e97cf02e1737dc735b43364fe}{saveUsersToFile}}();}
+\DoxyCodeLine{27   \textcolor{keywordflow}{if} (usersServer.\mbox{\hyperlink{classUsersServer_a113e388eb93cf9aa9dd585d87e3a557b}{findUserLogin}}(\textcolor{stringliteral}{"{}adrian"{}}, \textcolor{stringliteral}{"{}employee"{}}, \textcolor{stringliteral}{"{}47552050X"{}})) \{}
+\DoxyCodeLine{28     cout << \textcolor{stringliteral}{"{}User found"{}} << endl;}
+\DoxyCodeLine{29   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{30     cout << \textcolor{stringliteral}{"{}User not found"{}} << endl;}
+\DoxyCodeLine{31   \}}
+\DoxyCodeLine{32   \textcolor{keywordflow}{if} (usersServer.\mbox{\hyperlink{classUsersServer_a113e388eb93cf9aa9dd585d87e3a557b}{findUserLogin}}(\textcolor{stringliteral}{"{}AAA"{}}, \textcolor{stringliteral}{"{}employee"{}}, \textcolor{stringliteral}{"{}47552050X"{}})) \{}
+\DoxyCodeLine{33     cout << \textcolor{stringliteral}{"{}User found"{}} << endl;}
+\DoxyCodeLine{34   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{35     cout << \textcolor{stringliteral}{"{}User not found"{}} << endl;}
+\DoxyCodeLine{36   \}}
+\DoxyCodeLine{37   cout << usersServer.\mbox{\hyperlink{classUsersServer_a8a29fac8d978a4f0f4b687640b210be7}{getPrivileges}}(\textcolor{stringliteral}{"{}47552050X"{}}) << endl;}
+\DoxyCodeLine{38   cout << usersServer.\mbox{\hyperlink{classUsersServer_a8a29fac8d978a4f0f4b687640b210be7}{getPrivileges}}(\textcolor{stringliteral}{"{}475ffX"{}}) << endl;}
+\DoxyCodeLine{39   usersServer.\mbox{\hyperlink{classUsersServer_a3500268cb464053ac588a0f4534ac36c}{updateUser}}(\textcolor{stringliteral}{"{}adrian"{}}, \textcolor{stringliteral}{"{}47552050X"{}}, \textcolor{stringliteral}{"{}administrador"{}}, \textcolor{stringliteral}{"{}admin"{}},}
+\DoxyCodeLine{40                          \textcolor{stringliteral}{"{}adrian3sAdminAhora"{}});}
+\DoxyCodeLine{41   usersServer.\mbox{\hyperlink{classUsersServer_aa23ec5bd6c0b49cabb05e8d6e60f552a}{printUsersServer}}();}
+\DoxyCodeLine{42   usersServer.\mbox{\hyperlink{classUsersServer_a09ff022e97cf02e1737dc735b43364fe}{saveUsersToFile}}();}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44   \textcolor{comment}{/*}}
+\DoxyCodeLine{45 \textcolor{comment}{  UsersServer usersServer2;}}
+\DoxyCodeLine{46 \textcolor{comment}{  usersServer2.loadUsersFromFile();}}
+\DoxyCodeLine{47 \textcolor{comment}{  std::cout << "{}*** Users loaded from file (SERVER 2) ***"{} << std::endl;}}
+\DoxyCodeLine{48 \textcolor{comment}{  usersServer2.printUsersServer();}}
+\DoxyCodeLine{49 \textcolor{comment}{  */}}
+\DoxyCodeLine{50 \}}
+
+\end{DoxyCode}
+
+
+References Users\+Server\+::create\+User(), Users\+Server\+::delete\+User(), Users\+Server\+::find\+User\+Login(), Users\+Server\+::get\+Privileges(), Users\+Server\+::load\+Users\+From\+File(), Users\+Server\+::print\+Users\+Server(), Users\+Server\+::save\+Users\+To\+File(), and Users\+Server\+::update\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainUsersServer_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

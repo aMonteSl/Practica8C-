@@ -1,0 +1,87 @@
+\hypertarget{Sensor_8cpp}{}\doxysection{src/\+Sensor.cpp File Reference}
+\label{Sensor_8cpp}\index{src/Sensor.cpp@{src/Sensor.cpp}}
+{\ttfamily \#include \char`\"{}Sensor.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for Sensor.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{Sensor_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{Sensor_8cpp_aa0f89047d73bfd39d393f3d5ce196235}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classSensor}{Sensor}} \&\mbox{\hyperlink{classSensor}{Sensor}})
+\item 
+std\+::istream \& \mbox{\hyperlink{Sensor_8cpp_aac04d779d69026d0205f5dda64ce4fc2}{operator$>$$>$}} (std\+::istream \&is, \mbox{\hyperlink{classSensor}{Sensor}} \&sensor)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{Sensor_8cpp_aa0f89047d73bfd39d393f3d5ce196235}\label{Sensor_8cpp_aa0f89047d73bfd39d393f3d5ce196235}} 
+\index{Sensor.cpp@{Sensor.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Sensor.cpp@{Sensor.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classSensor}{Sensor}} \&}]{Sensor }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em \mbox{\hyperlink{classSensor}{Sensor}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+
+
+Definition at line 102 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{102                                                              \{}
+\DoxyCodeLine{103   os << \textcolor{stringliteral}{"{}ID: "{}} << \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{getId}}() << \textcolor{stringliteral}{"{} Type: "{}} << \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a39b6154305fb7273b43b4c6ec1cb7431}{getType}}()}
+\DoxyCodeLine{104      << \textcolor{stringliteral}{"{} Active: "{}} << \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{isActive}}() << \textcolor{stringliteral}{"{} Data: "{}} << \mbox{\hyperlink{classSensor}{Sensor}}.\mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{getData}}()}
+\DoxyCodeLine{105      << std::endl;}
+\DoxyCodeLine{106   \textcolor{keywordflow}{return} os;}
+\DoxyCodeLine{107 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{Sensor_8cpp_aac04d779d69026d0205f5dda64ce4fc2}\label{Sensor_8cpp_aac04d779d69026d0205f5dda64ce4fc2}} 
+\index{Sensor.cpp@{Sensor.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Sensor.cpp@{Sensor.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{classSensor}{Sensor}} \&}]{sensor }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em \mbox{\hyperlink{classSensor}{Sensor}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+Definition at line 109 of file Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{109                                                        \{}
+\DoxyCodeLine{110   cout << \textcolor{stringliteral}{"{}Enter sensor ID: "{}};}
+\DoxyCodeLine{111   is >> sensor.\mbox{\hyperlink{classSensor_a850d32639622b7fa1f2bb8b15a96609b}{id\_}};}
+\DoxyCodeLine{112   cout << \textcolor{stringliteral}{"{}Enter the type: "{}};}
+\DoxyCodeLine{113   std::string type;}
+\DoxyCodeLine{114   is >> type;}
+\DoxyCodeLine{115   sensor.\mbox{\hyperlink{classSensor_a74089ea5ed02fb4125948998b2d78507}{setType}}(type);}
+\DoxyCodeLine{116   cout << \textcolor{stringliteral}{"{}Enter sensor active: "{}};}
+\DoxyCodeLine{117   is >> sensor.\mbox{\hyperlink{classSensor_a8a952b3dc35b753421911f3783d4bbbf}{active\_}};}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{119   \textcolor{keywordflow}{return} is;}
+\DoxyCodeLine{120 \}}
+
+\end{DoxyCode}

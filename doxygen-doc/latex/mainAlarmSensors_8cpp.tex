@@ -1,0 +1,74 @@
+\hypertarget{mainAlarmSensors_8cpp}{}\doxysection{src/main\+Alarm\+Sensors.cpp File Reference}
+\label{mainAlarmSensors_8cpp}\index{src/mainAlarmSensors.cpp@{src/mainAlarmSensors.cpp}}
+{\ttfamily \#include \char`\"{}Air\+Quality\+Sensor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Alarm\+Sensors.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Hydrometer\+Sensor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Light\+Sensor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Ph\+Sensor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Pressure\+Sensor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Temperature\+Sensor.\+h\char`\"{}}\newline
+Include dependency graph for main\+Alarm\+Sensors.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainAlarmSensors_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainAlarmSensors_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainAlarmSensors_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainAlarmSensors_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainAlarmSensors.cpp@{mainAlarmSensors.cpp}!main@{main}}
+\index{main@{main}!mainAlarmSensors.cpp@{mainAlarmSensors.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 9 of file main\+Alarm\+Sensors.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9            \{}
+\DoxyCodeLine{10   \textcolor{comment}{/*}}
+\DoxyCodeLine{11 \textcolor{comment}{  TemperatureSensor temp(1, true);}}
+\DoxyCodeLine{12 \textcolor{comment}{  AirQualitySensor air(2, true);}}
+\DoxyCodeLine{13 \textcolor{comment}{  HydrometerSensor hyd(3, true);}}
+\DoxyCodeLine{14 \textcolor{comment}{  PressureSensor pres(4, true);}}
+\DoxyCodeLine{15 \textcolor{comment}{  LightSensor light(5, true);}}
+\DoxyCodeLine{16 \textcolor{comment}{  PhSensor ph(6, true);}}
+\DoxyCodeLine{17 \textcolor{comment}{  */}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19   \mbox{\hyperlink{classAlarmSensors}{AlarmSensors}} *alarm = \textcolor{keyword}{new} \mbox{\hyperlink{classAlarmSensors}{AlarmSensors}}(}
+\DoxyCodeLine{20       \textcolor{keyword}{new} \mbox{\hyperlink{classTemperatureSensor}{TemperatureSensor}}(1, \textcolor{keyword}{true}), \textcolor{keyword}{new} \mbox{\hyperlink{classAirQualitySensor}{AirQualitySensor}}(2, \textcolor{keyword}{true}),}
+\DoxyCodeLine{21       \textcolor{keyword}{new} \mbox{\hyperlink{classHydrometerSensor}{HydrometerSensor}}(3, \textcolor{keyword}{true}), \textcolor{keyword}{new} \mbox{\hyperlink{classPressureSensor}{PressureSensor}}(4, \textcolor{keyword}{true}),}
+\DoxyCodeLine{22       \textcolor{keyword}{new} \mbox{\hyperlink{classLightSensor}{LightSensor}}(5, \textcolor{keyword}{true}), \textcolor{keyword}{new} \mbox{\hyperlink{classPhSensor}{PhSensor}}(6, \textcolor{keyword}{true}));}
+\DoxyCodeLine{23   \textcolor{comment}{// Todas las opetaciones de la clase AlarmSensors}}
+\DoxyCodeLine{24   \textcolor{comment}{// AlarmSensors alarm(\&temp, \&air, \&hyd, \&pres, \&light, \&ph);}}
+\DoxyCodeLine{25   alarm-\/>\mbox{\hyperlink{classAlarmSensors_a185412bdad879f251eea84eefc95fde3}{displayAlarmStatus}}();}
+\DoxyCodeLine{26   alarm-\/>\mbox{\hyperlink{classAlarmSensors_a6b7509cfc7b77ab9943f1fa6052f56da}{displayAllSensorsData}}();}
+\DoxyCodeLine{27   alarm-\/>\mbox{\hyperlink{classAlarmSensors_a185412bdad879f251eea84eefc95fde3}{displayAlarmStatus}}();}
+\DoxyCodeLine{28   alarm-\/>\mbox{\hyperlink{classAlarmSensors_a45ac4465f0170fad4f498ee3f51258de}{turnOnOffSystem}}(0);}
+\DoxyCodeLine{29   alarm-\/>\mbox{\hyperlink{classAlarmSensors_a6b7509cfc7b77ab9943f1fa6052f56da}{displayAllSensorsData}}();}
+\DoxyCodeLine{30   alarm-\/>\mbox{\hyperlink{classAlarmSensors_a185412bdad879f251eea84eefc95fde3}{displayAlarmStatus}}();}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32   \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{33 \}}
+
+\end{DoxyCode}
+
+
+References Alarm\+Sensors\+::display\+Alarm\+Status(), Alarm\+Sensors\+::display\+All\+Sensors\+Data(), and Alarm\+Sensors\+::turn\+On\+Off\+System().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{mainAlarmSensors_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

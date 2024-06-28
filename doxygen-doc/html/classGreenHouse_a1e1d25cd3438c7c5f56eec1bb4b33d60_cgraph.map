@@ -1,0 +1,52 @@
+<map id="GreenHouse::manageEmployee" name="GreenHouse::manageEmployee">
+<area shape="rect" id="node1" title="Manage the employee." alt="" coords="5,1511,233,1538"/>
+<area shape="rect" id="node2" href="$classAlarmSensors.html#a1497086628b3bb30d60f2987eca8fe7f" title="Add a Sensor object." alt="" coords="308,97,496,123"/>
+<area shape="rect" id="node3" href="$classMonitoringSystem.html#ae19e4b400b81885b0480807093f2a456" title="Clean the screen." alt="" coords="574,1539,802,1566"/>
+<area shape="rect" id="node5" href="$classManageCameras.html#aeac5b4a6d145735266acbc0b7f26e9b9" title="Collect and display the data of all the cameras." alt="" coords="298,1445,506,1487"/>
+<area shape="rect" id="node6" href="$classMonitoringSystem.html#a616050f732fdaf71ba9b5ab5372d630a" title="This method shows the message to create a new alarm." alt="" coords="307,148,497,189"/>
+<area shape="rect" id="node11" href="$classManageCameras.html#a5bf18315e0e3c2a58ff1bde6dbb1258a" title="Create a Camera object." alt="" coords="286,1511,518,1538"/>
+<area shape="rect" id="node12" href="$classMonitoringSystem.html#a766f6741ef451488dce3e110b14684f7" title="Create a Camera Screen object." alt="" coords="307,540,497,581"/>
+<area shape="rect" id="node16" href="$classMonitoringSystem.html#ab99a47d5efa46cbe3386bb07bfabc109" title="This method shows the message to delete an alarm." alt="" coords="307,269,497,311"/>
+<area shape="rect" id="node18" href="$classMonitoringSystem.html#af7a81ead57dd0c0d08f78bbda7db5111" title="Delete a Camera Screen object." alt="" coords="307,687,497,728"/>
+<area shape="rect" id="node20" href="$classAlarmSensors.html#a67e891efa5f14c93ba7e205081d675fc" title="Delete a Sensor object." alt="" coords="299,1562,505,1589"/>
+<area shape="rect" id="node21" href="$classMonitoringSystem.html#a7ed15cd1c877014b91d1572ec056d866" title="This method shows the message to show the alarms." alt="" coords="304,825,500,867"/>
+<area shape="rect" id="node23" href="$classAlarmSensors.html#a185412bdad879f251eea84eefc95fde3" title="Display the Alarm Status." alt="" coords="299,1613,505,1655"/>
+<area shape="rect" id="node24" href="$classAlarmSensors.html#a6b7509cfc7b77ab9943f1fa6052f56da" title="Display all Sensors Data." alt="" coords="310,1679,494,1720"/>
+<area shape="rect" id="node25" href="$classMonitoringSystem.html#ae9f07ef1b405619e84469da1c9622b13" title="Display the camera screen." alt="" coords="304,941,500,983"/>
+<area shape="rect" id="node27" href="$classMonitoringSystem.html#a5a835975fa74862f8a79449a35442916" title="This method shows the message if and error occurs." alt="" coords="304,1059,500,1100"/>
+<area shape="rect" id="node29" href="$classMonitoringSystem.html#aa68121a3c71f4600182ac143a06c3cbe" title="This method exits the screen." alt="" coords="579,1007,797,1034"/>
+<area shape="rect" id="node30" href="$classMonitoringSystem.html#aa83416a623e4ad81d4554f8c5ac2c2d4" title="This method shows the message to show the sensors." alt="" coords="304,1176,500,1217"/>
+<area shape="rect" id="node32" href="$classMonitoringSystem.html#a1ec19661cb6383341518a15afb53e764" title="Get the Id Alarm object." alt="" coords="291,1745,513,1771"/>
+<area shape="rect" id="node33" href="$classMonitoringSystem.html#abdfb2fdc17acc20e890aea71d2a8fd39" title="Get the Id Camera object." alt="" coords="285,1795,519,1822"/>
+<area shape="rect" id="node34" href="$classMonitoringSystem.html#acb6f10a470beff7fdfdedf0305c123d6" title="Get the Id Selected Alarm object." alt="" coords="283,1847,521,1888"/>
+<area shape="rect" id="node35" href="$classMonitoringSystem.html#a21ef666ba4b1669e4daf33476ca235f2" title="Get the Id Selected Camera object." alt="" coords="283,1912,521,1953"/>
+<area shape="rect" id="node36" href="$classMonitoringSystem.html#a508751e3f490b9942202e17664ea9893" title="Get the Selection object." alt="" coords="287,1978,517,2005"/>
+<area shape="rect" id="node37" href="$classMonitoringSystem.html#a1d98be1cb48544ca7c9ae3038b55f1bd" title="Get the Type Alarm object." alt="" coords="302,2029,502,2071"/>
+<area shape="rect" id="node38" href="$classMonitoringSystem.html#a75802f644139c04fd5213577cf4afd49" title="Get the Type Camera object." alt="" coords="302,2095,502,2136"/>
+<area shape="rect" id="node39" href="$classMonitoringSystem.html#a982281f93905645ed1c510fedf8dcc51" title="This method shows the main menu for the employees." alt="" coords="571,1408,805,1449"/>
+<area shape="rect" id="node40" href="$classManageCameras.html#a7869d4da264f7f63714b04dfc9193a22" title="Remove a Camera object." alt="" coords="281,2161,523,2187"/>
+<area shape="rect" id="node41" href="$classGreenHouse.html#ab37a817c102fd8bedb41488642eeeba3" title="Save the system." alt="" coords="331,2262,473,2289"/>
+<area shape="rect" id="node42" href="$classManageCameras.html#ab57c05b493a36caeb96e3b54374cd00a" title="Save the cameras to a file." alt="" coords="573,2211,803,2238"/>
+<area shape="rect" id="node43" href="$classAlarmSensors.html#af51225da8d29225aaaaa65b162870242" title="This method saves the sensors data to a file, one .txt and other one .dat." alt="" coords="571,2287,805,2314"/>
+<area shape="rect" id="node44" href="$classMonitoringSystem.html#a006d4ed3b290747ccc10079fa96eabea" title="This method shows the message to save an alarm." alt="" coords="579,1473,797,1515"/>
+<area shape="rect" id="node45" href="$classMonitoringSystem.html#a69183f73af82d68ff6c605020b5bf332" title="Save a Camera Screen object." alt="" coords="573,1591,803,1632"/>
+<area shape="rect" id="node46" href="$classGreenHouse.html#a2b0cf6d2bb8a13658754ab1e2d2ad10e" title="Sleep the system." alt="" coords="329,2363,475,2390"/>
+<area shape="rect" id="node47" href="$classManageCameras.html#aa21c22f62295699e80ae7321d829a763" title="Turn on or off the cameras." alt="" coords="301,2415,503,2456"/>
+<area shape="rect" id="node48" href="$classMonitoringSystem.html#a6f62fde3b143b20c680a3e2689099f99" title="Turn on or off a Camera Screen object." alt="" coords="591,357,785,399"/>
+<area shape="rect" id="node49" href="$classAlarmSensors.html#a45ac4465f0170fad4f498ee3f51258de" title="This method turns on or off the system." alt="" coords="286,2481,518,2507"/>
+<area shape="rect" id="node50" href="$classMonitoringSystem.html#aa710bcc81ffd855276d6fb73c04fcb9f" title="This method shows the message to turn on or off the system." alt="" coords="591,1225,785,1267"/>
+<area shape="rect" id="node4" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="853,1007,1069,1034"/>
+<area shape="rect" id="node7" href="$classMonitoringSystem.html#a0ec7f8e47b126a33656b9db2a6ec98c2" title="This is the method to ask the id of the alarm." alt="" coords="577,189,799,215"/>
+<area shape="rect" id="node8" href="$classMonitoringSystem.html#a1c21a694a22b5ef0d596764239edd8e1" title="This is the method to ask the type of the alarm." alt="" coords="587,5,789,47"/>
+<area shape="rect" id="node10" href="$classScreenHardware.html#a6e27fbc2c5101439153e6c99f00f8420" title="Create a Alarm Window object." alt="" coords="579,123,797,164"/>
+<area shape="rect" id="node9" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="866,423,1057,464"/>
+<area shape="rect" id="node13" href="$classMonitoringSystem.html#a4ad4cb75bab824f4ee2d001d2aec222d" title="This is the method to ask the id of the camera." alt="" coords="571,606,805,633"/>
+<area shape="rect" id="node14" href="$classMonitoringSystem.html#aad41e18ca2c35c55c630d2f491b27c12" title="This is the method to ask the type of the camera." alt="" coords="587,423,789,464"/>
+<area shape="rect" id="node15" href="$classScreenHardware.html#ab11aba01858fc8faaee1857f14915a4a" title="Create a camera window." alt="" coords="573,540,803,581"/>
+<area shape="rect" id="node17" href="$classScreenHardware.html#a1ec558773d81663e69212398fbc6a066" title="Delete a Alarm Window object." alt="" coords="579,240,797,281"/>
+<area shape="rect" id="node19" href="$classScreenHardware.html#ae0c4edcbc11047dbeb1ea22c2f48abd1" title="Delete a camera window." alt="" coords="573,657,803,699"/>
+<area shape="rect" id="node22" href="$classScreenHardware.html#ae5d2ae56d576f3aef512f2ef0402124f" title="Display all Alarms window." alt="" coords="573,825,803,867"/>
+<area shape="rect" id="node26" href="$classScreenHardware.html#a5afb8ed9e0166caae909b52aca171558" title="Display the camera window." alt="" coords="571,891,805,932"/>
+<area shape="rect" id="node28" href="$classScreenHardware.html#ab1fc9cc20fb80dfe6fd1293f50ebd034" title="Display the error window." alt="" coords="581,1160,795,1201"/>
+<area shape="rect" id="node31" href="$classScreenHardware.html#a0b5ab699148ef2c5215e2ee47e695e72" title="Display all Sensors window." alt="" coords="571,1343,805,1384"/>
+</map>

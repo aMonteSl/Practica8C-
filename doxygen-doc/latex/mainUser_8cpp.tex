@@ -1,0 +1,116 @@
+\hypertarget{mainUser_8cpp}{}\doxysection{src/main\+User.cpp File Reference}
+\label{mainUser_8cpp}\index{src/mainUser.cpp@{src/mainUser.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}User.\+h\char`\"{}}\newline
+Include dependency graph for main\+User.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{mainUser_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainUser_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainUser_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainUser_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainUser.cpp@{mainUser.cpp}!main@{main}}
+\index{main@{main}!mainUser.cpp@{mainUser.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file main\+User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6            \{}
+\DoxyCodeLine{7   \textcolor{comment}{// Create a user with no name, NIF, password, privileges, and email}}
+\DoxyCodeLine{8   \textcolor{comment}{// Values are assigned to the attributes using setters}}
+\DoxyCodeLine{9   \mbox{\hyperlink{classUser}{User}} user1;}
+\DoxyCodeLine{10   user1.\mbox{\hyperlink{classUser_a9d2fda42d9862e7b122cd4a933479511}{setName}}(\textcolor{stringliteral}{"{}Adrian"{}});}
+\DoxyCodeLine{11   user1.\mbox{\hyperlink{classUser_aa10c232ba4f5baf1b9062263a9f5450f}{setNif}}(\textcolor{stringliteral}{"{}234453Y"{}});}
+\DoxyCodeLine{12   user1.\mbox{\hyperlink{classUser_ac3544d3457d10ea27da89f500d37c5b7}{setPassword}}(\textcolor{stringliteral}{"{}ORANGE\_JUICE"{}});}
+\DoxyCodeLine{13   user1.\mbox{\hyperlink{classUser_ad25e420b6470b7c840d28d6e9bb87fe3}{setEmail}}(\textcolor{stringliteral}{"{}correoDeAdrian@potatoe.com"{}});}
+\DoxyCodeLine{14   user1.\mbox{\hyperlink{classUser_aa72db65160cea95ad93a14b084825bad}{setPrivileges}}(\textcolor{stringliteral}{"{}admin"{}});}
+\DoxyCodeLine{15   \textcolor{comment}{// Print each attribute separately using getters}}
+\DoxyCodeLine{16   cout << \textcolor{stringliteral}{"{}Name: "{}} << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << endl;}
+\DoxyCodeLine{17   cout << \textcolor{stringliteral}{"{}NIF: "{}} << user1.\mbox{\hyperlink{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}{getNif}}() << endl;}
+\DoxyCodeLine{18   cout << \textcolor{stringliteral}{"{}Password: "{}} << user1.\mbox{\hyperlink{classUser_a180e5acdc4b150463652d90d54caa8fc}{getPassword}}() << endl;}
+\DoxyCodeLine{19   cout << \textcolor{stringliteral}{"{}Privileges: "{}} << user1.\mbox{\hyperlink{classUser_afb94652eecf297a0b27418e0a6211a70}{getPrivileges}}() << endl;}
+\DoxyCodeLine{20   cout << \textcolor{stringliteral}{"{}Email: "{}} << user1.\mbox{\hyperlink{classUser_a68c520e78268ba63c97ff04b6fb210a1}{getEmail}}() << endl;}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22   \mbox{\hyperlink{classUser}{User}} user2(\textcolor{stringliteral}{"{}Lena"{}}, \textcolor{stringliteral}{"{}LJ809K5ES43"{}}, \textcolor{stringliteral}{"{}Bagumm.87¡"{}}, \textcolor{stringliteral}{"{}guest"{}},}
+\DoxyCodeLine{23              \textcolor{stringliteral}{"{}liselese.ratte@aol.com"{}});}
+\DoxyCodeLine{24   user2.printUser();}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26   \textcolor{comment}{// Compare users}}
+\DoxyCodeLine{27   \textcolor{comment}{// If user 1 is greater than user 2 (privileges)}}
+\DoxyCodeLine{28   \textcolor{keywordflow}{if} (user1.operator>(user2)) \{}
+\DoxyCodeLine{29     cout << \textcolor{stringliteral}{"{}The user "{}} << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} has higher rank than "{}}}
+\DoxyCodeLine{30          << user2.getName() << endl;}
+\DoxyCodeLine{31   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{32     cout << \textcolor{stringliteral}{"{}User "{}} << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} has lower rank than "{}}}
+\DoxyCodeLine{33          << user2.getName() << endl;}
+\DoxyCodeLine{34   \}}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36   \textcolor{keywordflow}{if} (user1.operator<(user2)) \{}
+\DoxyCodeLine{37     cout << \textcolor{stringliteral}{"{}The user "{}} << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} has lower rank than "{}}}
+\DoxyCodeLine{38          << user2.getName() << endl;}
+\DoxyCodeLine{39   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{40     cout << \textcolor{stringliteral}{"{}User "{}} << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} has higher rank than "{}}}
+\DoxyCodeLine{41          << user2.getName() << endl;}
+\DoxyCodeLine{42   \}}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44   \textcolor{comment}{// If user 1 is equal to user 2 (NIF)}}
+\DoxyCodeLine{45   \textcolor{keywordflow}{if} (user1.operator==(user2)) \{}
+\DoxyCodeLine{46     cout << \textcolor{stringliteral}{"{}User "{}} << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} is equal to user "{}}}
+\DoxyCodeLine{47          << user2.getName() << endl;}
+\DoxyCodeLine{48   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{49     cout << \textcolor{stringliteral}{"{}User "{}} << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} is NOT equal to user "{}}}
+\DoxyCodeLine{50          << user2.getName() << endl;}
+\DoxyCodeLine{51   \}}
+\DoxyCodeLine{52   \textcolor{comment}{// If user 1 is equal to user 1 (name, NIF, and password)}}
+\DoxyCodeLine{53   \textcolor{keywordflow}{if} (user1.operator==(user1)) \{}
+\DoxyCodeLine{54     cout << \textcolor{stringliteral}{"{}User "{}} << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} is equal to user "{}}}
+\DoxyCodeLine{55          << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << endl;}
+\DoxyCodeLine{56   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{57     cout << \textcolor{stringliteral}{"{}User "{}} << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} is NOT equal to user "{}}}
+\DoxyCodeLine{58          << user1.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << endl;}
+\DoxyCodeLine{59   \}}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61   \textcolor{comment}{// Print a user using std::ostream}}
+\DoxyCodeLine{62   \mbox{\hyperlink{classUser}{User}} user3(\textcolor{stringliteral}{"{}Carlos"{}}, \textcolor{stringliteral}{"{}010303403L"{}}, \textcolor{stringliteral}{"{}1234\_password"{}}, \textcolor{stringliteral}{"{}employee"{}},}
+\DoxyCodeLine{63              \textcolor{stringliteral}{"{}carlos\_sainz@gmail.com"{}});}
+\DoxyCodeLine{64   cout << \textcolor{stringliteral}{"{}PRINT USER WITH std::ostream"{}} << endl;}
+\DoxyCodeLine{65   cout << user3 << endl;}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67   \textcolor{comment}{// Create a user using std::istream}}
+\DoxyCodeLine{68   \mbox{\hyperlink{classUser}{User}} user4;}
+\DoxyCodeLine{69   std::cout << \textcolor{stringliteral}{"{}CREATE USER WITH std::istream"{}} << endl;}
+\DoxyCodeLine{70   std::cout << \textcolor{stringliteral}{"{}NAME, NIF, PASSWORD, PRIVILEGES, EMAIL"{}} << endl;}
+\DoxyCodeLine{71   cin >> user4;}
+\DoxyCodeLine{72   user4.\mbox{\hyperlink{classUser_aee2504857253fd7666309e77704e652a}{printUser}}();}
+\DoxyCodeLine{73   cout << \textcolor{stringliteral}{"{}PRINT USER WITH std::ostream"{}} << endl;}
+\DoxyCodeLine{74   cout << user4 << endl;}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{76   \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{77 \}}
+
+\end{DoxyCode}
+
+
+References User\+::get\+Email(), User\+::get\+Name(), User\+::get\+Nif(), User\+::get\+Password(), User\+::get\+Privileges(), User\+::print\+User(), User\+::set\+Email(), User\+::set\+Name(), User\+::set\+Nif(), User\+::set\+Password(), and User\+::set\+Privileges().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{mainUser_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

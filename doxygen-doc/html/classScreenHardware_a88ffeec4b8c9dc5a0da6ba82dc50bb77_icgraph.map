@@ -1,0 +1,11 @@
+<map id="ScreenHardware::turnOnOffSystemWindow" name="ScreenHardware::turnOnOffSystemWindow">
+<area shape="rect" id="node1" title="Turn on or off the system window." alt="" coords="1112,27,1312,69"/>
+<area shape="rect" id="node2" href="$mainScreenHardware_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="940,5,995,32"/>
+<area shape="rect" id="node3" href="$classMonitoringSystem.html#aa710bcc81ffd855276d6fb73c04fcb9f" title="This method shows the message to turn on or off the system." alt="" coords="871,57,1064,98"/>
+<area shape="rect" id="node4" href="$mainMonitoringSystem_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="681,13,736,40"/>
+<area shape="rect" id="node5" href="$classGreenHouse.html#ace913cf34c4663d7a12031874ed282cc" title="Manage the admin." alt="" coords="606,64,811,91"/>
+<area shape="rect" id="node9" href="$classGreenHouse.html#a1e1d25cd3438c7c5f56eec1bb4b33d60" title="Manage the employee." alt="" coords="595,115,823,141"/>
+<area shape="rect" id="node6" href="$classGreenHouse.html#abbb9d2c2a94f06899e17d772fc1ee19b" title="Manage the login." alt="" coords="348,89,547,116"/>
+<area shape="rect" id="node7" href="$classGreenHouse.html#ae4b034eed62c1ef18fbac1559f0e21e1" title="Main system, after the system is started, you call this method to manage the system with your options..." alt="" coords="108,89,300,116"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,89,60,116"/>
+</map>

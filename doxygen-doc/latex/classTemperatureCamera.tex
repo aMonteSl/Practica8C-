@@ -1,0 +1,368 @@
+\hypertarget{classTemperatureCamera}{}\doxysection{Temperature\+Camera Class Reference}
+\label{classTemperatureCamera}\index{TemperatureCamera@{TemperatureCamera}}
+
+
+{\ttfamily \#include $<$Temperature\+Camera.\+h$>$}
+
+
+
+Inheritance diagram for Temperature\+Camera\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{classTemperatureCamera__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Temperature\+Camera\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{classTemperatureCamera__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTemperatureCamera_ae62e4f8e6f5764d59b889fa276a2f305}{Temperature\+Camera}} (int id)
+\begin{DoxyCompactList}\small\item\em Construct a new Temperature \mbox{\hyperlink{classCamera}{Camera}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classTemperatureCamera_acc0651b960900e2b19b1b421e209cbd6}{$\sim$\+Temperature\+Camera}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Temperature \mbox{\hyperlink{classCamera}{Camera}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTemperatureCamera_a436a4a5d9a1359ade70672dfc0fa001b}{set\+Temperature}} (float temperature)
+\begin{DoxyCompactList}\small\item\em This method sets the temperature of the camera. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classTemperatureCamera_a4f900629f149b32101d4616f9071be5b}{get\+Temperature}} ()
+\begin{DoxyCompactList}\small\item\em This method gets the temperature of the camera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTemperatureCamera_a0d985813ab77a25b8787890cead876aa}{collect\+Data}} () override
+\begin{DoxyCompactList}\small\item\em This method collects the data of the camera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTemperatureCamera_add1b70532eaf5fd0152463b3e18af872}{print\+Camera}} () override
+\begin{DoxyCompactList}\small\item\em This method prints the camera information. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{classTemperatureCamera_abb46118f32103d4bc9f871f3505faeab}{random\+Temperature}} ()
+\begin{DoxyCompactList}\small\item\em This method generates a random temperature. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{classTemperatureCamera_a67089f6af9b38fbac534639922cefab0}{temperature\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute stores the temperature of the camera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 19 of file Temperature\+Camera.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTemperatureCamera_ae62e4f8e6f5764d59b889fa276a2f305}\label{classTemperatureCamera_ae62e4f8e6f5764d59b889fa276a2f305}} 
+\index{TemperatureCamera@{TemperatureCamera}!TemperatureCamera@{TemperatureCamera}}
+\index{TemperatureCamera@{TemperatureCamera}!TemperatureCamera@{TemperatureCamera}}
+\doxysubsubsection{\texorpdfstring{TemperatureCamera()}{TemperatureCamera()}}
+{\footnotesize\ttfamily Temperature\+Camera\+::\+Temperature\+Camera (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Temperature \mbox{\hyperlink{classCamera}{Camera}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classTemperatureCamera}{Temperature\+Camera}} object 
+\end{DoxyReturn}
+
+
+Definition at line 10 of file Temperature\+Camera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{10                                            : \mbox{\hyperlink{classCamera_aa8b96b6d7f08341fb6b7a676dd015474}{Camera}}(\textcolor{keywordtype}{id}, \textcolor{stringliteral}{"{}TEMPERATURE"{}}, \textcolor{keyword}{true}) \{}
+\DoxyCodeLine{11   \mbox{\hyperlink{classTemperatureCamera_a67089f6af9b38fbac534639922cefab0}{temperature\_}} = -\/1;}
+\DoxyCodeLine{12   std::cout << \textcolor{stringliteral}{"{}Temperature Camera id ("{}} << \mbox{\hyperlink{classCamera_ad2731f65f680be02d41d3b396d7db1be}{getId}}() << \textcolor{stringliteral}{"{}) created"{}} << std::endl;}
+\DoxyCodeLine{13 \}}
+
+\end{DoxyCode}
+
+
+References Camera\+::get\+Id(), and temperature\+\_\+.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classTemperatureCamera_ae62e4f8e6f5764d59b889fa276a2f305_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTemperatureCamera_acc0651b960900e2b19b1b421e209cbd6}\label{classTemperatureCamera_acc0651b960900e2b19b1b421e209cbd6}} 
+\index{TemperatureCamera@{TemperatureCamera}!````~TemperatureCamera@{$\sim$TemperatureCamera}}
+\index{````~TemperatureCamera@{$\sim$TemperatureCamera}!TemperatureCamera@{TemperatureCamera}}
+\doxysubsubsection{\texorpdfstring{$\sim$TemperatureCamera()}{~TemperatureCamera()}}
+{\footnotesize\ttfamily Temperature\+Camera\+::$\sim$\+Temperature\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the Temperature \mbox{\hyperlink{classCamera}{Camera}} object. 
+
+
+
+Definition at line 15 of file Temperature\+Camera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{15 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTemperatureCamera_a0d985813ab77a25b8787890cead876aa}\label{classTemperatureCamera_a0d985813ab77a25b8787890cead876aa}} 
+\index{TemperatureCamera@{TemperatureCamera}!collectData@{collectData}}
+\index{collectData@{collectData}!TemperatureCamera@{TemperatureCamera}}
+\doxysubsubsection{\texorpdfstring{collectData()}{collectData()}}
+{\footnotesize\ttfamily void Temperature\+Camera\+::collect\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This method collects the data of the camera. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classCamera_aaf7fca5a4631fb659227fd3c0c57dd6e}{Camera}}.
+
+
+
+Definition at line 33 of file Temperature\+Camera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{33 \{ \mbox{\hyperlink{classTemperatureCamera_a436a4a5d9a1359ade70672dfc0fa001b}{setTemperature}}(\mbox{\hyperlink{classTemperatureCamera_abb46118f32103d4bc9f871f3505faeab}{randomTemperature}}()); \}}
+
+\end{DoxyCode}
+
+
+References random\+Temperature(), and set\+Temperature().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureCamera_a0d985813ab77a25b8787890cead876aa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{classTemperatureCamera_a0d985813ab77a25b8787890cead876aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTemperatureCamera_a4f900629f149b32101d4616f9071be5b}\label{classTemperatureCamera_a4f900629f149b32101d4616f9071be5b}} 
+\index{TemperatureCamera@{TemperatureCamera}!getTemperature@{getTemperature}}
+\index{getTemperature@{getTemperature}!TemperatureCamera@{TemperatureCamera}}
+\doxysubsubsection{\texorpdfstring{getTemperature()}{getTemperature()}}
+{\footnotesize\ttfamily float Temperature\+Camera\+::get\+Temperature (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method gets the temperature of the camera. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+
+
+Definition at line 21 of file Temperature\+Camera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{21 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classTemperatureCamera_a67089f6af9b38fbac534639922cefab0}{temperature\_}}; \}}
+
+\end{DoxyCode}
+
+
+References temperature\+\_\+.
+
+
+
+Referenced by Manage\+Cameras\+::save\+Cameras().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureCamera_a4f900629f149b32101d4616f9071be5b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTemperatureCamera_add1b70532eaf5fd0152463b3e18af872}\label{classTemperatureCamera_add1b70532eaf5fd0152463b3e18af872}} 
+\index{TemperatureCamera@{TemperatureCamera}!printCamera@{printCamera}}
+\index{printCamera@{printCamera}!TemperatureCamera@{TemperatureCamera}}
+\doxysubsubsection{\texorpdfstring{printCamera()}{printCamera()}}
+{\footnotesize\ttfamily void Temperature\+Camera\+::print\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This method prints the camera information. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classCamera_a17f8491c2745d25d4e79f0cb564afe13}{Camera}}.
+
+
+
+Definition at line 35 of file Temperature\+Camera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{35                                     \{}
+\DoxyCodeLine{36   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classCamera_ada24ccf1d1d0d6fc72886b8f64b504c4}{isActive}}() and \mbox{\hyperlink{classTemperatureCamera_a67089f6af9b38fbac534639922cefab0}{temperature\_}} != -\/1) \{}
+\DoxyCodeLine{37     cout << \textcolor{stringliteral}{"{}Temperature camera ("{}} << \mbox{\hyperlink{classCamera_ad2731f65f680be02d41d3b396d7db1be}{getId}}() << \textcolor{stringliteral}{"{}) record this temperature "{}}}
+\DoxyCodeLine{38          << \mbox{\hyperlink{classTemperatureCamera_a67089f6af9b38fbac534639922cefab0}{temperature\_}} << \textcolor{stringliteral}{"{} ºC"{}} << endl;}
+\DoxyCodeLine{39   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{classCamera_ada24ccf1d1d0d6fc72886b8f64b504c4}{isActive}}() and \mbox{\hyperlink{classTemperatureCamera_a67089f6af9b38fbac534639922cefab0}{temperature\_}} == -\/1) \{}
+\DoxyCodeLine{40     cout << \textcolor{stringliteral}{"{}Temperature camera "{}} << \mbox{\hyperlink{classCamera_ad2731f65f680be02d41d3b396d7db1be}{getId}}()}
+\DoxyCodeLine{41          << \textcolor{stringliteral}{"{} is active but has not collected data yet"{}} << endl;}
+\DoxyCodeLine{42   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{43     cout << \textcolor{stringliteral}{"{}Temperature camera "{}} << \mbox{\hyperlink{classCamera_ad2731f65f680be02d41d3b396d7db1be}{getId}}() << \textcolor{stringliteral}{"{} is not active"{}} << endl;}
+\DoxyCodeLine{44   \}}
+\DoxyCodeLine{45 \}}
+
+\end{DoxyCode}
+
+
+References Camera\+::get\+Id(), Camera\+::is\+Active(), and temperature\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{classTemperatureCamera_add1b70532eaf5fd0152463b3e18af872_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{classTemperatureCamera_add1b70532eaf5fd0152463b3e18af872_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTemperatureCamera_abb46118f32103d4bc9f871f3505faeab}\label{classTemperatureCamera_abb46118f32103d4bc9f871f3505faeab}} 
+\index{TemperatureCamera@{TemperatureCamera}!randomTemperature@{randomTemperature}}
+\index{randomTemperature@{randomTemperature}!TemperatureCamera@{TemperatureCamera}}
+\doxysubsubsection{\texorpdfstring{randomTemperature()}{randomTemperature()}}
+{\footnotesize\ttfamily float Temperature\+Camera\+::random\+Temperature (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method generates a random temperature. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+
+
+Definition at line 23 of file Temperature\+Camera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23                                            \{}
+\DoxyCodeLine{24   \textcolor{comment}{// Random temperature entre 19.0 y 31.0}}
+\DoxyCodeLine{25   std::random\_device rd;}
+\DoxyCodeLine{26   std::mt19937 gen(rd());}
+\DoxyCodeLine{27   std::uniform\_real\_distribution<> dis(19.0, 31.0);}
+\DoxyCodeLine{28   \textcolor{keywordtype}{float} temperature = dis(gen);}
+\DoxyCodeLine{29   temperature = std::round(temperature * 100) / 100; \textcolor{comment}{// Redondea a dos decimales}}
+\DoxyCodeLine{30   \textcolor{keywordflow}{return} temperature;}
+\DoxyCodeLine{31 \}}
+
+\end{DoxyCode}
+
+
+Referenced by collect\+Data().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureCamera_abb46118f32103d4bc9f871f3505faeab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTemperatureCamera_a436a4a5d9a1359ade70672dfc0fa001b}\label{classTemperatureCamera_a436a4a5d9a1359ade70672dfc0fa001b}} 
+\index{TemperatureCamera@{TemperatureCamera}!setTemperature@{setTemperature}}
+\index{setTemperature@{setTemperature}!TemperatureCamera@{TemperatureCamera}}
+\doxysubsubsection{\texorpdfstring{setTemperature()}{setTemperature()}}
+{\footnotesize\ttfamily void Temperature\+Camera\+::set\+Temperature (\begin{DoxyParamCaption}\item[{float}]{temperature }\end{DoxyParamCaption})}
+
+
+
+This method sets the temperature of the camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em temperature} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 17 of file Temperature\+Camera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{17                                                         \{}
+\DoxyCodeLine{18   \mbox{\hyperlink{classTemperatureCamera_a67089f6af9b38fbac534639922cefab0}{temperature\_}} = temperature;}
+\DoxyCodeLine{19 \}}
+
+\end{DoxyCode}
+
+
+References temperature\+\_\+.
+
+
+
+Referenced by collect\+Data(), and Manage\+Cameras\+::load\+Cameras().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperatureCamera_a436a4a5d9a1359ade70672dfc0fa001b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classTemperatureCamera_a67089f6af9b38fbac534639922cefab0}\label{classTemperatureCamera_a67089f6af9b38fbac534639922cefab0}} 
+\index{TemperatureCamera@{TemperatureCamera}!temperature\_@{temperature\_}}
+\index{temperature\_@{temperature\_}!TemperatureCamera@{TemperatureCamera}}
+\doxysubsubsection{\texorpdfstring{temperature\_}{temperature\_}}
+{\footnotesize\ttfamily float Temperature\+Camera\+::temperature\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute stores the temperature of the camera. 
+
+
+
+Definition at line 69 of file Temperature\+Camera.\+h.
+
+
+
+Referenced by get\+Temperature(), print\+Camera(), set\+Temperature(), and Temperature\+Camera().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{TemperatureCamera_8h}{Temperature\+Camera.\+h}}\item 
+src/\mbox{\hyperlink{TemperatureCamera_8cpp}{Temperature\+Camera.\+cpp}}\end{DoxyCompactItemize}

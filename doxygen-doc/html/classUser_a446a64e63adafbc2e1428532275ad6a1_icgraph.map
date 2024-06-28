@@ -1,0 +1,6 @@
+<map id="User::getName" name="User::getName">
+<area shape="rect" id="node1" title="Get the Name object." alt="" coords="261,64,381,91"/>
+<area shape="rect" id="node2" href="$mainUser_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="82,5,137,32"/>
+<area shape="rect" id="node3" href="$classUserNameComparator.html#a85d6efdcec6a49ada4d0836c1ff4c1e1" title=" " alt="" coords="25,57,193,98"/>
+<area shape="rect" id="node4" href="$classUsersServer.html#a8655f96ea475b164bc898926efff9421" title="This method reads the users from a file binary." alt="" coords="5,122,213,163"/>
+</map>

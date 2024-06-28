@@ -1,0 +1,4 @@
+<map id="GreenHouse::searchUser" name="GreenHouse::searchUser">
+<area shape="rect" id="node1" title="Manage search user." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$classUsersServer.html#a113e388eb93cf9aa9dd585d87e3a557b" title="Find User Login." alt="" coords="236,5,435,32"/>
+</map>

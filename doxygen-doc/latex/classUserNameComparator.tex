@@ -1,0 +1,63 @@
+\hypertarget{classUserNameComparator}{}\doxysection{User\+Name\+Comparator Class Reference}
+\label{classUserNameComparator}\index{UserNameComparator@{UserNameComparator}}
+
+
+{\ttfamily \#include $<$Users\+Database.\+h$>$}
+
+
+
+Collaboration diagram for User\+Name\+Comparator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{classUserNameComparator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classUserNameComparator_a85d6efdcec6a49ada4d0836c1ff4c1e1}{operator()}} (const \mbox{\hyperlink{classUser}{User}} $\ast$lhs, const \mbox{\hyperlink{classUser}{User}} $\ast$rhs) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 32 of file Users\+Database.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUserNameComparator_a85d6efdcec6a49ada4d0836c1ff4c1e1}\label{classUserNameComparator_a85d6efdcec6a49ada4d0836c1ff4c1e1}} 
+\index{UserNameComparator@{UserNameComparator}!operator()@{operator()}}
+\index{operator()@{operator()}!UserNameComparator@{UserNameComparator}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily bool User\+Name\+Comparator\+::operator() (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classUser}{User}} $\ast$}]{lhs,  }\item[{const \mbox{\hyperlink{classUser}{User}} $\ast$}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 34 of file Users\+Database.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{34                                                           \{}
+\DoxyCodeLine{35     \textcolor{keywordflow}{return} lhs-\/>\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() < rhs-\/>\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}();}
+\DoxyCodeLine{36   \}}
+
+\end{DoxyCode}
+
+
+References User\+::get\+Name().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{classUserNameComparator_a85d6efdcec6a49ada4d0836c1ff4c1e1_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{UsersDatabase_8h}{Users\+Database.\+h}}\end{DoxyCompactItemize}

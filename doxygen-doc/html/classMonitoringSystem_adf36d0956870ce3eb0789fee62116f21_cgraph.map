@@ -1,0 +1,12 @@
+<map id="MonitoringSystem::createUserScreen" name="MonitoringSystem::createUserScreen">
+<area shape="rect" id="node1" title="This method shows the message to create a new user." alt="" coords="5,57,196,98"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="245,5,461,32"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#ad68fdfb286045fbca4eaa5f996903a3e" title="Create a User object window." alt="" coords="249,57,457,98"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#a939d9f1856e0b97975e19a4a11f8b73b" title="This is the method to select a user." alt="" coords="244,123,463,149"/>
+<area shape="rect" id="node5" href="$classMonitoringSystem.html#a2562b1b9b4de7da761a6a5db52793348" title="This method asks the user for an input for the email." alt="" coords="524,21,733,48"/>
+<area shape="rect" id="node7" href="$classMonitoringSystem.html#acd7c674be2caff1ac2bcc37b2cd0fb3b" title="This method asks the user for an input for the name." alt="" coords="523,72,734,99"/>
+<area shape="rect" id="node8" href="$classMonitoringSystem.html#af4af355f2a6bbda876e80f36ba1624cc" title="This method asks the user for an input for the NIF." alt="" coords="531,123,726,149"/>
+<area shape="rect" id="node9" href="$classMonitoringSystem.html#a26cbfb1c9afd14b76c5acbf99eae8569" title="This method asks the user for an input for the password." alt="" coords="512,173,745,200"/>
+<area shape="rect" id="node10" href="$classMonitoringSystem.html#a64d58db9d958b2f61f601ed71dfb1e3b" title="This method asks the user for an input for the privileges." alt="" coords="511,224,747,251"/>
+<area shape="rect" id="node6" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="795,115,985,157"/>
+</map>

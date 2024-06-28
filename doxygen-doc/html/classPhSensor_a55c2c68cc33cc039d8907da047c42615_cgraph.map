@@ -1,0 +1,9 @@
+<map id="PhSensor::printData" name="PhSensor::printData">
+<area shape="rect" id="node1" title="This method prints the data of the Ph Sensor." alt="" coords="5,80,156,106"/>
+<area shape="rect" id="node2" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="645,130,772,157"/>
+<area shape="rect" id="node3" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="235,29,341,56"/>
+<area shape="rect" id="node4" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="445,80,572,106"/>
+<area shape="rect" id="node5" href="$classPhSensor.html#aea7472382b647fdf581b730376bb30dd" title="This qualifies the Ph Sensor into Acidic, Neutral or Alkaline." alt="" coords="213,181,363,208"/>
+<area shape="rect" id="node7" href="$classPhSensor.html#a058b0d28c34757144c509eaf06a36abc" title="This method returns the status in a string." alt="" coords="204,130,372,157"/>
+<area shape="rect" id="node6" href="$classPhSensor.html#aed7b60fbcd223ac08c84301b94635bd3" title="Check if the Ph Sensor is working properly." alt="" coords="420,130,597,157"/>
+</map>

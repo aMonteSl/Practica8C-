@@ -1,0 +1,8 @@
+<map id="HydrometerSensor::printData" name="HydrometerSensor::printData">
+<area shape="rect" id="node1" title="Print the data of the Hydrometer Sensor." alt="" coords="5,53,219,80"/>
+<area shape="rect" id="node2" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="791,57,917,84"/>
+<area shape="rect" id="node3" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="308,28,415,55"/>
+<area shape="rect" id="node4" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="560,83,687,109"/>
+<area shape="rect" id="node5" href="$classHydrometerSensor.html#a6042f094b9ddcf689beba1729b5eb61a" title="Collect and print the data of the Hydrometer Sensor." alt="" coords="267,130,456,171"/>
+<area shape="rect" id="node6" href="$classHydrometerSensor.html#a463ada24b296bdbf0a3a68e4df7f3d16" title="Check if the Hydrometer Sensor is working properly." alt="" coords="504,135,743,161"/>
+</map>

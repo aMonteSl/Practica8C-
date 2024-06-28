@@ -1,0 +1,6 @@
+<map id="RGBCamera::setRGB" name="RGBCamera::setRGB">
+<area shape="rect" id="node1" title="This method sets the RGB values of the camera." alt="" coords="5,56,163,83"/>
+<area shape="rect" id="node2" href="$classRGBCamera.html#a2582fc3e240af2a365b384234342f6cd" title="This method sets the blue value of the camera." alt="" coords="215,5,374,32"/>
+<area shape="rect" id="node3" href="$classRGBCamera.html#a2214dc62e52a6d1220e341a1e0104898" title="This method sets the green value of the camera." alt="" coords="211,56,379,83"/>
+<area shape="rect" id="node4" href="$classRGBCamera.html#a2dd0706a099b000fca785dada8320d38" title="This method sets the red value of the camera." alt="" coords="217,107,372,133"/>
+</map>

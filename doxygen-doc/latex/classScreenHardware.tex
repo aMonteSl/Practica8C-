@@ -1,0 +1,1111 @@
+\hypertarget{classScreenHardware}{}\doxysection{Screen\+Hardware Class Reference}
+\label{classScreenHardware}\index{ScreenHardware@{ScreenHardware}}
+
+
+{\ttfamily \#include $<$Screen\+Hardware.\+h$>$}
+
+
+
+Inheritance diagram for Screen\+Hardware\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classScreenHardware__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Screen\+Hardware\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classScreenHardware__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classScreenHardware_ab1c186ce0d6f6e120822b788f5215815}{Screen\+Hardware}} (bool active)
+\begin{DoxyCompactList}\small\item\em Construct a new Screen \mbox{\hyperlink{classHardware}{Hardware}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classScreenHardware_a47e1beb8541d7259e74551013fb9c6cb}{$\sim$\+Screen\+Hardware}} () override
+\begin{DoxyCompactList}\small\item\em Destroy the Screen \mbox{\hyperlink{classHardware}{Hardware}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a5de35e22897aa8266e95057dca20595f}{display\+Output}} () const override
+\begin{DoxyCompactList}\small\item\em This method displays the output of the system. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classScreenHardware_ae9c77b5f39cf1174d23142cb60a42365}{ask\+Input}} () override
+\begin{DoxyCompactList}\small\item\em Ask for an input to the user (this method in reality is not used, we use the keyboard to ask for an input) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a9eae9fac122d740af58454007c17b0a8}{initial\+Window}} ()
+\begin{DoxyCompactList}\small\item\em This method displays the initial window of the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a3c0c7e0d14e1a89c17307cf715541453}{login\+Window}} ()
+\begin{DoxyCompactList}\small\item\em This method displays the login window of the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_aeccf9ac678246eba7721ed1c6b839a75}{main\+Window\+Admin}} ()
+\begin{DoxyCompactList}\small\item\em This method displays the main window of the system for the admin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a2edcf1f9600ce2df0ca89f85be9b07a9}{main\+Window\+Employee}} ()
+\begin{DoxyCompactList}\small\item\em This method displays the main window of the system for the employee. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a6c76443eae8a15b5c825b257865f9356}{main\+Window\+Guest}} ()
+\begin{DoxyCompactList}\small\item\em This method displays the main window of the system for the guest. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_ad68fdfb286045fbca4eaa5f996903a3e}{create\+User\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classUser}{User}} object window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_ae74253dbaf1e90bc9d6134166ba3f60b}{delete\+User\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Delete a \mbox{\hyperlink{classUser}{User}} object window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_ab506598df41adae147421b538c0f2a16}{update\+User\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Update a \mbox{\hyperlink{classUser}{User}} object window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a8786bcdcb5465fcf34b1e6dc3c16d449}{display\+Users\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Display all Users window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a50dcd539bc7a85f64bc7a0cb10e4984b}{save\+Users\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Save the users window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a6e27fbc2c5101439153e6c99f00f8420}{create\+Alarm\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Create a Alarm Window object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a1ec558773d81663e69212398fbc6a066}{delete\+Alarm\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Delete a Alarm Window object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a0b5ab699148ef2c5215e2ee47e695e72}{display\+Sensors\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Display all Sensors window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_ae5d2ae56d576f3aef512f2ef0402124f}{display\+Alarms\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Display all Alarms window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a41b5ac64d65de71058c055e41dc4850e}{save\+Alarm\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Save Alarm Window object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a88ffeec4b8c9dc5a0da6ba82dc50bb77}{turn\+On\+Off\+System\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Turn on or off the system window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_ab1fc9cc20fb80dfe6fd1293f50ebd034}{display\+Error\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Display the error window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}{clean\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Clean the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a0b6267a91e8c459d98adb9c406a3d493}{exit\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Exit the window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_a5afb8ed9e0166caae909b52aca171558}{display\+Camera\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Display the camera window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_ab11aba01858fc8faaee1857f14915a4a}{create\+Camera\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Create a camera window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_ae0c4edcbc11047dbeb1ea22c2f48abd1}{delete\+Camera\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Delete a camera window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_ae94ff6c1a4e2078bcfd50334a0c93cf0}{turn\+On\+Off\+Camera\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Turn on or off the camera window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScreenHardware_aa883bd450a4153fbb836f02dacb5de3b}{save\+Camera\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Save a camera window. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 15 of file Screen\+Hardware.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classScreenHardware_ab1c186ce0d6f6e120822b788f5215815}\label{classScreenHardware_ab1c186ce0d6f6e120822b788f5215815}} 
+\index{ScreenHardware@{ScreenHardware}!ScreenHardware@{ScreenHardware}}
+\index{ScreenHardware@{ScreenHardware}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{ScreenHardware()}{ScreenHardware()}}
+{\footnotesize\ttfamily Screen\+Hardware\+::\+Screen\+Hardware (\begin{DoxyParamCaption}\item[{bool}]{active }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Screen \mbox{\hyperlink{classHardware}{Hardware}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em active} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classScreenHardware}{Screen\+Hardware}} object 
+\end{DoxyReturn}
+
+
+Definition at line 15 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{16     : \mbox{\hyperlink{classHardware_ad39ea32ec68d35db1320d3b8454085e4}{Hardware}}(active, Hardware::Types\_Hardware::SCREEN) \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classScreenHardware_a47e1beb8541d7259e74551013fb9c6cb}\label{classScreenHardware_a47e1beb8541d7259e74551013fb9c6cb}} 
+\index{ScreenHardware@{ScreenHardware}!````~ScreenHardware@{$\sim$ScreenHardware}}
+\index{````~ScreenHardware@{$\sim$ScreenHardware}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{$\sim$ScreenHardware()}{~ScreenHardware()}}
+{\footnotesize\ttfamily Screen\+Hardware\+::$\sim$\+Screen\+Hardware (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Destroy the Screen \mbox{\hyperlink{classHardware}{Hardware}} object. 
+
+
+
+Definition at line 18 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{18 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classScreenHardware_ae9c77b5f39cf1174d23142cb60a42365}\label{classScreenHardware_ae9c77b5f39cf1174d23142cb60a42365}} 
+\index{ScreenHardware@{ScreenHardware}!askInput@{askInput}}
+\index{askInput@{askInput}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{askInput()}{askInput()}}
+{\footnotesize\ttfamily int Screen\+Hardware\+::ask\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Ask for an input to the user (this method in reality is not used, we use the keyboard to ask for an input) 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classHardware_a86ad934a24b012512273018a8e7237d8}{Hardware}}.
+
+
+
+Definition at line 24 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{24                              \{}
+\DoxyCodeLine{25   std::cout << \textcolor{stringliteral}{"{}Screen wating a input..."{}} << std::endl;}
+\DoxyCodeLine{26   \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{27 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}\label{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2}} 
+\index{ScreenHardware@{ScreenHardware}!cleanScreen@{cleanScreen}}
+\index{cleanScreen@{cleanScreen}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{cleanScreen()}{cleanScreen()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::clean\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clean the screen. 
+
+
+
+Definition at line 206 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{206                                  \{}
+\DoxyCodeLine{207   \textcolor{comment}{// Aqui tengo que limpiar la pantalla}}
+\DoxyCodeLine{208   system(\textcolor{stringliteral}{"{}clear"{}});}
+\DoxyCodeLine{209 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::clean\+Screen(), Monitoring\+System\+::create\+Alarm\+Screen(), Monitoring\+System\+::create\+Camera\+Screen(), Monitoring\+System\+::create\+User\+Screen(), Monitoring\+System\+::delete\+Alarm\+Screen(), Monitoring\+System\+::delete\+Camera\+Screen(), Monitoring\+System\+::delete\+User\+Screen(), Monitoring\+System\+::display\+Alarms\+Screen(), Monitoring\+System\+::display\+Camera\+Screen(), Monitoring\+System\+::display\+Error\+Screen(), Monitoring\+System\+::display\+Sensors\+Screen(), Monitoring\+System\+::display\+Users\+Screen(), Monitoring\+System\+::exit\+Screen(), Monitoring\+System\+::initial\+Screen(), Monitoring\+System\+::login\+Screen(), Monitoring\+System\+::main\+Window\+Admin(), Monitoring\+System\+::main\+Window\+Employee(), Monitoring\+System\+::main\+Window\+Guest(), Monitoring\+System\+::save\+Alarm\+Screen(), Monitoring\+System\+::save\+Camera\+Screen(), Monitoring\+System\+::save\+Users\+Screen(), Monitoring\+System\+::turn\+On\+Off\+Camera\+Screen(), Monitoring\+System\+::turn\+On\+Off\+System\+Screen(), and Monitoring\+System\+::update\+User\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_afc8bb5deda9f6ff9072fa28f27b3aca2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a6e27fbc2c5101439153e6c99f00f8420}\label{classScreenHardware_a6e27fbc2c5101439153e6c99f00f8420}} 
+\index{ScreenHardware@{ScreenHardware}!createAlarmWindow@{createAlarmWindow}}
+\index{createAlarmWindow@{createAlarmWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{createAlarmWindow()}{createAlarmWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::create\+Alarm\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create a Alarm Window object. 
+
+
+
+Definition at line 173 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{173                                        \{}
+\DoxyCodeLine{174   \textcolor{comment}{// Aqui tengo que mostrar un menu para crear una alarma}}
+\DoxyCodeLine{175   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Create Alarm Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{176   std::cout << \textcolor{stringliteral}{"{}First the type(intro), then the id(intro)"{}} << std::endl;}
+\DoxyCodeLine{177 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::create\+Alarm\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a6e27fbc2c5101439153e6c99f00f8420_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_ab11aba01858fc8faaee1857f14915a4a}\label{classScreenHardware_ab11aba01858fc8faaee1857f14915a4a}} 
+\index{ScreenHardware@{ScreenHardware}!createCameraWindow@{createCameraWindow}}
+\index{createCameraWindow@{createCameraWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{createCameraWindow()}{createCameraWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::create\+Camera\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create a camera window. 
+
+
+
+Definition at line 222 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{222                                         \{}
+\DoxyCodeLine{223   \textcolor{comment}{// Aqui tengo que mostrar un menu para crear una camara}}
+\DoxyCodeLine{224   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Create Camera Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{225   std::cout << \textcolor{stringliteral}{"{}Creating a new camera..."{}} << std::endl;}
+\DoxyCodeLine{226 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::create\+Camera\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_ab11aba01858fc8faaee1857f14915a4a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_ad68fdfb286045fbca4eaa5f996903a3e}\label{classScreenHardware_ad68fdfb286045fbca4eaa5f996903a3e}} 
+\index{ScreenHardware@{ScreenHardware}!createUserWindow@{createUserWindow}}
+\index{createUserWindow@{createUserWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{createUserWindow()}{createUserWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::create\+User\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Create a \mbox{\hyperlink{classUser}{User}} object window. 
+
+
+
+Definition at line 143 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{143                                       \{}
+\DoxyCodeLine{144   \textcolor{comment}{// Aqui tengo que mostrar un menu para crear un usuario}}
+\DoxyCodeLine{145   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Create User Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{146   std::cout << \mbox{\hyperlink{ScreenHardware_8cpp_ac80593b5e12f92aae8e35033528b3f1c}{ASK\_DATA}} << std::endl;}
+\DoxyCodeLine{147   std::cout << \mbox{\hyperlink{ScreenHardware_8cpp_a045aec34e43240e3221c0956abc269e5}{USER\_PROMPT}} << std::endl;}
+\DoxyCodeLine{148 \}}
+
+\end{DoxyCode}
+
+
+References ASK\+\_\+\+DATA, and USER\+\_\+\+PROMPT.
+
+
+
+Referenced by Monitoring\+System\+::create\+User\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_ad68fdfb286045fbca4eaa5f996903a3e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a1ec558773d81663e69212398fbc6a066}\label{classScreenHardware_a1ec558773d81663e69212398fbc6a066}} 
+\index{ScreenHardware@{ScreenHardware}!deleteAlarmWindow@{deleteAlarmWindow}}
+\index{deleteAlarmWindow@{deleteAlarmWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{deleteAlarmWindow()}{deleteAlarmWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::delete\+Alarm\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Delete a Alarm Window object. 
+
+
+
+Definition at line 178 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{178                                        \{}
+\DoxyCodeLine{179   \textcolor{comment}{// Aqui tengo que mostrar un menu para borrar una alarma}}
+\DoxyCodeLine{180   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Delete Alarm Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{181   std::cout << \textcolor{stringliteral}{"{}Enter the id of the alarm you want to delete"{}} << std::endl;}
+\DoxyCodeLine{182 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::delete\+Alarm\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a1ec558773d81663e69212398fbc6a066_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_ae0c4edcbc11047dbeb1ea22c2f48abd1}\label{classScreenHardware_ae0c4edcbc11047dbeb1ea22c2f48abd1}} 
+\index{ScreenHardware@{ScreenHardware}!deleteCameraWindow@{deleteCameraWindow}}
+\index{deleteCameraWindow@{deleteCameraWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{deleteCameraWindow()}{deleteCameraWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::delete\+Camera\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Delete a camera window. 
+
+
+
+Definition at line 228 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{228                                         \{}
+\DoxyCodeLine{229   \textcolor{comment}{// Aqui tengo que mostrar un menu para borrar una camara}}
+\DoxyCodeLine{230   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Delete Camera Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{231   std::cout << \textcolor{stringliteral}{"{}Deleting a camera..."{}} << std::endl;}
+\DoxyCodeLine{232 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::delete\+Camera\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_ae0c4edcbc11047dbeb1ea22c2f48abd1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_ae74253dbaf1e90bc9d6134166ba3f60b}\label{classScreenHardware_ae74253dbaf1e90bc9d6134166ba3f60b}} 
+\index{ScreenHardware@{ScreenHardware}!deleteUserWindow@{deleteUserWindow}}
+\index{deleteUserWindow@{deleteUserWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{deleteUserWindow()}{deleteUserWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::delete\+User\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Delete a \mbox{\hyperlink{classUser}{User}} object window. 
+
+
+
+Definition at line 150 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{150                                       \{}
+\DoxyCodeLine{151   \textcolor{comment}{// Aqui tengo que mostrar un menu para borrar un usuario}}
+\DoxyCodeLine{152   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Delete User Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{153   std::cout << \textcolor{stringliteral}{"{}First the name(intro), then the password(intro), then the "{}}}
+\DoxyCodeLine{154                \textcolor{stringliteral}{"{}nif(intro)"{}}}
+\DoxyCodeLine{155             << std::endl;}
+\DoxyCodeLine{156 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::delete\+User\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_ae74253dbaf1e90bc9d6134166ba3f60b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_ae5d2ae56d576f3aef512f2ef0402124f}\label{classScreenHardware_ae5d2ae56d576f3aef512f2ef0402124f}} 
+\index{ScreenHardware@{ScreenHardware}!displayAlarmsWindow@{displayAlarmsWindow}}
+\index{displayAlarmsWindow@{displayAlarmsWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{displayAlarmsWindow()}{displayAlarmsWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::display\+Alarms\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Display all Alarms window. 
+
+
+
+Definition at line 189 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{189                                          \{}
+\DoxyCodeLine{190   \textcolor{comment}{// Aqui tengo que mostrar un menu para ver todas las alarmas}}
+\DoxyCodeLine{191   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Display Alarms Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{192 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::display\+Alarms\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_ae5d2ae56d576f3aef512f2ef0402124f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a5afb8ed9e0166caae909b52aca171558}\label{classScreenHardware_a5afb8ed9e0166caae909b52aca171558}} 
+\index{ScreenHardware@{ScreenHardware}!displayCameraWindow@{displayCameraWindow}}
+\index{displayCameraWindow@{displayCameraWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{displayCameraWindow()}{displayCameraWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::display\+Camera\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Display the camera window. 
+
+
+
+Definition at line 217 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{217                                          \{}
+\DoxyCodeLine{218   \textcolor{comment}{// Aqui tengo que mostrar un menu para ver la camara}}
+\DoxyCodeLine{219   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Display Camera Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{220 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::display\+Camera\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a5afb8ed9e0166caae909b52aca171558_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_ab1fc9cc20fb80dfe6fd1293f50ebd034}\label{classScreenHardware_ab1fc9cc20fb80dfe6fd1293f50ebd034}} 
+\index{ScreenHardware@{ScreenHardware}!displayErrorWindow@{displayErrorWindow}}
+\index{displayErrorWindow@{displayErrorWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{displayErrorWindow()}{displayErrorWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::display\+Error\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Display the error window. 
+
+
+
+Definition at line 200 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{200                                         \{}
+\DoxyCodeLine{201   \textcolor{comment}{// Aqui tengo que mostrar un menu de error}}
+\DoxyCodeLine{202   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Display Error Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{203   std::cout << \textcolor{stringliteral}{"{}And error happend"{}} << std::endl;}
+\DoxyCodeLine{204 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::display\+Error\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_ab1fc9cc20fb80dfe6fd1293f50ebd034_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a5de35e22897aa8266e95057dca20595f}\label{classScreenHardware_a5de35e22897aa8266e95057dca20595f}} 
+\index{ScreenHardware@{ScreenHardware}!displayOutput@{displayOutput}}
+\index{displayOutput@{displayOutput}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{displayOutput()}{displayOutput()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::display\+Output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This method displays the output of the system. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classHardware_a69a557514ea0c2e139e0355e9207dc9a}{Hardware}}.
+
+
+
+Definition at line 20 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{20                                          \{}
+\DoxyCodeLine{21   std::cout << \textcolor{stringliteral}{"{}Displaying output..."{}} << std::endl;}
+\DoxyCodeLine{22 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classScreenHardware_a0b5ab699148ef2c5215e2ee47e695e72}\label{classScreenHardware_a0b5ab699148ef2c5215e2ee47e695e72}} 
+\index{ScreenHardware@{ScreenHardware}!displaySensorsWindow@{displaySensorsWindow}}
+\index{displaySensorsWindow@{displaySensorsWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{displaySensorsWindow()}{displaySensorsWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::display\+Sensors\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Display all Sensors window. 
+
+
+
+Definition at line 184 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{184                                           \{}
+\DoxyCodeLine{185   \textcolor{comment}{// Aqui tengo que mostrar un menu para ver todos los sensores}}
+\DoxyCodeLine{186   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Display Sensors Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{187 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::display\+Sensors\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a0b5ab699148ef2c5215e2ee47e695e72_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a8786bcdcb5465fcf34b1e6dc3c16d449}\label{classScreenHardware_a8786bcdcb5465fcf34b1e6dc3c16d449}} 
+\index{ScreenHardware@{ScreenHardware}!displayUsersWindow@{displayUsersWindow}}
+\index{displayUsersWindow@{displayUsersWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{displayUsersWindow()}{displayUsersWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::display\+Users\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Display all Users window. 
+
+
+
+Definition at line 168 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{168                                         \{}
+\DoxyCodeLine{169   \textcolor{comment}{// Aqui tengo que mostrar un menu para ver todos los usuarios}}
+\DoxyCodeLine{170   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Display Users Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{171 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::display\+Users\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a8786bcdcb5465fcf34b1e6dc3c16d449_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a0b6267a91e8c459d98adb9c406a3d493}\label{classScreenHardware_a0b6267a91e8c459d98adb9c406a3d493}} 
+\index{ScreenHardware@{ScreenHardware}!exitWindow@{exitWindow}}
+\index{exitWindow@{exitWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{exitWindow()}{exitWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::exit\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Exit the window. 
+
+
+
+Definition at line 36 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{36                                 \{}
+\DoxyCodeLine{37   \textcolor{comment}{// Aqui es el menu de salida}}
+\DoxyCodeLine{38   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Exit Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{39   std::cout << \textcolor{stringliteral}{"{}Thanks for using our system"{}} << std::endl;}
+\DoxyCodeLine{40 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::exit\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a0b6267a91e8c459d98adb9c406a3d493_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a9eae9fac122d740af58454007c17b0a8}\label{classScreenHardware_a9eae9fac122d740af58454007c17b0a8}} 
+\index{ScreenHardware@{ScreenHardware}!initialWindow@{initialWindow}}
+\index{initialWindow@{initialWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{initialWindow()}{initialWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::initial\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method displays the initial window of the system. 
+
+
+
+Definition at line 29 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{29                                    \{}
+\DoxyCodeLine{30   \textcolor{comment}{// Aqui tengo que mostrar un menu principal donde se de la bienvenida}}
+\DoxyCodeLine{31   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Initial Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{32   std::cout << \textcolor{stringliteral}{"{}1. Login"{}} << std::endl;}
+\DoxyCodeLine{33   std::cout << \textcolor{stringliteral}{"{}2. Exit"{}} << std::endl;}
+\DoxyCodeLine{34 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::initial\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a9eae9fac122d740af58454007c17b0a8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a3c0c7e0d14e1a89c17307cf715541453}\label{classScreenHardware_a3c0c7e0d14e1a89c17307cf715541453}} 
+\index{ScreenHardware@{ScreenHardware}!loginWindow@{loginWindow}}
+\index{loginWindow@{loginWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{loginWindow()}{loginWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::login\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method displays the login window of the system. 
+
+
+
+Definition at line 42 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{42                                  \{}
+\DoxyCodeLine{43   \textcolor{comment}{// Este es el menu de login}}
+\DoxyCodeLine{44   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Login Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{45   std::cout << \mbox{\hyperlink{ScreenHardware_8cpp_ac80593b5e12f92aae8e35033528b3f1c}{ASK\_DATA}} << std::endl;}
+\DoxyCodeLine{46   std::cout}
+\DoxyCodeLine{47       << \textcolor{stringliteral}{"{}First the name(intro), then the password(intro), then the nif(intro)"{}}}
+\DoxyCodeLine{48       << std::endl;}
+\DoxyCodeLine{49 \}}
+
+\end{DoxyCode}
+
+
+References ASK\+\_\+\+DATA.
+
+
+
+Referenced by Monitoring\+System\+::login\+Screen(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a3c0c7e0d14e1a89c17307cf715541453_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_aeccf9ac678246eba7721ed1c6b839a75}\label{classScreenHardware_aeccf9ac678246eba7721ed1c6b839a75}} 
+\index{ScreenHardware@{ScreenHardware}!mainWindowAdmin@{mainWindowAdmin}}
+\index{mainWindowAdmin@{mainWindowAdmin}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{mainWindowAdmin()}{mainWindowAdmin()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::main\+Window\+Admin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method displays the main window of the system for the admin. 
+
+
+
+Definition at line 51 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{51                                      \{}
+\DoxyCodeLine{52   \textcolor{comment}{// Aqui tengo que mostrar un menu principal donde se muestran todas las}}
+\DoxyCodeLine{53   \textcolor{comment}{// opciones para admins}}
+\DoxyCodeLine{54   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Main Window Admin\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{55   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}} << std::endl;}
+\DoxyCodeLine{56   \textcolor{comment}{// Seccion de usuarios}}
+\DoxyCodeLine{57   std::cout << \textcolor{stringliteral}{"{}-\/Users Section-\/"{}} << std::endl;}
+\DoxyCodeLine{58   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{59   std::cout << \textcolor{stringliteral}{"{}1. Create User"{}} << std::endl;}
+\DoxyCodeLine{60   std::cout << \textcolor{stringliteral}{"{}2. Delete User"{}} << std::endl;}
+\DoxyCodeLine{61   std::cout << \textcolor{stringliteral}{"{}3. Update User"{}} << std::endl;}
+\DoxyCodeLine{62   std::cout << \textcolor{stringliteral}{"{}4. Display Users"{}} << std::endl;}
+\DoxyCodeLine{63   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{64   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}} << std::endl;}
+\DoxyCodeLine{65   \textcolor{comment}{// Seccion de alarmas y sensores}}
+\DoxyCodeLine{66   std::cout << \textcolor{stringliteral}{"{}-\/Alarms/Sensors Section-\/"{}} << std::endl;}
+\DoxyCodeLine{67   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{68   std::cout << \textcolor{stringliteral}{"{}5. Create Sensor"{}} << std::endl;}
+\DoxyCodeLine{69   std::cout << \textcolor{stringliteral}{"{}6. Delete Sensor"{}} << std::endl;}
+\DoxyCodeLine{70   std::cout << \textcolor{stringliteral}{"{}7. Display Sensors"{}} << std::endl;}
+\DoxyCodeLine{71   std::cout << \textcolor{stringliteral}{"{}8. Display Alarms"{}} << std::endl;}
+\DoxyCodeLine{72   std::cout << \textcolor{stringliteral}{"{}9. Turn On/Off Sensors/Alarms"{}} << std::endl;}
+\DoxyCodeLine{73   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{74   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}} << std::endl;}
+\DoxyCodeLine{75   \textcolor{comment}{// Seccion de camaras}}
+\DoxyCodeLine{76   std::cout << \textcolor{stringliteral}{"{}-\/Cameras Section-\/"{}} << std::endl;}
+\DoxyCodeLine{77   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{78   std::cout << \textcolor{stringliteral}{"{}10. Display Cameras"{}} << std::endl;}
+\DoxyCodeLine{79   std::cout << \textcolor{stringliteral}{"{}11. Create Camera"{}} << std::endl;}
+\DoxyCodeLine{80   std::cout << \textcolor{stringliteral}{"{}12. Delete Camera"{}} << std::endl;}
+\DoxyCodeLine{81   std::cout << \textcolor{stringliteral}{"{}13. Turn On/Off Cameras"{}} << std::endl;}
+\DoxyCodeLine{82   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{83   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}} << std::endl;}
+\DoxyCodeLine{84   \textcolor{comment}{// Seccion de guardar y salir}}
+\DoxyCodeLine{85   std::cout << \textcolor{stringliteral}{"{}-\/Save/Exit Section-\/"{}} << std::endl;}
+\DoxyCodeLine{86   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{87   std::cout << \textcolor{stringliteral}{"{}14. Save Cameras"{}} << std::endl;}
+\DoxyCodeLine{88   std::cout << \textcolor{stringliteral}{"{}15. Save Users"{}} << std::endl;}
+\DoxyCodeLine{89   std::cout << \textcolor{stringliteral}{"{}16. Save Sensors"{}} << std::endl;}
+\DoxyCodeLine{90   std::cout << \textcolor{stringliteral}{"{}17. Exit \& Save all"{}} << std::endl;}
+\DoxyCodeLine{91   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{92   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}} << std::endl;}
+\DoxyCodeLine{93 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), and Monitoring\+System\+::main\+Window\+Admin().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_aeccf9ac678246eba7721ed1c6b839a75_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a2edcf1f9600ce2df0ca89f85be9b07a9}\label{classScreenHardware_a2edcf1f9600ce2df0ca89f85be9b07a9}} 
+\index{ScreenHardware@{ScreenHardware}!mainWindowEmployee@{mainWindowEmployee}}
+\index{mainWindowEmployee@{mainWindowEmployee}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{mainWindowEmployee()}{mainWindowEmployee()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::main\+Window\+Employee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method displays the main window of the system for the employee. 
+
+
+
+Definition at line 95 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{95                                         \{}
+\DoxyCodeLine{96   \textcolor{comment}{// Aqui tengo que mostrar un menu principal donde se muestran todas las}}
+\DoxyCodeLine{97   \textcolor{comment}{// opciones para employees}}
+\DoxyCodeLine{98   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Main Window Employee\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{99   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}} << std::endl;}
+\DoxyCodeLine{100   \textcolor{comment}{// Seccion de sensores y alarmas}}
+\DoxyCodeLine{101   std::cout << \textcolor{stringliteral}{"{}-\/Sensors/Alarms Section-\/"{}} << std::endl;}
+\DoxyCodeLine{102   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{103   std::cout << \textcolor{stringliteral}{"{}1. Create Sensor"{}} << std::endl;}
+\DoxyCodeLine{104   std::cout << \textcolor{stringliteral}{"{}2. Delete Sensor"{}} << std::endl;}
+\DoxyCodeLine{105   std::cout << \textcolor{stringliteral}{"{}3. Display Sensors"{}} << std::endl;}
+\DoxyCodeLine{106   std::cout << \textcolor{stringliteral}{"{}4. Display Alarms"{}} << std::endl;}
+\DoxyCodeLine{107   std::cout << \textcolor{stringliteral}{"{}5. Turn On/Off Sensors/Alarms"{}} << std::endl;}
+\DoxyCodeLine{108   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{109   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}} << std::endl;}
+\DoxyCodeLine{110   \textcolor{comment}{// Seccion de camaras}}
+\DoxyCodeLine{111   std::cout << \textcolor{stringliteral}{"{}-\/Cameras Section-\/"{}} << std::endl;}
+\DoxyCodeLine{112   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{113   std::cout << \textcolor{stringliteral}{"{}6. Display Cameras"{}} << std::endl;}
+\DoxyCodeLine{114   std::cout << \textcolor{stringliteral}{"{}7. Create Camera"{}} << std::endl;}
+\DoxyCodeLine{115   std::cout << \textcolor{stringliteral}{"{}8. Delete Camera"{}} << std::endl;}
+\DoxyCodeLine{116   std::cout << \textcolor{stringliteral}{"{}9. Turn On/Off Cameras"{}} << std::endl;}
+\DoxyCodeLine{117   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{118   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}} << std::endl;}
+\DoxyCodeLine{119   \textcolor{comment}{// Seccion de guardar y salir}}
+\DoxyCodeLine{120   std::cout << \textcolor{stringliteral}{"{}-\/Save/Exit Section-\/"{}} << std::endl;}
+\DoxyCodeLine{121   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{122   std::cout << \textcolor{stringliteral}{"{}10. Save Cameras"{}} << std::endl;}
+\DoxyCodeLine{123   std::cout << \textcolor{stringliteral}{"{}11. Save Sensors"{}} << std::endl;}
+\DoxyCodeLine{124   std::cout << \textcolor{stringliteral}{"{}12. Exit \& Save all"{}} << std::endl;}
+\DoxyCodeLine{125   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{126 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), and Monitoring\+System\+::main\+Window\+Employee().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a2edcf1f9600ce2df0ca89f85be9b07a9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a6c76443eae8a15b5c825b257865f9356}\label{classScreenHardware_a6c76443eae8a15b5c825b257865f9356}} 
+\index{ScreenHardware@{ScreenHardware}!mainWindowGuest@{mainWindowGuest}}
+\index{mainWindowGuest@{mainWindowGuest}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{mainWindowGuest()}{mainWindowGuest()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::main\+Window\+Guest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method displays the main window of the system for the guest. 
+
+
+
+Definition at line 128 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{128                                      \{}
+\DoxyCodeLine{129   \textcolor{comment}{// Aqui tengo que mostrar un menu principal donde se muestran todas las}}
+\DoxyCodeLine{130   \textcolor{comment}{// opciones para guests}}
+\DoxyCodeLine{131   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Main Window Guest\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{132   std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}} << std::endl;}
+\DoxyCodeLine{133   \textcolor{comment}{// Seccion de sensores y alarmas}}
+\DoxyCodeLine{134   std::cout << \textcolor{stringliteral}{"{}-\/Sensors/Alarms Section-\/"{}} << std::endl;}
+\DoxyCodeLine{135   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{136   std::cout << \textcolor{stringliteral}{"{}1. Display Sensors"{}} << std::endl;}
+\DoxyCodeLine{137   std::cout << \textcolor{stringliteral}{"{}2. Display Alarms"{}} << std::endl;}
+\DoxyCodeLine{138   std::cout << \textcolor{stringliteral}{"{}3. Display Cameras"{}} << std::endl;}
+\DoxyCodeLine{139   std::cout << \textcolor{stringliteral}{"{}4. Exit"{}} << std::endl;}
+\DoxyCodeLine{140   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{141 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), and Monitoring\+System\+::main\+Window\+Guest().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a6c76443eae8a15b5c825b257865f9356_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a41b5ac64d65de71058c055e41dc4850e}\label{classScreenHardware_a41b5ac64d65de71058c055e41dc4850e}} 
+\index{ScreenHardware@{ScreenHardware}!saveAlarmWindow@{saveAlarmWindow}}
+\index{saveAlarmWindow@{saveAlarmWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{saveAlarmWindow()}{saveAlarmWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::save\+Alarm\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Save Alarm Window object. 
+
+
+
+Definition at line 211 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{211                                      \{}
+\DoxyCodeLine{212   \textcolor{comment}{// Aqui tengo que mostrar un menu para guardar una alarma}}
+\DoxyCodeLine{213   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Save Alarm Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{214   std::cout << \textcolor{stringliteral}{"{}Saving all the sensors(txt/dat)..."{}} << std::endl;}
+\DoxyCodeLine{215 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::save\+Alarm\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a41b5ac64d65de71058c055e41dc4850e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_aa883bd450a4153fbb836f02dacb5de3b}\label{classScreenHardware_aa883bd450a4153fbb836f02dacb5de3b}} 
+\index{ScreenHardware@{ScreenHardware}!saveCameraWindow@{saveCameraWindow}}
+\index{saveCameraWindow@{saveCameraWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{saveCameraWindow()}{saveCameraWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::save\+Camera\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Save a camera window. 
+
+
+
+Definition at line 240 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{240                                       \{}
+\DoxyCodeLine{241   \textcolor{comment}{// Aqui tengo que mostrar un menu para guardar una camara}}
+\DoxyCodeLine{242   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Save Camera Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{243   std::cout << \textcolor{stringliteral}{"{}Saving all the cameras(txt)..."{}} << std::endl;}
+\DoxyCodeLine{244 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::save\+Camera\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_aa883bd450a4153fbb836f02dacb5de3b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a50dcd539bc7a85f64bc7a0cb10e4984b}\label{classScreenHardware_a50dcd539bc7a85f64bc7a0cb10e4984b}} 
+\index{ScreenHardware@{ScreenHardware}!saveUsersWindow@{saveUsersWindow}}
+\index{saveUsersWindow@{saveUsersWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{saveUsersWindow()}{saveUsersWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::save\+Users\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Save the users window. 
+
+
+
+Definition at line 246 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{246                                      \{}
+\DoxyCodeLine{247   \textcolor{comment}{// Aqui tengo que mostrar un menu para guardar un usuario}}
+\DoxyCodeLine{248   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Save User Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{249   std::cout << \textcolor{stringliteral}{"{}Saving all the users(txt/dat)..."{}} << std::endl;}
+\DoxyCodeLine{250 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::save\+Users\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a50dcd539bc7a85f64bc7a0cb10e4984b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_ae94ff6c1a4e2078bcfd50334a0c93cf0}\label{classScreenHardware_ae94ff6c1a4e2078bcfd50334a0c93cf0}} 
+\index{ScreenHardware@{ScreenHardware}!turnOnOffCameraWindow@{turnOnOffCameraWindow}}
+\index{turnOnOffCameraWindow@{turnOnOffCameraWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{turnOnOffCameraWindow()}{turnOnOffCameraWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::turn\+On\+Off\+Camera\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Turn on or off the camera window. 
+
+
+
+Definition at line 234 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{234                                            \{}
+\DoxyCodeLine{235   \textcolor{comment}{// Aqui tengo que mostrar un menu para encender y apagar la camara}}
+\DoxyCodeLine{236   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Turn On/Off Camera Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{237   std::cout << \textcolor{stringliteral}{"{}1. ON \(\backslash\)n2. OFF"{}} << std::endl;}
+\DoxyCodeLine{238 \}}
+
+\end{DoxyCode}
+
+
+Referenced by Monitoring\+System\+::turn\+On\+Off\+Camera\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_ae94ff6c1a4e2078bcfd50334a0c93cf0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_a88ffeec4b8c9dc5a0da6ba82dc50bb77}\label{classScreenHardware_a88ffeec4b8c9dc5a0da6ba82dc50bb77}} 
+\index{ScreenHardware@{ScreenHardware}!turnOnOffSystemWindow@{turnOnOffSystemWindow}}
+\index{turnOnOffSystemWindow@{turnOnOffSystemWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{turnOnOffSystemWindow()}{turnOnOffSystemWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::turn\+On\+Off\+System\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Turn on or off the system window. 
+
+
+
+Definition at line 194 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{194                                            \{}
+\DoxyCodeLine{195   \textcolor{comment}{// Aqui tengo que mostrar un menu para encender y apagar el sistema}}
+\DoxyCodeLine{196   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Turn On/Off System Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{197   std::cout << \textcolor{stringliteral}{"{}1. ON \(\backslash\)n2. OFF"{}} << std::endl;}
+\DoxyCodeLine{198 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), and Monitoring\+System\+::turn\+On\+Off\+System\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_a88ffeec4b8c9dc5a0da6ba82dc50bb77_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScreenHardware_ab506598df41adae147421b538c0f2a16}\label{classScreenHardware_ab506598df41adae147421b538c0f2a16}} 
+\index{ScreenHardware@{ScreenHardware}!updateUserWindow@{updateUserWindow}}
+\index{updateUserWindow@{updateUserWindow}!ScreenHardware@{ScreenHardware}}
+\doxysubsubsection{\texorpdfstring{updateUserWindow()}{updateUserWindow()}}
+{\footnotesize\ttfamily void Screen\+Hardware\+::update\+User\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Update a \mbox{\hyperlink{classUser}{User}} object window. 
+
+
+
+Definition at line 158 of file Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{158                                       \{}
+\DoxyCodeLine{159   \textcolor{comment}{// Aqui tengo que mostrar un menu para actualizar un usuario}}
+\DoxyCodeLine{160   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/\_Update User Window\_-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{161   std::cout << \mbox{\hyperlink{ScreenHardware_8cpp_ac80593b5e12f92aae8e35033528b3f1c}{ASK\_DATA}} << std::endl;}
+\DoxyCodeLine{162   std::cout << \textcolor{stringliteral}{"{}You can change the role / the email / if you want to change "{}}}
+\DoxyCodeLine{163                \textcolor{stringliteral}{"{}password delete the user and create a new one"{}}}
+\DoxyCodeLine{164             << std::endl;}
+\DoxyCodeLine{165   std::cout << \mbox{\hyperlink{ScreenHardware_8cpp_a045aec34e43240e3221c0956abc269e5}{USER\_PROMPT}} << std::endl;}
+\DoxyCodeLine{166 \}}
+
+\end{DoxyCode}
+
+
+References ASK\+\_\+\+DATA, and USER\+\_\+\+PROMPT.
+
+
+
+Referenced by main(), and Monitoring\+System\+::update\+User\+Screen().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScreenHardware_ab506598df41adae147421b538c0f2a16_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{ScreenHardware_8h}{Screen\+Hardware.\+h}}\item 
+src/\mbox{\hyperlink{ScreenHardware_8cpp}{Screen\+Hardware.\+cpp}}\end{DoxyCompactItemize}

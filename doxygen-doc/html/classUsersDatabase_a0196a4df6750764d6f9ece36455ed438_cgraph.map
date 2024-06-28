@@ -1,0 +1,4 @@
+<map id="UsersDatabase::deleteUserByName" name="UsersDatabase::deleteUserByName">
+<area shape="rect" id="node1" title="Delete a user from the set of users with the name." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node2" href="$classUsersDatabase.html#a332c6f8704e3e4b839aff5e46e87abc6" title="This method prints the user that has been deleted." alt="" coords="253,13,493,39"/>
+</map>

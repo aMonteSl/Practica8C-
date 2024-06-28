@@ -1,0 +1,6 @@
+<map id="SwitchHardware::askInput" name="SwitchHardware::askInput">
+<area shape="rect" id="node1" title="Ask for an input." alt="" coords="5,31,197,57"/>
+<area shape="rect" id="node2" href="$classSwitchHardware.html#a80786432a1c16f8eb3a999e16aabaad5" title="The data of the Switch Hardware." alt="" coords="245,23,440,65"/>
+<area shape="rect" id="node3" href="$classHardware.html#a03fc02b36d9f2e5d151ef3efaf788e2a" title="Turn off the hardware." alt="" coords="488,5,627,32"/>
+<area shape="rect" id="node4" href="$classHardware.html#aee21531986a03e2fe8fcb3db70c5c6d1" title="Turn on the hardware." alt="" coords="489,56,626,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MonitoringSystem::askInputInt" name="MonitoringSystem::askInputInt">
+<area shape="rect" id="node1" title="This method asks the user for an int input." alt="" coords="5,31,228,57"/>
+<area shape="rect" id="node2" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="285,5,496,32"/>
+<area shape="rect" id="node3" href="$classMonitoringSystem.html#a2514c2079286352acd12ef85163ff69f" title="This method checks if the input is correct." alt="" coords="276,56,505,83"/>
+</map>

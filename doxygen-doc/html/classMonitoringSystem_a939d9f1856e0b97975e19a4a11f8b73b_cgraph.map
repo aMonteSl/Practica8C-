@@ -1,0 +1,9 @@
+<map id="MonitoringSystem::selectUser" name="MonitoringSystem::selectUser">
+<area shape="rect" id="node1" title="This is the method to select a user." alt="" coords="5,107,224,133"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#a2562b1b9b4de7da761a6a5db52793348" title="This method asks the user for an input for the email." alt="" coords="285,5,495,32"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#acd7c674be2caff1ac2bcc37b2cd0fb3b" title="This method asks the user for an input for the name." alt="" coords="285,56,495,83"/>
+<area shape="rect" id="node5" href="$classMonitoringSystem.html#af4af355f2a6bbda876e80f36ba1624cc" title="This method asks the user for an input for the NIF." alt="" coords="293,107,487,133"/>
+<area shape="rect" id="node6" href="$classMonitoringSystem.html#a26cbfb1c9afd14b76c5acbf99eae8569" title="This method asks the user for an input for the password." alt="" coords="273,157,507,184"/>
+<area shape="rect" id="node7" href="$classMonitoringSystem.html#a64d58db9d958b2f61f601ed71dfb1e3b" title="This method asks the user for an input for the privileges." alt="" coords="272,208,508,235"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="556,99,747,141"/>
+</map>

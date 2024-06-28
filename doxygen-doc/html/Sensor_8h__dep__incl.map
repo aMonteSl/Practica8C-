@@ -1,0 +1,30 @@
+<map id="src/Sensor.h" name="src/Sensor.h">
+<area shape="rect" id="node1" title="This is the class Sensor. It contains the attributes and methods of the Sensor class." alt="" coords="1579,5,1679,32"/>
+<area shape="rect" id="node2" href="$AirQualitySensor_8cpp.html" title=" " alt="" coords="5,155,185,181"/>
+<area shape="rect" id="node3" href="$AirQualitySensor_8h.html" title="This is the class AirQualitySensor. It contains the attributes and methods of the AirQualitySensor cl..." alt="" coords="734,80,899,107"/>
+<area shape="rect" id="node4" href="$AlarmSensors_8cpp.html" title=" " alt="" coords="1181,155,1343,181"/>
+<area shape="rect" id="node7" href="$AlarmSensors_8h.html" title="This is the class AlarmSensors. It contains the attributes and methods of the AlarmSensors class." alt="" coords="923,80,1070,107"/>
+<area shape="rect" id="node12" href="$HydrometerSensor_8cpp.html" title=" " alt="" coords="712,155,905,181"/>
+<area shape="rect" id="node13" href="$HydrometerSensor_8h.html" title="This is the class HydrometerSensor. It contains the attributes and methods of the HydrometerSensor cl..." alt="" coords="1145,80,1323,107"/>
+<area shape="rect" id="node15" href="$LightSensor_8h.html" title="This is the class LightSensor. It contains the attributes and methods of the LightSensor class." alt="" coords="1399,80,1531,107"/>
+<area shape="rect" id="node18" href="$mainSensor_8cpp.html" title=" " alt="" coords="1555,80,1703,107"/>
+<area shape="rect" id="node19" href="$PhSensor_8cpp.html" title=" " alt="" coords="2150,155,2281,181"/>
+<area shape="rect" id="node20" href="$PhSensor_8h.html" title="This is the class PhSensor. It contains the attributes and methods of the PhSensor class." alt="" coords="1727,80,1843,107"/>
+<area shape="rect" id="node22" href="$PressureSensor_8cpp.html" title=" " alt="" coords="2789,155,2959,181"/>
+<area shape="rect" id="node23" href="$PressureSensor_8h.html" title="This is the class PressureSensor. It contains the attributes and methods of the PressureSensor class." alt="" coords="1919,80,2075,107"/>
+<area shape="rect" id="node25" href="$Sensor_8cpp.html" title=" " alt="" coords="2306,80,2421,107"/>
+<area shape="rect" id="node26" href="$TemperatureSensor_8cpp.html" title=" " alt="" coords="2983,155,3181,181"/>
+<area shape="rect" id="node27" href="$TemperatureSensor_8h.html" title="This is the class TemperatureSensor. It contains the attributes and methods of the TemperatureSensor ..." alt="" coords="2099,80,2281,107"/>
+<area shape="rect" id="node5" href="$mainAirQualitySensor_8cpp.html" title=" " alt="" coords="210,155,423,181"/>
+<area shape="rect" id="node6" href="$mainAlarmSensors_8cpp.html" title=" " alt="" coords="1367,155,1562,181"/>
+<area shape="rect" id="node8" href="$GreenHouse_8cpp.html" title=" " alt="" coords="645,229,797,256"/>
+<area shape="rect" id="node9" href="$GreenHouse_8h.html" title="This is the class GreenHouse. It contains the attributes and methods of the GreenHouse class,..." alt="" coords="499,155,636,181"/>
+<area shape="rect" id="node11" href="$mainGreenHouse_8cpp.html" title=" " alt="" coords="305,229,491,256"/>
+<area shape="rect" id="node10" href="$main_8cpp.html" title=" " alt="" coords="515,229,620,256"/>
+<area shape="rect" id="node14" href="$mainHydrometerSensor_8cpp.html" title=" " alt="" coords="930,155,1157,181"/>
+<area shape="rect" id="node16" href="$LightSensor_8cpp.html" title=" " alt="" coords="1586,155,1733,181"/>
+<area shape="rect" id="node17" href="$mainLightSensor_8cpp.html" title=" " alt="" coords="1757,155,1937,181"/>
+<area shape="rect" id="node21" href="$mainPhSensor_8cpp.html" title=" " alt="" coords="1961,155,2125,181"/>
+<area shape="rect" id="node24" href="$mainPressureSensor_8cpp.html" title=" " alt="" coords="2305,155,2509,181"/>
+<area shape="rect" id="node28" href="$mainTemperatureSensor_8cpp.html" title=" " alt="" coords="2533,155,2764,181"/>
+</map>

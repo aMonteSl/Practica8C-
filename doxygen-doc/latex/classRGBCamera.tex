@@ -1,0 +1,622 @@
+\hypertarget{classRGBCamera}{}\doxysection{RGBCamera Class Reference}
+\label{classRGBCamera}\index{RGBCamera@{RGBCamera}}
+
+
+{\ttfamily \#include $<$RGBCamera.\+h$>$}
+
+
+
+Inheritance diagram for RGBCamera\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{classRGBCamera__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for RGBCamera\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{classRGBCamera__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRGBCamera_a7f306b6855854731355c06d01f7138d8}{RGBCamera}} (int id)
+\begin{DoxyCompactList}\small\item\em Construct a new RGB \mbox{\hyperlink{classCamera}{Camera}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRGBCamera_a14409334f1dcea2e45e01193a0273475}{$\sim$\+RGBCamera}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the RGB \mbox{\hyperlink{classCamera}{Camera}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRGBCamera_a9e065f9b252213cf9676ca110ce7fa8c}{set\+RGB}} (int red, int green, int blue)
+\begin{DoxyCompactList}\small\item\em This method sets the RGB values of the camera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRGBCamera_a2dd0706a099b000fca785dada8320d38}{set\+Red}} (int red)
+\begin{DoxyCompactList}\small\item\em This method sets the red value of the camera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRGBCamera_a2214dc62e52a6d1220e341a1e0104898}{set\+Green}} (int green)
+\begin{DoxyCompactList}\small\item\em This method sets the green value of the camera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRGBCamera_a2582fc3e240af2a365b384234342f6cd}{set\+Blue}} (int blue)
+\begin{DoxyCompactList}\small\item\em This method sets the blue value of the camera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRGBCamera_abcbb3268f8ccb69819e698f40d261890}{get\+Red}} ()
+\begin{DoxyCompactList}\small\item\em This method returns the red value of the camera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRGBCamera_a6057aacfc5c6e7c71ad05e3446509107}{get\+Green}} ()
+\begin{DoxyCompactList}\small\item\em This method returns the green value of the camera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRGBCamera_af1ac5808fe1915c447452b29bcc8069a}{get\+Blue}} ()
+\begin{DoxyCompactList}\small\item\em This method returns the blue value of the camera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRGBCamera_acd25620bf8e2ee814c79624c2e89c7b8}{collect\+Data}} () override
+\begin{DoxyCompactList}\small\item\em This method collects the data of the camera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRGBCamera_aae2d2c6a21168d82ccadb564bccd6611}{print\+Camera}} () override
+\begin{DoxyCompactList}\small\item\em This method prints the camera information. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRGBCamera_a18ba5df5c51b29682adfef884c858963}{random\+Component}} ()
+\begin{DoxyCompactList}\small\item\em This method returns a random number between 0 and 255. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classRGBCamera_a85120c866cfbfdbdb204ae102a79608b}{red\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute represents the red value of the camera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRGBCamera_a6ee904403c14e1526a8eb4a96208d150}{green\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute represents the green value of the camera. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRGBCamera_ab5559896a36381e816aafde33642503c}{blue\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute represents the blue value of the camera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 19 of file RGBCamera.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRGBCamera_a7f306b6855854731355c06d01f7138d8}\label{classRGBCamera_a7f306b6855854731355c06d01f7138d8}} 
+\index{RGBCamera@{RGBCamera}!RGBCamera@{RGBCamera}}
+\index{RGBCamera@{RGBCamera}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{RGBCamera()}{RGBCamera()}}
+{\footnotesize\ttfamily RGBCamera\+::\+RGBCamera (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new RGB \mbox{\hyperlink{classCamera}{Camera}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classRGBCamera}{RGBCamera}} object 
+\end{DoxyReturn}
+
+
+Definition at line 6 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6                            : \mbox{\hyperlink{classCamera_aa8b96b6d7f08341fb6b7a676dd015474}{Camera}}(\textcolor{keywordtype}{id}, \textcolor{stringliteral}{"{}RGB"{}}, \textcolor{keyword}{true}) \{}
+\DoxyCodeLine{7   \mbox{\hyperlink{classRGBCamera_a85120c866cfbfdbdb204ae102a79608b}{red\_}} = -\/1;}
+\DoxyCodeLine{8   \mbox{\hyperlink{classRGBCamera_a6ee904403c14e1526a8eb4a96208d150}{green\_}} = -\/1;}
+\DoxyCodeLine{9   \mbox{\hyperlink{classRGBCamera_ab5559896a36381e816aafde33642503c}{blue\_}} = -\/1;}
+\DoxyCodeLine{10   std::cout << \textcolor{stringliteral}{"{}RGB Camera id ("{}} << \mbox{\hyperlink{classCamera_ad2731f65f680be02d41d3b396d7db1be}{getId}}() << \textcolor{stringliteral}{"{}) created"{}} << std::endl;}
+\DoxyCodeLine{11 \}}
+
+\end{DoxyCode}
+
+
+References blue\+\_\+, Camera\+::get\+Id(), green\+\_\+, and red\+\_\+.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{classRGBCamera_a7f306b6855854731355c06d01f7138d8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_a14409334f1dcea2e45e01193a0273475}\label{classRGBCamera_a14409334f1dcea2e45e01193a0273475}} 
+\index{RGBCamera@{RGBCamera}!````~RGBCamera@{$\sim$RGBCamera}}
+\index{````~RGBCamera@{$\sim$RGBCamera}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{$\sim$RGBCamera()}{~RGBCamera()}}
+{\footnotesize\ttfamily RGBCamera\+::$\sim$\+RGBCamera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the RGB \mbox{\hyperlink{classCamera}{Camera}} object. 
+
+
+
+Definition at line 13 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRGBCamera_acd25620bf8e2ee814c79624c2e89c7b8}\label{classRGBCamera_acd25620bf8e2ee814c79624c2e89c7b8}} 
+\index{RGBCamera@{RGBCamera}!collectData@{collectData}}
+\index{collectData@{collectData}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{collectData()}{collectData()}}
+{\footnotesize\ttfamily void RGBCamera\+::collect\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This method collects the data of the camera. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classCamera_aaf7fca5a4631fb659227fd3c0c57dd6e}{Camera}}.
+
+
+
+Definition at line 41 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41                             \{}
+\DoxyCodeLine{42   \mbox{\hyperlink{classRGBCamera_a9e065f9b252213cf9676ca110ce7fa8c}{setRGB}}(\mbox{\hyperlink{classRGBCamera_a18ba5df5c51b29682adfef884c858963}{randomComponent}}(), \mbox{\hyperlink{classRGBCamera_a18ba5df5c51b29682adfef884c858963}{randomComponent}}(), \mbox{\hyperlink{classRGBCamera_a18ba5df5c51b29682adfef884c858963}{randomComponent}}());}
+\DoxyCodeLine{43 \}}
+
+\end{DoxyCode}
+
+
+References random\+Component(), and set\+RGB().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_acd25620bf8e2ee814c79624c2e89c7b8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{classRGBCamera_acd25620bf8e2ee814c79624c2e89c7b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_af1ac5808fe1915c447452b29bcc8069a}\label{classRGBCamera_af1ac5808fe1915c447452b29bcc8069a}} 
+\index{RGBCamera@{RGBCamera}!getBlue@{getBlue}}
+\index{getBlue@{getBlue}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{getBlue()}{getBlue()}}
+{\footnotesize\ttfamily int RGBCamera\+::get\+Blue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method returns the blue value of the camera. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{31 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classRGBCamera_ab5559896a36381e816aafde33642503c}{blue\_}}; \}}
+
+\end{DoxyCode}
+
+
+References blue\+\_\+.
+
+
+
+Referenced by Manage\+Cameras\+::save\+Cameras().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_af1ac5808fe1915c447452b29bcc8069a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_a6057aacfc5c6e7c71ad05e3446509107}\label{classRGBCamera_a6057aacfc5c6e7c71ad05e3446509107}} 
+\index{RGBCamera@{RGBCamera}!getGreen@{getGreen}}
+\index{getGreen@{getGreen}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{getGreen()}{getGreen()}}
+{\footnotesize\ttfamily int RGBCamera\+::get\+Green (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method returns the green value of the camera. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 29 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{29 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classRGBCamera_a6ee904403c14e1526a8eb4a96208d150}{green\_}}; \}}
+
+\end{DoxyCode}
+
+
+References green\+\_\+.
+
+
+
+Referenced by Manage\+Cameras\+::save\+Cameras().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_a6057aacfc5c6e7c71ad05e3446509107_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_abcbb3268f8ccb69819e698f40d261890}\label{classRGBCamera_abcbb3268f8ccb69819e698f40d261890}} 
+\index{RGBCamera@{RGBCamera}!getRed@{getRed}}
+\index{getRed@{getRed}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{getRed()}{getRed()}}
+{\footnotesize\ttfamily int RGBCamera\+::get\+Red (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method returns the red value of the camera. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 27 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{27 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classRGBCamera_a85120c866cfbfdbdb204ae102a79608b}{red\_}}; \}}
+
+\end{DoxyCode}
+
+
+References red\+\_\+.
+
+
+
+Referenced by Manage\+Cameras\+::save\+Cameras().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_abcbb3268f8ccb69819e698f40d261890_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_aae2d2c6a21168d82ccadb564bccd6611}\label{classRGBCamera_aae2d2c6a21168d82ccadb564bccd6611}} 
+\index{RGBCamera@{RGBCamera}!printCamera@{printCamera}}
+\index{printCamera@{printCamera}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{printCamera()}{printCamera()}}
+{\footnotesize\ttfamily void RGBCamera\+::print\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This method prints the camera information. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classCamera_a17f8491c2745d25d4e79f0cb564afe13}{Camera}}.
+
+
+
+Definition at line 45 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{45                             \{}
+\DoxyCodeLine{46   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classCamera_ada24ccf1d1d0d6fc72886b8f64b504c4}{isActive}}() and \mbox{\hyperlink{classRGBCamera_a85120c866cfbfdbdb204ae102a79608b}{red\_}} != -\/1 and \mbox{\hyperlink{classRGBCamera_a6ee904403c14e1526a8eb4a96208d150}{green\_}} != -\/1 and \mbox{\hyperlink{classRGBCamera_ab5559896a36381e816aafde33642503c}{blue\_}} != -\/1)}
+\DoxyCodeLine{47     std::cout << \textcolor{stringliteral}{"{}RGB Camera id ("{}} << \mbox{\hyperlink{classCamera_ad2731f65f680be02d41d3b396d7db1be}{getId}}() << \textcolor{stringliteral}{"{})"{}}}
+\DoxyCodeLine{48               << \textcolor{stringliteral}{"{}: "{}}}
+\DoxyCodeLine{49               << \textcolor{stringliteral}{"{} red: "{}} << \mbox{\hyperlink{classRGBCamera_a85120c866cfbfdbdb204ae102a79608b}{red\_}} << \textcolor{stringliteral}{"{} green: "{}} << \mbox{\hyperlink{classRGBCamera_a6ee904403c14e1526a8eb4a96208d150}{green\_}} << \textcolor{stringliteral}{"{} blue: "{}} << \mbox{\hyperlink{classRGBCamera_ab5559896a36381e816aafde33642503c}{blue\_}}}
+\DoxyCodeLine{50               << std::endl;}
+\DoxyCodeLine{51   \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{classCamera_ada24ccf1d1d0d6fc72886b8f64b504c4}{isActive}}() and \mbox{\hyperlink{classRGBCamera_a85120c866cfbfdbdb204ae102a79608b}{red\_}} == -\/1 and \mbox{\hyperlink{classRGBCamera_a6ee904403c14e1526a8eb4a96208d150}{green\_}} == -\/1 and \mbox{\hyperlink{classRGBCamera_ab5559896a36381e816aafde33642503c}{blue\_}} == -\/1)}
+\DoxyCodeLine{52     std::cout << \textcolor{stringliteral}{"{}RGB Camera "{}} << \mbox{\hyperlink{classCamera_ad2731f65f680be02d41d3b396d7db1be}{getId}}()}
+\DoxyCodeLine{53               << \textcolor{stringliteral}{"{} is active but has not collected data yet"{}} << std::endl;}
+\DoxyCodeLine{54   \textcolor{keywordflow}{else}}
+\DoxyCodeLine{55     std::cout << \textcolor{stringliteral}{"{}RGB Camera "{}} << \mbox{\hyperlink{classCamera_ad2731f65f680be02d41d3b396d7db1be}{getId}}() << \textcolor{stringliteral}{"{} is not active"{}} << std::endl;}
+\DoxyCodeLine{56 \}}
+
+\end{DoxyCode}
+
+
+References blue\+\_\+, Camera\+::get\+Id(), green\+\_\+, Camera\+::is\+Active(), and red\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_aae2d2c6a21168d82ccadb564bccd6611_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{classRGBCamera_aae2d2c6a21168d82ccadb564bccd6611_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_a18ba5df5c51b29682adfef884c858963}\label{classRGBCamera_a18ba5df5c51b29682adfef884c858963}} 
+\index{RGBCamera@{RGBCamera}!randomComponent@{randomComponent}}
+\index{randomComponent@{randomComponent}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{randomComponent()}{randomComponent()}}
+{\footnotesize\ttfamily int RGBCamera\+::random\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method returns a random number between 0 and 255. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{33                                \{}
+\DoxyCodeLine{34   \textcolor{comment}{// Random number entre 0 y 255}}
+\DoxyCodeLine{35   std::random\_device rd;}
+\DoxyCodeLine{36   std::mt19937 gen(rd());}
+\DoxyCodeLine{37   std::uniform\_int\_distribution<> dis(0, 255);}
+\DoxyCodeLine{38   \textcolor{keywordflow}{return} dis(gen);}
+\DoxyCodeLine{39 \}}
+
+\end{DoxyCode}
+
+
+Referenced by collect\+Data().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_a18ba5df5c51b29682adfef884c858963_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_a2582fc3e240af2a365b384234342f6cd}\label{classRGBCamera_a2582fc3e240af2a365b384234342f6cd}} 
+\index{RGBCamera@{RGBCamera}!setBlue@{setBlue}}
+\index{setBlue@{setBlue}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{setBlue()}{setBlue()}}
+{\footnotesize\ttfamily void RGBCamera\+::set\+Blue (\begin{DoxyParamCaption}\item[{int}]{blue }\end{DoxyParamCaption})}
+
+
+
+This method sets the blue value of the camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em blue} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 25 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{25 \{ \mbox{\hyperlink{classRGBCamera_ab5559896a36381e816aafde33642503c}{blue\_}} = blue; \}}
+
+\end{DoxyCode}
+
+
+References blue\+\_\+.
+
+
+
+Referenced by set\+RGB().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_a2582fc3e240af2a365b384234342f6cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_a2214dc62e52a6d1220e341a1e0104898}\label{classRGBCamera_a2214dc62e52a6d1220e341a1e0104898}} 
+\index{RGBCamera@{RGBCamera}!setGreen@{setGreen}}
+\index{setGreen@{setGreen}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{setGreen()}{setGreen()}}
+{\footnotesize\ttfamily void RGBCamera\+::set\+Green (\begin{DoxyParamCaption}\item[{int}]{green }\end{DoxyParamCaption})}
+
+
+
+This method sets the green value of the camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em green} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 23 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23 \{ \mbox{\hyperlink{classRGBCamera_a6ee904403c14e1526a8eb4a96208d150}{green\_}} = green; \}}
+
+\end{DoxyCode}
+
+
+References green\+\_\+.
+
+
+
+Referenced by set\+RGB().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_a2214dc62e52a6d1220e341a1e0104898_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_a2dd0706a099b000fca785dada8320d38}\label{classRGBCamera_a2dd0706a099b000fca785dada8320d38}} 
+\index{RGBCamera@{RGBCamera}!setRed@{setRed}}
+\index{setRed@{setRed}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{setRed()}{setRed()}}
+{\footnotesize\ttfamily void RGBCamera\+::set\+Red (\begin{DoxyParamCaption}\item[{int}]{red }\end{DoxyParamCaption})}
+
+
+
+This method sets the red value of the camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em red} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 21 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{21 \{ \mbox{\hyperlink{classRGBCamera_a85120c866cfbfdbdb204ae102a79608b}{red\_}} = red; \}}
+
+\end{DoxyCode}
+
+
+References red\+\_\+.
+
+
+
+Referenced by set\+RGB().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_a2dd0706a099b000fca785dada8320d38_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classRGBCamera_a9e065f9b252213cf9676ca110ce7fa8c}\label{classRGBCamera_a9e065f9b252213cf9676ca110ce7fa8c}} 
+\index{RGBCamera@{RGBCamera}!setRGB@{setRGB}}
+\index{setRGB@{setRGB}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{setRGB()}{setRGB()}}
+{\footnotesize\ttfamily void RGBCamera\+::set\+RGB (\begin{DoxyParamCaption}\item[{int}]{red,  }\item[{int}]{green,  }\item[{int}]{blue }\end{DoxyParamCaption})}
+
+
+
+This method sets the RGB values of the camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em red} & \\
+\hline
+{\em green} & \\
+\hline
+{\em blue} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 15 of file RGBCamera.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{15                                                    \{}
+\DoxyCodeLine{16   \mbox{\hyperlink{classRGBCamera_a2dd0706a099b000fca785dada8320d38}{setRed}}(red);}
+\DoxyCodeLine{17   \mbox{\hyperlink{classRGBCamera_a2214dc62e52a6d1220e341a1e0104898}{setGreen}}(green);}
+\DoxyCodeLine{18   \mbox{\hyperlink{classRGBCamera_a2582fc3e240af2a365b384234342f6cd}{setBlue}}(blue);}
+\DoxyCodeLine{19 \}}
+
+\end{DoxyCode}
+
+
+References set\+Blue(), set\+Green(), and set\+Red().
+
+
+
+Referenced by collect\+Data(), and Manage\+Cameras\+::load\+Cameras().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_a9e065f9b252213cf9676ca110ce7fa8c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classRGBCamera_a9e065f9b252213cf9676ca110ce7fa8c_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classRGBCamera_ab5559896a36381e816aafde33642503c}\label{classRGBCamera_ab5559896a36381e816aafde33642503c}} 
+\index{RGBCamera@{RGBCamera}!blue\_@{blue\_}}
+\index{blue\_@{blue\_}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{blue\_}{blue\_}}
+{\footnotesize\ttfamily int RGBCamera\+::blue\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute represents the blue value of the camera. 
+
+
+
+Definition at line 111 of file RGBCamera.\+h.
+
+
+
+Referenced by get\+Blue(), print\+Camera(), RGBCamera(), and set\+Blue().
+
+\mbox{\Hypertarget{classRGBCamera_a6ee904403c14e1526a8eb4a96208d150}\label{classRGBCamera_a6ee904403c14e1526a8eb4a96208d150}} 
+\index{RGBCamera@{RGBCamera}!green\_@{green\_}}
+\index{green\_@{green\_}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{green\_}{green\_}}
+{\footnotesize\ttfamily int RGBCamera\+::green\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute represents the green value of the camera. 
+
+
+
+Definition at line 106 of file RGBCamera.\+h.
+
+
+
+Referenced by get\+Green(), print\+Camera(), RGBCamera(), and set\+Green().
+
+\mbox{\Hypertarget{classRGBCamera_a85120c866cfbfdbdb204ae102a79608b}\label{classRGBCamera_a85120c866cfbfdbdb204ae102a79608b}} 
+\index{RGBCamera@{RGBCamera}!red\_@{red\_}}
+\index{red\_@{red\_}!RGBCamera@{RGBCamera}}
+\doxysubsubsection{\texorpdfstring{red\_}{red\_}}
+{\footnotesize\ttfamily int RGBCamera\+::red\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute represents the red value of the camera. 
+
+
+
+Definition at line 101 of file RGBCamera.\+h.
+
+
+
+Referenced by get\+Red(), print\+Camera(), RGBCamera(), and set\+Red().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{RGBCamera_8h}{RGBCamera.\+h}}\item 
+src/\mbox{\hyperlink{RGBCamera_8cpp}{RGBCamera.\+cpp}}\end{DoxyCompactItemize}

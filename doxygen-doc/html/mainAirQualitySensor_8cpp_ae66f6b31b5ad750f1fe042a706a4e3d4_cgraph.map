@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,115,60,141"/>
+<area shape="rect" id="node2" href="$classAirQualitySensor.html#a0c5427a9a79033e9490a5ad6ae4023a7" title="Collect and print the data of the Air Quality Sensor." alt="" coords="108,107,291,149"/>
+<area shape="rect" id="node3" href="$classAirQualitySensor.html#a02f45cca3d2bf759a2709b1b31163d78" title="Collect data of the Air Quality Sensor." alt="" coords="339,5,552,32"/>
+<area shape="rect" id="node5" href="$classAirQualitySensor.html#a8b9bf156728de2c119344b990d19097a" title="Print the data of the Air Quality Sensor." alt="" coords="345,165,545,192"/>
+<area shape="rect" id="node6" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="1099,107,1225,133"/>
+<area shape="rect" id="node9" href="$classAirQualitySensor.html#a66b1dba1f5fa1e552d4c015316c9bca5" title="This method returns if the Air Quality Sensor is active or not and if its active, it returns if its g..." alt="" coords="600,259,776,301"/>
+<area shape="rect" id="node4" href="$classSensor.html#a8c3a63a324230f81e78972d37f9ddfb1" title="Set the Data object." alt="" coords="625,5,751,32"/>
+<area shape="rect" id="node7" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="635,208,741,235"/>
+<area shape="rect" id="node8" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="874,172,1001,199"/>
+<area shape="rect" id="node10" href="$classAirQualitySensor.html#a6ee3e9fa4e4b1af8e50a6acc876ac407" title="Check if the Air Quality Sensor is working properly." alt="" coords="824,252,1051,279"/>
+</map>

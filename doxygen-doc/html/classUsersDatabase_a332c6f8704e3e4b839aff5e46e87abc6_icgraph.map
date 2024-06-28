@@ -1,0 +1,8 @@
+<map id="UsersDatabase::printDeletedUser" name="UsersDatabase::printDeletedUser">
+<area shape="rect" id="node1" title="This method prints the user that has been deleted." alt="" coords="356,97,596,124"/>
+<area shape="rect" id="node2" href="$classUsersDatabase.html#a7e067a9a3333e73a4f14017fe3f5cb1d" title="Delete a user from the set of users." alt="" coords="108,5,308,32"/>
+<area shape="rect" id="node4" href="$classUsersDatabase.html#a5bf0c15a241eab1067b904e1d2f0132e" title="Delete a user from the set of users with the email." alt="" coords="108,57,308,98"/>
+<area shape="rect" id="node5" href="$classUsersDatabase.html#a0196a4df6750764d6f9ece36455ed438" title="Delete a user from the set of users with the name." alt="" coords="108,122,308,163"/>
+<area shape="rect" id="node6" href="$classUsersDatabase.html#ab36722a2b6312f7a5cb9469b131dd58a" title="Delete a user from the set of users with the NIF." alt="" coords="108,187,308,229"/>
+<area shape="rect" id="node3" href="$mainUsersDatabase_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,97,60,124"/>
+</map>

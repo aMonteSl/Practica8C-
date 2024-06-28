@@ -1,0 +1,23 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,525,60,551"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#ad68fdfb286045fbca4eaa5f996903a3e" title="Create a User object window." alt="" coords="121,5,329,47"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#ae74253dbaf1e90bc9d6134166ba3f60b" title="Delete a User object window." alt="" coords="121,71,329,112"/>
+<area shape="rect" id="node4" href="$classScreenHardware.html#ae5d2ae56d576f3aef512f2ef0402124f" title="Display all Alarms window." alt="" coords="110,136,341,177"/>
+<area shape="rect" id="node5" href="$classScreenHardware.html#ab1fc9cc20fb80dfe6fd1293f50ebd034" title="Display the error window." alt="" coords="118,201,333,243"/>
+<area shape="rect" id="node6" href="$classScreenHardware.html#a0b5ab699148ef2c5215e2ee47e695e72" title="Display all Sensors window." alt="" coords="108,267,343,308"/>
+<area shape="rect" id="node7" href="$classScreenHardware.html#a8786bcdcb5465fcf34b1e6dc3c16d449" title="Display all Users window." alt="" coords="115,332,336,373"/>
+<area shape="rect" id="node8" href="$classScreenHardware.html#a0b6267a91e8c459d98adb9c406a3d493" title="Exit the window." alt="" coords="118,398,333,425"/>
+<area shape="rect" id="node9" href="$classScreenHardware.html#a9eae9fac122d740af58454007c17b0a8" title="This method displays the initial window of the system." alt="" coords="112,449,339,475"/>
+<area shape="rect" id="node10" href="$classHardware.html#ad5e780f3751896acdbde65557b683286" title="If the hardware is active." alt="" coords="391,623,536,650"/>
+<area shape="rect" id="node11" href="$classScreenHardware.html#a3c0c7e0d14e1a89c17307cf715541453" title="This method displays the login window of the system." alt="" coords="115,550,336,577"/>
+<area shape="rect" id="node12" href="$classScreenHardware.html#aeccf9ac678246eba7721ed1c6b839a75" title="This method displays the main window of the system for the admin." alt="" coords="114,601,337,643"/>
+<area shape="rect" id="node13" href="$classScreenHardware.html#a2edcf1f9600ce2df0ca89f85be9b07a9" title="This method displays the main window of the system for the employee." alt="" coords="114,667,337,708"/>
+<area shape="rect" id="node14" href="$classScreenHardware.html#a6c76443eae8a15b5c825b257865f9356" title="This method displays the main window of the system for the guest." alt="" coords="114,732,337,773"/>
+<area shape="rect" id="node15" href="$classHardware.html#acb5abd5dd06aab68f25115a93ba3ec37" title="This method returns if the hardware is active or not in a string." alt="" coords="140,798,311,825"/>
+<area shape="rect" id="node18" href="$classHardware.html#a03fc02b36d9f2e5d151ef3efaf788e2a" title="Turn off the hardware." alt="" coords="156,849,295,875"/>
+<area shape="rect" id="node19" href="$classHardware.html#aee21531986a03e2fe8fcb3db70c5c6d1" title="Turn on the hardware." alt="" coords="157,899,294,926"/>
+<area shape="rect" id="node20" href="$classScreenHardware.html#a88ffeec4b8c9dc5a0da6ba82dc50bb77" title="Turn on or off the system window." alt="" coords="125,951,325,992"/>
+<area shape="rect" id="node21" href="$classScreenHardware.html#ab506598df41adae147421b538c0f2a16" title="Update a User object window." alt="" coords="119,1016,331,1057"/>
+<area shape="rect" id="node16" href="$classHardware.html#ae5db4b59272ce14165f8d8a3e9e7e1f7" title="Get the Type object." alt="" coords="391,798,535,825"/>
+<area shape="rect" id="node17" href="$classHardware.html#ad52fd1042e4e087dac8d03c3647411fc" title="This method converts the type of hardware to a string." alt="" coords="584,798,759,825"/>
+</map>

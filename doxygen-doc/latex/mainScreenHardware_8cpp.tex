@@ -1,0 +1,73 @@
+\hypertarget{mainScreenHardware_8cpp}{}\doxysection{src/main\+Screen\+Hardware.cpp File Reference}
+\label{mainScreenHardware_8cpp}\index{src/mainScreenHardware.cpp@{src/mainScreenHardware.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Screen\+Hardware.\+h\char`\"{}}\newline
+Include dependency graph for main\+Screen\+Hardware.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{mainScreenHardware_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainScreenHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainScreenHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainScreenHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainScreenHardware.cpp@{mainScreenHardware.cpp}!main@{main}}
+\index{main@{main}!mainScreenHardware.cpp@{mainScreenHardware.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file main\+Screen\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6            \{}
+\DoxyCodeLine{7   \mbox{\hyperlink{classScreenHardware}{ScreenHardware}} screenHardware(\textcolor{keyword}{true});}
+\DoxyCodeLine{8   \textcolor{keywordflow}{if} (screenHardware.isActive()) \{}
+\DoxyCodeLine{9     std::cout << \textcolor{stringliteral}{"{}Active"{}} << std::endl;}
+\DoxyCodeLine{10   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{11     std::cout << \textcolor{stringliteral}{"{}No Active"{}} << std::endl;}
+\DoxyCodeLine{12   \}}
+\DoxyCodeLine{13   \textcolor{comment}{// apagamos}}
+\DoxyCodeLine{14   screenHardware.turnOff();}
+\DoxyCodeLine{15   std::cout << screenHardware.stringStatus() << std::endl;}
+\DoxyCodeLine{16   \textcolor{comment}{// encnedemos}}
+\DoxyCodeLine{17   screenHardware.turnOn();}
+\DoxyCodeLine{18   std::cout << screenHardware.stringStatus() << std::endl;}
+\DoxyCodeLine{19   \textcolor{comment}{// Ahora mostramos cada tipo de pantalla para comprobar que funciona}}
+\DoxyCodeLine{20   screenHardware.initialWindow();}
+\DoxyCodeLine{21   screenHardware.loginWindow();}
+\DoxyCodeLine{22   screenHardware.mainWindowAdmin();}
+\DoxyCodeLine{23   screenHardware.mainWindowEmployee();}
+\DoxyCodeLine{24   screenHardware.mainWindowGuest();}
+\DoxyCodeLine{25   screenHardware.createUserWindow();}
+\DoxyCodeLine{26   screenHardware.deleteUserWindow();}
+\DoxyCodeLine{27   screenHardware.updateUserWindow();}
+\DoxyCodeLine{28   screenHardware.displayUsersWindow();}
+\DoxyCodeLine{29   screenHardware.displaySensorsWindow();}
+\DoxyCodeLine{30   screenHardware.displayAlarmsWindow();}
+\DoxyCodeLine{31   screenHardware.turnOnOffSystemWindow();}
+\DoxyCodeLine{32   screenHardware.displayErrorWindow();}
+\DoxyCodeLine{33   screenHardware.exitWindow();}
+\DoxyCodeLine{34 \}}
+
+\end{DoxyCode}
+
+
+References Screen\+Hardware\+::create\+User\+Window(), Screen\+Hardware\+::delete\+User\+Window(), Screen\+Hardware\+::display\+Alarms\+Window(), Screen\+Hardware\+::display\+Error\+Window(), Screen\+Hardware\+::display\+Sensors\+Window(), Screen\+Hardware\+::display\+Users\+Window(), Screen\+Hardware\+::exit\+Window(), Screen\+Hardware\+::initial\+Window(), Hardware\+::is\+Active(), Screen\+Hardware\+::login\+Window(), Screen\+Hardware\+::main\+Window\+Admin(), Screen\+Hardware\+::main\+Window\+Employee(), Screen\+Hardware\+::main\+Window\+Guest(), Hardware\+::string\+Status(), Hardware\+::turn\+Off(), Hardware\+::turn\+On(), Screen\+Hardware\+::turn\+On\+Off\+System\+Window(), and Screen\+Hardware\+::update\+User\+Window().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainScreenHardware_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

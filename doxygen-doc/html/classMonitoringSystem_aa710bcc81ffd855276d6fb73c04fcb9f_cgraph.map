@@ -1,0 +1,8 @@
+<map id="MonitoringSystem::turnOnOffSystemScreen" name="MonitoringSystem::turnOnOffSystemScreen">
+<area shape="rect" id="node1" title="This method shows the message to turn on or off the system." alt="" coords="5,74,199,115"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#ac68e987a2e231ea1ff2e3e3950caf767" title="This method asks the user for an int input." alt="" coords="247,31,469,57"/>
+<area shape="rect" id="node5" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="250,81,466,108"/>
+<area shape="rect" id="node6" href="$classScreenHardware.html#a88ffeec4b8c9dc5a0da6ba82dc50bb77" title="Turn on or off the system window." alt="" coords="258,133,458,174"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="527,5,737,32"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#a2514c2079286352acd12ef85163ff69f" title="This method checks if the input is correct." alt="" coords="517,56,747,83"/>
+</map>

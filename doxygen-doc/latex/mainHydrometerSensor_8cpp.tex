@@ -1,0 +1,64 @@
+\hypertarget{mainHydrometerSensor_8cpp}{}\doxysection{src/main\+Hydrometer\+Sensor.cpp File Reference}
+\label{mainHydrometerSensor_8cpp}\index{src/mainHydrometerSensor.cpp@{src/mainHydrometerSensor.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Hydrometer\+Sensor.\+h\char`\"{}}\newline
+Include dependency graph for main\+Hydrometer\+Sensor.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{mainHydrometerSensor_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{mainHydrometerSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mainHydrometerSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{mainHydrometerSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{mainHydrometerSensor.cpp@{mainHydrometerSensor.cpp}!main@{main}}
+\index{main@{main}!mainHydrometerSensor.cpp@{mainHydrometerSensor.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file main\+Hydrometer\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6            \{}
+\DoxyCodeLine{7   \textcolor{comment}{// Genero un sensor tipo hidrometro (mide la humedad del aire)}}
+\DoxyCodeLine{8   \mbox{\hyperlink{classHydrometerSensor}{HydrometerSensor}} hydrometer(1, \textcolor{keyword}{true});}
+\DoxyCodeLine{9   \textcolor{comment}{// Imprimo la hidrometro (mide la humedad del aire) por defecto}}
+\DoxyCodeLine{10   hydrometer.printData();}
+\DoxyCodeLine{11   \textcolor{comment}{// Cambio el valor de la hidrometro (mide la humedad del aire)}}
+\DoxyCodeLine{12   hydrometer.collectData();}
+\DoxyCodeLine{13   \textcolor{comment}{// Imprimo la nueva hidrometro (mide la humedad del aire)}}
+\DoxyCodeLine{14   hydrometer.printData();}
+\DoxyCodeLine{15   \textcolor{comment}{// Vuelvo a imprimir la hidrometro (mide la humedad del aire)}}
+\DoxyCodeLine{16   cout << \textcolor{stringliteral}{"{}Air Quality: "{}} << hydrometer.getData() << endl;}
+\DoxyCodeLine{17   cout << \textcolor{stringliteral}{"{}Status: "{}} << hydrometer.stringStatus() << endl;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19   hydrometer.collectData();}
+\DoxyCodeLine{20   \textcolor{comment}{// Imprimo el sensor de nuevo}}
+\DoxyCodeLine{21   hydrometer.printData();}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23   \textcolor{comment}{// Print collect and print}}
+\DoxyCodeLine{24   hydrometer.collectAndPrint();}
+\DoxyCodeLine{25 \}}
+
+\end{DoxyCode}
+
+
+References Hydrometer\+Sensor\+::collect\+And\+Print(), Hydrometer\+Sensor\+::collect\+Data(), Sensor\+::get\+Data(), Hydrometer\+Sensor\+::print\+Data(), and Hydrometer\+Sensor\+::string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{mainHydrometerSensor_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

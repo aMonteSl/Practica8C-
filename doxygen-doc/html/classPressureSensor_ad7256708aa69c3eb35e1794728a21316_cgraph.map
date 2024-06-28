@@ -1,0 +1,6 @@
+<map id="PressureSensor::stringStatus" name="PressureSensor::stringStatus">
+<area shape="rect" id="node1" title="This method returns the status in a string." alt="" coords="5,31,213,57"/>
+<area shape="rect" id="node2" href="$classPressureSensor.html#a20efcd32659e79ccca2a2bbd72e9533d" title="Check if the Pressure Sensor is working properly." alt="" coords="261,5,479,32"/>
+<area shape="rect" id="node4" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="307,56,433,83"/>
+<area shape="rect" id="node3" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="527,5,653,32"/>
+</map>

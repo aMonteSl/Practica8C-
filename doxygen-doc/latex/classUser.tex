@@ -1,0 +1,902 @@
+\hypertarget{classUser}{}\doxysection{User Class Reference}
+\label{classUser}\index{User@{User}}
+
+
+{\ttfamily \#include $<$User.\+h$>$}
+
+
+
+Inheritance diagram for User\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUser__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for User\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=179pt]{classUser__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUser_a4a0137053e591fbb79d9057dd7d2283d}{User}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUser_a616dac6ac029b9f74cad0b95f368a790}{User}} (const std\+::string \mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}}, const std\+::string \mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}}, std\+::string \mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}}, std\+::string \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}}, std\+::string \mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}})
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Get the Name object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}{get\+Nif}} () const
+\begin{DoxyCompactList}\small\item\em Get the Nif object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_a180e5acdc4b150463652d90d54caa8fc}{get\+Password}} () const
+\begin{DoxyCompactList}\small\item\em Get the Password object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_afb94652eecf297a0b27418e0a6211a70}{get\+Privileges}} () const
+\begin{DoxyCompactList}\small\item\em Get the Privileges object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_a68c520e78268ba63c97ff04b6fb210a1}{get\+Email}} () const
+\begin{DoxyCompactList}\small\item\em Get the Email object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_a9d2fda42d9862e7b122cd4a933479511}{set\+Name}} (const std\+::string \mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}})
+\begin{DoxyCompactList}\small\item\em Set the Name object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_aa10c232ba4f5baf1b9062263a9f5450f}{set\+Nif}} (const std\+::string \mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}})
+\begin{DoxyCompactList}\small\item\em Set the Nif object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_ac3544d3457d10ea27da89f500d37c5b7}{set\+Password}} (const std\+::string \mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}})
+\begin{DoxyCompactList}\small\item\em Set the Password object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classUser_aa72db65160cea95ad93a14b084825bad}{set\+Privileges}} (const std\+::string \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}})
+\begin{DoxyCompactList}\small\item\em Set the Privileges object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_ad25e420b6470b7c840d28d6e9bb87fe3}{set\+Email}} (const std\+::string \mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}})
+\begin{DoxyCompactList}\small\item\em Set the Email object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUser_a07d59ffba2300e8182027fe2e49c52fe}{operator$<$}} (const \mbox{\hyperlink{classUser}{User}} \&user) const
+\begin{DoxyCompactList}\small\item\em Operator $<$ overload (this comparison is made by the privileges) \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUser_aef5a82ebb7dd404546541c91c4a24076}{operator$>$}} (const \mbox{\hyperlink{classUser}{User}} \&user) const
+\begin{DoxyCompactList}\small\item\em Operator $>$ overload (this comparison is made by the privileges) \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUser_a71330d2964a98d7bc14af4a5af0b879c}{operator==}} (const \mbox{\hyperlink{classUser}{User}} \&user) const
+\begin{DoxyCompactList}\small\item\em Operator == overload (this comparison is made by the nif) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_aee2504857253fd7666309e77704e652a}{print\+User}} () const
+\begin{DoxyCompactList}\small\item\em Print the user. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classUser_ac00b72ad64eb4149f7b21b9f5468c2b2}{$\sim$\+User}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}}
+\begin{DoxyCompactList}\small\item\em This is the name of the user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}}
+\begin{DoxyCompactList}\small\item\em This is the nif of the user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}}
+\begin{DoxyCompactList}\small\item\em This is the password of the user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}}
+\begin{DoxyCompactList}\small\item\em This is the privileges of the user. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}}
+\begin{DoxyCompactList}\small\item\em This is the email of the user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{classUser_a8096d4eb432e19f22dd6566e10007454}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classUser}{User}} \&user)
+\begin{DoxyCompactList}\small\item\em Operator $<$$<$ overload. \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{classUser_ae27ad24b2888db471519a431b21e19bb}{operator$>$$>$}} (std\+::istream \&is, \mbox{\hyperlink{classUser}{User}} \&user)
+\begin{DoxyCompactList}\small\item\em Operator $>$$>$ overload. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file User.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUser_a4a0137053e591fbb79d9057dd7d2283d}\label{classUser_a4a0137053e591fbb79d9057dd7d2283d}} 
+\index{User@{User}!User@{User}}
+\index{User@{User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily User\+::\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classUser}{User}} object. 
+
+Creates a new \mbox{\hyperlink{classUser}{User}} object with the default values (name, nif, password, privileges, email).
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classUser}{User}} object 
+\end{DoxyReturn}
+
+
+Definition at line 5 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{5            \{}
+\DoxyCodeLine{6   \mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{7   \mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{8   \mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{9   \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{10   \mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{11 \}}
+
+\end{DoxyCode}
+
+
+References email, name, nif, password, and privileges.
+
+\mbox{\Hypertarget{classUser_a616dac6ac029b9f74cad0b95f368a790}\label{classUser_a616dac6ac029b9f74cad0b95f368a790}} 
+\index{User@{User}!User@{User}}
+\index{User@{User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily User\+::\+User (\begin{DoxyParamCaption}\item[{const std\+::string}]{name,  }\item[{const std\+::string}]{nif,  }\item[{std\+::string}]{password,  }\item[{std\+::string}]{privileges,  }\item[{std\+::string}]{email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new \mbox{\hyperlink{classUser}{User}} object. 
+
+Creates a new \mbox{\hyperlink{classUser}{User}} object with the values passed as parameters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & of the user \\
+\hline
+{\em nif} & of the user \\
+\hline
+{\em password} & of the user \\
+\hline
+{\em privileges} & of the user \\
+\hline
+{\em email} & of the user \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classUser}{User}} object 
+\end{DoxyReturn}
+
+
+Definition at line 13 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{14                                                   \{}
+\DoxyCodeLine{15   \textcolor{comment}{// LLamar a los metodos set para que se encarguen de hacer las conversiones}}
+\DoxyCodeLine{16   \textcolor{comment}{// necesarias}}
+\DoxyCodeLine{17   \mbox{\hyperlink{classUser_a9d2fda42d9862e7b122cd4a933479511}{setName}}(\mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}});}
+\DoxyCodeLine{18   \mbox{\hyperlink{classUser_aa10c232ba4f5baf1b9062263a9f5450f}{setNif}}(\mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}});}
+\DoxyCodeLine{19   \mbox{\hyperlink{classUser_ac3544d3457d10ea27da89f500d37c5b7}{setPassword}}(\mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}});}
+\DoxyCodeLine{20   \mbox{\hyperlink{classUser_aa72db65160cea95ad93a14b084825bad}{setPrivileges}}(\mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}});}
+\DoxyCodeLine{21   \mbox{\hyperlink{classUser_ad25e420b6470b7c840d28d6e9bb87fe3}{setEmail}}(\mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}});}
+\DoxyCodeLine{22 \}}
+
+\end{DoxyCode}
+
+
+References email, name, nif, password, privileges, set\+Email(), set\+Name(), set\+Nif(), set\+Password(), and set\+Privileges().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{classUser_a616dac6ac029b9f74cad0b95f368a790_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_ac00b72ad64eb4149f7b21b9f5468c2b2}\label{classUser_ac00b72ad64eb4149f7b21b9f5468c2b2}} 
+\index{User@{User}!````~User@{$\sim$User}}
+\index{````~User@{$\sim$User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{$\sim$User()}{~User()}}
+{\footnotesize\ttfamily User\+::$\sim$\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \mbox{\hyperlink{classUser}{User}} object. 
+
+
+
+Definition at line 25 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{25 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUser_a68c520e78268ba63c97ff04b6fb210a1}\label{classUser_a68c520e78268ba63c97ff04b6fb210a1}} 
+\index{User@{User}!getEmail@{getEmail}}
+\index{getEmail@{getEmail}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getEmail()}{getEmail()}}
+{\footnotesize\ttfamily std\+::string User\+::get\+Email (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Email object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 35 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{35 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}}; \}}
+
+\end{DoxyCode}
+
+
+References email.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classUser_a68c520e78268ba63c97ff04b6fb210a1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_a446a64e63adafbc2e1428532275ad6a1}\label{classUser_a446a64e63adafbc2e1428532275ad6a1}} 
+\index{User@{User}!getName@{getName}}
+\index{getName@{getName}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string User\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Name object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 27 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{27 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}}; \}}
+
+\end{DoxyCode}
+
+
+References name.
+
+
+
+Referenced by main(), User\+Name\+Comparator\+::operator()(), and Users\+Server\+::read\+Users\+From\+File\+Bi().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUser_a446a64e63adafbc2e1428532275ad6a1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}\label{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}} 
+\index{User@{User}!getNif@{getNif}}
+\index{getNif@{getNif}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getNif()}{getNif()}}
+{\footnotesize\ttfamily std\+::string User\+::get\+Nif (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Nif object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 29 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{29 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}}; \}}
+
+\end{DoxyCode}
+
+
+References nif.
+
+
+
+Referenced by Users\+Database\+::add\+User(), main(), User\+Ptr\+Comparator\+::operator()(), and Users\+Server\+::read\+Users\+From\+File\+Bi().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_a180e5acdc4b150463652d90d54caa8fc}\label{classUser_a180e5acdc4b150463652d90d54caa8fc}} 
+\index{User@{User}!getPassword@{getPassword}}
+\index{getPassword@{getPassword}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getPassword()}{getPassword()}}
+{\footnotesize\ttfamily std\+::string User\+::get\+Password (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Password object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{31 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}}; \}}
+
+\end{DoxyCode}
+
+
+References password.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{classUser_a180e5acdc4b150463652d90d54caa8fc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_afb94652eecf297a0b27418e0a6211a70}\label{classUser_afb94652eecf297a0b27418e0a6211a70}} 
+\index{User@{User}!getPrivileges@{getPrivileges}}
+\index{getPrivileges@{getPrivileges}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getPrivileges()}{getPrivileges()}}
+{\footnotesize\ttfamily std\+::string User\+::get\+Privileges (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Privileges object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{33 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}}; \}}
+
+\end{DoxyCode}
+
+
+References privileges.
+
+
+
+Referenced by Users\+Database\+::add\+User(), Users\+Server\+::get\+Privileges(), main(), and Users\+Server\+::read\+Users\+From\+File\+Bi().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUser_afb94652eecf297a0b27418e0a6211a70_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_a07d59ffba2300e8182027fe2e49c52fe}\label{classUser_a07d59ffba2300e8182027fe2e49c52fe}} 
+\index{User@{User}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool User\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classUser}{User}} \&}]{user }\end{DoxyParamCaption}) const}
+
+
+
+Operator $<$ overload (this comparison is made by the privileges) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 62 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{62                                             \{}
+\DoxyCodeLine{63   \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}} > other.privileges;}
+\DoxyCodeLine{64 \}}
+
+\end{DoxyCode}
+
+
+References privileges.
+
+\mbox{\Hypertarget{classUser_a71330d2964a98d7bc14af4a5af0b879c}\label{classUser_a71330d2964a98d7bc14af4a5af0b879c}} 
+\index{User@{User}!operator==@{operator==}}
+\index{operator==@{operator==}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool User\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classUser}{User}} \&}]{user }\end{DoxyParamCaption}) const}
+
+
+
+Operator == overload (this comparison is made by the nif) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 73 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{73 \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}} == other.nif; \}}
+
+\end{DoxyCode}
+
+
+References nif.
+
+\mbox{\Hypertarget{classUser_aef5a82ebb7dd404546541c91c4a24076}\label{classUser_aef5a82ebb7dd404546541c91c4a24076}} 
+\index{User@{User}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily bool User\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classUser}{User}} \&}]{user }\end{DoxyParamCaption}) const}
+
+
+
+Operator $>$ overload (this comparison is made by the privileges) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 68 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{68                                             \{}
+\DoxyCodeLine{69   \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}} < other.privileges;}
+\DoxyCodeLine{70 \};}
+
+\end{DoxyCode}
+
+
+References privileges.
+
+\mbox{\Hypertarget{classUser_aee2504857253fd7666309e77704e652a}\label{classUser_aee2504857253fd7666309e77704e652a}} 
+\index{User@{User}!printUser@{printUser}}
+\index{printUser@{printUser}!User@{User}}
+\doxysubsubsection{\texorpdfstring{printUser()}{printUser()}}
+{\footnotesize\ttfamily void User\+::print\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Print the user. 
+
+
+
+Definition at line 52 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{52                            \{}
+\DoxyCodeLine{53   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/User-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{54   std::cout << \textcolor{stringliteral}{"{}Name: "{}} << \mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}} << std::endl;}
+\DoxyCodeLine{55   std::cout << \textcolor{stringliteral}{"{}NIF: "{}} << \mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}} << std::endl;}
+\DoxyCodeLine{56   std::cout << \textcolor{stringliteral}{"{}Password: "{}} << \mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}} << std::endl;}
+\DoxyCodeLine{57   std::cout << \textcolor{stringliteral}{"{}Privileges: "{}} << \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}} << std::endl;}
+\DoxyCodeLine{58   std::cout << \textcolor{stringliteral}{"{}Email: "{}} << \mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}} << std::endl;}
+\DoxyCodeLine{59   std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{60 \}}
+
+\end{DoxyCode}
+
+
+References email, name, nif, password, and privileges.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{classUser_aee2504857253fd7666309e77704e652a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_ad25e420b6470b7c840d28d6e9bb87fe3}\label{classUser_ad25e420b6470b7c840d28d6e9bb87fe3}} 
+\index{User@{User}!setEmail@{setEmail}}
+\index{setEmail@{setEmail}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setEmail()}{setEmail()}}
+{\footnotesize\ttfamily void User\+::set\+Email (\begin{DoxyParamCaption}\item[{const std\+::string}]{email }\end{DoxyParamCaption})}
+
+
+
+Set the Email object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 50 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{50 \{ this-\/>\mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}} = \mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}}; \}}
+
+\end{DoxyCode}
+
+
+References email.
+
+
+
+Referenced by main(), Users\+Server\+::read\+Users\+From\+File\+Bi(), Users\+Server\+::update\+User(), User(), User\+Admin\+::\+User\+Admin(), User\+Employee\+::\+User\+Employee(), and User\+Guest\+::\+User\+Guest().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUser_ad25e420b6470b7c840d28d6e9bb87fe3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_a9d2fda42d9862e7b122cd4a933479511}\label{classUser_a9d2fda42d9862e7b122cd4a933479511}} 
+\index{User@{User}!setName@{setName}}
+\index{setName@{setName}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void User\+::set\+Name (\begin{DoxyParamCaption}\item[{const std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Set the Name object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 37 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{37 \{ this-\/>\mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}} = \mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}}; \}}
+
+\end{DoxyCode}
+
+
+References name.
+
+
+
+Referenced by main(), Users\+Server\+::read\+Users\+From\+File\+Bi(), User(), User\+Admin\+::\+User\+Admin(), User\+Employee\+::\+User\+Employee(), and User\+Guest\+::\+User\+Guest().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUser_a9d2fda42d9862e7b122cd4a933479511_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_aa10c232ba4f5baf1b9062263a9f5450f}\label{classUser_aa10c232ba4f5baf1b9062263a9f5450f}} 
+\index{User@{User}!setNif@{setNif}}
+\index{setNif@{setNif}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setNif()}{setNif()}}
+{\footnotesize\ttfamily void User\+::set\+Nif (\begin{DoxyParamCaption}\item[{const std\+::string}]{nif }\end{DoxyParamCaption})}
+
+
+
+Set the Nif object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 39 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{39 \{ this-\/>\mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}} = \mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}}; \}}
+
+\end{DoxyCode}
+
+
+References nif.
+
+
+
+Referenced by main(), Users\+Server\+::read\+Users\+From\+File\+Bi(), User(), User\+Admin\+::\+User\+Admin(), User\+Employee\+::\+User\+Employee(), and User\+Guest\+::\+User\+Guest().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUser_aa10c232ba4f5baf1b9062263a9f5450f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_ac3544d3457d10ea27da89f500d37c5b7}\label{classUser_ac3544d3457d10ea27da89f500d37c5b7}} 
+\index{User@{User}!setPassword@{setPassword}}
+\index{setPassword@{setPassword}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setPassword()}{setPassword()}}
+{\footnotesize\ttfamily void User\+::set\+Password (\begin{DoxyParamCaption}\item[{const std\+::string}]{password }\end{DoxyParamCaption})}
+
+
+
+Set the Password object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em password} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 41 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41 \{ this-\/>\mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}} = \mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}}; \}}
+
+\end{DoxyCode}
+
+
+References password.
+
+
+
+Referenced by main(), Users\+Server\+::read\+Users\+From\+File\+Bi(), User(), User\+Admin\+::\+User\+Admin(), User\+Employee\+::\+User\+Employee(), and User\+Guest\+::\+User\+Guest().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUser_ac3544d3457d10ea27da89f500d37c5b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_aa72db65160cea95ad93a14b084825bad}\label{classUser_aa72db65160cea95ad93a14b084825bad}} 
+\index{User@{User}!setPrivileges@{setPrivileges}}
+\index{setPrivileges@{setPrivileges}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setPrivileges()}{setPrivileges()}}
+{\footnotesize\ttfamily void User\+::set\+Privileges (\begin{DoxyParamCaption}\item[{const std\+::string}]{privileges }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Set the Privileges object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em privileges} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{43                                              \{}
+\DoxyCodeLine{44   \textcolor{keywordflow}{for} (std::string::size\_type i = 0; i < \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}}.length(); i++) \{}
+\DoxyCodeLine{45     \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}}[i] = toupper(\mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}}[i]);}
+\DoxyCodeLine{46   \}}
+\DoxyCodeLine{47   this-\/>\mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}} = \mbox{\hyperlink{classUser_abd43fb87d48deb29729313114ca94a15}{privileges}};}
+\DoxyCodeLine{48 \}}
+
+\end{DoxyCode}
+
+
+References privileges.
+
+
+
+Referenced by main(), Users\+Server\+::read\+Users\+From\+File\+Bi(), Users\+Server\+::update\+User(), User(), User\+Admin\+::\+User\+Admin(), User\+Employee\+::\+User\+Employee(), and User\+Guest\+::\+User\+Guest().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUser_aa72db65160cea95ad93a14b084825bad_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classUser_a8096d4eb432e19f22dd6566e10007454}\label{classUser_a8096d4eb432e19f22dd6566e10007454}} 
+\index{User@{User}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classUser}{User}} \&}]{user }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator $<$$<$ overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+
+
+Definition at line 76 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{76                                                          \{}
+\DoxyCodeLine{77   os << user.\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{} "{}} << user.\mbox{\hyperlink{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}{getNif}}() << \textcolor{stringliteral}{"{} "{}} << user.\mbox{\hyperlink{classUser_a180e5acdc4b150463652d90d54caa8fc}{getPassword}}()}
+\DoxyCodeLine{78      << \textcolor{stringliteral}{"{} "{}} << user.\mbox{\hyperlink{classUser_afb94652eecf297a0b27418e0a6211a70}{getPrivileges}}() << \textcolor{stringliteral}{"{} "{}} << user.\mbox{\hyperlink{classUser_a68c520e78268ba63c97ff04b6fb210a1}{getEmail}}() << std::endl;}
+\DoxyCodeLine{79   \textcolor{keywordflow}{return} os;}
+\DoxyCodeLine{80 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUser_ae27ad24b2888db471519a431b21e19bb}\label{classUser_ae27ad24b2888db471519a431b21e19bb}} 
+\index{User@{User}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{classUser}{User}} \&}]{user }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator $>$$>$ overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+Definition at line 83 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{83                                                    \{}
+\DoxyCodeLine{84   std::string privilege;}
+\DoxyCodeLine{85   is >> user.\mbox{\hyperlink{classUser_a085d8d69282b6298964eab8351584536}{name}} >> user.\mbox{\hyperlink{classUser_abdedab75d016f7c442ba2c8b89c8a454}{nif}} >> user.\mbox{\hyperlink{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}{password}} >> privilege >> user.\mbox{\hyperlink{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}{email}};}
+\DoxyCodeLine{86   user.\mbox{\hyperlink{classUser_aa72db65160cea95ad93a14b084825bad}{setPrivileges}}(privilege);}
+\DoxyCodeLine{87   \textcolor{keywordflow}{return} is;}
+\DoxyCodeLine{88 \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}\label{classUser_ac35b7c63228119cb91acdbd7ed32b8cb}} 
+\index{User@{User}!email@{email}}
+\index{email@{email}!User@{User}}
+\doxysubsubsection{\texorpdfstring{email}{email}}
+{\footnotesize\ttfamily std\+::string User\+::email\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the email of the user. 
+
+
+
+Definition at line 184 of file User.\+h.
+
+
+
+Referenced by get\+Email(), print\+User(), set\+Email(), User(), User\+Admin\+::\+User\+Admin(), User\+Employee\+::\+User\+Employee(), and User\+Guest\+::\+User\+Guest().
+
+\mbox{\Hypertarget{classUser_a085d8d69282b6298964eab8351584536}\label{classUser_a085d8d69282b6298964eab8351584536}} 
+\index{User@{User}!name@{name}}
+\index{name@{name}!User@{User}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily std\+::string User\+::name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the name of the user. 
+
+
+
+Definition at line 164 of file User.\+h.
+
+
+
+Referenced by get\+Name(), print\+User(), set\+Name(), User(), User\+Admin\+::\+User\+Admin(), User\+Employee\+::\+User\+Employee(), and User\+Guest\+::\+User\+Guest().
+
+\mbox{\Hypertarget{classUser_abdedab75d016f7c442ba2c8b89c8a454}\label{classUser_abdedab75d016f7c442ba2c8b89c8a454}} 
+\index{User@{User}!nif@{nif}}
+\index{nif@{nif}!User@{User}}
+\doxysubsubsection{\texorpdfstring{nif}{nif}}
+{\footnotesize\ttfamily std\+::string User\+::nif\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the nif of the user. 
+
+
+
+Definition at line 169 of file User.\+h.
+
+
+
+Referenced by get\+Nif(), operator==(), print\+User(), set\+Nif(), User(), User\+Admin\+::\+User\+Admin(), User\+Employee\+::\+User\+Employee(), and User\+Guest\+::\+User\+Guest().
+
+\mbox{\Hypertarget{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}\label{classUser_ac2f2e75b15e8eb6cbb030fc85a6cd59f}} 
+\index{User@{User}!password@{password}}
+\index{password@{password}!User@{User}}
+\doxysubsubsection{\texorpdfstring{password}{password}}
+{\footnotesize\ttfamily std\+::string User\+::password\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the password of the user. 
+
+
+
+Definition at line 174 of file User.\+h.
+
+
+
+Referenced by get\+Password(), print\+User(), set\+Password(), User(), User\+Admin\+::\+User\+Admin(), User\+Employee\+::\+User\+Employee(), and User\+Guest\+::\+User\+Guest().
+
+\mbox{\Hypertarget{classUser_abd43fb87d48deb29729313114ca94a15}\label{classUser_abd43fb87d48deb29729313114ca94a15}} 
+\index{User@{User}!privileges@{privileges}}
+\index{privileges@{privileges}!User@{User}}
+\doxysubsubsection{\texorpdfstring{privileges}{privileges}}
+{\footnotesize\ttfamily std\+::string User\+::privileges\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the privileges of the user. 
+
+
+
+Definition at line 179 of file User.\+h.
+
+
+
+Referenced by get\+Privileges(), operator$<$(), operator$>$(), print\+User(), set\+Privileges(), and User().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{User_8h}{User.\+h}}\item 
+src/\mbox{\hyperlink{User_8cpp}{User.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,9 @@
+<map id="GreenHouse::startSystem" name="GreenHouse::startSystem">
+<area shape="rect" id="node1" title="Start the system." alt="" coords="5,81,195,108"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#a340c74f50e28880c3e52a515101d65db" title="This method initializes the screen and keyboard." alt="" coords="243,74,429,115"/>
+<area shape="rect" id="node3" href="$classMonitoringSystem.html#ac68e987a2e231ea1ff2e3e3950caf767" title="This method asks the user for an int input." alt="" coords="479,31,702,57"/>
+<area shape="rect" id="node6" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="483,81,699,108"/>
+<area shape="rect" id="node7" href="$classScreenHardware.html#a9eae9fac122d740af58454007c17b0a8" title="This method displays the initial window of the system." alt="" coords="477,132,704,159"/>
+<area shape="rect" id="node4" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="761,5,972,32"/>
+<area shape="rect" id="node5" href="$classMonitoringSystem.html#a2514c2079286352acd12ef85163ff69f" title="This method checks if the input is correct." alt="" coords="752,56,981,83"/>
+</map>

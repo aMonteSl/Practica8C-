@@ -1,0 +1,404 @@
+\hypertarget{classPressureSensor}{}\doxysection{Pressure\+Sensor Class Reference}
+\label{classPressureSensor}\index{PressureSensor@{PressureSensor}}
+
+
+{\ttfamily \#include $<$Pressure\+Sensor.\+h$>$}
+
+
+
+Inheritance diagram for Pressure\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{classPressureSensor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Pressure\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{classPressureSensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPressureSensor_a73180fada11d040f182c7f55ede56242}{Pressure\+Sensor}} (int id, bool active)
+\begin{DoxyCompactList}\small\item\em Construct a new Pressure \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPressureSensor_adfcc8ea8696373c404a39833b5606ed9}{$\sim$\+Pressure\+Sensor}} () override
+\begin{DoxyCompactList}\small\item\em Destroy the Pressure \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPressureSensor_ab607b8d4fc6f14a7414ee7a689dac874}{collect\+Data}} () override
+\begin{DoxyCompactList}\small\item\em Collect data of the Pressure \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classPressureSensor_a20efcd32659e79ccca2a2bbd72e9533d}{check\+Allgood}} () const override
+\begin{DoxyCompactList}\small\item\em Check if the Pressure \mbox{\hyperlink{classSensor}{Sensor}} is working properly. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPressureSensor_aa1657b60ae025902a8051174c1d8716f}{print\+Data}} () const override
+\begin{DoxyCompactList}\small\item\em Print the data of the Pressure \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPressureSensor_ad7256708aa69c3eb35e1794728a21316}{string\+Status}} () const
+\begin{DoxyCompactList}\small\item\em This method returns the status in a string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPressureSensor_ae63402f455301b3f204249edb73c87d9}{collect\+And\+Print}} ()
+\begin{DoxyCompactList}\small\item\em Collect and print the data of the Pressure \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{classPressureSensor_a7dc2b60920214084f7988fa772a54b19}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classPressureSensor}{Pressure\+Sensor}} \&sensor)
+\begin{DoxyCompactList}\small\item\em Operator $<$$<$ overload. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 15 of file Pressure\+Sensor.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPressureSensor_a73180fada11d040f182c7f55ede56242}\label{classPressureSensor_a73180fada11d040f182c7f55ede56242}} 
+\index{PressureSensor@{PressureSensor}!PressureSensor@{PressureSensor}}
+\index{PressureSensor@{PressureSensor}!PressureSensor@{PressureSensor}}
+\doxysubsubsection{\texorpdfstring{PressureSensor()}{PressureSensor()}}
+{\footnotesize\ttfamily Pressure\+Sensor\+::\+Pressure\+Sensor (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{bool}]{active }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Pressure \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em active} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classPressureSensor}{Pressure\+Sensor}} object 
+\end{DoxyReturn}
+
+
+Definition at line 9 of file Pressure\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{10     : \mbox{\hyperlink{classSensor_a342d6d11ef572c8cba92cb76fb1a294b}{Sensor}}(\textcolor{keywordtype}{id}, Sensor::Types::PRESSURE, active) \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classPressureSensor_adfcc8ea8696373c404a39833b5606ed9}\label{classPressureSensor_adfcc8ea8696373c404a39833b5606ed9}} 
+\index{PressureSensor@{PressureSensor}!````~PressureSensor@{$\sim$PressureSensor}}
+\index{````~PressureSensor@{$\sim$PressureSensor}!PressureSensor@{PressureSensor}}
+\doxysubsubsection{\texorpdfstring{$\sim$PressureSensor()}{~PressureSensor()}}
+{\footnotesize\ttfamily Pressure\+Sensor\+::$\sim$\+Pressure\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Destroy the Pressure \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+
+Definition at line 12 of file Pressure\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{12 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPressureSensor_a20efcd32659e79ccca2a2bbd72e9533d}\label{classPressureSensor_a20efcd32659e79ccca2a2bbd72e9533d}} 
+\index{PressureSensor@{PressureSensor}!checkAllgood@{checkAllgood}}
+\index{checkAllgood@{checkAllgood}!PressureSensor@{PressureSensor}}
+\doxysubsubsection{\texorpdfstring{checkAllgood()}{checkAllgood()}}
+{\footnotesize\ttfamily bool Pressure\+Sensor\+::check\+Allgood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Check if the Pressure \mbox{\hyperlink{classSensor}{Sensor}} is working properly. 
+
+\begin{DoxyReturn}{Returns}
+true if the Pressure \mbox{\hyperlink{classSensor}{Sensor}} is working properly 
+
+false if the Pressure \mbox{\hyperlink{classSensor}{Sensor}} is not working properly 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_a7bae778c5814d5d33c0b496a7add75cd}{Sensor}}.
+
+
+
+Definition at line 23 of file Pressure\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23                                         \{}
+\DoxyCodeLine{24   \textcolor{keywordtype}{float} data = \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{Sensor::getData}}();}
+\DoxyCodeLine{25   \textcolor{keywordflow}{if} (data >= 0.91f \&\& data <= 1.09f) \{}
+\DoxyCodeLine{26     \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{27   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{28     \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{29   \}}
+\DoxyCodeLine{30 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::get\+Data().
+
+
+
+Referenced by string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPressureSensor_a20efcd32659e79ccca2a2bbd72e9533d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPressureSensor_a20efcd32659e79ccca2a2bbd72e9533d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPressureSensor_ae63402f455301b3f204249edb73c87d9}\label{classPressureSensor_ae63402f455301b3f204249edb73c87d9}} 
+\index{PressureSensor@{PressureSensor}!collectAndPrint@{collectAndPrint}}
+\index{collectAndPrint@{collectAndPrint}!PressureSensor@{PressureSensor}}
+\doxysubsubsection{\texorpdfstring{collectAndPrint()}{collectAndPrint()}}
+{\footnotesize\ttfamily void Pressure\+Sensor\+::collect\+And\+Print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Collect and print the data of the Pressure \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_a9b3ddd058bce63adc5d444da4818dd83}{Sensor}}.
+
+
+
+Definition at line 60 of file Pressure\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{60                                      \{}
+\DoxyCodeLine{61   \mbox{\hyperlink{classPressureSensor_ab607b8d4fc6f14a7414ee7a689dac874}{collectData}}();}
+\DoxyCodeLine{62   \mbox{\hyperlink{classPressureSensor_aa1657b60ae025902a8051174c1d8716f}{printData}}();}
+\DoxyCodeLine{63 \}}
+
+\end{DoxyCode}
+
+
+References collect\+Data(), and print\+Data().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPressureSensor_ae63402f455301b3f204249edb73c87d9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{classPressureSensor_ae63402f455301b3f204249edb73c87d9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPressureSensor_ab607b8d4fc6f14a7414ee7a689dac874}\label{classPressureSensor_ab607b8d4fc6f14a7414ee7a689dac874}} 
+\index{PressureSensor@{PressureSensor}!collectData@{collectData}}
+\index{collectData@{collectData}!PressureSensor@{PressureSensor}}
+\doxysubsubsection{\texorpdfstring{collectData()}{collectData()}}
+{\footnotesize\ttfamily void Pressure\+Sensor\+::collect\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Collect data of the Pressure \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+This method collects the data of the Pressure \mbox{\hyperlink{classSensor}{Sensor}} and stores it in the data attribute. 
+
+Reimplemented from \mbox{\hyperlink{classSensor_a8ffb0f2473f7e1de1d9947937f2db53a}{Sensor}}.
+
+
+
+Definition at line 14 of file Pressure\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{14                                  \{}
+\DoxyCodeLine{15   \textcolor{comment}{// Numero random entre 0.90 y 1.10 bares}}
+\DoxyCodeLine{16   std::random\_device rd;}
+\DoxyCodeLine{17   std::mt19937 gen(rd());}
+\DoxyCodeLine{18   std::uniform\_real\_distribution<> dis(0.9, 1.1);}
+\DoxyCodeLine{19   \textcolor{keywordtype}{float} pressure = dis(gen);}
+\DoxyCodeLine{20   \mbox{\hyperlink{classSensor_a8c3a63a324230f81e78972d37f9ddfb1}{Sensor::setData}}(pressure);}
+\DoxyCodeLine{21 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::set\+Data().
+
+
+
+Referenced by collect\+And\+Print(), and main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPressureSensor_ab607b8d4fc6f14a7414ee7a689dac874_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPressureSensor_ab607b8d4fc6f14a7414ee7a689dac874_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPressureSensor_aa1657b60ae025902a8051174c1d8716f}\label{classPressureSensor_aa1657b60ae025902a8051174c1d8716f}} 
+\index{PressureSensor@{PressureSensor}!printData@{printData}}
+\index{printData@{printData}!PressureSensor@{PressureSensor}}
+\doxysubsubsection{\texorpdfstring{printData()}{printData()}}
+{\footnotesize\ttfamily void Pressure\+Sensor\+::print\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Print the data of the Pressure \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_ab96627dab3d2e727f07d7f1ea83379e1}{Sensor}}.
+
+
+
+Definition at line 37 of file Pressure\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{37                                      \{}
+\DoxyCodeLine{38   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{Sensor::isActive}}()) \{}
+\DoxyCodeLine{39     std::cout << \textcolor{stringliteral}{"{}Pressure Sensor with "{}}}
+\DoxyCodeLine{40               << \textcolor{stringliteral}{"{}ID: "{}} << \mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{Sensor::getId}}() << \textcolor{stringliteral}{"{} -\/ Data: "{}} << \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{Sensor::getData}}()}
+\DoxyCodeLine{41               << \textcolor{stringliteral}{"{} bar -\/ Status: "{}} << \mbox{\hyperlink{classPressureSensor_ad7256708aa69c3eb35e1794728a21316}{stringStatus}}() << endl;}
+\DoxyCodeLine{42   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{43     std::cout << \textcolor{stringliteral}{"{}Pressure Sensor ID: "{}} << \mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{Sensor::getId}}()}
+\DoxyCodeLine{44               << \textcolor{stringliteral}{"{} -\/ Status: "{}} << \mbox{\hyperlink{classPressureSensor_ad7256708aa69c3eb35e1794728a21316}{stringStatus}}() << endl;}
+\DoxyCodeLine{45   \}}
+\DoxyCodeLine{46 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::get\+Data(), Sensor\+::get\+Id(), Sensor\+::is\+Active(), and string\+Status().
+
+
+
+Referenced by collect\+And\+Print(), and main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPressureSensor_aa1657b60ae025902a8051174c1d8716f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPressureSensor_aa1657b60ae025902a8051174c1d8716f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPressureSensor_ad7256708aa69c3eb35e1794728a21316}\label{classPressureSensor_ad7256708aa69c3eb35e1794728a21316}} 
+\index{PressureSensor@{PressureSensor}!stringStatus@{stringStatus}}
+\index{stringStatus@{stringStatus}!PressureSensor@{PressureSensor}}
+\doxysubsubsection{\texorpdfstring{stringStatus()}{stringStatus()}}
+{\footnotesize\ttfamily std\+::string Pressure\+Sensor\+::string\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+This method returns the status in a string. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string of the status of the Pressure \mbox{\hyperlink{classSensor}{Sensor}} 
+\end{DoxyReturn}
+
+
+Definition at line 48 of file Pressure\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48                                              \{}
+\DoxyCodeLine{49   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{Sensor::isActive}}()) \{}
+\DoxyCodeLine{50     \textcolor{keywordflow}{if} (this-\/>\mbox{\hyperlink{classPressureSensor_a20efcd32659e79ccca2a2bbd72e9533d}{checkAllgood}}()) \{}
+\DoxyCodeLine{51       \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}ACTIVE -\/ GOOD STATUS"{}};}
+\DoxyCodeLine{52     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{53       \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}ACTIVE -\/ BAD STATUS"{}};}
+\DoxyCodeLine{54     \}}
+\DoxyCodeLine{55   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{56     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}INACTIVE"{}};}
+\DoxyCodeLine{57   \}}
+\DoxyCodeLine{58 \}}
+
+\end{DoxyCode}
+
+
+References check\+Allgood(), and Sensor\+::is\+Active().
+
+
+
+Referenced by main(), and print\+Data().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPressureSensor_ad7256708aa69c3eb35e1794728a21316_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPressureSensor_ad7256708aa69c3eb35e1794728a21316_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classPressureSensor_a7dc2b60920214084f7988fa772a54b19}\label{classPressureSensor_a7dc2b60920214084f7988fa772a54b19}} 
+\index{PressureSensor@{PressureSensor}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!PressureSensor@{PressureSensor}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classPressureSensor}{Pressure\+Sensor}} \&}]{sensor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator $<$$<$ overload. 
+
+
+
+Definition at line 32 of file Pressure\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{32                                                                      \{}
+\DoxyCodeLine{33   sensor.\mbox{\hyperlink{classPressureSensor_aa1657b60ae025902a8051174c1d8716f}{printData}}();}
+\DoxyCodeLine{34   \textcolor{keywordflow}{return} os;}
+\DoxyCodeLine{35 \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{PressureSensor_8h}{Pressure\+Sensor.\+h}}\item 
+src/\mbox{\hyperlink{PressureSensor_8cpp}{Pressure\+Sensor.\+cpp}}\end{DoxyCompactItemize}

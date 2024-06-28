@@ -1,0 +1,22 @@
+<map id="Sensor::getId" name="Sensor::getId">
+<area shape="rect" id="node1" title="Get the Id object." alt="" coords="621,265,728,291"/>
+<area shape="rect" id="node2" href="$mainSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="439,54,494,81"/>
+<area shape="rect" id="node3" href="$classAirQualitySensor.html#a8b9bf156728de2c119344b990d19097a" title="Print the data of the Air Quality Sensor." alt="" coords="367,105,567,131"/>
+<area shape="rect" id="node6" href="$classHydrometerSensor.html#a92f8c8b584be1955f123168ee7c8641d" title="Print the data of the Hydrometer Sensor." alt="" coords="360,189,573,215"/>
+<area shape="rect" id="node9" href="$classLightSensor.html#ad25cff6fc6d2c36b7d45ae2f6d967f1e" title="Print the data of the Light Sensor." alt="" coords="383,265,550,291"/>
+<area shape="rect" id="node12" href="$classPhSensor.html#a55c2c68cc33cc039d8907da047c42615" title="This method prints the data of the Ph Sensor." alt="" coords="391,341,542,367"/>
+<area shape="rect" id="node15" href="$classPressureSensor.html#aa1657b60ae025902a8051174c1d8716f" title="Print the data of the Pressure Sensor." alt="" coords="371,450,562,477"/>
+<area shape="rect" id="node18" href="$classTemperatureSensor.html#a3119dd0c9914efdbccd8ee9584f88b62" title="Print the data of the Temperature Sensor." alt="" coords="389,560,545,601"/>
+<area shape="rect" id="node4" href="$classAirQualitySensor.html#a0c5427a9a79033e9490a5ad6ae4023a7" title="Collect and print the data of the Air Quality Sensor." alt="" coords="119,5,301,47"/>
+<area shape="rect" id="node5" href="$mainAirQualitySensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,42,60,69"/>
+<area shape="rect" id="node7" href="$classHydrometerSensor.html#aa2eef3b9912f075f6198d7f90e3fb454" title="Collect and print the data of the Hydrometer Sensor." alt="" coords="113,123,307,164"/>
+<area shape="rect" id="node8" href="$mainHydrometerSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,159,60,186"/>
+<area shape="rect" id="node10" href="$classLightSensor.html#a577e1c14fdde492c4a07af6a82dd59bd" title="Collect and print the data of the Light Sensor." alt="" coords="108,239,312,266"/>
+<area shape="rect" id="node11" href="$mainLightSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,265,60,291"/>
+<area shape="rect" id="node13" href="$classPhSensor.html#ad6ef01f8f2f219af51739d8b309aa5eb" title="Collect and print the data of the Ph Sensor." alt="" coords="116,341,304,367"/>
+<area shape="rect" id="node14" href="$mainPhSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,366,60,393"/>
+<area shape="rect" id="node16" href="$classPressureSensor.html#ae63402f455301b3f204249edb73c87d9" title="Collect and print the data of the Pressure Sensor." alt="" coords="111,443,309,484"/>
+<area shape="rect" id="node17" href="$mainPressureSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,479,60,506"/>
+<area shape="rect" id="node19" href="$classTemperatureSensor.html#a8bd9830643bd9726c988fccf56759d6f" title="Collect and print the data of the Temperature Sensor." alt="" coords="132,560,288,601"/>
+<area shape="rect" id="node20" href="$mainTemperatureSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,597,60,623"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="MonitoringSystem::deleteCameraScreen" name="MonitoringSystem::deleteCameraScreen">
+<area shape="rect" id="node1" title="Delete a Camera Screen object." alt="" coords="5,49,196,90"/>
+<area shape="rect" id="node2" href="$classMonitoringSystem.html#a4ad4cb75bab824f4ee2d001d2aec222d" title="This is the method to ask the id of the camera." alt="" coords="244,5,479,32"/>
+<area shape="rect" id="node4" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="253,56,469,83"/>
+<area shape="rect" id="node5" href="$classScreenHardware.html#ae0c4edcbc11047dbeb1ea22c2f48abd1" title="Delete a camera window." alt="" coords="247,107,476,149"/>
+<area shape="rect" id="node3" href="$classKeyboardHardware.html#a4225dfabd4f55b440c3be007fc95c687" title="Ask for an input to the user." alt="" coords="527,5,737,32"/>
+</map>

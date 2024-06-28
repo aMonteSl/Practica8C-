@@ -1,0 +1,8 @@
+<map id="AirQualitySensor::printData" name="AirQualitySensor::printData">
+<area shape="rect" id="node1" title="Print the data of the Air Quality Sensor." alt="" coords="5,53,205,80"/>
+<area shape="rect" id="node2" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="752,57,879,84"/>
+<area shape="rect" id="node3" href="$classSensor.html#a2f57593dc57b88e0667907e282b4e2ef" title="Get the Id object." alt="" coords="288,28,395,54"/>
+<area shape="rect" id="node4" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="527,82,654,109"/>
+<area shape="rect" id="node5" href="$classAirQualitySensor.html#a66b1dba1f5fa1e552d4c015316c9bca5" title="This method returns if the Air Quality Sensor is active or not and if its active, it returns if its g..." alt="" coords="253,130,429,171"/>
+<area shape="rect" id="node6" href="$classAirQualitySensor.html#a6ee3e9fa4e4b1af8e50a6acc876ac407" title="Check if the Air Quality Sensor is working properly." alt="" coords="477,134,704,161"/>
+</map>

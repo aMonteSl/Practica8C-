@@ -1,0 +1,891 @@
+\hypertarget{classUsersServer}{}\doxysection{Users\+Server Class Reference}
+\label{classUsersServer}\index{UsersServer@{UsersServer}}
+
+
+{\ttfamily \#include $<$Users\+Server.\+h$>$}
+
+
+
+Collaboration diagram for Users\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{classUsersServer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUsersServer_adedce6f57aa55fad84618b6914b77e5a}{Users\+Server}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Users Server object Creates a new \mbox{\hyperlink{classUsersServer}{Users\+Server}} object that contains the \mbox{\hyperlink{classUsersDatabase}{Users\+Database}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUsersServer_a0bde68613117a6530821f8ccf409d065}{$\sim$\+Users\+Server}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Users Server object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}{create\+User}} (const std\+::string name, const std\+::string nif, const std\+::string password, const std\+::string privileges, const std\+::string email)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersServer_a192f5a7d0ef25994bd161b8029f935ca}{delete\+User}} (const std\+::string nif)
+\begin{DoxyCompactList}\small\item\em Delete a \mbox{\hyperlink{classUser}{User}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersServer_aa23ec5bd6c0b49cabb05e8d6e60f552a}{print\+Users\+Server}} () const
+\begin{DoxyCompactList}\small\item\em Print all Users Print all users in the \mbox{\hyperlink{classUsersDatabase}{Users\+Database}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersServer_a0cab706bb303ffa44ea46f234e95993f}{load\+Users\+From\+File}} ()
+\begin{DoxyCompactList}\small\item\em Load Users from File Load users from a file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersServer_a09ff022e97cf02e1737dc735b43364fe}{save\+Users\+To\+File}} ()
+\begin{DoxyCompactList}\small\item\em Save Users to File Save users to a file. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUsersServer_a113e388eb93cf9aa9dd585d87e3a557b}{find\+User\+Login}} (std\+::string name, std\+::string password, std\+::string nif)
+\begin{DoxyCompactList}\small\item\em Find \mbox{\hyperlink{classUser}{User}} Login. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUsersServer_a8a29fac8d978a4f0f4b687640b210be7}{get\+Privileges}} (std\+::string nif)
+\begin{DoxyCompactList}\small\item\em Get Privileges. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersServer_a3500268cb464053ac588a0f4534ac36c}{update\+User}} (const std\+::string name, const std\+::string nif, const std\+::string password, const std\+::string privileges, const std\+::string email)
+\begin{DoxyCompactList}\small\item\em Update \mbox{\hyperlink{classUser}{User}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classUsersServer_a2a27e25d8416f4070829f5f4b0467a15}{read\+Users\+From\+File\+Txt}} ()
+\begin{DoxyCompactList}\small\item\em This method reads the users from a file txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersServer_a33b866b5557fd81f26d22af87a2d8305}{write\+User\+To\+File\+Txt}} ()
+\begin{DoxyCompactList}\small\item\em This method writes the users to a file txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersServer_adb8ad6c3fda355931e207b1edda4c41b}{write\+User\+To\+File\+Bi}} ()
+\begin{DoxyCompactList}\small\item\em This method writes the users from a file binary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersServer_a8655f96ea475b164bc898926efff9421}{read\+Users\+From\+File\+Bi}} ()
+\begin{DoxyCompactList}\small\item\em This method reads the users from a file binary. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUsersDatabase}{Users\+Database}} \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{users\+Database\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the \mbox{\hyperlink{classUsersDatabase}{Users\+Database}} object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{file\+Name\+Txt\+\_\+}} = \char`\"{}users.\+txt\char`\"{}
+\begin{DoxyCompactList}\small\item\em This is the name of the file. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUsersServer_ace00c04ffcf04a9806be29bea5cc3ebe}{file\+Name\+Bi\+\_\+}} = \char`\"{}users.\+dat\char`\"{}
+\begin{DoxyCompactList}\small\item\em This is the name of the binary file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 19 of file Users\+Server.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUsersServer_adedce6f57aa55fad84618b6914b77e5a}\label{classUsersServer_adedce6f57aa55fad84618b6914b77e5a}} 
+\index{UsersServer@{UsersServer}!UsersServer@{UsersServer}}
+\index{UsersServer@{UsersServer}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{UsersServer()}{UsersServer()}}
+{\footnotesize\ttfamily Users\+Server\+::\+Users\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new Users Server object Creates a new \mbox{\hyperlink{classUsersServer}{Users\+Server}} object that contains the \mbox{\hyperlink{classUsersDatabase}{Users\+Database}} object. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classUsersServer}{Users\+Server}} object 
+\end{DoxyReturn}
+
+
+Definition at line 17 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{17                          \{}
+\DoxyCodeLine{18   \textcolor{comment}{// Creamos tres usuarios por defecto}}
+\DoxyCodeLine{19   \mbox{\hyperlink{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}{createUser}}(\textcolor{stringliteral}{"{}admin"{}}, \textcolor{stringliteral}{"{}12345678X"{}}, \textcolor{stringliteral}{"{}admin"{}}, \textcolor{stringliteral}{"{}ADMIN"{}}, \textcolor{stringliteral}{"{}admin@example.com"{}});}
+\DoxyCodeLine{20   \mbox{\hyperlink{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}{createUser}}(\textcolor{stringliteral}{"{}employee"{}}, \textcolor{stringliteral}{"{}12345678Y"{}}, \textcolor{stringliteral}{"{}employee"{}}, \textcolor{stringliteral}{"{}EMPLOYEE"{}},}
+\DoxyCodeLine{21              \textcolor{stringliteral}{"{}employee@example.com"{}});}
+\DoxyCodeLine{22   \mbox{\hyperlink{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}{createUser}}(\textcolor{stringliteral}{"{}guest"{}}, \textcolor{stringliteral}{"{}12345678Z"{}}, \textcolor{stringliteral}{"{}guest"{}}, \textcolor{stringliteral}{"{}GUEST"{}}, \textcolor{stringliteral}{"{}guest@example.com"{}});}
+\DoxyCodeLine{23 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUsersServer_a0bde68613117a6530821f8ccf409d065}\label{classUsersServer_a0bde68613117a6530821f8ccf409d065}} 
+\index{UsersServer@{UsersServer}!````~UsersServer@{$\sim$UsersServer}}
+\index{````~UsersServer@{$\sim$UsersServer}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{$\sim$UsersServer()}{~UsersServer()}}
+{\footnotesize\ttfamily Users\+Server\+::$\sim$\+Users\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the Users Server object. 
+
+
+
+Definition at line 25 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{25                           \{}
+\DoxyCodeLine{26   \textcolor{comment}{// Esto destruira el set de punteros de la base de datos}}
+\DoxyCodeLine{27 \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}\label{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}} 
+\index{UsersServer@{UsersServer}!createUser@{createUser}}
+\index{createUser@{createUser}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{createUser()}{createUser()}}
+{\footnotesize\ttfamily void Users\+Server\+::create\+User (\begin{DoxyParamCaption}\item[{const std\+::string}]{name,  }\item[{const std\+::string}]{nif,  }\item[{const std\+::string}]{password,  }\item[{const std\+::string}]{privileges,  }\item[{const std\+::string}]{email }\end{DoxyParamCaption})}
+
+
+
+Create a \mbox{\hyperlink{classUser}{User}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em nif} & \\
+\hline
+{\em password} & \\
+\hline
+{\em privileges} & \\
+\hline
+{\em email} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 29 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{32                                                     \{}
+\DoxyCodeLine{33   \textcolor{comment}{// Debe de crear el usuario y añadir el puntero al set de usuarios}}
+\DoxyCodeLine{34   \mbox{\hyperlink{classUser}{User}} *user = \textcolor{keyword}{new} \mbox{\hyperlink{classUser}{User}}(name, nif, password, privileges, email);}
+\DoxyCodeLine{35   \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a6f929d543040ad259bfa29d0c138b74f}{addUser}}(user);}
+\DoxyCodeLine{36 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), and Green\+House\+::manage\+Create\+User().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersServer_a192f5a7d0ef25994bd161b8029f935ca}\label{classUsersServer_a192f5a7d0ef25994bd161b8029f935ca}} 
+\index{UsersServer@{UsersServer}!deleteUser@{deleteUser}}
+\index{deleteUser@{deleteUser}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{deleteUser()}{deleteUser()}}
+{\footnotesize\ttfamily void Users\+Server\+::delete\+User (\begin{DoxyParamCaption}\item[{const std\+::string}]{nif }\end{DoxyParamCaption})}
+
+
+
+Delete a \mbox{\hyperlink{classUser}{User}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{38                                                 \{}
+\DoxyCodeLine{39   \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_ab36722a2b6312f7a5cb9469b131dd58a}{deleteUserByNif}}(nif);}
+\DoxyCodeLine{40 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), and Green\+House\+::manage\+Delete\+User().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a192f5a7d0ef25994bd161b8029f935ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersServer_a113e388eb93cf9aa9dd585d87e3a557b}\label{classUsersServer_a113e388eb93cf9aa9dd585d87e3a557b}} 
+\index{UsersServer@{UsersServer}!findUserLogin@{findUserLogin}}
+\index{findUserLogin@{findUserLogin}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{findUserLogin()}{findUserLogin()}}
+{\footnotesize\ttfamily bool Users\+Server\+::find\+User\+Login (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::string}]{password,  }\item[{std\+::string}]{nif }\end{DoxyParamCaption})}
+
+
+
+Find \mbox{\hyperlink{classUser}{User}} Login. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em password} & \\
+\hline
+{\em nif} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 51 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{52                                                \{}
+\DoxyCodeLine{53   \textcolor{comment}{// Debemos de buscar encontrar a un usuario por su nombre, contraseña y nif}}
+\DoxyCodeLine{54   \textcolor{comment}{// Si tienen el mismo puntero devolver true, si no false}}
+\DoxyCodeLine{55   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c}{findUserByNif}}(nif) != \textcolor{keyword}{nullptr}) \{}
+\DoxyCodeLine{56     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c}{findUserByNif}}(nif)-\/>\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() == name \&\&}
+\DoxyCodeLine{57         \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c}{findUserByNif}}(nif)-\/>\mbox{\hyperlink{classUser_a180e5acdc4b150463652d90d54caa8fc}{getPassword}}() == password) \{}
+\DoxyCodeLine{58       \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{59     \}}
+\DoxyCodeLine{60   \}}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62   \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{63 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), Green\+House\+::manage\+Login(), and Green\+House\+::search\+User().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a113e388eb93cf9aa9dd585d87e3a557b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersServer_a8a29fac8d978a4f0f4b687640b210be7}\label{classUsersServer_a8a29fac8d978a4f0f4b687640b210be7}} 
+\index{UsersServer@{UsersServer}!getPrivileges@{getPrivileges}}
+\index{getPrivileges@{getPrivileges}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{getPrivileges()}{getPrivileges()}}
+{\footnotesize\ttfamily std\+::string Users\+Server\+::get\+Privileges (\begin{DoxyParamCaption}\item[{std\+::string}]{nif }\end{DoxyParamCaption})}
+
+
+
+Get Privileges. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string the privileges 
+\end{DoxyReturn}
+
+
+Definition at line 42 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{42                                                   \{}
+\DoxyCodeLine{43   \mbox{\hyperlink{classUser}{User}} *user = \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c}{findUserByNif}}(nif);}
+\DoxyCodeLine{44   \textcolor{keywordflow}{if} (user != \textcolor{keyword}{nullptr}) \{}
+\DoxyCodeLine{45     \textcolor{keywordflow}{return} user-\/>\mbox{\hyperlink{classUser_afb94652eecf297a0b27418e0a6211a70}{getPrivileges}}();}
+\DoxyCodeLine{46   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{47     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}GUEST"{}};}
+\DoxyCodeLine{48   \}}
+\DoxyCodeLine{49 \}}
+
+\end{DoxyCode}
+
+
+References User\+::get\+Privileges().
+
+
+
+Referenced by main(), and Green\+House\+::manage\+Login().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a8a29fac8d978a4f0f4b687640b210be7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a8a29fac8d978a4f0f4b687640b210be7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersServer_a0cab706bb303ffa44ea46f234e95993f}\label{classUsersServer_a0cab706bb303ffa44ea46f234e95993f}} 
+\index{UsersServer@{UsersServer}!loadUsersFromFile@{loadUsersFromFile}}
+\index{loadUsersFromFile@{loadUsersFromFile}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{loadUsersFromFile()}{loadUsersFromFile()}}
+{\footnotesize\ttfamily void Users\+Server\+::load\+Users\+From\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Load Users from File Load users from a file. 
+
+
+
+Definition at line 225 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{225                                     \{}
+\DoxyCodeLine{226   \textcolor{comment}{// Cargo los usuarios del archivo}}
+\DoxyCodeLine{227   \textcolor{comment}{// Siguiendo el formato de nombre nif password privilegios email}}
+\DoxyCodeLine{228 }
+\DoxyCodeLine{229   \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{230     \textcolor{comment}{// readUsersFromFileTxt();}}
+\DoxyCodeLine{231     \mbox{\hyperlink{classUsersServer_a8655f96ea475b164bc898926efff9421}{readUsersFromFileBi}}();}
+\DoxyCodeLine{232   \} \textcolor{keywordflow}{catch} (\mbox{\hyperlink{classFileReadError}{FileReadError}} \&e) \{}
+\DoxyCodeLine{233     std::cerr << e.what() << std::endl;}
+\DoxyCodeLine{234 }
+\DoxyCodeLine{235   \} \textcolor{keywordflow}{catch} (\mbox{\hyperlink{classFileCloseError}{FileCloseError}} \&e) \{}
+\DoxyCodeLine{236     std::cerr << e.what() << std::endl;}
+\DoxyCodeLine{237 }
+\DoxyCodeLine{238   \} \textcolor{keywordflow}{catch} (\mbox{\hyperlink{classFileOpenError}{FileOpenError}} \&e) \{}
+\DoxyCodeLine{239     std::cerr << e.what() << std::endl;}
+\DoxyCodeLine{240 }
+\DoxyCodeLine{241   \} \textcolor{keywordflow}{catch} (\mbox{\hyperlink{classFileNotFoundError}{FileNotFoundError}} \&e) \{}
+\DoxyCodeLine{242     std::cerr << e.what() << std::endl;}
+\DoxyCodeLine{243   \}}
+\DoxyCodeLine{244 }
+\DoxyCodeLine{245   \textcolor{comment}{/*}}
+\DoxyCodeLine{246 \textcolor{comment}{  if (file.is\_open()) \{}}
+\DoxyCodeLine{247 \textcolor{comment}{    std::string name, nif, password, privileges, email;}}
+\DoxyCodeLine{248 \textcolor{comment}{    while (file >> name >> nif >> password >> privileges >> email) \{}}
+\DoxyCodeLine{249 \textcolor{comment}{      createUser(name, nif, password, privileges, email);}}
+\DoxyCodeLine{250 \textcolor{comment}{    \}}}
+\DoxyCodeLine{251 \textcolor{comment}{    file.close();}}
+\DoxyCodeLine{252 \textcolor{comment}{  \} else \{}}
+\DoxyCodeLine{253 \textcolor{comment}{    std::cerr << "{}Error: Unable to open file for reading."{} << std::endl;}}
+\DoxyCodeLine{254 \textcolor{comment}{  \}}}
+\DoxyCodeLine{255 \textcolor{comment}{  */}}
+\DoxyCodeLine{256 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), and Green\+House\+::manage\+Login().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a0cab706bb303ffa44ea46f234e95993f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersServer_aa23ec5bd6c0b49cabb05e8d6e60f552a}\label{classUsersServer_aa23ec5bd6c0b49cabb05e8d6e60f552a}} 
+\index{UsersServer@{UsersServer}!printUsersServer@{printUsersServer}}
+\index{printUsersServer@{printUsersServer}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{printUsersServer()}{printUsersServer()}}
+{\footnotesize\ttfamily void Users\+Server\+::print\+Users\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Print all Users Print all users in the \mbox{\hyperlink{classUsersDatabase}{Users\+Database}} object. 
+
+
+
+Definition at line 80 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{80                                          \{}
+\DoxyCodeLine{81   this-\/>\mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a1177bdb5dad44c7df97d34da14e0eb8d}{printUsers}}();}
+\DoxyCodeLine{82 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), and Green\+House\+::manage\+Admin().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_aa23ec5bd6c0b49cabb05e8d6e60f552a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersServer_a8655f96ea475b164bc898926efff9421}\label{classUsersServer_a8655f96ea475b164bc898926efff9421}} 
+\index{UsersServer@{UsersServer}!readUsersFromFileBi@{readUsersFromFileBi}}
+\index{readUsersFromFileBi@{readUsersFromFileBi}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{readUsersFromFileBi()}{readUsersFromFileBi()}}
+{\footnotesize\ttfamily void Users\+Server\+::read\+Users\+From\+File\+Bi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method reads the users from a file binary. 
+
+
+
+Definition at line 84 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{84                                       \{}
+\DoxyCodeLine{85   std::cout << \textcolor{stringliteral}{"{}Reading users from file "{}} << \mbox{\hyperlink{classUsersServer_ace00c04ffcf04a9806be29bea5cc3ebe}{fileNameBi\_}} << \textcolor{stringliteral}{"{}..."{}} << std::endl;}
+\DoxyCodeLine{86 }
+\DoxyCodeLine{87   std::ifstream file(\mbox{\hyperlink{classUsersServer_ace00c04ffcf04a9806be29bea5cc3ebe}{fileNameBi\_}}, std::ios::binary);}
+\DoxyCodeLine{88   \textcolor{keywordflow}{if} (file.is\_open()) \{}
+\DoxyCodeLine{89     \textcolor{keywordflow}{while} (file) \{}
+\DoxyCodeLine{90       \mbox{\hyperlink{classUser}{User}} *user = \textcolor{keyword}{new} \mbox{\hyperlink{classUser}{User}}();}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{92       \textcolor{comment}{// Read the user name}}
+\DoxyCodeLine{93       \textcolor{keywordtype}{size\_t} nameLength;}
+\DoxyCodeLine{94       file.read(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&nameLength), \textcolor{keyword}{sizeof}(nameLength));}
+\DoxyCodeLine{95       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{96         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{97         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{98       \}}
+\DoxyCodeLine{99       \textcolor{keywordtype}{char} *name = \textcolor{keyword}{new} \textcolor{keywordtype}{char}[nameLength];}
+\DoxyCodeLine{100       file.read(name, nameLength);}
+\DoxyCodeLine{101       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{102         \textcolor{keyword}{delete}[] name;}
+\DoxyCodeLine{103         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{104         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{105       \}}
+\DoxyCodeLine{106       user-\/>\mbox{\hyperlink{classUser_a9d2fda42d9862e7b122cd4a933479511}{setName}}(std::string(name, nameLength));}
+\DoxyCodeLine{107       \textcolor{keyword}{delete}[] name;}
+\DoxyCodeLine{108 }
+\DoxyCodeLine{109       \textcolor{comment}{// Read the user nif}}
+\DoxyCodeLine{110       \textcolor{keywordtype}{size\_t} nifLength;}
+\DoxyCodeLine{111       file.read(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&nifLength), \textcolor{keyword}{sizeof}(nifLength));}
+\DoxyCodeLine{112       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{113         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{114         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{115       \}}
+\DoxyCodeLine{116       \textcolor{keywordtype}{char} *nif = \textcolor{keyword}{new} \textcolor{keywordtype}{char}[nifLength];}
+\DoxyCodeLine{117       file.read(nif, nifLength);}
+\DoxyCodeLine{118       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{119         \textcolor{keyword}{delete}[] nif;}
+\DoxyCodeLine{120         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{121         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{122       \}}
+\DoxyCodeLine{123       user-\/>\mbox{\hyperlink{classUser_aa10c232ba4f5baf1b9062263a9f5450f}{setNif}}(std::string(nif, nifLength));}
+\DoxyCodeLine{124       \textcolor{keyword}{delete}[] nif;}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{126       \textcolor{comment}{// Read the user password}}
+\DoxyCodeLine{127       \textcolor{keywordtype}{size\_t} passwordLength;}
+\DoxyCodeLine{128       file.read(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&passwordLength),}
+\DoxyCodeLine{129                 \textcolor{keyword}{sizeof}(passwordLength));}
+\DoxyCodeLine{130       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{131         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{132         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{133       \}}
+\DoxyCodeLine{134       \textcolor{keywordtype}{char} *password = \textcolor{keyword}{new} \textcolor{keywordtype}{char}[passwordLength];}
+\DoxyCodeLine{135       file.read(password, passwordLength);}
+\DoxyCodeLine{136       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{137         \textcolor{keyword}{delete}[] password;}
+\DoxyCodeLine{138         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{139         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{140       \}}
+\DoxyCodeLine{141       user-\/>\mbox{\hyperlink{classUser_ac3544d3457d10ea27da89f500d37c5b7}{setPassword}}(std::string(password, passwordLength));}
+\DoxyCodeLine{142       \textcolor{keyword}{delete}[] password;}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{144       \textcolor{comment}{// Read the user privileges}}
+\DoxyCodeLine{145       \textcolor{keywordtype}{size\_t} privilegesLength;}
+\DoxyCodeLine{146       file.read(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&privilegesLength),}
+\DoxyCodeLine{147                 \textcolor{keyword}{sizeof}(privilegesLength));}
+\DoxyCodeLine{148       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{149         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{150         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{151       \}}
+\DoxyCodeLine{152       \textcolor{keywordtype}{char} *privileges = \textcolor{keyword}{new} \textcolor{keywordtype}{char}[privilegesLength];}
+\DoxyCodeLine{153       file.read(privileges, privilegesLength);}
+\DoxyCodeLine{154       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{155         \textcolor{keyword}{delete}[] privileges;}
+\DoxyCodeLine{156         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{157         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{158       \}}
+\DoxyCodeLine{159       user-\/>\mbox{\hyperlink{classUser_aa72db65160cea95ad93a14b084825bad}{setPrivileges}}(std::string(privileges, privilegesLength));}
+\DoxyCodeLine{160       \textcolor{keyword}{delete}[] privileges;}
+\DoxyCodeLine{161 }
+\DoxyCodeLine{162       \textcolor{comment}{// Read the user email}}
+\DoxyCodeLine{163       \textcolor{keywordtype}{size\_t} emailLength;}
+\DoxyCodeLine{164       file.read(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&emailLength), \textcolor{keyword}{sizeof}(emailLength));}
+\DoxyCodeLine{165       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{166         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{167         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{168       \}}
+\DoxyCodeLine{169       \textcolor{keywordtype}{char} *email = \textcolor{keyword}{new} \textcolor{keywordtype}{char}[emailLength];}
+\DoxyCodeLine{170       file.read(email, emailLength);}
+\DoxyCodeLine{171       \textcolor{keywordflow}{if} (!file) \{}
+\DoxyCodeLine{172         \textcolor{keyword}{delete}[] email;}
+\DoxyCodeLine{173         \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{174         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{175       \}}
+\DoxyCodeLine{176       user-\/>\mbox{\hyperlink{classUser_ad25e420b6470b7c840d28d6e9bb87fe3}{setEmail}}(std::string(email, emailLength));}
+\DoxyCodeLine{177       \textcolor{keyword}{delete}[] email;}
+\DoxyCodeLine{178 }
+\DoxyCodeLine{179       \textcolor{keywordflow}{if} (file.eof()) \{}
+\DoxyCodeLine{180         \textcolor{keyword}{delete} user; \textcolor{comment}{// prevent adding incomplete user due to eof}}
+\DoxyCodeLine{181         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{182       \}}
+\DoxyCodeLine{183 }
+\DoxyCodeLine{184       std::cout << \textcolor{stringliteral}{"{}Read user: "{}} << user-\/>\mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{getName}}() << \textcolor{stringliteral}{"{}-\/"{}} << user-\/>\mbox{\hyperlink{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}{getNif}}()}
+\DoxyCodeLine{185                 << \textcolor{stringliteral}{"{}-\/"{}} << user-\/>\mbox{\hyperlink{classUser_afb94652eecf297a0b27418e0a6211a70}{getPrivileges}}() << std::endl;}
+\DoxyCodeLine{186       \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a6f929d543040ad259bfa29d0c138b74f}{addUser}}(user);}
+\DoxyCodeLine{187     \}}
+\DoxyCodeLine{188     file.close();}
+\DoxyCodeLine{189   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{190     std::cerr << \textcolor{stringliteral}{"{}Error: Unable to open file for reading."{}} << std::endl;}
+\DoxyCodeLine{191   \}}
+\DoxyCodeLine{192 \}}
+
+\end{DoxyCode}
+
+
+References User\+::get\+Name(), User\+::get\+Nif(), User\+::get\+Privileges(), User\+::set\+Email(), User\+::set\+Name(), User\+::set\+Nif(), User\+::set\+Password(), and User\+::set\+Privileges().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a8655f96ea475b164bc898926efff9421_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersServer_a2a27e25d8416f4070829f5f4b0467a15}\label{classUsersServer_a2a27e25d8416f4070829f5f4b0467a15}} 
+\index{UsersServer@{UsersServer}!readUsersFromFileTxt@{readUsersFromFileTxt}}
+\index{readUsersFromFileTxt@{readUsersFromFileTxt}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{readUsersFromFileTxt()}{readUsersFromFileTxt()}}
+{\footnotesize\ttfamily void Users\+Server\+::read\+Users\+From\+File\+Txt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method reads the users from a file txt. 
+
+
+
+Definition at line 194 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{194                                        \{}
+\DoxyCodeLine{195   std::cout << \textcolor{stringliteral}{"{}Loading users from file "{}} << \mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}} << \textcolor{stringliteral}{"{}..."{}} << std::endl;}
+\DoxyCodeLine{196   \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{197     std::ifstream file(\mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}});}
+\DoxyCodeLine{198 }
+\DoxyCodeLine{199     \textcolor{keywordflow}{if} (!file.good()) \{}
+\DoxyCodeLine{200       file.close();}
+\DoxyCodeLine{201       \textcolor{keywordflow}{throw} \mbox{\hyperlink{classFileNotFoundError}{FileNotFoundError}}(\mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}});}
+\DoxyCodeLine{202     \}}
+\DoxyCodeLine{203     \textcolor{keywordflow}{if} (!file.is\_open()) \{}
+\DoxyCodeLine{204       \textcolor{keywordflow}{throw} \mbox{\hyperlink{classFileOpenError}{FileOpenError}}(\mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}});}
+\DoxyCodeLine{205     \}}
+\DoxyCodeLine{206 }
+\DoxyCodeLine{207     std::string name, nif, password, privileges, email;}
+\DoxyCodeLine{208     \textcolor{keywordflow}{while} (file >> name >> nif >> password >> privileges >> email) \{}
+\DoxyCodeLine{209       std::cout << \textcolor{stringliteral}{"{}Read user: "{}} << name << \textcolor{stringliteral}{"{} "{}} << nif << \textcolor{stringliteral}{"{} "{}} << password << \textcolor{stringliteral}{"{} "{}}}
+\DoxyCodeLine{210                 << privileges << \textcolor{stringliteral}{"{} "{}} << email << std::endl;}
+\DoxyCodeLine{211       \mbox{\hyperlink{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}{createUser}}(name, nif, password, privileges, email);}
+\DoxyCodeLine{212     \}}
+\DoxyCodeLine{213 }
+\DoxyCodeLine{214     file.close();}
+\DoxyCodeLine{215 }
+\DoxyCodeLine{216     \textcolor{keywordflow}{if} (file.is\_open()) \{}
+\DoxyCodeLine{217       \textcolor{keywordflow}{throw} \mbox{\hyperlink{classFileCloseError}{FileCloseError}}(\mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}});}
+\DoxyCodeLine{218     \}}
+\DoxyCodeLine{219   \} \textcolor{keywordflow}{catch} (std::exception \&e) \{}
+\DoxyCodeLine{220     \textcolor{comment}{// std::cerr << e.what() << std::endl;}}
+\DoxyCodeLine{221     \textcolor{keywordflow}{throw};}
+\DoxyCodeLine{222   \}}
+\DoxyCodeLine{223 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUsersServer_a09ff022e97cf02e1737dc735b43364fe}\label{classUsersServer_a09ff022e97cf02e1737dc735b43364fe}} 
+\index{UsersServer@{UsersServer}!saveUsersToFile@{saveUsersToFile}}
+\index{saveUsersToFile@{saveUsersToFile}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{saveUsersToFile()}{saveUsersToFile()}}
+{\footnotesize\ttfamily void Users\+Server\+::save\+Users\+To\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Save Users to File Save users to a file. 
+
+
+
+Definition at line 341 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{341                                   \{}
+\DoxyCodeLine{342   \textcolor{comment}{// Guardo los usuarios en el archivo}}
+\DoxyCodeLine{343 }
+\DoxyCodeLine{344   \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{345     \mbox{\hyperlink{classUsersServer_a33b866b5557fd81f26d22af87a2d8305}{writeUserToFileTxt}}();}
+\DoxyCodeLine{346     \mbox{\hyperlink{classUsersServer_adb8ad6c3fda355931e207b1edda4c41b}{writeUserToFileBi}}();}
+\DoxyCodeLine{347   \} \textcolor{keywordflow}{catch} (\mbox{\hyperlink{classFileOpenError}{FileOpenError}} \&e) \{}
+\DoxyCodeLine{348     std::cerr << e.what() << std::endl;}
+\DoxyCodeLine{349 }
+\DoxyCodeLine{350   \} \textcolor{keywordflow}{catch} (\mbox{\hyperlink{classFileCloseError}{FileCloseError}} \&e) \{}
+\DoxyCodeLine{351     std::cerr << e.what() << std::endl;}
+\DoxyCodeLine{352 }
+\DoxyCodeLine{353   \} \textcolor{keywordflow}{catch} (\mbox{\hyperlink{classFileWriteError}{FileWriteError}} \&e) \{}
+\DoxyCodeLine{354     std::cerr << e.what() << std::endl;}
+\DoxyCodeLine{355 }
+\DoxyCodeLine{356   \} \textcolor{keywordflow}{catch} (\mbox{\hyperlink{classFileNotFoundError}{FileNotFoundError}} \&e) \{}
+\DoxyCodeLine{357     std::cerr << e.what() << std::endl;}
+\DoxyCodeLine{358   \}}
+\DoxyCodeLine{359   \textcolor{comment}{/*}}
+\DoxyCodeLine{360 \textcolor{comment}{  std::cout << "{}Saving users to file..."{} << std::endl;}}
+\DoxyCodeLine{361 \textcolor{comment}{  std::ofstream file(fileNameTxt\_);}}
+\DoxyCodeLine{362 \textcolor{comment}{  if (file.is\_open()) \{}}
+\DoxyCodeLine{363 \textcolor{comment}{    for (const User *user : usersDatabase\_.getUsers()) \{}}
+\DoxyCodeLine{364 \textcolor{comment}{      file << user-\/>getName() << "{} "{} << user-\/>getNif() << "{} "{}}}
+\DoxyCodeLine{365 \textcolor{comment}{           << user-\/>getPassword() << "{} "{} << user-\/>getPrivileges() << "{} "{}}}
+\DoxyCodeLine{366 \textcolor{comment}{           << user-\/>getEmail() << std::endl;}}
+\DoxyCodeLine{367 \textcolor{comment}{      std::cout << "{}User saved: "{} << user-\/>getName() << "{}-\/"{} << user-\/>getNif()}}
+\DoxyCodeLine{368 \textcolor{comment}{                << std::endl;}}
+\DoxyCodeLine{369 \textcolor{comment}{    \}}}
+\DoxyCodeLine{370 \textcolor{comment}{    file.close();}}
+\DoxyCodeLine{371 \textcolor{comment}{  \} else \{}}
+\DoxyCodeLine{372 \textcolor{comment}{    std::cerr << "{}Error: Unable to open file for writing."{} << std::endl;}}
+\DoxyCodeLine{373 \textcolor{comment}{  \}}}
+\DoxyCodeLine{374 \textcolor{comment}{  */}}
+\DoxyCodeLine{375 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main(), Green\+House\+::manage\+Admin(), and Green\+House\+::save().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a09ff022e97cf02e1737dc735b43364fe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersServer_a3500268cb464053ac588a0f4534ac36c}\label{classUsersServer_a3500268cb464053ac588a0f4534ac36c}} 
+\index{UsersServer@{UsersServer}!updateUser@{updateUser}}
+\index{updateUser@{updateUser}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{updateUser()}{updateUser()}}
+{\footnotesize\ttfamily void Users\+Server\+::update\+User (\begin{DoxyParamCaption}\item[{const std\+::string}]{name,  }\item[{const std\+::string}]{nif,  }\item[{const std\+::string}]{password,  }\item[{const std\+::string}]{privileges,  }\item[{const std\+::string}]{email }\end{DoxyParamCaption})}
+
+
+
+Update \mbox{\hyperlink{classUser}{User}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em nif} & \\
+\hline
+{\em password} & \\
+\hline
+{\em privileges} & \\
+\hline
+{\em email} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 65 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{68                                                     \{}
+\DoxyCodeLine{69   \mbox{\hyperlink{classUser}{User}} *userToUpdate = \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c}{findUserByNif}}(nif);}
+\DoxyCodeLine{70   \textcolor{comment}{// Si el usuario existe, y los privilegios que se quieren cambiar}}
+\DoxyCodeLine{71   \textcolor{comment}{// isValidPrivileges entonces se cambian los privilegios y el email}}
+\DoxyCodeLine{72   \textcolor{keywordflow}{if} (userToUpdate != \textcolor{keyword}{nullptr} \&\& \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a6cf2dcc2c9bf73ef4e262c173e4dc5a4}{isValidPrivileges}}(privileges)) \{}
+\DoxyCodeLine{73     userToUpdate-\/>\mbox{\hyperlink{classUser_aa72db65160cea95ad93a14b084825bad}{setPrivileges}}(privileges);}
+\DoxyCodeLine{74     userToUpdate-\/>\mbox{\hyperlink{classUser_ad25e420b6470b7c840d28d6e9bb87fe3}{setEmail}}(email);}
+\DoxyCodeLine{75   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{76     std::cout << \textcolor{stringliteral}{"{}User dosen't change, maybe correct privileges"{}} << std::endl;}
+\DoxyCodeLine{77   \}}
+\DoxyCodeLine{78 \}}
+
+\end{DoxyCode}
+
+
+References User\+::set\+Email(), and User\+::set\+Privileges().
+
+
+
+Referenced by main(), and Green\+House\+::manage\+Update\+User().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a3500268cb464053ac588a0f4534ac36c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersServer_a3500268cb464053ac588a0f4534ac36c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersServer_adb8ad6c3fda355931e207b1edda4c41b}\label{classUsersServer_adb8ad6c3fda355931e207b1edda4c41b}} 
+\index{UsersServer@{UsersServer}!writeUserToFileBi@{writeUserToFileBi}}
+\index{writeUserToFileBi@{writeUserToFileBi}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{writeUserToFileBi()}{writeUserToFileBi()}}
+{\footnotesize\ttfamily void Users\+Server\+::write\+User\+To\+File\+Bi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method writes the users from a file binary. 
+
+
+
+Definition at line 258 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{258                                     \{}
+\DoxyCodeLine{259   std::cout << \textcolor{stringliteral}{"{}Saving users to file "{}} << \mbox{\hyperlink{classUsersServer_ace00c04ffcf04a9806be29bea5cc3ebe}{fileNameBi\_}} << \textcolor{stringliteral}{"{}..."{}} << std::endl;}
+\DoxyCodeLine{260 }
+\DoxyCodeLine{261   std::ofstream file(\mbox{\hyperlink{classUsersServer_ace00c04ffcf04a9806be29bea5cc3ebe}{fileNameBi\_}}, std::ios::binary | std::ios::trunc);}
+\DoxyCodeLine{262   \textcolor{comment}{// Tengo que guardar los usuarios en un archivo binario, recorriendo el set de}}
+\DoxyCodeLine{263   \textcolor{comment}{// usuarios Los guardaremos en el binario siguiendo el formato de nombre nif}}
+\DoxyCodeLine{264   \textcolor{comment}{// password privilegios email y cuando se lea se leera en el mismo formato}}
+\DoxyCodeLine{265   \textcolor{keywordflow}{if} (file.is\_open()) \{}
+\DoxyCodeLine{266     \textcolor{keywordflow}{for} (\textcolor{keyword}{const} \mbox{\hyperlink{classUser}{User}} *user : \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a742efe315cfe975ceec72c4139e8f6f7}{getUsers}}()) \{}
+\DoxyCodeLine{267 }
+\DoxyCodeLine{268       \textcolor{comment}{// Guardar el nombre}}
+\DoxyCodeLine{269       \textcolor{keywordtype}{size\_t} nameLength = user-\/>getName().length();}
+\DoxyCodeLine{270       file.write(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keyword}{const }\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&nameLength),}
+\DoxyCodeLine{271                  \textcolor{keyword}{sizeof}(nameLength));}
+\DoxyCodeLine{272       file.write(user-\/>getName().c\_str(), nameLength);}
+\DoxyCodeLine{273 }
+\DoxyCodeLine{274       \textcolor{comment}{// Guardar el nif}}
+\DoxyCodeLine{275       \textcolor{keywordtype}{size\_t} nifLength = user-\/>getNif().length();}
+\DoxyCodeLine{276       file.write(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keyword}{const }\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&nifLength), \textcolor{keyword}{sizeof}(nifLength));}
+\DoxyCodeLine{277       file.write(user-\/>getNif().c\_str(), nifLength);}
+\DoxyCodeLine{278 }
+\DoxyCodeLine{279       \textcolor{comment}{// Guardar el password}}
+\DoxyCodeLine{280       \textcolor{keywordtype}{size\_t} passwordLength = user-\/>getPassword().length();}
+\DoxyCodeLine{281       file.write(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keyword}{const }\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&passwordLength),}
+\DoxyCodeLine{282                  \textcolor{keyword}{sizeof}(passwordLength));}
+\DoxyCodeLine{283       file.write(user-\/>getPassword().c\_str(), passwordLength);}
+\DoxyCodeLine{284 }
+\DoxyCodeLine{285       \textcolor{comment}{// Guardar el privilegios}}
+\DoxyCodeLine{286       \textcolor{keywordtype}{size\_t} privilegesLength = user-\/>getPrivileges().length();}
+\DoxyCodeLine{287       file.write(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keyword}{const }\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&privilegesLength),}
+\DoxyCodeLine{288                  \textcolor{keyword}{sizeof}(privilegesLength));}
+\DoxyCodeLine{289       file.write(user-\/>getPrivileges().c\_str(), privilegesLength);}
+\DoxyCodeLine{290 }
+\DoxyCodeLine{291       \textcolor{comment}{// Guardar el email}}
+\DoxyCodeLine{292       \textcolor{keywordtype}{size\_t} emailLength = user-\/>getEmail().length();}
+\DoxyCodeLine{293       file.write(\textcolor{keyword}{reinterpret\_cast<}\textcolor{keyword}{const }\textcolor{keywordtype}{char} *\textcolor{keyword}{>}(\&emailLength),}
+\DoxyCodeLine{294                  \textcolor{keyword}{sizeof}(emailLength));}
+\DoxyCodeLine{295       file.write(user-\/>getEmail().c\_str(), emailLength);}
+\DoxyCodeLine{296 }
+\DoxyCodeLine{297       \textcolor{comment}{// Imprimir el usuario que se ha guardado}}
+\DoxyCodeLine{298       std::cout << \textcolor{stringliteral}{"{}User saved: "{}} << user-\/>getName() << \textcolor{stringliteral}{"{}-\/"{}} << user-\/>getNif()}
+\DoxyCodeLine{299                 << std::endl;}
+\DoxyCodeLine{300     \}}
+\DoxyCodeLine{301     file.close();}
+\DoxyCodeLine{302   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{303     std::cerr << \textcolor{stringliteral}{"{}Error: Unable to open file for writing."{}} << std::endl;}
+\DoxyCodeLine{304   \}}
+\DoxyCodeLine{305 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUsersServer_a33b866b5557fd81f26d22af87a2d8305}\label{classUsersServer_a33b866b5557fd81f26d22af87a2d8305}} 
+\index{UsersServer@{UsersServer}!writeUserToFileTxt@{writeUserToFileTxt}}
+\index{writeUserToFileTxt@{writeUserToFileTxt}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{writeUserToFileTxt()}{writeUserToFileTxt()}}
+{\footnotesize\ttfamily void Users\+Server\+::write\+User\+To\+File\+Txt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method writes the users to a file txt. 
+
+
+
+Definition at line 307 of file Users\+Server.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{307                                      \{}
+\DoxyCodeLine{308   std::cout << \textcolor{stringliteral}{"{}Saving users to file "{}} << \mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}} << \textcolor{stringliteral}{"{}..."{}} << std::endl;}
+\DoxyCodeLine{309 }
+\DoxyCodeLine{310   \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{311     std::ofstream file(\mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}});}
+\DoxyCodeLine{312     \textcolor{keywordflow}{if} (!file.good()) \{}
+\DoxyCodeLine{313       file.close();}
+\DoxyCodeLine{314       \textcolor{keywordflow}{throw} \mbox{\hyperlink{classFileNotFoundError}{FileNotFoundError}}(\mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}});}
+\DoxyCodeLine{315     \}}
+\DoxyCodeLine{316     \textcolor{keywordflow}{if} (!file.is\_open()) \{}
+\DoxyCodeLine{317       \textcolor{keywordflow}{throw} \mbox{\hyperlink{classFileOpenError}{FileOpenError}}(\mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}});}
+\DoxyCodeLine{318     \}}
+\DoxyCodeLine{319 }
+\DoxyCodeLine{320     \textcolor{comment}{// Write users to file}}
+\DoxyCodeLine{321     \textcolor{keywordflow}{for} (\textcolor{keyword}{const} \mbox{\hyperlink{classUser}{User}} *user : \mbox{\hyperlink{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}{usersDatabase\_}}.\mbox{\hyperlink{classUsersDatabase_a742efe315cfe975ceec72c4139e8f6f7}{getUsers}}()) \{}
+\DoxyCodeLine{322       file << user-\/>getName() << \textcolor{stringliteral}{"{} "{}} << user-\/>getNif() << \textcolor{stringliteral}{"{} "{}}}
+\DoxyCodeLine{323            << user-\/>getPassword() << \textcolor{stringliteral}{"{} "{}} << user-\/>getPrivileges() << \textcolor{stringliteral}{"{} "{}}}
+\DoxyCodeLine{324            << user-\/>getEmail() << std::endl;}
+\DoxyCodeLine{325       std::cout << \textcolor{stringliteral}{"{}User saved: "{}} << user-\/>getName() << \textcolor{stringliteral}{"{}-\/"{}} << user-\/>getNif()}
+\DoxyCodeLine{326                 << std::endl;}
+\DoxyCodeLine{327     \}}
+\DoxyCodeLine{328 }
+\DoxyCodeLine{329     \textcolor{comment}{// Close the file}}
+\DoxyCodeLine{330     file.close();}
+\DoxyCodeLine{331 }
+\DoxyCodeLine{332     \textcolor{comment}{// Check if file was closed properly}}
+\DoxyCodeLine{333     \textcolor{keywordflow}{if} (file.is\_open()) \{}
+\DoxyCodeLine{334       \textcolor{keywordflow}{throw} \mbox{\hyperlink{classFileCloseError}{FileCloseError}}(\mbox{\hyperlink{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}{fileNameTxt\_}});}
+\DoxyCodeLine{335     \}}
+\DoxyCodeLine{336   \} \textcolor{keywordflow}{catch} (std::exception \&e) \{}
+\DoxyCodeLine{337     std::cerr << e.what() << std::endl;}
+\DoxyCodeLine{338   \}}
+\DoxyCodeLine{339 \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classUsersServer_ace00c04ffcf04a9806be29bea5cc3ebe}\label{classUsersServer_ace00c04ffcf04a9806be29bea5cc3ebe}} 
+\index{UsersServer@{UsersServer}!fileNameBi\_@{fileNameBi\_}}
+\index{fileNameBi\_@{fileNameBi\_}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{fileNameBi\_}{fileNameBi\_}}
+{\footnotesize\ttfamily std\+::string Users\+Server\+::file\+Name\+Bi\+\_\+ = \char`\"{}users.\+dat\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the name of the binary file. 
+
+
+
+Definition at line 115 of file Users\+Server.\+h.
+
+\mbox{\Hypertarget{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}\label{classUsersServer_a38551e6ecea8fb7975d204a125c22ce4}} 
+\index{UsersServer@{UsersServer}!fileNameTxt\_@{fileNameTxt\_}}
+\index{fileNameTxt\_@{fileNameTxt\_}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{fileNameTxt\_}{fileNameTxt\_}}
+{\footnotesize\ttfamily std\+::string Users\+Server\+::file\+Name\+Txt\+\_\+ = \char`\"{}users.\+txt\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the name of the file. 
+
+
+
+Definition at line 110 of file Users\+Server.\+h.
+
+\mbox{\Hypertarget{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}\label{classUsersServer_a7d44f948cbd4262302f49eaa08c24f3a}} 
+\index{UsersServer@{UsersServer}!usersDatabase\_@{usersDatabase\_}}
+\index{usersDatabase\_@{usersDatabase\_}!UsersServer@{UsersServer}}
+\doxysubsubsection{\texorpdfstring{usersDatabase\_}{usersDatabase\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classUsersDatabase}{Users\+Database}} Users\+Server\+::users\+Database\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the \mbox{\hyperlink{classUsersDatabase}{Users\+Database}} object. 
+
+
+
+Definition at line 104 of file Users\+Server.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{UsersServer_8h}{Users\+Server.\+h}}\item 
+src/\mbox{\hyperlink{UsersServer_8cpp}{Users\+Server.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="SwitchHardware::translateInput" name="SwitchHardware::translateInput">
+<area shape="rect" id="node1" title="The data of the Switch Hardware." alt="" coords="5,23,200,65"/>
+<area shape="rect" id="node2" href="$classHardware.html#a03fc02b36d9f2e5d151ef3efaf788e2a" title="Turn off the hardware." alt="" coords="248,5,387,32"/>
+<area shape="rect" id="node3" href="$classHardware.html#aee21531986a03e2fe8fcb3db70c5c6d1" title="Turn on the hardware." alt="" coords="249,56,386,83"/>
+</map>

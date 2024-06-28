@@ -1,0 +1,8 @@
+<map id="PhSensor::checkAllgood" name="PhSensor::checkAllgood">
+<area shape="rect" id="node1" title="Check if the Ph Sensor is working properly." alt="" coords="759,81,936,108"/>
+<area shape="rect" id="node2" href="$classPhSensor.html#aea7472382b647fdf581b730376bb30dd" title="This qualifies the Ph Sensor into Acidic, Neutral or Alkaline." alt="" coords="551,56,702,83"/>
+<area shape="rect" id="node6" href="$classPhSensor.html#a058b0d28c34757144c509eaf06a36abc" title="This method returns the status in a string." alt="" coords="543,107,711,133"/>
+<area shape="rect" id="node3" href="$classPhSensor.html#a55c2c68cc33cc039d8907da047c42615" title="This method prints the data of the Ph Sensor." alt="" coords="344,56,495,83"/>
+<area shape="rect" id="node4" href="$classPhSensor.html#ad6ef01f8f2f219af51739d8b309aa5eb" title="Collect and print the data of the Ph Sensor." alt="" coords="108,5,296,32"/>
+<area shape="rect" id="node5" href="$mainPhSensor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
+</map>

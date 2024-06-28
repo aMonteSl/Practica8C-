@@ -1,0 +1,65 @@
+\hypertarget{classUserPtrComparator}{}\doxysection{User\+Ptr\+Comparator Class Reference}
+\label{classUserPtrComparator}\index{UserPtrComparator@{UserPtrComparator}}
+
+
+{\ttfamily \#include $<$Users\+Database.\+h$>$}
+
+
+
+Collaboration diagram for User\+Ptr\+Comparator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classUserPtrComparator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classUserPtrComparator_ae0b32b11d3fbf7da23640b8d4d064537}{operator()}} (const \mbox{\hyperlink{classUser}{User}} $\ast$us1, const \mbox{\hyperlink{classUser}{User}} $\ast$us2) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 23 of file Users\+Database.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUserPtrComparator_ae0b32b11d3fbf7da23640b8d4d064537}\label{classUserPtrComparator_ae0b32b11d3fbf7da23640b8d4d064537}} 
+\index{UserPtrComparator@{UserPtrComparator}!operator()@{operator()}}
+\index{operator()@{operator()}!UserPtrComparator@{UserPtrComparator}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily bool User\+Ptr\+Comparator\+::operator() (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classUser}{User}} $\ast$}]{us1,  }\item[{const \mbox{\hyperlink{classUser}{User}} $\ast$}]{us2 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 25 of file Users\+Database.\+h.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{25                                                           \{}
+\DoxyCodeLine{26     \textcolor{comment}{// Comparar dnis de usuarios si tienen el mismo dni no se puede añadir el}}
+\DoxyCodeLine{27     \textcolor{comment}{// usuario}}
+\DoxyCodeLine{28     \textcolor{keywordflow}{return} us1-\/>\mbox{\hyperlink{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}{getNif}}() < us2-\/>\mbox{\hyperlink{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}{getNif}}();}
+\DoxyCodeLine{29   \}}
+
+\end{DoxyCode}
+
+
+References User\+::get\+Nif().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{classUserPtrComparator_ae0b32b11d3fbf7da23640b8d4d064537_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{UsersDatabase_8h}{Users\+Database.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,9 @@
+<map id="MonitoringSystem::displayErrorScreen" name="MonitoringSystem::displayErrorScreen">
+<area shape="rect" id="node1" title="This method shows the message if and error occurs." alt="" coords="871,52,1067,93"/>
+<area shape="rect" id="node2" href="$classGreenHouse.html#ae4b034eed62c1ef18fbac1559f0e21e1" title="Main system, after the system is started, you call this method to manage the system with your options..." alt="" coords="108,34,300,60"/>
+<area shape="rect" id="node4" href="$classGreenHouse.html#ace913cf34c4663d7a12031874ed282cc" title="Manage the admin." alt="" coords="606,34,811,60"/>
+<area shape="rect" id="node6" href="$classGreenHouse.html#a1e1d25cd3438c7c5f56eec1bb4b33d60" title="Manage the employee." alt="" coords="595,84,823,111"/>
+<area shape="rect" id="node7" href="$classGreenHouse.html#a146566af38aa51815d885d61f1c53df6" title="Manage the guest." alt="" coords="608,135,809,162"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,34,60,60"/>
+<area shape="rect" id="node5" href="$classGreenHouse.html#abbb9d2c2a94f06899e17d772fc1ee19b" title="Manage the login." alt="" coords="348,59,547,86"/>
+</map>

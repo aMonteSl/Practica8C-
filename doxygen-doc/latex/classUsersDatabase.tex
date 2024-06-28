@@ -1,0 +1,971 @@
+\hypertarget{classUsersDatabase}{}\doxysection{Users\+Database Class Reference}
+\label{classUsersDatabase}\index{UsersDatabase@{UsersDatabase}}
+
+
+{\ttfamily \#include $<$Users\+Database.\+h$>$}
+
+
+
+Collaboration diagram for Users\+Database\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classUsersDatabase__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUsersDatabase_a367a1f3766baff081e6a10246c3589c4}{Users\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Users Database object Creates a new \mbox{\hyperlink{classUsersDatabase}{Users\+Database}} object that contains the pointers to users. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUsersDatabase_a165fec54d4d6d6f0dc78aac66ca44248}{$\sim$\+Users\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Users Database object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersDatabase_a6f929d543040ad259bfa29d0c138b74f}{add\+User}} (const \mbox{\hyperlink{classUser}{User}} $\ast$user)
+\begin{DoxyCompactList}\small\item\em Add a user to the set of users. \end{DoxyCompactList}\item 
+std\+::set$<$ const \mbox{\hyperlink{classUser}{User}} $\ast$, \mbox{\hyperlink{classUserPtrComparator}{User\+Ptr\+Comparator}} $>$ \mbox{\hyperlink{classUsersDatabase_a742efe315cfe975ceec72c4139e8f6f7}{get\+Users}} () const
+\begin{DoxyCompactList}\small\item\em Get the Users object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersDatabase_a77c259525936076f0c2b2505a82b5df1}{set\+Users}} (const std\+::set$<$ const \mbox{\hyperlink{classUser}{User}} $\ast$, \mbox{\hyperlink{classUserPtrComparator}{User\+Ptr\+Comparator}} $>$ \&users)
+\begin{DoxyCompactList}\small\item\em Set the Users object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUser}{User}} $\ast$ \mbox{\hyperlink{classUsersDatabase_acfce0c31443738f19695771d32ec4156}{find\+User}} (const \mbox{\hyperlink{classUser}{User}} \&user) const
+\begin{DoxyCompactList}\small\item\em Find a user in the set of users. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUser}{User}} $\ast$ \mbox{\hyperlink{classUsersDatabase_a3b95576ad362e990dc80821ec4e3ad86}{find\+User\+By\+Name}} (const std\+::string name) const
+\begin{DoxyCompactList}\small\item\em Find a user in the set of users with the name. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUser}{User}} $\ast$ \mbox{\hyperlink{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c}{find\+User\+By\+Nif}} (const std\+::string nif) const
+\begin{DoxyCompactList}\small\item\em Fiend a user in the set of users with the NIF. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUser}{User}} $\ast$ \mbox{\hyperlink{classUsersDatabase_ad482b64104b1f43fd0b4fd83df60d523}{find\+User\+By\+Password}} (const std\+::string password) const
+\begin{DoxyCompactList}\small\item\em Find a user in the set of users with the password. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUser}{User}} $\ast$ \mbox{\hyperlink{classUsersDatabase_a271290a2d8f182eee3961d2a311e1cfe}{find\+User\+By\+Email}} (const std\+::string email) const
+\begin{DoxyCompactList}\small\item\em Find a user in the set of users with the email. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersDatabase_a7e067a9a3333e73a4f14017fe3f5cb1d}{delete\+User}} (const \mbox{\hyperlink{classUser}{User}} \&user)
+\begin{DoxyCompactList}\small\item\em Delete a user from the set of users. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersDatabase_a0196a4df6750764d6f9ece36455ed438}{delete\+User\+By\+Name}} (const std\+::string name)
+\begin{DoxyCompactList}\small\item\em Delete a user from the set of users with the name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersDatabase_ab36722a2b6312f7a5cb9469b131dd58a}{delete\+User\+By\+Nif}} (const std\+::string nif)
+\begin{DoxyCompactList}\small\item\em Delete a user from the set of users with the NIF. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersDatabase_a5bf0c15a241eab1067b904e1d2f0132e}{delete\+User\+By\+Email}} (const std\+::string email)
+\begin{DoxyCompactList}\small\item\em Delete a user from the set of users with the email. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUsersDatabase_a6cf2dcc2c9bf73ef4e262c173e4dc5a4}{is\+Valid\+Privileges}} (const std\+::string privileges) const
+\begin{DoxyCompactList}\small\item\em This method checks if the privileges are valid. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsersDatabase_a1177bdb5dad44c7df97d34da14e0eb8d}{print\+Users}} () const
+\begin{DoxyCompactList}\small\item\em Print all the users. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classUsersDatabase_a332c6f8704e3e4b839aff5e46e87abc6}{print\+Deleted\+User}} (const \mbox{\hyperlink{classUser}{User}} $\ast$user) const
+\begin{DoxyCompactList}\small\item\em This method prints the user that has been deleted. \end{DoxyCompactList}\item 
+std\+::set$<$ const \mbox{\hyperlink{classUser}{User}} $\ast$, \mbox{\hyperlink{classUserNameComparator}{User\+Name\+Comparator}} $>$ \mbox{\hyperlink{classUsersDatabase_aa75e66b6c0d54749f5af1de7ebc2a542}{get\+Users\+Sorted\+By\+Name}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::set$<$ const \mbox{\hyperlink{classUser}{User}} $\ast$, \mbox{\hyperlink{classUserPtrComparator}{User\+Ptr\+Comparator}} $>$ \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This is the set of pointers to users. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 40 of file Users\+Database.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUsersDatabase_a367a1f3766baff081e6a10246c3589c4}\label{classUsersDatabase_a367a1f3766baff081e6a10246c3589c4}} 
+\index{UsersDatabase@{UsersDatabase}!UsersDatabase@{UsersDatabase}}
+\index{UsersDatabase@{UsersDatabase}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{UsersDatabase()}{UsersDatabase()}}
+{\footnotesize\ttfamily Users\+Database\+::\+Users\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new Users Database object Creates a new \mbox{\hyperlink{classUsersDatabase}{Users\+Database}} object that contains the pointers to users. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classUsersDatabase}{Users\+Database}} object 
+\end{DoxyReturn}
+
+
+Definition at line 13 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13 \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUsersDatabase_a165fec54d4d6d6f0dc78aac66ca44248}\label{classUsersDatabase_a165fec54d4d6d6f0dc78aac66ca44248}} 
+\index{UsersDatabase@{UsersDatabase}!````~UsersDatabase@{$\sim$UsersDatabase}}
+\index{````~UsersDatabase@{$\sim$UsersDatabase}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{$\sim$UsersDatabase()}{~UsersDatabase()}}
+{\footnotesize\ttfamily Users\+Database\+::$\sim$\+Users\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the Users Database object. 
+
+
+
+Definition at line 15 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{15                               \{}
+\DoxyCodeLine{16   \textcolor{comment}{// Liberar la memoria de los usuarios}}
+\DoxyCodeLine{17   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} user : \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}) \{}
+\DoxyCodeLine{18     \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{19   \}}
+\DoxyCodeLine{20 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUsersDatabase_a6f929d543040ad259bfa29d0c138b74f}\label{classUsersDatabase_a6f929d543040ad259bfa29d0c138b74f}} 
+\index{UsersDatabase@{UsersDatabase}!addUser@{addUser}}
+\index{addUser@{addUser}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{addUser()}{addUser()}}
+{\footnotesize\ttfamily void Users\+Database\+::add\+User (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classUser}{User}} $\ast$}]{user }\end{DoxyParamCaption})}
+
+
+
+Add a user to the set of users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{28                                             \{}
+\DoxyCodeLine{29   \textcolor{comment}{// Intento añadir un usuario al set de usuarios si no existe, si existe no lo}}
+\DoxyCodeLine{30   \textcolor{comment}{// añado y llamo a su destructor, tambien tiene que tener unos privilegios}}
+\DoxyCodeLine{31   \textcolor{comment}{// validos}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c}{findUserByNif}}(user-\/>\mbox{\hyperlink{classUser_a45b909a4f4e6b56cb00a5c6dae251a9a}{getNif}}()) == \textcolor{keyword}{nullptr} \&\&}
+\DoxyCodeLine{34       (\mbox{\hyperlink{classUsersDatabase_a6cf2dcc2c9bf73ef4e262c173e4dc5a4}{isValidPrivileges}}(user-\/>\mbox{\hyperlink{classUser_afb94652eecf297a0b27418e0a6211a70}{getPrivileges}}()))) \{}
+\DoxyCodeLine{35     \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.insert(user);}
+\DoxyCodeLine{36   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{37     \textcolor{keywordflow}{if} (!\mbox{\hyperlink{classUsersDatabase_a6cf2dcc2c9bf73ef4e262c173e4dc5a4}{isValidPrivileges}}(user-\/>\mbox{\hyperlink{classUser_afb94652eecf297a0b27418e0a6211a70}{getPrivileges}}())) \{}
+\DoxyCodeLine{38       std::cout << \textcolor{stringliteral}{"{}Privileges are not valid (ADMIN/EMPLOYEE/GUEST)"{}}}
+\DoxyCodeLine{39                 << std::endl;}
+\DoxyCodeLine{40     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{41       std::cout << \textcolor{stringliteral}{"{}User already exists"{}} << std::endl;}
+\DoxyCodeLine{42     \}}
+\DoxyCodeLine{43     \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{44   \}}
+\DoxyCodeLine{45 \}}
+
+\end{DoxyCode}
+
+
+References find\+User\+By\+Nif(), User\+::get\+Nif(), User\+::get\+Privileges(), is\+Valid\+Privileges(), and users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersDatabase_a6f929d543040ad259bfa29d0c138b74f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{classUsersDatabase_a6f929d543040ad259bfa29d0c138b74f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_a7e067a9a3333e73a4f14017fe3f5cb1d}\label{classUsersDatabase_a7e067a9a3333e73a4f14017fe3f5cb1d}} 
+\index{UsersDatabase@{UsersDatabase}!deleteUser@{deleteUser}}
+\index{deleteUser@{deleteUser}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{deleteUser()}{deleteUser()}}
+{\footnotesize\ttfamily void Users\+Database\+::delete\+User (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classUser}{User}} \&}]{user }\end{DoxyParamCaption})}
+
+
+
+Delete a user from the set of users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 148 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{148                                                \{}
+\DoxyCodeLine{149   \textcolor{keywordflow}{for} (std::set<const User *>::iterator it = \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin(); it != \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end();}
+\DoxyCodeLine{150        it++) \{}
+\DoxyCodeLine{151     \textcolor{comment}{// Si encuentro el usuario lo borro y también el puntero con el destructor}}
+\DoxyCodeLine{152     \textcolor{comment}{// de la clase User}}
+\DoxyCodeLine{153     \textcolor{keywordflow}{if} (*(*it) == user) \{}
+\DoxyCodeLine{154       \mbox{\hyperlink{classUsersDatabase_a332c6f8704e3e4b839aff5e46e87abc6}{printDeletedUser}}(*it);}
+\DoxyCodeLine{155       \textcolor{keyword}{delete} *it; \textcolor{comment}{// Llama al destructor de User y libera la memoria}}
+\DoxyCodeLine{156       \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.erase(it);}
+\DoxyCodeLine{157       \textcolor{keywordflow}{return};}
+\DoxyCodeLine{158     \}}
+\DoxyCodeLine{159   \}}
+\DoxyCodeLine{160 }
+\DoxyCodeLine{161   std::cout << \textcolor{stringliteral}{"{}User not found"{}} << std::endl;}
+\DoxyCodeLine{162   std::cout << std::endl;}
+\DoxyCodeLine{163 \}}
+
+\end{DoxyCode}
+
+
+References print\+Deleted\+User(), and users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersDatabase_a7e067a9a3333e73a4f14017fe3f5cb1d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{classUsersDatabase_a7e067a9a3333e73a4f14017fe3f5cb1d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_a5bf0c15a241eab1067b904e1d2f0132e}\label{classUsersDatabase_a5bf0c15a241eab1067b904e1d2f0132e}} 
+\index{UsersDatabase@{UsersDatabase}!deleteUserByEmail@{deleteUserByEmail}}
+\index{deleteUserByEmail@{deleteUserByEmail}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{deleteUserByEmail()}{deleteUserByEmail()}}
+{\footnotesize\ttfamily void Users\+Database\+::delete\+User\+By\+Email (\begin{DoxyParamCaption}\item[{const std\+::string}]{email }\end{DoxyParamCaption})}
+
+
+
+Delete a user from the set of users with the email. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 195 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{195                                                            \{}
+\DoxyCodeLine{196   \textcolor{keywordflow}{for} (std::set<const User *>::iterator it = \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin(); it != \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end();}
+\DoxyCodeLine{197        it++) \{}
+\DoxyCodeLine{198     \textcolor{keywordflow}{if} ((*it)-\/>getEmail() == email) \{}
+\DoxyCodeLine{199       \mbox{\hyperlink{classUsersDatabase_a332c6f8704e3e4b839aff5e46e87abc6}{printDeletedUser}}(*it);}
+\DoxyCodeLine{200       \textcolor{keyword}{delete} *it; \textcolor{comment}{// Llama al destructor de User y libera la memoria}}
+\DoxyCodeLine{201       \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.erase(it);}
+\DoxyCodeLine{202       \textcolor{keywordflow}{return};}
+\DoxyCodeLine{203     \}}
+\DoxyCodeLine{204   \}}
+\DoxyCodeLine{205 }
+\DoxyCodeLine{206   std::cout << \textcolor{stringliteral}{"{}User not found"{}} << std::endl;}
+\DoxyCodeLine{207   std::cout << std::endl;}
+\DoxyCodeLine{208 \}}
+
+\end{DoxyCode}
+
+
+References print\+Deleted\+User(), and users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersDatabase_a5bf0c15a241eab1067b904e1d2f0132e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{classUsersDatabase_a5bf0c15a241eab1067b904e1d2f0132e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_a0196a4df6750764d6f9ece36455ed438}\label{classUsersDatabase_a0196a4df6750764d6f9ece36455ed438}} 
+\index{UsersDatabase@{UsersDatabase}!deleteUserByName@{deleteUserByName}}
+\index{deleteUserByName@{deleteUserByName}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{deleteUserByName()}{deleteUserByName()}}
+{\footnotesize\ttfamily void Users\+Database\+::delete\+User\+By\+Name (\begin{DoxyParamCaption}\item[{const std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Delete a user from the set of users with the name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 165 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{165                                                          \{}
+\DoxyCodeLine{166   \textcolor{keywordflow}{for} (std::set<const User *>::iterator it = \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin(); it != \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end();}
+\DoxyCodeLine{167        it++) \{}
+\DoxyCodeLine{168     \textcolor{comment}{// Si esta el usuario lo borro y tambien borro el puntero}}
+\DoxyCodeLine{169     \textcolor{keywordflow}{if} ((*it)-\/>getName() == name) \{}
+\DoxyCodeLine{170       \mbox{\hyperlink{classUsersDatabase_a332c6f8704e3e4b839aff5e46e87abc6}{printDeletedUser}}(*it);}
+\DoxyCodeLine{171       \textcolor{keyword}{delete} *it; \textcolor{comment}{// Llama al destructor de User y libera la memoria}}
+\DoxyCodeLine{172       \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.erase(it);}
+\DoxyCodeLine{173       \textcolor{keywordflow}{return};}
+\DoxyCodeLine{174     \}}
+\DoxyCodeLine{175   \}}
+\DoxyCodeLine{176   std::cout << \textcolor{stringliteral}{"{}User not found"{}} << std::endl;}
+\DoxyCodeLine{177   std::cout << std::endl;}
+\DoxyCodeLine{178 \}}
+
+\end{DoxyCode}
+
+
+References print\+Deleted\+User(), and users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersDatabase_a0196a4df6750764d6f9ece36455ed438_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{classUsersDatabase_a0196a4df6750764d6f9ece36455ed438_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_ab36722a2b6312f7a5cb9469b131dd58a}\label{classUsersDatabase_ab36722a2b6312f7a5cb9469b131dd58a}} 
+\index{UsersDatabase@{UsersDatabase}!deleteUserByNif@{deleteUserByNif}}
+\index{deleteUserByNif@{deleteUserByNif}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{deleteUserByNif()}{deleteUserByNif()}}
+{\footnotesize\ttfamily void Users\+Database\+::delete\+User\+By\+Nif (\begin{DoxyParamCaption}\item[{const std\+::string}]{nif }\end{DoxyParamCaption})}
+
+
+
+Delete a user from the set of users with the NIF. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 180 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{180                                                        \{}
+\DoxyCodeLine{181   \textcolor{keywordflow}{for} (std::set<const User *>::iterator it = \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin(); it != \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end();}
+\DoxyCodeLine{182        it++) \{}
+\DoxyCodeLine{183     \textcolor{keywordflow}{if} ((*it)-\/>getNif() == nif) \{}
+\DoxyCodeLine{184       \mbox{\hyperlink{classUsersDatabase_a332c6f8704e3e4b839aff5e46e87abc6}{printDeletedUser}}(*it);}
+\DoxyCodeLine{185       \textcolor{keyword}{delete} *it; \textcolor{comment}{// Llama al destructor de User y libera la memoria}}
+\DoxyCodeLine{186       \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.erase(it);}
+\DoxyCodeLine{187       \textcolor{keywordflow}{return};}
+\DoxyCodeLine{188     \}}
+\DoxyCodeLine{189   \}}
+\DoxyCodeLine{190 }
+\DoxyCodeLine{191   std::cout << \textcolor{stringliteral}{"{}User not found"{}} << std::endl;}
+\DoxyCodeLine{192   std::cout << std::endl;}
+\DoxyCodeLine{193 \}}
+
+\end{DoxyCode}
+
+
+References print\+Deleted\+User(), and users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersDatabase_ab36722a2b6312f7a5cb9469b131dd58a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{classUsersDatabase_ab36722a2b6312f7a5cb9469b131dd58a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_acfce0c31443738f19695771d32ec4156}\label{classUsersDatabase_acfce0c31443738f19695771d32ec4156}} 
+\index{UsersDatabase@{UsersDatabase}!findUser@{findUser}}
+\index{findUser@{findUser}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{findUser()}{findUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classUser}{User}} $\ast$ Users\+Database\+::find\+User (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classUser}{User}} \&}]{user }\end{DoxyParamCaption}) const}
+
+
+
+Find a user in the set of users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 78 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{78                                                     \{}
+\DoxyCodeLine{79   \textcolor{comment}{// Si el usuario existe devuelvo el usuario, si no existe devuelvo un usuario}}
+\DoxyCodeLine{80   \textcolor{comment}{// con todos los atributos vacios}}
+\DoxyCodeLine{81   \textcolor{keywordflow}{for} (std::set<const User *, UserPtrComparator>::const\_iterator it =}
+\DoxyCodeLine{82            \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin();}
+\DoxyCodeLine{83        it != \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end(); it++) \{}
+\DoxyCodeLine{84     \textcolor{keywordflow}{if} (*(*it) == user) \{}
+\DoxyCodeLine{85       \textcolor{keywordflow}{return} \textcolor{keyword}{const\_cast<}\mbox{\hyperlink{classUser}{User}} *\textcolor{keyword}{>}(*it);}
+\DoxyCodeLine{86     \}}
+\DoxyCodeLine{87   \}}
+\DoxyCodeLine{88 }
+\DoxyCodeLine{89   \textcolor{keywordflow}{return} \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{90 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{classUsersDatabase_acfce0c31443738f19695771d32ec4156_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_a271290a2d8f182eee3961d2a311e1cfe}\label{classUsersDatabase_a271290a2d8f182eee3961d2a311e1cfe}} 
+\index{UsersDatabase@{UsersDatabase}!findUserByEmail@{findUserByEmail}}
+\index{findUserByEmail@{findUserByEmail}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{findUserByEmail()}{findUserByEmail()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classUser}{User}} $\ast$ Users\+Database\+::find\+User\+By\+Email (\begin{DoxyParamCaption}\item[{const std\+::string}]{email }\end{DoxyParamCaption}) const}
+
+
+
+Find a user in the set of users with the email. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 134 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{134                                                                 \{}
+\DoxyCodeLine{135   \textcolor{comment}{// Si el usuario existe devuelvo el usuario, si no existe devuelvo un usuario}}
+\DoxyCodeLine{136   \textcolor{comment}{// con todos los atributos vacios}}
+\DoxyCodeLine{137   \textcolor{keywordflow}{for} (std::set<const User *, UserPtrComparator>::const\_iterator it =}
+\DoxyCodeLine{138            \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin();}
+\DoxyCodeLine{139        it != \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end(); it++) \{}
+\DoxyCodeLine{140     \textcolor{keywordflow}{if} ((*it)-\/>getEmail() == email) \{}
+\DoxyCodeLine{141       \textcolor{keywordflow}{return} \textcolor{keyword}{const\_cast<}\mbox{\hyperlink{classUser}{User}} *\textcolor{keyword}{>}(*it);}
+\DoxyCodeLine{142     \}}
+\DoxyCodeLine{143   \}}
+\DoxyCodeLine{144 }
+\DoxyCodeLine{145   \textcolor{keywordflow}{return} \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{146 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{classUsersDatabase_a271290a2d8f182eee3961d2a311e1cfe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_a3b95576ad362e990dc80821ec4e3ad86}\label{classUsersDatabase_a3b95576ad362e990dc80821ec4e3ad86}} 
+\index{UsersDatabase@{UsersDatabase}!findUserByName@{findUserByName}}
+\index{findUserByName@{findUserByName}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{findUserByName()}{findUserByName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classUser}{User}} $\ast$ Users\+Database\+::find\+User\+By\+Name (\begin{DoxyParamCaption}\item[{const std\+::string}]{name }\end{DoxyParamCaption}) const}
+
+
+
+Find a user in the set of users with the name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 92 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{92                                                               \{}
+\DoxyCodeLine{93   \textcolor{comment}{// Si el usuario existe devuelvo el usuario, si no existe devuelvo un usuario}}
+\DoxyCodeLine{94   \textcolor{comment}{// con todos los atributos vacios}}
+\DoxyCodeLine{95   \textcolor{keywordflow}{for} (std::set<const User *, UserPtrComparator>::const\_iterator it =}
+\DoxyCodeLine{96            \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin();}
+\DoxyCodeLine{97        it != \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end(); it++) \{}
+\DoxyCodeLine{98     \textcolor{keywordflow}{if} ((*it)-\/>getName() == name) \{}
+\DoxyCodeLine{99       \textcolor{keywordflow}{return} \textcolor{keyword}{const\_cast<}\mbox{\hyperlink{classUser}{User}} *\textcolor{keyword}{>}(*it);}
+\DoxyCodeLine{100     \}}
+\DoxyCodeLine{101   \}}
+\DoxyCodeLine{102 }
+\DoxyCodeLine{103   \textcolor{keywordflow}{return} \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{104 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classUsersDatabase_a3b95576ad362e990dc80821ec4e3ad86_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c}\label{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c}} 
+\index{UsersDatabase@{UsersDatabase}!findUserByNif@{findUserByNif}}
+\index{findUserByNif@{findUserByNif}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{findUserByNif()}{findUserByNif()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classUser}{User}} $\ast$ Users\+Database\+::find\+User\+By\+Nif (\begin{DoxyParamCaption}\item[{const std\+::string}]{nif }\end{DoxyParamCaption}) const}
+
+
+
+Fiend a user in the set of users with the NIF. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 106 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{106                                                             \{}
+\DoxyCodeLine{107   \textcolor{comment}{// Si el usuario existe devuelvo el usuario, si no existe devuelvo un usuario}}
+\DoxyCodeLine{108   \textcolor{comment}{// con todos los atributos vacios}}
+\DoxyCodeLine{109   \textcolor{keywordflow}{for} (std::set<const User *, UserPtrComparator>::const\_iterator it =}
+\DoxyCodeLine{110            \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin();}
+\DoxyCodeLine{111        it != \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end(); it++) \{}
+\DoxyCodeLine{112     \textcolor{keywordflow}{if} ((*it)-\/>getNif() == nif) \{}
+\DoxyCodeLine{113       \textcolor{keywordflow}{return} \textcolor{keyword}{const\_cast<}\mbox{\hyperlink{classUser}{User}} *\textcolor{keyword}{>}(*it);}
+\DoxyCodeLine{114     \}}
+\DoxyCodeLine{115   \}}
+\DoxyCodeLine{116 }
+\DoxyCodeLine{117   \textcolor{keywordflow}{return} \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{118 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+
+
+Referenced by add\+User(), and main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersDatabase_a81c2193fa38bd3f63403e8877b741a2c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_ad482b64104b1f43fd0b4fd83df60d523}\label{classUsersDatabase_ad482b64104b1f43fd0b4fd83df60d523}} 
+\index{UsersDatabase@{UsersDatabase}!findUserByPassword@{findUserByPassword}}
+\index{findUserByPassword@{findUserByPassword}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{findUserByPassword()}{findUserByPassword()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classUser}{User}} $\ast$ Users\+Database\+::find\+User\+By\+Password (\begin{DoxyParamCaption}\item[{const std\+::string}]{password }\end{DoxyParamCaption}) const}
+
+
+
+Find a user in the set of users with the password. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User$\ast$ 
+\end{DoxyReturn}
+
+
+Definition at line 120 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{120                                                                       \{}
+\DoxyCodeLine{121   \textcolor{comment}{// Si el usuario existe devuelvo el usuario, si no existe devuelvo un usuario}}
+\DoxyCodeLine{122   \textcolor{comment}{// con todos los atributos vacios}}
+\DoxyCodeLine{123   \textcolor{keywordflow}{for} (std::set<const User *, UserPtrComparator>::const\_iterator it =}
+\DoxyCodeLine{124            \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin();}
+\DoxyCodeLine{125        it != \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end(); it++) \{}
+\DoxyCodeLine{126     \textcolor{keywordflow}{if} ((*it)-\/>getPassword() == password) \{}
+\DoxyCodeLine{127       \textcolor{keywordflow}{return} \textcolor{keyword}{const\_cast<}\mbox{\hyperlink{classUser}{User}} *\textcolor{keyword}{>}(*it);}
+\DoxyCodeLine{128     \}}
+\DoxyCodeLine{129   \}}
+\DoxyCodeLine{130 }
+\DoxyCodeLine{131   \textcolor{keywordflow}{return} \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{132 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+\mbox{\Hypertarget{classUsersDatabase_a742efe315cfe975ceec72c4139e8f6f7}\label{classUsersDatabase_a742efe315cfe975ceec72c4139e8f6f7}} 
+\index{UsersDatabase@{UsersDatabase}!getUsers@{getUsers}}
+\index{getUsers@{getUsers}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{getUsers()}{getUsers()}}
+{\footnotesize\ttfamily std\+::set$<$ const \mbox{\hyperlink{classUser}{User}} $\ast$, \mbox{\hyperlink{classUserPtrComparator}{User\+Ptr\+Comparator}} $>$ Users\+Database\+::get\+Users (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Users object. 
+
+\begin{DoxyReturn}{Returns}
+std\+::set$<$const User $\ast$, User\+Ptr\+Comparator$>$ 
+\end{DoxyReturn}
+
+
+Definition at line 47 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{47                                                                       \{}
+\DoxyCodeLine{48   \textcolor{keywordflow}{return} \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}};}
+\DoxyCodeLine{49 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{classUsersDatabase_a742efe315cfe975ceec72c4139e8f6f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_aa75e66b6c0d54749f5af1de7ebc2a542}\label{classUsersDatabase_aa75e66b6c0d54749f5af1de7ebc2a542}} 
+\index{UsersDatabase@{UsersDatabase}!getUsersSortedByName@{getUsersSortedByName}}
+\index{getUsersSortedByName@{getUsersSortedByName}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{getUsersSortedByName()}{getUsersSortedByName()}}
+{\footnotesize\ttfamily std\+::set$<$ const \mbox{\hyperlink{classUser}{User}} $\ast$, \mbox{\hyperlink{classUserNameComparator}{User\+Name\+Comparator}} $>$ Users\+Database\+::get\+Users\+Sorted\+By\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 233 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{233                                                                                    \{}
+\DoxyCodeLine{234   std::set<const User *, UserNameComparator> sortedUsers(\mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.begin(), \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.end());}
+\DoxyCodeLine{235   \textcolor{keywordflow}{return} sortedUsers;}
+\DoxyCodeLine{236 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+\mbox{\Hypertarget{classUsersDatabase_a6cf2dcc2c9bf73ef4e262c173e4dc5a4}\label{classUsersDatabase_a6cf2dcc2c9bf73ef4e262c173e4dc5a4}} 
+\index{UsersDatabase@{UsersDatabase}!isValidPrivileges@{isValidPrivileges}}
+\index{isValidPrivileges@{isValidPrivileges}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{isValidPrivileges()}{isValidPrivileges()}}
+{\footnotesize\ttfamily bool Users\+Database\+::is\+Valid\+Privileges (\begin{DoxyParamCaption}\item[{const std\+::string}]{privileges }\end{DoxyParamCaption}) const}
+
+
+
+This method checks if the privileges are valid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em privileges} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Definition at line 22 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22                                                                       \{}
+\DoxyCodeLine{23   \textcolor{comment}{// Compruebo si los privilegios son validos}}
+\DoxyCodeLine{24   \textcolor{keywordflow}{return} privileges == \textcolor{stringliteral}{"{}ADMIN"{}} || privileges == \textcolor{stringliteral}{"{}EMPLOYEE"{}} ||}
+\DoxyCodeLine{25          privileges == \textcolor{stringliteral}{"{}GUEST"{}};}
+\DoxyCodeLine{26 \}}
+
+\end{DoxyCode}
+
+
+Referenced by add\+User().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersDatabase_a6cf2dcc2c9bf73ef4e262c173e4dc5a4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_a332c6f8704e3e4b839aff5e46e87abc6}\label{classUsersDatabase_a332c6f8704e3e4b839aff5e46e87abc6}} 
+\index{UsersDatabase@{UsersDatabase}!printDeletedUser@{printDeletedUser}}
+\index{printDeletedUser@{printDeletedUser}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{printDeletedUser()}{printDeletedUser()}}
+{\footnotesize\ttfamily void Users\+Database\+::print\+Deleted\+User (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classUser}{User}} $\ast$}]{user }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This method prints the user that has been deleted. 
+
+This method prints the user that has been deleted, is private method becouse to print a delete user first you have to delete one. So when you delete a user, this method print the user that has been deleted.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 227 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{227                                                            \{}
+\DoxyCodeLine{228   std::cout << \textcolor{stringliteral}{"{}User deleted: "{}} << (*user).getName() << \textcolor{stringliteral}{"{}-\/"{}} << (*user).getNif()}
+\DoxyCodeLine{229             << std::endl;}
+\DoxyCodeLine{230   std::cout << std::endl;}
+\DoxyCodeLine{231 \}}
+
+\end{DoxyCode}
+
+
+Referenced by delete\+User(), delete\+User\+By\+Email(), delete\+User\+By\+Name(), and delete\+User\+By\+Nif().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUsersDatabase_a332c6f8704e3e4b839aff5e46e87abc6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_a1177bdb5dad44c7df97d34da14e0eb8d}\label{classUsersDatabase_a1177bdb5dad44c7df97d34da14e0eb8d}} 
+\index{UsersDatabase@{UsersDatabase}!printUsers@{printUsers}}
+\index{printUsers@{printUsers}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{printUsers()}{printUsers()}}
+{\footnotesize\ttfamily void Users\+Database\+::print\+Users (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Print all the users. 
+
+
+
+Definition at line 210 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{210                                      \{}
+\DoxyCodeLine{211   std::cout << \textcolor{stringliteral}{"{}*** LIST OF USERS ***"{}} << std::endl;}
+\DoxyCodeLine{212   \textcolor{comment}{// Imprimir todos los usuarios}}
+\DoxyCodeLine{213   \textcolor{comment}{/*}}
+\DoxyCodeLine{214 \textcolor{comment}{  for (auto it = users\_.rbegin(); it != users\_.rend(); ++it) \{}}
+\DoxyCodeLine{215 \textcolor{comment}{    (*it)-\/>printUser();}}
+\DoxyCodeLine{216 \textcolor{comment}{    std::cout << std::endl;}}
+\DoxyCodeLine{217 \textcolor{comment}{  \}}}
+\DoxyCodeLine{218 \textcolor{comment}{  */}}
+\DoxyCodeLine{219   \textcolor{keywordflow}{for} (\textcolor{keyword}{const} \textcolor{keyword}{auto} \&user : \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}) \{}
+\DoxyCodeLine{220     (*user).printUser();}
+\DoxyCodeLine{221     std::cout << std::endl;}
+\DoxyCodeLine{222   \}}
+\DoxyCodeLine{223 }
+\DoxyCodeLine{224   std::cout << \textcolor{stringliteral}{"{}*** END OF LIST ***"{}} << std::endl;}
+\DoxyCodeLine{225 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{classUsersDatabase_a1177bdb5dad44c7df97d34da14e0eb8d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUsersDatabase_a77c259525936076f0c2b2505a82b5df1}\label{classUsersDatabase_a77c259525936076f0c2b2505a82b5df1}} 
+\index{UsersDatabase@{UsersDatabase}!setUsers@{setUsers}}
+\index{setUsers@{setUsers}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{setUsers()}{setUsers()}}
+{\footnotesize\ttfamily void Users\+Database\+::set\+Users (\begin{DoxyParamCaption}\item[{const std\+::set$<$ const \mbox{\hyperlink{classUser}{User}} $\ast$, \mbox{\hyperlink{classUserPtrComparator}{User\+Ptr\+Comparator}} $>$ \&}]{users }\end{DoxyParamCaption})}
+
+
+
+Set the Users object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 51 of file Users\+Database.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{52                                                           \{}
+\DoxyCodeLine{53   \textcolor{comment}{// El set users debe de convertir los punteros de usuarios a Objetos de}}
+\DoxyCodeLine{54   \textcolor{comment}{// usuarios y luego añadirlos al set de usuarios Bucle para convertirlos en}}
+\DoxyCodeLine{55   \textcolor{comment}{// objetos usuario}}
+\DoxyCodeLine{56   \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} user : users) \{}
+\DoxyCodeLine{57     \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{58       \textcolor{keywordflow}{if} (user-\/>getPrivileges() == \textcolor{stringliteral}{"{}ADMIN"{}}) \{}
+\DoxyCodeLine{59         \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classUserAdmin}{UserAdmin}}(*\textcolor{keyword}{static\_cast<}\textcolor{keyword}{const }\mbox{\hyperlink{classUserAdmin}{UserAdmin}} *\textcolor{keyword}{>}(user)));}
+\DoxyCodeLine{60       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (user-\/>getPrivileges() == \textcolor{stringliteral}{"{}EMPLOYEE"{}}) \{}
+\DoxyCodeLine{61         \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.insert(}
+\DoxyCodeLine{62             \textcolor{keyword}{new} \mbox{\hyperlink{classUserEmployee}{UserEmployee}}(*\textcolor{keyword}{static\_cast<}\textcolor{keyword}{const }\mbox{\hyperlink{classUserEmployee}{UserEmployee}} *\textcolor{keyword}{>}(user)));}
+\DoxyCodeLine{63       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (user-\/>getPrivileges() == \textcolor{stringliteral}{"{}GUEST"{}}) \{}
+\DoxyCodeLine{64         \mbox{\hyperlink{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}{users\_}}.insert(\textcolor{keyword}{new} \mbox{\hyperlink{classUserGuest}{UserGuest}}(*\textcolor{keyword}{static\_cast<}\textcolor{keyword}{const }\mbox{\hyperlink{classUserGuest}{UserGuest}} *\textcolor{keyword}{>}(user)));}
+\DoxyCodeLine{65       \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{66         std::cerr << \textcolor{stringliteral}{"{}Unknown user privilege: "{}} << user-\/>getPrivileges()}
+\DoxyCodeLine{67                   << \textcolor{charliteral}{'\(\backslash\)n'};}
+\DoxyCodeLine{68       \}}
+\DoxyCodeLine{69     \} \textcolor{keywordflow}{catch} (std::bad\_alloc \&ba) \{}
+\DoxyCodeLine{70       std::cerr << \textcolor{stringliteral}{"{}bad\_alloc caught: "{}} << ba.what() << \textcolor{charliteral}{'\(\backslash\)n'};}
+\DoxyCodeLine{71       \textcolor{comment}{// Borrar el usuario que no se ha podido añadir}}
+\DoxyCodeLine{72       \textcolor{keyword}{delete} user;}
+\DoxyCodeLine{73       \textcolor{keywordflow}{throw};}
+\DoxyCodeLine{74     \}}
+\DoxyCodeLine{75   \}}
+\DoxyCodeLine{76 \}}
+
+\end{DoxyCode}
+
+
+References users\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{classUsersDatabase_a77c259525936076f0c2b2505a82b5df1_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}\label{classUsersDatabase_ace9ca7d49795c0437b6f4772fdffbdf7}} 
+\index{UsersDatabase@{UsersDatabase}!users\_@{users\_}}
+\index{users\_@{users\_}!UsersDatabase@{UsersDatabase}}
+\doxysubsubsection{\texorpdfstring{users\_}{users\_}}
+{\footnotesize\ttfamily std\+::set$<$const \mbox{\hyperlink{classUser}{User}} $\ast$, \mbox{\hyperlink{classUserPtrComparator}{User\+Ptr\+Comparator}}$>$ Users\+Database\+::users\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This is the set of pointers to users. 
+
+This is the atributte that contains the pointers to users. 
+
+Definition at line 175 of file Users\+Database.\+h.
+
+
+
+Referenced by add\+User(), delete\+User(), delete\+User\+By\+Email(), delete\+User\+By\+Name(), delete\+User\+By\+Nif(), find\+User(), find\+User\+By\+Email(), find\+User\+By\+Name(), find\+User\+By\+Nif(), find\+User\+By\+Password(), get\+Users(), get\+Users\+Sorted\+By\+Name(), print\+Users(), set\+Users(), and $\sim$\+Users\+Database().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{UsersDatabase_8h}{Users\+Database.\+h}}\item 
+src/\mbox{\hyperlink{UsersDatabase_8cpp}{Users\+Database.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="LightSensor::checkAllgood" name="LightSensor::checkAllgood">
+<area shape="rect" id="node1" title="Check if the Light Sensor is working properly." alt="" coords="5,5,199,32"/>
+<area shape="rect" id="node2" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="247,5,373,32"/>
+</map>

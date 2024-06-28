@@ -1,0 +1,461 @@
+\hypertarget{classPhSensor}{}\doxysection{Ph\+Sensor Class Reference}
+\label{classPhSensor}\index{PhSensor@{PhSensor}}
+
+
+{\ttfamily \#include $<$Ph\+Sensor.\+h$>$}
+
+
+
+Inheritance diagram for Ph\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{classPhSensor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Ph\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{classPhSensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPhSensor_a6113eabf12ccf46689247f576ceeb930}{Ph\+Sensor}} (int id, bool active)
+\begin{DoxyCompactList}\small\item\em Construct a new Ph \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPhSensor_a183ac0cb2dd3bf6511346611aaa8cdeb}{$\sim$\+Ph\+Sensor}} () override
+\begin{DoxyCompactList}\small\item\em Destroy the Ph \mbox{\hyperlink{classSensor}{Sensor}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPhSensor_a481bad025182910fb03c8b6d5b6c9394}{collect\+Data}} () override
+\begin{DoxyCompactList}\small\item\em Collect data of the Ph \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classPhSensor_aed7b60fbcd223ac08c84301b94635bd3}{check\+Allgood}} () const override
+\begin{DoxyCompactList}\small\item\em Check if the Ph \mbox{\hyperlink{classSensor}{Sensor}} is working properly. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPhSensor_aea7472382b647fdf581b730376bb30dd}{qualify\+Ph}} () const
+\begin{DoxyCompactList}\small\item\em This qualifies the Ph \mbox{\hyperlink{classSensor}{Sensor}} into Acidic, Neutral or Alkaline. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPhSensor_a55c2c68cc33cc039d8907da047c42615}{print\+Data}} () const override
+\begin{DoxyCompactList}\small\item\em This method prints the data of the Ph \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPhSensor_a058b0d28c34757144c509eaf06a36abc}{string\+Status}} () const
+\begin{DoxyCompactList}\small\item\em This method returns the status in a string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPhSensor_ad6ef01f8f2f219af51739d8b309aa5eb}{collect\+And\+Print}} ()
+\begin{DoxyCompactList}\small\item\em Collect and print the data of the Ph \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{classPhSensor_a84248452336bee495875e5aec5a6d3f7}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classPhSensor}{Ph\+Sensor}} \&sensor)
+\begin{DoxyCompactList}\small\item\em Operator $<$$<$ overload. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 15 of file Ph\+Sensor.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPhSensor_a6113eabf12ccf46689247f576ceeb930}\label{classPhSensor_a6113eabf12ccf46689247f576ceeb930}} 
+\index{PhSensor@{PhSensor}!PhSensor@{PhSensor}}
+\index{PhSensor@{PhSensor}!PhSensor@{PhSensor}}
+\doxysubsubsection{\texorpdfstring{PhSensor()}{PhSensor()}}
+{\footnotesize\ttfamily Ph\+Sensor\+::\+Ph\+Sensor (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{bool}]{active }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Ph \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em active} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classPhSensor}{Ph\+Sensor}} object 
+\end{DoxyReturn}
+
+
+Definition at line 9 of file Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{10     : \mbox{\hyperlink{classSensor_a342d6d11ef572c8cba92cb76fb1a294b}{Sensor}}(\textcolor{keywordtype}{id}, Sensor::Types::PH\_SENSOR, active) \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classPhSensor_a183ac0cb2dd3bf6511346611aaa8cdeb}\label{classPhSensor_a183ac0cb2dd3bf6511346611aaa8cdeb}} 
+\index{PhSensor@{PhSensor}!````~PhSensor@{$\sim$PhSensor}}
+\index{````~PhSensor@{$\sim$PhSensor}!PhSensor@{PhSensor}}
+\doxysubsubsection{\texorpdfstring{$\sim$PhSensor()}{~PhSensor()}}
+{\footnotesize\ttfamily Ph\+Sensor\+::$\sim$\+Ph\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Destroy the Ph \mbox{\hyperlink{classSensor}{Sensor}} object. 
+
+
+
+Definition at line 11 of file Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{11 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPhSensor_aed7b60fbcd223ac08c84301b94635bd3}\label{classPhSensor_aed7b60fbcd223ac08c84301b94635bd3}} 
+\index{PhSensor@{PhSensor}!checkAllgood@{checkAllgood}}
+\index{checkAllgood@{checkAllgood}!PhSensor@{PhSensor}}
+\doxysubsubsection{\texorpdfstring{checkAllgood()}{checkAllgood()}}
+{\footnotesize\ttfamily bool Ph\+Sensor\+::check\+Allgood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Check if the Ph \mbox{\hyperlink{classSensor}{Sensor}} is working properly. 
+
+\begin{DoxyReturn}{Returns}
+true if the Ph \mbox{\hyperlink{classSensor}{Sensor}} is working properly 
+
+false if the Ph \mbox{\hyperlink{classSensor}{Sensor}} is not working properly 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_a7bae778c5814d5d33c0b496a7add75cd}{Sensor}}.
+
+
+
+Definition at line 22 of file Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22                                   \{}
+\DoxyCodeLine{23   \textcolor{keywordtype}{float} data = \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{Sensor::getData}}();}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25   \textcolor{keywordflow}{if} (data >= 6.2 \&\& data <= 7.8) \{}
+\DoxyCodeLine{26     \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{27   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{28     \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{29   \}}
+\DoxyCodeLine{30 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::get\+Data().
+
+
+
+Referenced by qualify\+Ph(), and string\+Status().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{classPhSensor_aed7b60fbcd223ac08c84301b94635bd3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPhSensor_aed7b60fbcd223ac08c84301b94635bd3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPhSensor_ad6ef01f8f2f219af51739d8b309aa5eb}\label{classPhSensor_ad6ef01f8f2f219af51739d8b309aa5eb}} 
+\index{PhSensor@{PhSensor}!collectAndPrint@{collectAndPrint}}
+\index{collectAndPrint@{collectAndPrint}!PhSensor@{PhSensor}}
+\doxysubsubsection{\texorpdfstring{collectAndPrint()}{collectAndPrint()}}
+{\footnotesize\ttfamily void Ph\+Sensor\+::collect\+And\+Print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Collect and print the data of the Ph \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_a9b3ddd058bce63adc5d444da4818dd83}{Sensor}}.
+
+
+
+Definition at line 72 of file Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{72                                \{}
+\DoxyCodeLine{73   \mbox{\hyperlink{classPhSensor_a481bad025182910fb03c8b6d5b6c9394}{collectData}}();}
+\DoxyCodeLine{74   \mbox{\hyperlink{classPhSensor_a55c2c68cc33cc039d8907da047c42615}{printData}}();}
+\DoxyCodeLine{75 \}}
+
+\end{DoxyCode}
+
+
+References collect\+Data(), and print\+Data().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPhSensor_ad6ef01f8f2f219af51739d8b309aa5eb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{classPhSensor_ad6ef01f8f2f219af51739d8b309aa5eb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPhSensor_a481bad025182910fb03c8b6d5b6c9394}\label{classPhSensor_a481bad025182910fb03c8b6d5b6c9394}} 
+\index{PhSensor@{PhSensor}!collectData@{collectData}}
+\index{collectData@{collectData}!PhSensor@{PhSensor}}
+\doxysubsubsection{\texorpdfstring{collectData()}{collectData()}}
+{\footnotesize\ttfamily void Ph\+Sensor\+::collect\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Collect data of the Ph \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+This method collects the data of the Ph \mbox{\hyperlink{classSensor}{Sensor}} and stores it in the data attribute. 
+
+Reimplemented from \mbox{\hyperlink{classSensor_a8ffb0f2473f7e1de1d9947937f2db53a}{Sensor}}.
+
+
+
+Definition at line 13 of file Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13                            \{}
+\DoxyCodeLine{14   std::random\_device rd;}
+\DoxyCodeLine{15   std::mt19937 gen(rd());}
+\DoxyCodeLine{16   std::uniform\_real\_distribution<> dis(6, 8);}
+\DoxyCodeLine{17   \textcolor{keywordtype}{float} reading = dis(gen);}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19   \mbox{\hyperlink{classSensor_a8c3a63a324230f81e78972d37f9ddfb1}{Sensor::setData}}(reading);}
+\DoxyCodeLine{20 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::set\+Data().
+
+
+
+Referenced by collect\+And\+Print(), and main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{classPhSensor_a481bad025182910fb03c8b6d5b6c9394_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPhSensor_a481bad025182910fb03c8b6d5b6c9394_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPhSensor_a55c2c68cc33cc039d8907da047c42615}\label{classPhSensor_a55c2c68cc33cc039d8907da047c42615}} 
+\index{PhSensor@{PhSensor}!printData@{printData}}
+\index{printData@{printData}!PhSensor@{PhSensor}}
+\doxysubsubsection{\texorpdfstring{printData()}{printData()}}
+{\footnotesize\ttfamily void Ph\+Sensor\+::print\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+This method prints the data of the Ph \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classSensor_ab96627dab3d2e727f07d7f1ea83379e1}{Sensor}}.
+
+
+
+Definition at line 43 of file Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{43                                \{}
+\DoxyCodeLine{44   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{Sensor::isActive}}()) \{}
+\DoxyCodeLine{45     std::cout << \textcolor{stringliteral}{"{}Ph Sensor with "{}}}
+\DoxyCodeLine{46               << \textcolor{stringliteral}{"{}ID: "{}} << \mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{Sensor::getId}}() << \textcolor{stringliteral}{"{} -\/ Data: "{}} << \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{Sensor::getData}}()}
+\DoxyCodeLine{47               << \textcolor{stringliteral}{"{} -\/ Status: "{}} << \mbox{\hyperlink{classPhSensor_a058b0d28c34757144c509eaf06a36abc}{stringStatus}}()}
+\DoxyCodeLine{48               << \textcolor{stringliteral}{"{} -\/ Qualification: "{}} << \mbox{\hyperlink{classPhSensor_aea7472382b647fdf581b730376bb30dd}{qualifyPh}}() << endl;}
+\DoxyCodeLine{49   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{50     std::cout << \textcolor{stringliteral}{"{}Ph Sensor ID: "{}} << \mbox{\hyperlink{classSensor_a2f57593dc57b88e0667907e282b4e2ef}{Sensor::getId}}()}
+\DoxyCodeLine{51               << \textcolor{stringliteral}{"{} -\/ Status: "{}} << \mbox{\hyperlink{classPhSensor_a058b0d28c34757144c509eaf06a36abc}{stringStatus}}() << endl;}
+\DoxyCodeLine{52   \}}
+\DoxyCodeLine{53 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::get\+Data(), Sensor\+::get\+Id(), Sensor\+::is\+Active(), qualify\+Ph(), and string\+Status().
+
+
+
+Referenced by collect\+And\+Print(), and main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPhSensor_a55c2c68cc33cc039d8907da047c42615_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPhSensor_a55c2c68cc33cc039d8907da047c42615_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPhSensor_aea7472382b647fdf581b730376bb30dd}\label{classPhSensor_aea7472382b647fdf581b730376bb30dd}} 
+\index{PhSensor@{PhSensor}!qualifyPh@{qualifyPh}}
+\index{qualifyPh@{qualifyPh}!PhSensor@{PhSensor}}
+\doxysubsubsection{\texorpdfstring{qualifyPh()}{qualifyPh()}}
+{\footnotesize\ttfamily std\+::string Ph\+Sensor\+::qualify\+Ph (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+This qualifies the Ph \mbox{\hyperlink{classSensor}{Sensor}} into Acidic, Neutral or Alkaline. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string of the qualification of the Ph \mbox{\hyperlink{classSensor}{Sensor}} 
+\end{DoxyReturn}
+
+
+Definition at line 32 of file Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{32                                     \{}
+\DoxyCodeLine{33   \textcolor{keywordtype}{float} data = \mbox{\hyperlink{classSensor_a03a620c375c0810599d6881d3cd46c41}{Sensor::getData}}();}
+\DoxyCodeLine{34   \textcolor{keywordflow}{if} (this-\/>\mbox{\hyperlink{classPhSensor_aed7b60fbcd223ac08c84301b94635bd3}{checkAllgood}}()) \{}
+\DoxyCodeLine{35     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}Ideal"{}};}
+\DoxyCodeLine{36   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (data < 6.5f) \{}
+\DoxyCodeLine{37     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}Acidic"{}};}
+\DoxyCodeLine{38   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{39     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}Alkaline"{}};}
+\DoxyCodeLine{40   \}}
+\DoxyCodeLine{41 \}}
+
+\end{DoxyCode}
+
+
+References check\+Allgood(), and Sensor\+::get\+Data().
+
+
+
+Referenced by print\+Data().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPhSensor_aea7472382b647fdf581b730376bb30dd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPhSensor_aea7472382b647fdf581b730376bb30dd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPhSensor_a058b0d28c34757144c509eaf06a36abc}\label{classPhSensor_a058b0d28c34757144c509eaf06a36abc}} 
+\index{PhSensor@{PhSensor}!stringStatus@{stringStatus}}
+\index{stringStatus@{stringStatus}!PhSensor@{PhSensor}}
+\doxysubsubsection{\texorpdfstring{stringStatus()}{stringStatus()}}
+{\footnotesize\ttfamily std\+::string Ph\+Sensor\+::string\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+This method returns the status in a string. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string of the status of the Ph \mbox{\hyperlink{classSensor}{Sensor}} 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{60                                        \{}
+\DoxyCodeLine{61   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classSensor_a10a9c7f2957817dde28b32b2000e5d65}{Sensor::isActive}}()) \{}
+\DoxyCodeLine{62     \textcolor{keywordflow}{if} (this-\/>\mbox{\hyperlink{classPhSensor_aed7b60fbcd223ac08c84301b94635bd3}{checkAllgood}}()) \{}
+\DoxyCodeLine{63       \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}ACTIVE -\/ GOOD STATUS"{}};}
+\DoxyCodeLine{64     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{65       \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}ACTIVE -\/ BAD STATUS"{}};}
+\DoxyCodeLine{66     \}}
+\DoxyCodeLine{67   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{68     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}INACTIVE"{}};}
+\DoxyCodeLine{69   \}}
+\DoxyCodeLine{70 \}}
+
+\end{DoxyCode}
+
+
+References check\+Allgood(), and Sensor\+::is\+Active().
+
+
+
+Referenced by main(), and print\+Data().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPhSensor_a058b0d28c34757144c509eaf06a36abc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPhSensor_a058b0d28c34757144c509eaf06a36abc_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classPhSensor_a84248452336bee495875e5aec5a6d3f7}\label{classPhSensor_a84248452336bee495875e5aec5a6d3f7}} 
+\index{PhSensor@{PhSensor}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!PhSensor@{PhSensor}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classPhSensor}{Ph\+Sensor}} \&}]{sensor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator $<$$<$ overload. 
+
+
+
+Definition at line 55 of file Ph\+Sensor.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{55                                                                \{}
+\DoxyCodeLine{56   sensor.\mbox{\hyperlink{classPhSensor_a55c2c68cc33cc039d8907da047c42615}{printData}}();}
+\DoxyCodeLine{57   \textcolor{keywordflow}{return} os;}
+\DoxyCodeLine{58 \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{PhSensor_8h}{Ph\+Sensor.\+h}}\item 
+src/\mbox{\hyperlink{PhSensor_8cpp}{Ph\+Sensor.\+cpp}}\end{DoxyCompactItemize}

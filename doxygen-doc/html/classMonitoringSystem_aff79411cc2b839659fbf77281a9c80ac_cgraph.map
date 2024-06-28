@@ -1,0 +1,5 @@
+<map id="MonitoringSystem::displayUsersScreen" name="MonitoringSystem::displayUsersScreen">
+<area shape="rect" id="node1" title="This method shows the message to show the users." alt="" coords="5,27,201,69"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#afc8bb5deda9f6ff9072fa28f27b3aca2" title="Clean the screen." alt="" coords="252,5,468,32"/>
+<area shape="rect" id="node3" href="$classScreenHardware.html#a8786bcdcb5465fcf34b1e6dc3c16d449" title="Display all Users window." alt="" coords="249,57,471,98"/>
+</map>

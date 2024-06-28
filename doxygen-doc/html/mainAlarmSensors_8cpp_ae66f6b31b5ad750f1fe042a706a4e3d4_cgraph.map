@@ -1,0 +1,6 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,60,105"/>
+<area shape="rect" id="node2" href="$classAlarmSensors.html#a185412bdad879f251eea84eefc95fde3" title="Display the Alarm Status." alt="" coords="121,5,327,47"/>
+<area shape="rect" id="node3" href="$classAlarmSensors.html#a6b7509cfc7b77ab9943f1fa6052f56da" title="Display all Sensors Data." alt="" coords="132,71,316,112"/>
+<area shape="rect" id="node4" href="$classAlarmSensors.html#a45ac4465f0170fad4f498ee3f51258de" title="This method turns on or off the system." alt="" coords="108,137,340,163"/>
+</map>

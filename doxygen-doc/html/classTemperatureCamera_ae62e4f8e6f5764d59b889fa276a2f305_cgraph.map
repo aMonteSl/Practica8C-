@@ -1,0 +1,4 @@
+<map id="TemperatureCamera::TemperatureCamera" name="TemperatureCamera::TemperatureCamera">
+<area shape="rect" id="node1" title="Construct a new Temperature Camera object." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$classCamera.html#ad2731f65f680be02d41d3b396d7db1be" title="Get the id of the camera." alt="" coords="216,13,331,39"/>
+</map>

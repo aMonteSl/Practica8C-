@@ -1,0 +1,266 @@
+\hypertarget{classSwitchHardware}{}\doxysection{Switch\+Hardware Class Reference}
+\label{classSwitchHardware}\index{SwitchHardware@{SwitchHardware}}
+
+
+{\ttfamily \#include $<$Switch\+Hardware.\+h$>$}
+
+
+
+Inheritance diagram for Switch\+Hardware\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{classSwitchHardware__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Switch\+Hardware\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{classSwitchHardware__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSwitchHardware_a0fb76c92b73342b2379ece689149299d}{Switch\+Hardware}} (bool active)
+\begin{DoxyCompactList}\small\item\em Construct a new Switch \mbox{\hyperlink{classHardware}{Hardware}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSwitchHardware_a39856d8b17627a9bb20b18542b07e43e}{$\sim$\+Switch\+Hardware}} () override
+\begin{DoxyCompactList}\small\item\em Destroy the Switch \mbox{\hyperlink{classHardware}{Hardware}} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classSwitchHardware_a99473486f88c19e9bd39a9cda29121f1}{ask\+Input}} () override
+\begin{DoxyCompactList}\small\item\em Ask for an input. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSwitchHardware_a9b127583aa5904381399b254617f7b04}{display\+Output}} () const override
+\begin{DoxyCompactList}\small\item\em Display the output of the Switch \mbox{\hyperlink{classHardware}{Hardware}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classSwitchHardware_a80786432a1c16f8eb3a999e16aabaad5}{translate\+Input}} (int input)
+\begin{DoxyCompactList}\small\item\em The data of the Switch \mbox{\hyperlink{classHardware}{Hardware}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file Switch\+Hardware.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSwitchHardware_a0fb76c92b73342b2379ece689149299d}\label{classSwitchHardware_a0fb76c92b73342b2379ece689149299d}} 
+\index{SwitchHardware@{SwitchHardware}!SwitchHardware@{SwitchHardware}}
+\index{SwitchHardware@{SwitchHardware}!SwitchHardware@{SwitchHardware}}
+\doxysubsubsection{\texorpdfstring{SwitchHardware()}{SwitchHardware()}}
+{\footnotesize\ttfamily Switch\+Hardware\+::\+Switch\+Hardware (\begin{DoxyParamCaption}\item[{bool}]{active }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Switch \mbox{\hyperlink{classHardware}{Hardware}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em active} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classSwitchHardware}{Switch\+Hardware}} object 
+\end{DoxyReturn}
+
+
+Definition at line 7 of file Switch\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{8     : \mbox{\hyperlink{classHardware_ad39ea32ec68d35db1320d3b8454085e4}{Hardware}}(active, Hardware::Types\_Hardware::SWITCH) \{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classSwitchHardware_a39856d8b17627a9bb20b18542b07e43e}\label{classSwitchHardware_a39856d8b17627a9bb20b18542b07e43e}} 
+\index{SwitchHardware@{SwitchHardware}!````~SwitchHardware@{$\sim$SwitchHardware}}
+\index{````~SwitchHardware@{$\sim$SwitchHardware}!SwitchHardware@{SwitchHardware}}
+\doxysubsubsection{\texorpdfstring{$\sim$SwitchHardware()}{~SwitchHardware()}}
+{\footnotesize\ttfamily Switch\+Hardware\+::$\sim$\+Switch\+Hardware (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Destroy the Switch \mbox{\hyperlink{classHardware}{Hardware}} object. 
+
+
+
+Definition at line 10 of file Switch\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{10 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSwitchHardware_a99473486f88c19e9bd39a9cda29121f1}\label{classSwitchHardware_a99473486f88c19e9bd39a9cda29121f1}} 
+\index{SwitchHardware@{SwitchHardware}!askInput@{askInput}}
+\index{askInput@{askInput}!SwitchHardware@{SwitchHardware}}
+\doxysubsubsection{\texorpdfstring{askInput()}{askInput()}}
+{\footnotesize\ttfamily int Switch\+Hardware\+::ask\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Ask for an input. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classHardware_a86ad934a24b012512273018a8e7237d8}{Hardware}}.
+
+
+
+Definition at line 20 of file Switch\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{20                              \{}
+\DoxyCodeLine{21   \textcolor{keywordtype}{int} input;}
+\DoxyCodeLine{22   std::string input\_string;}
+\DoxyCodeLine{23   \textcolor{comment}{// Preguntamos al usuario si ON of OFF y luego el input se lo pasamos a}}
+\DoxyCodeLine{24   \textcolor{comment}{// translateInputToBool}}
+\DoxyCodeLine{25   std::cout << \textcolor{stringliteral}{"{}Switch wating a input(ON/OFF)..."{}} << std::endl;}
+\DoxyCodeLine{26   std::cin >> input\_string;}
+\DoxyCodeLine{27   \textcolor{keywordflow}{if} (input\_string == \textcolor{stringliteral}{"{}ON"{}}) \{}
+\DoxyCodeLine{28     input = 1;}
+\DoxyCodeLine{29   \}}
+\DoxyCodeLine{30   \textcolor{keywordflow}{if} (input\_string == \textcolor{stringliteral}{"{}OFF"{}}) \{}
+\DoxyCodeLine{31     input = 0;}
+\DoxyCodeLine{32   \}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34   \mbox{\hyperlink{classSwitchHardware_a80786432a1c16f8eb3a999e16aabaad5}{translateInput}}(input);}
+\DoxyCodeLine{35   \textcolor{keywordflow}{return} input;}
+\DoxyCodeLine{36   \textcolor{comment}{// El valor de active\_ sera true o false dependiendo de si se activa o se}}
+\DoxyCodeLine{37   \textcolor{comment}{// desactiva el switch}}
+\DoxyCodeLine{38 \}}
+
+\end{DoxyCode}
+
+
+References translate\+Input().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSwitchHardware_a99473486f88c19e9bd39a9cda29121f1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{classSwitchHardware_a99473486f88c19e9bd39a9cda29121f1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSwitchHardware_a9b127583aa5904381399b254617f7b04}\label{classSwitchHardware_a9b127583aa5904381399b254617f7b04}} 
+\index{SwitchHardware@{SwitchHardware}!displayOutput@{displayOutput}}
+\index{displayOutput@{displayOutput}!SwitchHardware@{SwitchHardware}}
+\doxysubsubsection{\texorpdfstring{displayOutput()}{displayOutput()}}
+{\footnotesize\ttfamily void Switch\+Hardware\+::display\+Output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Display the output of the Switch \mbox{\hyperlink{classHardware}{Hardware}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classHardware_a69a557514ea0c2e139e0355e9207dc9a}{Hardware}}.
+
+
+
+Definition at line 40 of file Switch\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{40                                          \{}
+\DoxyCodeLine{41   std::cout << \mbox{\hyperlink{classHardware_acb5abd5dd06aab68f25115a93ba3ec37}{stringStatus}}() << std::endl;}
+\DoxyCodeLine{42 \}}
+
+\end{DoxyCode}
+
+
+References Hardware\+::string\+Status().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSwitchHardware_a9b127583aa5904381399b254617f7b04_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{classSwitchHardware_a9b127583aa5904381399b254617f7b04_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSwitchHardware_a80786432a1c16f8eb3a999e16aabaad5}\label{classSwitchHardware_a80786432a1c16f8eb3a999e16aabaad5}} 
+\index{SwitchHardware@{SwitchHardware}!translateInput@{translateInput}}
+\index{translateInput@{translateInput}!SwitchHardware@{SwitchHardware}}
+\doxysubsubsection{\texorpdfstring{translateInput()}{translateInput()}}
+{\footnotesize\ttfamily void Switch\+Hardware\+::translate\+Input (\begin{DoxyParamCaption}\item[{int}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The data of the Switch \mbox{\hyperlink{classHardware}{Hardware}}. 
+
+
+
+Definition at line 12 of file Switch\+Hardware.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{12                                              \{}
+\DoxyCodeLine{13   \textcolor{keywordflow}{if} (input) \{}
+\DoxyCodeLine{14     \mbox{\hyperlink{classHardware_aee21531986a03e2fe8fcb3db70c5c6d1}{turnOn}}();}
+\DoxyCodeLine{15   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{16     \mbox{\hyperlink{classHardware_a03fc02b36d9f2e5d151ef3efaf788e2a}{turnOff}}();}
+\DoxyCodeLine{17   \}}
+\DoxyCodeLine{18 \}}
+
+\end{DoxyCode}
+
+
+References Hardware\+::turn\+Off(), and Hardware\+::turn\+On().
+
+
+
+Referenced by ask\+Input().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSwitchHardware_a80786432a1c16f8eb3a999e16aabaad5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSwitchHardware_a80786432a1c16f8eb3a999e16aabaad5_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{SwitchHardware_8h}{Switch\+Hardware.\+h}}\item 
+src/\mbox{\hyperlink{SwitchHardware_8cpp}{Switch\+Hardware.\+cpp}}\end{DoxyCompactItemize}

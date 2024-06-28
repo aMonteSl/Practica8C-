@@ -1,0 +1,20 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,173,60,200"/>
+<area shape="rect" id="node2" href="$classManageCameras.html#a11454a76f4b7f1da6a3b58c303280f7a" title="Collect the data of all the cameras." alt="" coords="122,5,337,32"/>
+<area shape="rect" id="node3" href="$classManageCameras.html#a5bf18315e0e3c2a58ff1bde6dbb1258a" title="Create a Camera object." alt="" coords="113,56,345,83"/>
+<area shape="rect" id="node4" href="$classManageCameras.html#a56049f6bea7450dda3d604134aa35fb9" title="Display all the cameras." alt="" coords="127,107,331,149"/>
+<area shape="rect" id="node5" href="$classManageCameras.html#a103ef988f3c2f02b69b2bf0db7bca3c8" title="Load the cameras from a file." alt="" coords="116,173,343,200"/>
+<area shape="rect" id="node11" href="$classManageCameras.html#a7869d4da264f7f63714b04dfc9193a22" title="Remove a Camera object." alt="" coords="109,224,350,251"/>
+<area shape="rect" id="node12" href="$classManageCameras.html#ab57c05b493a36caeb96e3b54374cd00a" title="Save the cameras to a file." alt="" coords="115,279,344,305"/>
+<area shape="rect" id="node18" href="$classManageCameras.html#a3366afee06399e88c6726988691ed3ff" title="Turn off all the cameras." alt="" coords="108,329,351,356"/>
+<area shape="rect" id="node6" href="$classRGBCamera.html#a9e065f9b252213cf9676ca110ce7fa8c" title="This method sets the RGB values of the camera." alt="" coords="405,111,562,137"/>
+<area shape="rect" id="node10" href="$classTemperatureCamera.html#a436a4a5d9a1359ade70672dfc0fa001b" title="This method sets the temperature of the camera." alt="" coords="402,162,565,203"/>
+<area shape="rect" id="node7" href="$classRGBCamera.html#a2582fc3e240af2a365b384234342f6cd" title="This method sets the blue value of the camera." alt="" coords="621,60,779,87"/>
+<area shape="rect" id="node8" href="$classRGBCamera.html#a2214dc62e52a6d1220e341a1e0104898" title="This method sets the green value of the camera." alt="" coords="616,111,784,137"/>
+<area shape="rect" id="node9" href="$classRGBCamera.html#a2dd0706a099b000fca785dada8320d38" title="This method sets the red value of the camera." alt="" coords="623,161,777,188"/>
+<area shape="rect" id="node13" href="$classRGBCamera.html#af1ac5808fe1915c447452b29bcc8069a" title="This method returns the blue value of the camera." alt="" coords="404,228,563,255"/>
+<area shape="rect" id="node14" href="$classRGBCamera.html#a6057aacfc5c6e7c71ad05e3446509107" title="This method returns the green value of the camera." alt="" coords="399,279,568,305"/>
+<area shape="rect" id="node15" href="$classCamera.html#ad2731f65f680be02d41d3b396d7db1be" title="Get the id of the camera." alt="" coords="426,329,541,356"/>
+<area shape="rect" id="node16" href="$classRGBCamera.html#abcbb3268f8ccb69819e698f40d261890" title="This method returns the red value of the camera." alt="" coords="406,380,561,407"/>
+<area shape="rect" id="node17" href="$classTemperatureCamera.html#a4f900629f149b32101d4616f9071be5b" title="This method gets the temperature of the camera." alt="" coords="402,431,565,473"/>
+</map>

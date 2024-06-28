@@ -1,0 +1,6 @@
+<map id="PhSensor::stringStatus" name="PhSensor::stringStatus">
+<area shape="rect" id="node1" title="This method returns the status in a string." alt="" coords="5,31,173,57"/>
+<area shape="rect" id="node2" href="$classPhSensor.html#aed7b60fbcd223ac08c84301b94635bd3" title="Check if the Ph Sensor is working properly." alt="" coords="221,5,399,32"/>
+<area shape="rect" id="node4" href="$classSensor.html#a10a9c7f2957817dde28b32b2000e5d65" title="Return if is active or not the sensor." alt="" coords="247,56,373,83"/>
+<area shape="rect" id="node3" href="$classSensor.html#a03a620c375c0810599d6881d3cd46c41" title="Get the Data object." alt="" coords="447,5,573,32"/>
+</map>
